@@ -1,0 +1,404 @@
+[
+  {
+    "key": "TG_WEAVING",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-6"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "REDSTONERELAY"
+      }
+    ]
+  },
+  {
+  "key": "TG_BAGS",
+  "ops": [
+    {
+      "op": "replace",
+      "path": "location/0",
+      "value": "-1"
+    },
+    {
+      "op": "replace",
+      "path": "location/1",
+      "value": "-8"
+    },
+    {
+      "op": "replace",
+      "path": "category",
+      "value": "ARTIFICE"
+    }
+  ]
+  },
+  {
+  "key": "TG_HUNGRY_BAGS",
+  "ops": [
+    {
+      "op": "replace",
+      "path": "location/0",
+      "value": "-1"
+    },
+    {
+      "op": "replace",
+      "path": "location/1",
+      "value": "-10"
+    },
+    {
+      "op": "replace",
+      "path": "category",
+      "value": "ARTIFICE"
+    }
+  ]
+},
+  {
+    "key": "TG_ENDER_BAG",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-10"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_VOID_BAG",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-12"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_STONE_EXTRUDER",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-5"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      },
+      {
+        "op": "remove",
+        "path": "parents/0"
+      }
+    ]
+  },
+  {
+    "key": "TG_OBSIDIAN_EXTRUDER",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-5"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_SCYTHES",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-2"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "1"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "BASEARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_BLAST_FURNACE",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "0"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      },
+      {
+        "op": "remove",
+        "path": "parents/0"
+      }
+    ]
+  },
+  {
+    "key": "TG_SHADOW_METAL",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": ["REVERSE", "HIDDEN"]
+      }
+    ]
+  },
+  {
+    "key": "TG_LIGHT_METAL",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": ["REVERSE", "HIDDEN"]
+      }
+    ]
+  },
+  {
+    "key": "TG_PRIMAL_ARMOR",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_PRIMAL_WEAPON",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "5"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "3"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_BETTER_PRIMAL_ARMOR",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "5"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_BELT_LIGHT",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "1"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_BELT_SHADOW",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
+  {
+    "key": "TG_JEWELLERY",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "8"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "TG_BLAST_FURNACE"
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": ["REVERSE"]
+      }
+    ]
+  },
+  {
+    "key": "TG_AGEING_STONE",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-2"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "INFUSION"
+      },
+      {
+        "op": "remove",
+        "path": "parents/0"
+      }
+    ]
+  }
+]

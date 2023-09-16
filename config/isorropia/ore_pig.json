@@ -1,0 +1,43 @@
+{
+	"default-weight":50,
+	"default-auxiliary-weight":5,
+	
+	"entries" : [
+		{
+			"oreDictionary":"nuggetIron",
+			"weight":70,
+			"auxiliary-weight":5
+		},
+		{
+			"oreDictionary":"nuggetGold",
+			"weight":40,
+			"auxiliary-weight":4
+		},
+		{
+			"oreDictionary":"nuggetCopper",
+			"weight":70,
+			"auxiliary-weight":5
+		},
+		{
+			"oreDictionary":"nuggetTin",
+			"weight":70,
+			"auxiliary-weight":4
+		},
+		{
+			"oreDictionary":"nuggetLead",
+			"weight":60,
+			"auxiliary-weight":3
+		},
+		{
+			"oreDictionary":"nuggetQuicksilver",
+			"weight":40,
+			"auxiliary-weight":2
+		},
+		{
+			"oreDictionary":"nuggetThaumium",
+			"weight":50,
+			"auxiliary-weight":1,
+			"active":false
+		}
+	]
+}

@@ -1,0 +1,96 @@
+///Thaumonomicon Botany
+tc.research_category.BOTANY=Botany
+
+//basic botany
+research.basicbotany.title=Basic Botany
+research.basicbotany.stage.0=Old documents speak of magical flowers, but these seem to be extinct in the wild. You did notice that the mushrooms you've seen in deep caves share a lot of the properties with these purported flowers.
+research.basicbotany.stage.1=Old documents speak of magical flowers, but these seem to be extinct in the wild. You did notice that the mushrooms you've seen in deep caves share a lot of the properties with these purported flowers. <BR>With the invention of alchemy you think you can recreate these flowers by steeping the spores of a mushroom in the essence of surface plants.
+
+//botany decrease
+research.botanydecay.title=Setting evolution in reverse
+research.botanydecay.stage.0=Sometimes it's good to be backwards. 
+research.botanydecay.stage.1=Sometimes it's good to be backwards. You've revised your method for making flowers, and you are now able to turn them back into mushrooms.
+
+//botany brewery
+research.brewery.title=Botany Brewery
+research.brewery.stage.0=Your latest research has resulted in a breakthrough in potion making. You improved the process so that you have bigger yields with less impurities.
+research.brewery.stage.1=Your latest research has resulted in a breakthrough in potion making. You improved the process so that you have bigger yields with less impurities. <BR>You can even store the result in one bottle and take an occasional swig without the outside air ruining the brew's properties.
+
+//horse virus
+research.virus.title=Horse Virus
+research.virus.stage.0=You've ventured into an odd corner of carnivorous plants and created something nastier.
+research.virus.stage.1=You've ventured into an odd corner of carnivorous plants and created something nastier. <BR>At least animal test subjects seem not to be a moral issue for you.
+
+//flower dupe
+research.flowerdupe.title=Flower Duplication
+research.flowerdupe.stage.0=These flowers have proven very hard to grow in the wild, and don't take well to being broken.
+research.flowerdupe.stage.1=These flowers have proven very hard to grow in the wild, and don't take well to being broken. <BR>Fortunately your ventures into thaumaturgy have resulted in a new botanical recipe. Now you can split off a branch, dip it in this concoction, and it will create roots once more.
+
+//flower exchange
+research.flowerexchange.title=Flower Exchanger
+research.flowerexchange.stage.0=So far all your alchemical attempts have only yielded flowers of the parent species. 
+research.flowerexchange.stage.1=So far all your alchemical attempts have only yielded flowers of the parent species. <BR>This new method allows you to take the colour of something else and imprint it on the flower.
+
+//alchemy catalyst
+research.alchemycatalyst.title=Alchemy Catalyst
+research.alchemycatalyst.stage.0=Alchemy with ingredients is nice, but you think you can do even better.
+research.alchemycatalyst.stage.1=Alchemy with ingredients is nice, but you think you can do even better. <BR>You have designed a machine that can replace some ingredients with mana.
+
+//botania altar
+research.runealtar.title=Rune Altar
+research.runealtar.stage.0=Recent revelations in artificing have revealed how to infuse items into another. 
+research.runealtar.stage.1=Recent revelations in artificing have revealed how to infuse items into another.
+research.runealtar.stage.2=Recent revelations in artificing have revealed how to infuse items into another.
+research.runealtar.stage.3=Recent revelations in artificing have revealed how to infuse items into another. <BR>For added flavour you decided to take this approach a more "natural" way.
+
+//terra plate
+research.terraplate.title=TerraPlate
+research.terraplate.stage.0=Recent publications have shown the power of uranium. You decided you want to pump energy back into a metal and come up with something new. 
+research.terraplate.stage.1=Recent publications have shown the power of uranium. You decided you want to pump energy back into a metal and come up with something new. <BR>It even looks more radiant to the untrained eye, but you know it's merely a brighter shade of green.
+
+//sword of terrain
+research.terrasword.title=Terra Sword
+research.terrasword.stage.0=Terrasteel is a much more potent material than Thaumium, so you decided to upgrade your existing sword of the Zephyr with some.
+research.terrasword.stage.1=Terrasteel is a much more potent material than Thaumium, so you decided to upgrade your existing sword of the Zephyr with some. <BR>Now you can craft Terra Blade.
+
+//pickaxe of terrain
+research.terrapick.title=Terra Pickaxe
+research.terrapick.stage.0=Terrasteel as its name implies has a high affinity with terrestrial materials. Your old pickaxe of the core seems like a good starting template.
+research.terrapick.stage.1=Terrasteel as its name implies has a high affinity with terrestrial materials. Your old pickaxe of the core seems like a good starting template. <BR>Now you can craft Terra Shatterer.
+
+//axe of terrain
+research.terraaxe.title=Terra Axe
+research.terraaxe.stage.0=Your latest magimetallurgic invention has good affinity with natural substances. With some extra work you've now created a process to apply terrasteel to the Axe of the Stream.
+research.terraaxe.stage.1=Your latest magimetallurgic invention has good affinity with natural substances. With some extra work you've now created a process to apply terrasteel to the Axe of the Stream. <BR>Now you can craft Terra Truncator.
+
+//alf portal
+research.alfportal.title=Portal to Alfhalm
+research.alfportal.stage.0=Rumours speak of a dimension much further removed than the nether. Now that you have much higher energies to work with, it's time to try and build a portal. 
+research.alfportal.stage.1=Rumours speak of a dimension much further removed than the nether. Now that you have much higher energies to work with, it's time to try and build a portal. <BR>First we need a frame attuned to the energies involved in the process. <BR>The second part is the controlling mechanism. It is very difficult to reliably open a dimensional portal, and some further tinkering is needed to put the mana sources and redirecting attributes in the exact spot to establish a stable link.
+
+//gaia fight
+research.bossfight.title=World of Gaia
+research.bossfight.stage.0=Your aura-focusing research has reached the pinnacle of thaumaturgic knowledge. Other thaumaturges call you mad over the energies involved and tell you to stop or even flee the scene, but they just don't seem to understand.
+research.bossfight.stage.1=Your aura-focusing research has reached the pinnacle of thaumaturgic knowledge. Other thaumaturges call you mad over the energies involved and tell you to stop or even flee the scene, but they just don't seem to understand. <BR>After all, tearing a big hole in the fabric of this world is EXACTLY what you want to do.
+
+//mana crystal
+research.pylon.title=Mana Crystal
+research.pylon.stage.0=Using bookshelves to fuel your enchantment processes sounds oldfashioned to you. 
+research.pylon.stage.1=Using bookshelves to fuel your enchantment processes sounds oldfashioned to you. <BR>Instead you've discovered a way of passively infusing your enchantments by focusing aura through a mana-rich device. It also seems to work as an infusion stabiliser.
+
+//alfhalm crystal
+research.alfpylon.title=Terra Crystal
+research.alfpylon.stage.0=You needed something more powerful. 
+research.alfpylon.stage.1=You needed something more powerful. <BR>This device can focus enough aura to pierce holes in the dimensional fabric. Only very small holes though.
+
+//bigger vial
+research.largervial.title=Bigger Packet Pls
+research.largervial.stage.0=Your aura-focusing research has reached the pinnacle of thaumaturgic knowledge.
+research.largervial.stage.1=Your aura-focusing research has reached the pinnacle of thaumaturgic knowledge. <BR>Other thaumaturges call you mad over the energies involved and tell you to stop or even flee the scene, but they just don't seem to understand. <BR>After all, tearing a big hole in the fabric of this world is EXACTLY what you want to do.
+
+//END GAME
+
+//keletu
+research.endgamegoal.title=§lThe End Game Goal
+research.endgamegoal.stage.0=You can check out the Thaumic Renaissance Modpack EndGame Goal: Craft a keletu and kill it to get creative items.
+research.endgamegoal.stage.1=You can check out the Thaumic Renaissance Modpack EndGame Goal: Craft a keletu and kill it to get creative items. <BR>You need to traverse all the Thaum-Related mods to make it, so you have a long way to go. <BR>You need to make it by using curative vat, instead of infusion matrix.

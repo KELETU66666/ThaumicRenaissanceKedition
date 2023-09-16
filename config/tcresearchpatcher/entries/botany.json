@@ -1,0 +1,453 @@
+{
+    "entries":[
+       {
+         "key":"BASICBOTABY",
+         "name":"research.basicbotany.title",
+         "icons":[
+            "botania:lexicon"
+         ],
+         "category":"BOTANY",
+	 "parents": ["UNLOCKALCHEMY"],
+         "meta":[
+            "HIDDEN"
+         ],
+         "location":[0,0],
+         "stages":[
+            {
+               "text":"research.basicbotany.stage.0",
+               "required_knowledge":[
+                  "OBSERVATION;ALCHEMY;1"
+               ]
+            },
+            {
+               "text":"research.basicbotany.stage.1",
+               "recipes":["thaumcraft:mushroom_to_flower0"]
+            }
+         ]
+      },
+      {
+        "key":"BOTANYDECREASE",
+        "name":"research.botanydecay.title",
+        "icons":[
+           "botania:mushroom;1;0", "botania:mushroom;1;1", "botania:mushroom;1;2", "botania:mushroom;1;3", "botania:mushroom;1;4", "botania:mushroom;1;5", "botania:mushroom;1;6", "botania:mushroom;1;7", "botania:mushroom;1;8", "botania:mushroom;1;9", "botania:mushroom;1;10", "botania:mushroom;1;11", "botania:mushroom;1;12", "botania:mushroom;1;13", "botania:mushroom;1;14", "botania:mushroom;1;15"
+        ],
+        "category":"BOTANY",
+    "parents": ["BASICBOTABY"],
+        "location":[-1,3],
+        "stages":[
+           {
+              "text":"research.botanydecay.stage.0",
+              "required_knowledge":[
+                 "THEORY;ALCHEMY;1"
+              ],
+              "required_item":[
+                "botania:flower;1;0", "botania:flower;1;1", "botania:flower;1;11", "botania:flower;1;14"
+             ]
+           },
+           {
+              "text":"research.botanydecay.stage.1",
+              "recipes":["thaumcraft:flower_to_mushroom0"]
+           }
+        ]
+     },
+     {
+       "key":"PLANTBREWERY",
+       "name":"research.brewery.title",
+       "icons":[
+          "botania:vial"
+       ],
+       "category":"BOTANY",
+   "parents": ["BASICBOTABY"],
+       "location":[0,2],
+       "stages":[
+          {
+             "text":"research.brewery.stage.0",
+             "required_knowledge":[
+                "THEORY;BASICS;1", "THEORY;ALCHEMY;1"
+             ],
+             "required_item":[
+               "botania:vial", "minecraft:brewing_stand"
+            ]
+          },
+          {
+             "text":"research.brewery.stage.1",
+             "recipes":["thaumcraft:botany_brewery"]
+          }
+       ]
+    },
+    {
+      "key":"HORSEVIRUS",
+      "name":"research.virus.title",
+      "icons":[
+         "botania:virus;1;0", "botania:virus;1;1"
+      ],
+      "category":"BOTANY",
+  "parents": ["BASICBOTABY", "BASEARTIFICE"],
+      "location":[1,3],
+      "stages":[
+         {
+            "text":"research.virus.stage.0",
+            "required_knowledge":[
+               "OBSERVATION;BASICS;1", "OBSERVATION;ARTIFICE;1"
+            ],
+            "required_item":[
+              "minecraft:skull;1;0", "minecraft:skull;1;2"
+           ]
+         },
+         {
+            "text":"research.virus.stage.1",
+            "recipes":["thaumcraft:zombie_virus", "thaumcraft:skeleton_virus"]
+         }
+      ]
+   },
+   {
+     "key":"FLOWERDUPE",
+     "name":"research.flowerdupe.title",
+     "icons":[
+        "botania:doubleflower1;1;4"
+     ],
+     "category":"BOTANY",
+ "parents": ["BASICBOTABY", "LAMPGROWTH"],
+     "location":[-2,0],
+     "stages":[
+        {
+           "text":"research.flowerdupe.stage.0",
+           "required_item":[
+              "botania:doubleflower1;1;4", "minecraft:dye;1;15"
+           ],
+           "required_craft":[
+             "thaumcraft:lamp_growth"
+          ]
+        },
+        {
+           "text":"research.flowerdupe.stage.1",
+           "recipes":["thaumcraft:flower_dupe0"]
+        }
+     ]
+  },
+  {
+    "key":"FLOWEREXCHANGE",
+    "name":"research.flowerexchange.title",
+    "icons":[
+       "botania:specialflower;1;0;{type: \"spectrolus\"}"
+    ],
+    "category":"BOTANY",
+"parents": ["BASICBOTABY", "HEDGEALCHEMY"],
+    "location":[2,0],
+    "stages":[
+       {
+          "text":"research.flowerexchange.stage.0",
+          "required_knowledge":[
+            "OBSERVATION;BASICS;1", "OBSERVATION;ALCHEMY;1"
+         ]
+       },
+       {
+          "text":"research.flowerexchange.stage.1",
+          "recipes":["thaumcraft:flower_exchange0"]
+       }
+    ]
+},
+{
+  "key":"ALCHEMYCATALYST",
+  "name":"research.alchemycatalyst.title",
+  "icons":[
+     "botania:alchemycatalyst"
+  ],
+  "category":"BOTANY",
+"parents": ["BASICBOTABY", "TUBES"],
+"meta":[
+    "SPIKY"
+ ],
+  "location":[-1,-3],
+  "stages":[
+     {
+        "text":"research.alchemycatalyst.stage.0",
+        "required_knowledge":[
+            "OBSERVATION;ALCHEMY;1", "OBSERVATION;ARTIFICE;1"
+         ],
+        "required_item":[
+          "thaumcraft:phial;1;1;{Aspects: [{amount: 10, key: \"permutatio\"}]}", "thaumcraft:phial;1;1;{Aspects: [{amount: 10, key: \"fabrico\"}]}", "thaumcraft:phial;1;1;{Aspects: [{amount: 10, key: \"terra\"}]}", "thaumcraft:phial;1;1;{Aspects: [{amount: 10, key: \"potentia\"}]}"
+       ]
+     },
+     {
+        "text":"research.alchemycatalyst.stage.1",
+        "recipes":["thaumcraft:alchemycatalyst"]
+     }
+  ]
+},
+{
+  "key":"BOTANYALTAR",
+  "name":"research.runealtar.title",
+  "icons":[
+     "botania:rune;1;8"
+  ],
+  "category":"BOTANY",
+"parents": ["ALCHEMYCATALYST", "INFUSION"],
+"meta":[
+    "SPIKY"
+ ],
+  "location":[-1,-5],
+  "stages":[
+     {
+        "text":"research.runealtar.stage.0",
+        "required_item":[
+          "thaumcraft:crystal_aer", "thaumcraft:crystal_terra", "thaumcraft:crystal_ignis", "thaumcraft:crystal_aqua", "thaumcraft:crystal_vitium"
+       ]
+     },
+     {
+        "text":"research.runealtar.stage.1",
+        "required_knowledge":[
+            "OBSERVATION;INFUSION;1"
+         ],
+        "required_item":[
+          "minecraft:wheat", "minecraft:melon", "minecraft:spider_eye", "minecraft:cake"
+       ]
+     },
+     {
+        "text":"research.runealtar.stage.2",
+        "required_knowledge":[
+            "THEORY;INFUSION;1"
+         ],
+        "required_item":[
+          "forbiddenmagicre:resourcenethershard;1;0", "forbiddenmagicre:resourcenethershard;1;1", "forbiddenmagicre:resourcenethershard;1;2", "forbiddenmagicre:resourcenethershard;1;3", "forbiddenmagicre:resourcenethershard;1;4", "forbiddenmagicre:resourcenethershard;1;5", "forbiddenmagicre:gluttony_shard"
+       ]
+     },
+     {
+        "text":"research.runealtar.stage.3",
+        "recipes":["thaumcraft:runealtar"]
+     }
+  ]
+},
+{
+  "key":"TERRAPLATE",
+  "name":"research.terraplate.title",
+  "icons":[
+     "botania:terraplate"
+  ],
+  "category":"BOTANY",
+"parents": ["BOTANYALTAR@3"],
+"meta":[
+    "SPIKY"
+ ],
+  "location":[-1,-7],
+  "stages":[
+     {
+        "text":"research.terraplate.stage.0",
+        "required_knowledge":[
+            "THEORY;INFUSION;1"
+         ]
+     },
+     {
+        "text":"research.terraplate.stage.1",
+        "recipes":["thaumcraft:terraplate"]
+     }
+  ]
+},
+{
+  "key":"TERRASWORD",
+  "name":"research.terrasword.title",
+  "icons":[
+     "botania:terrasword"
+  ],
+  "category":"BOTANY",
+"parents": ["TERRAPLATE"],
+  "location":[-3,-8],
+  "stages":[
+     {
+        "text":"research.terrasword.stage.0",
+        "required_knowledge":[
+            "OBSERVATION;INFUSION;1"
+         ],
+         "required_craft":[
+             "thaumcraft:elemental_sword"
+          ]
+     },
+     {
+        "text":"research.terrasword.stage.1",
+        "recipes":["thaumcraft:terrasword"]
+     }
+  ]
+},
+{
+  "key":"TERRAPICK",
+  "name":"research.terrapick.title",
+  "icons":[
+     "botania:terrapick"
+  ],
+  "category":"BOTANY",
+"parents": ["TERRAPLATE"],
+  "location":[-4,-7],
+  "stages":[
+     {
+        "text":"research.terrapick.stage.0",
+        "required_knowledge":[
+            "OBSERVATION;INFUSION;1"
+         ],
+         "required_craft":[
+             "thaumcraft:elemental_pick"
+          ]
+     },
+     {
+        "text":"research.terrapick.stage.1",
+        "recipes":["thaumcraft:terrapick"]
+     }
+  ]
+},
+{
+  "key":"TERRAAXE",
+  "name":"research.terraaxe.title",
+  "icons":[
+     "botania:terraaxe"
+  ],
+  "category":"BOTANY",
+"parents": ["TERRAPLATE"],
+  "location":[-3,-6],
+  "stages":[
+     {
+        "text":"research.terraaxe.stage.0",
+        "required_knowledge":[
+            "OBSERVATION;INFUSION;1"
+         ],
+         "required_craft":[
+             "thaumcraft:elemental_axe"
+          ]
+     },
+     {
+        "text":"research.terraaxe.stage.1",
+        "recipes":["thaumcraft:terraaxe"]
+     }
+  ]
+},
+{
+  "key":"ALFPORTAL",
+  "name":"research.alfportal.title",
+  "icons":[
+     "botania:quartz;1;5"
+  ],
+  "category":"BOTANY",
+"parents": ["TERRAPLATE", "~ALFCRYSTAL"],
+  "location":[2,-8],
+  "stages":[
+     {
+        "text":"research.alfportal.stage.0",
+        "required_knowledge":[
+            "OBSERVATION;BASICS;1", "OBSERVATION;INFUSION;1"
+         ],
+         "required_research":[
+             "m_hellandback", "m_endoftheworld"
+          ],
+          "required_item":[
+              "botania:manaresource;1;4"
+           ]
+     },
+     {
+        "text":"research.alfportal.stage.1",
+        "recipes":["thaumcraft:alfheimportal", "thaumcraft:livingwood_glowing"]
+     }
+  ]
+},
+{
+  "key":"WORLDOFGAIA",
+  "name":"research.bossfight.title",
+  "icons":[
+     "botania:pylon;1;2"
+  ],
+  "category":"BOTANY",
+"parents": ["BASEELDRITCH", "ALFPORTAL"],
+  "location":[3,-10],
+  "stages":[
+     {
+        "text":"research.bossfight.stage.0",
+        "required_knowledge":[
+            "OBSERVATION;INFUSION;2", "OBSERVATION;ELDRITCH;1", "THEORY;ELDRITCH;1"
+         ],
+         "required_research":[
+             "m_ENTERVOID"
+          ],
+          "required_craft":[
+              "thaumcraft:voidseer_charm"
+           ],"warp": 3
+     },
+     {
+        "text":"research.bossfight.stage.1",
+        "recipes":["thaumcraft:pylon_boss"]
+     }
+  ]
+},
+{
+  "key":"MANACRYSTAL",
+  "name":"research.pylon.title",
+  "icons":[
+     "botania:pylon;1;0"
+  ],
+  "category":"BOTANY",
+"parents": ["BASICBOTABY"],
+  "location":[1,-3],
+  "stages":[
+     {
+        "text":"research.pylon.stage.0",
+        "required_knowledge":[
+            "OBSERVATION;BASICS;1", "OBSERVATION;ARTIFICE;1", "THEORY;ARTIFICE;1"
+         ],
+         "required_item":[
+            "thaumcraft:brain", "minecraft:bookshelf;3"
+          ]
+     },
+     {
+        "text":"research.pylon.stage.1",
+        "recipes":["thaumcraft:pylon_mana"]
+     }
+  ]
+},
+{
+  "key":"ALFCRYSTAL",
+  "name":"research.alfpylon.title",
+  "icons":[
+     "botania:pylon;1;1"
+  ],
+  "category":"BOTANY",
+"parents": ["MANACRYSTAL", "~TERRAPLATE"],
+  "location":[2,-4],
+  "stages":[
+     {
+        "text":"research.alfpylon.stage.0",
+        "required_knowledge":[
+           "THEORY;ARTIFICE;1"
+         ],
+         "required_item":[
+            "twilightforest:steeleaf_ingot", "thaumcraft:crystal_terra"
+          ]
+     },
+     {
+        "text":"research.alfpylon.stage.1",
+        "recipes":["thaumcraft:pylon_alf"]
+     }
+  ]
+},
+{
+  "key":"LARGERVIAL",
+  "name":"research.largervial.title",
+  "icons":[
+     "botania:vial;1;1"
+  ],
+  "category":"BOTANY",
+"parents": ["~ALFPORTAL", "WARD_OPENERS", "PLANTBREWERY"],
+  "location":[0,4],
+  "stages":[
+     {
+        "text":"research.largervial.stage.0",
+        "required_knowledge":[
+           "THEORY;ALCHEMY;1", "THEORY;ARTIFICE;1"
+         ],
+         "required_item":[
+            "botania:elfglass"
+          ]
+     },
+     {
+        "text":"research.largervial.stage.1",
+        "recipes":["thaumcraft:vial_big"]
+     }
+  ]
+}
+]
+}

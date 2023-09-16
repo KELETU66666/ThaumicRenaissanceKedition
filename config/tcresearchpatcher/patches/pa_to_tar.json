@@ -1,0 +1,62 @@
+[
+    {
+        "key": "PA_ALKIMIUM_MITHRILLIUM_SMELTERY",
+        "ops": [
+            {
+               "op": "replace",
+                 "path": "location/0",
+              "value": "11"
+            },
+          {
+             "op": "replace",
+            "path": "location/1",
+            "value": "4"
+            },
+            {
+               "op": "replace",
+                "path": "category",
+              "value": "ALCHEMY"
+            }
+        ]
+    },
+    {
+        "key": "PA_ALKIMIUM_ADAMINITE_SMELTERY",
+        "ops": [
+            {
+               "op": "replace",
+                 "path": "location/0",
+              "value": "13"
+            },
+          {
+             "op": "replace",
+            "path": "location/1",
+            "value": "4"
+            },
+            {
+               "op": "replace",
+                "path": "category",
+              "value": "ALCHEMY"
+            }
+        ]
+    },
+    {
+        "key": "PA_ALKIMIUM_MITHMINITE_SMELTERY",
+        "ops": [
+            {
+               "op": "replace",
+                 "path": "location/0",
+              "value": "15"
+            },
+          {
+             "op": "replace",
+            "path": "location/1",
+            "value": "4"
+            },
+            {
+               "op": "replace",
+                "path": "category",
+              "value": "ALCHEMY"
+            }
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+///Thaumonomicon Botany
+tc.research_category.BOTANY=植物学
+
+//basic botany
+research.basicbotany.title=基础植物学
+research.basicbotany.stage.0=你在故纸堆中翻到了魔法之花的只言片语,但看起来它们在野外已经灭绝.同时你注意到,岩穴中的蘑菇与这些传说中的花有许多类似的特征.
+research.basicbotany.stage.1=你在故纸堆中翻到了魔法之花的只言片语,但看起来它们在野外已经灭绝.同时你注意到,岩穴中的蘑菇与这些传说中的花有许多类似的特征.<BR>随着炼金术的发展,你认为可以先从普通的地表植物中提取出某些源质,再将蘑菇孢子浸泡在其中,就可以得到那些传说中的花了.
+
+//botany decrease
+research.botanydecay.title=反向进化
+research.botanydecay.stage.0=有时候倒退是件好事.
+research.botanydecay.stage.1=有时候倒退是件好事. <BR>你将制造魔法之花的方法逆转,成功实现了花转化回蘑菇的操作.
+
+//botany brewery
+research.brewery.title=魔法酿药
+research.brewery.stage.0=你的最新研究领导了药剂酿造学的突破.改进后的处理可以得到更少杂质、产量更高的药剂.
+research.brewery.stage.1=你的最新研究领导了药剂酿造学的突破.改进后的处理可以得到更少杂质、产量更高的药剂.<BR>你甚至可以将酿造好的药剂存放在瓶中,偶尔喝一口,而不会让外界空气破坏药性.
+
+//horse virus
+research.virus.title=增生
+research.virus.stage.0=你不小心闯入了肉食植物这一奇怪的边缘学科,而且还创造出了某些疯狂的东西.
+research.virus.stage.1=你不小心闯入了肉食植物这一奇怪的边缘学科,而且还创造出了某些疯狂的东西. <BR>至少动物实验条例似乎并不能在道德上约束你.
+
+//flower dupe
+research.flowerdupe.title=复制
+research.flowerdupe.stage.0=实践表明,这些花在野外很难繁殖,而且采集十分困难. 
+research.flowerdupe.stage.1=实践表明,这些花在野外很难繁殖,而且采集十分困难. <BR>不过好在你在神秘学方面的冒险尝试获得了成功,开发了一系列植物魔法相关的合成表. 现在你可以分离一些花枝,将其浸入调配好的源质中,就可以繁殖出它的根部.
+
+//flower exchange
+research.flowerexchange.title=花卉栽培
+research.flowerexchange.stage.0=迄今为止,你的所有炼金尝试得到的都是与父本一样的花.
+research.flowerexchange.stage.1=迄今为止,你的所有炼金尝试得到的都是与父本一样的花. <BR>这种新方法可以让你将某些植物的颜色印到花上.
+
+//alchemy catalyst
+research.alchemycatalyst.title=炼金催化剂
+research.alchemycatalyst.stage.0=用各种材料进行炼金是很棒,但你觉得你还可以做得更好.
+research.alchemycatalyst.stage.1=用各种材料进行炼金是很棒,但你觉得你还可以做得更好.<BR>你设计了一种机器,可以用mana替换一些材料.
+
+//botania altar
+research.runealtar.title=符文祭坛
+research.runealtar.stage.0=符文学的最新突破揭示了如何将物品注入其他物品的方法.
+research.runealtar.stage.1=符文学的最新突破揭示了如何将物品注入其他物品的方法.
+research.runealtar.stage.2=符文学的最新突破揭示了如何将物品注入其他物品的方法.
+research.runealtar.stage.3=符文学的最新突破揭示了如何将物品注入其他物品的方法. <BR>有了新的理论支持,你决定采用这种更加"自然"的方法.
+
+//terra plate
+research.terraplate.title=泰拉钢制作
+research.terraplate.stage.0=最近的出版物展示了铀的力量.你决定尝试将能量泵回金属,创造出一种新的材料. 
+research.terraplate.stage.1=最近的出版物展示了铀的力量.你决定尝试将能量泵回金属,创造出一种新的材料. <BR>在没有经过训练的人眼里,它看起来更具辐射性,但你清楚它仅仅是绿色更明亮的阴影.
+
+//sword of terrain
+research.terrasword.title=泰拉之刃
+research.terrasword.stage.0=泰拉钢是一种比神秘锭更加强大的材料,所以你打算用它将自己的风雷剑升级一下.
+research.terrasword.stage.1=泰拉钢是一种比神秘锭更加强大的材料,所以你打算用它将自己的风雷剑升级一下. <BR>你现在可以制作泰拉之刃。
+
+//pickaxe of terrain
+research.terrapick.title=泰拉粉碎者
+research.terrapick.stage.0=泰拉钢,钢如其名,对大地元素具有很高的亲和性.你那柄老旧的炽心镐看起来是不错的坯子.
+research.terrapick.stage.1=泰拉钢,钢如其名,对大地元素具有很高的亲和性.你那柄老旧的炽心镐看起来是不错的坯子. <BR>你现在可以制作泰拉粉碎者。
+
+//axe of terrain
+research.terraaxe.title=泰拉断裂者
+research.terraaxe.stage.0=在魔法冶金学方面,你的最新发明展现了与自然物质良好的亲和性.再进一步优化后,你创造了一种处理方式,可以将泰拉钢用于奔流斧的升级.
+research.terraaxe.stage.1=在魔法冶金学方面,你的最新发明展现了与自然物质良好的亲和性.再进一步优化后,你创造了一种处理方式,可以将泰拉钢用于奔流斧的升级. <BR>你现在可以制作泰拉断裂者。
+
+
+//alf portal
+research.alfportal.title=精灵传送门
+research.alfportal.stage.0=有传言称,曾有一个比下界还遥远的世界,已消泯于时间的长河中.但现在,你拥有了更强大的能源,或许可以尝试构建一个传送门. 
+research.alfportal.stage.1=有传言称,曾有一个比下界还遥远的世界,已消泯于时间的长河中.但现在,你拥有了更强大的能源,或许可以尝试构建一个传送门. <BR>首先,我们需要一个框架以调整此过程中涉及的能量. <BR>而第二部分是控制装置.想要打开一个稳定的跨世界传送门是个艰巨的挑战,需要进一步修整才能将mana源和重定向装置指向准确地点,最终建立稳定的连接.
+
+//gaia fight
+research.bossfight.title=盖亚水晶
+research.bossfight.stage.0=你在光环聚焦方面的研究已经抵达了神秘学知识的巅峰.其他神秘使都认为你对涉及能量方面的研究太过痴狂,并想让你停止继续实验,更有甚者避之如蛇蝎.
+research.bossfight.stage.1=你在光环聚焦方面的研究已经抵达了神秘学知识的巅峰.其他神秘使都认为你对涉及能量方面的研究太过痴狂,并想让你停止继续实验,更有甚者避之如蛇蝎. <BR>但他们都不了解你.毕竟,在世界壁垒上撕裂出一个足够巨大的空洞恰恰就是你的目的.
+
+//mana crystal
+research.pylon.title=魔力水晶
+research.pylon.stage.0=用书架来为附魔过程充能已经过时了.
+research.pylon.stage.1=用书架来为附魔过程充能已经过时了.<BR>你发现了一种替代方法,可以通过富mana设备的聚焦光环被动注入附魔. 魔法水晶似乎也可以作为注魔的稳定物.
+
+//alfhalm crystal
+research.alfpylon.title=泰拉水晶
+research.alfpylon.stage.0=你需要更强大的水晶...
+research.alfpylon.stage.1=你需要更强大的水晶.<BR>它有能力聚焦足够的能量,击穿世界壁垒.不过目前只能击穿一个小洞.
+
+//bigger vial
+research.largervial.title=精灵玻璃烧瓶
+research.largervial.stage.0=这种异世界玻璃是一种非常优秀的药剂容器.
+research.largervial.stage.1=这种异世界玻璃是一种非常优秀的药剂容器.<BR>由于玻璃本身已高度魔法化,所以烧瓶从药剂吸收的更少,留下的药性更多.
+
+//Thaumonomicon Isorropia
+
+//Cultivation
+research.wheatdupe.title=炼金栽培
+research.wheatdupe.stage.0=虽然针对无生命物质的炼金变换已经足够简单,但鲜有活体在被实施炼金术之后生还的案例.你在最近的研究中应用了一些不一样的思路-你只是简单用炼金术加速了它们自然生长的过程,而非尝试去直接"修改"它们.
+research.wheatdupe.stage.1=虽然针对无生命物质的炼金变换已经足够简单,但鲜有活体在被实施炼金术之后生还的案例.你在最近的研究中应用了一些不一样的思路-你只是简单用炼金术加速了它们自然生长的过程,而非尝试去直接"修改"它们.<BR>通过把普通食用作物的种子浸入浓缩的光,水,土的混合精华之中,植物可以以令人震惊的速度生长.但很不幸,这个过程是把双刃剑;这些植物毫无例外地在它们结出果实前就已经死亡了.
+
+//egg incubation
+research.incubated.title=炼金孵化
+research.incubated.stage.0=在炼金栽培的成功之后,将类似的方法应用于动物上似乎是一个符合逻辑的选择.
+research.incubated.stage.1=在炼金栽培的成功之后,将类似的方法应用于动物上似乎是一个符合逻辑的选择.向一个鸡蛋提供温暖而原始的生命能量将保证鸡蛋中的胚胎在破壳时能够存活.<BR>但更好的消息是,通过对鸡的初期生长过程的限制,你好像已经解决了作物快速老化的灾难性问题. 
+
+//Meat Growth
+research.meatgrowth.title=肉类复制
+research.meatgrowth.stage.0=你现在有了对炼金术是如何作用于有机生命的自然生长过程的坚定认识.通过细心选择并应用这些技术,你可以在无需饲养整个动物体的条件下单独培育出动物组织.
+research.meatgrowth.stage.1=你现在有了对炼金术是如何作用于有机生命的自然生长过程的坚定认识.通过细心选择并应用这些技术,你可以在无需饲养整个动物体的条件下单独培育出动物组织.<BR>这个发现最明显的应用就是食物生产 - 一小块生肉样本可以"长"成任意大小,还不失原本的色泽和味道.
+
+//Harding
+research.fleshharding.title=肉类硬化
+research.fleshharding.stage.0=尽管你在复制肉类的实验中大获成功,培养实用皮革已被证明是一个更让人上火的问题.
+research.fleshharding.stage.1=尽管你在复制肉类的实验中大获成功,培养实用皮革已被证明是一个更让人上火的问题.现在你也许已经发现了解决皮革生产问题的另一种替代方法.<BR>肉类若在合适的混合要素源质中煮沸,大多数将会硬化直到它们无法和普通皮革分辨开来.你甚至还成功把少量僵尸肉嬗变为更有用的形式,尽管在这种情况下你需要一点点§7Ordo§0要素以阻止它们腐烂.
+
+//Chocolate Cow
+research.chococow.title=神秘牛奶
+research.chococow.stage.0=你发现了一种增强你的普普通通的奶牛的方法.
+research.chococow.stage.1=你发现了一种增强你的普普通通的奶牛的方法.<BR>首先,也是最简单的,修改奶牛的udders使其产出糖浆一样的巧克力牛奶.可以直接饮用来获取一般牛奶的效果,或者把它晾干获取巧克力棒.使用魔法捏制你还可以急速冷冻它使其变成美味的冰淇淋.<BR>有些人声称九个巧克力棒可以合成一个巧克力块,不过又有什么不正常的人会拿巧克力盖房子?
+
+//mob exchange
+research.mobexchange.title=生物转换
+research.mobexchange.stage.0=另一种牛的注魔，将融合牛以及菌类生物,以产生著名的稀有共生体,哞菇.
+research.mobexchange.stage.1=另一种牛的注魔，将融合牛以及菌类生物,以产生著名的稀有共生体,哞菇.<BR>这是否可以说明哞菇是一种古代神秘使制造的人造生物,或者说明你重演了一遍自然现象,依旧不得而知.不像其它的注魔生物,哞菇是可以生产后代的.<BR>你也可以用这种方法制作火鸡.
+
+//goldenchicken
+research.goldchicken.title=一个鸡蛋的魔法
+research.goldchicken.stage.0=甚至谦逊的鸡也拥有巨大的潜能;它只是在等待一个聪慧的神秘使的发现.
+research.goldchicken.stage.1=甚至谦逊的鸡也拥有巨大的潜能;它只是在等待一个聪慧的神秘使的发现.<BR>你发现了一种在鸡体内发生炼金反应的方法.它所留下的金蛋可以熔炼为一个金粒.<BR>值得注意的是这个过程缓慢而持续;并且杀鸡取卵是没用的.
+
+//END GAME
+
+//keletu
+research.endgamegoal.title=§l最终目标
+research.endgamegoal.stage.0=您可以在此查看神秘复兴整合包毕业目标：制作可乐兔，并击杀他来获取创造模式物品。
+research.endgamegoal.stage.1=您可以在此查看神秘复兴整合包毕业目标：制作可乐兔，并击杀他来获取创造模式物品。<BR>你需要遍历所有神秘相关的模组才能制作他，所以你还有很长的路要走。<BR>制作可乐兔的装置为治愈之缸，而不是注魔祭坛。
