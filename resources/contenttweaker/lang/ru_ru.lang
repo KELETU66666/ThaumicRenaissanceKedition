@@ -1,0 +1,117 @@
+# =====
+# Items
+# =====
+item.contenttweaker.research_notes.name=Заметки об исследовании
+item.contenttweaker.discovery.name=Открытие
+item.contenttweaker.rune_of_locking_1.name=Связующая руна
+item.contenttweaker.rune_of_locking_2.name=Связующая руна
+item.contenttweaker.rune_of_locking_3.name=Связующая руна
+item.contenttweaker.rune_of_locking_4.name=Связующая руна
+item.contenttweaker.rune_of_revelation_1.name=Символ откровения
+item.contenttweaker.rune_of_revelation_2.name=Символ стремления
+item.contenttweaker.the_sacred_rune.name=Сакральная руна
+
+# =====================
+# Thaumonomicon entries
+# =====================
+
+# Basics
+research.THEORY_FLUXCLEANUP.title=Теория: Борьба с нечистотой
+research.THEORY_RIFTCLOSER.title=Теория: Радикальное решение
+research.THEORY_RESEARCHMASTERY.title=Теория: Знания - сила
+#
+research.RESEARCHEXPERTISE.title=Экспертиза
+research.RESEARCHEXPERTISE.stage.1=Используя Таумометр я могу не только изучать аспекты, содержащиеся в окружающих меня объектах, но и извлекать из них прямую пользу. Наблюдая за вещами, относящимися к определенным ремеслам я получаю очки знаний, которые в свою очередь могут быть сформированы в идеи.<BR>Однако, такой подход не всегда обеспечивает всецелое понимание конкретного явления - для подробных исследований мне понадобится рабочее место.<BR>§oВозможно стоит попробовать повторить трюк с книжной полкой, но уже используя деревянный стол?
+research.RESEARCHEXPERTISE.stage.2=Теперь, когда у меня есть рабочее место, можно начинать познавать тайны этого мира!<BR>Исследования в Таумономиконе делятся на 2 типа - простые и сложные. Для открытия простых требуются только наблюдения и предметы, тогда как для сложных необходимо отгадать своеобразную загадку.<BR>Здесь мне и пригодится новоприобретенный столик! Получив Заметки об Исследовании из пункта с припиской "Теория" я должен положить их в верхний левый слот, после чего разместить рядом письменные принадлежности. Пергаменты содержат энергию кристаллов вис, которые необходимо разбить на составные аспекты, поместив нужные эссенции рядом с основными.<IMG>thaumcraft:textures/research/research1.png:0:0:256:155:0.5</IMG>Интересно то, что кристаллы тратятся не всегда. С небольшим шансом предмет не будет поглощен и останется лежать на столе. 
+#
+research.RESEARCHMASTERY.title=Мастерство
+research.RESEARCHMASTERY.stage.1=Прежде чем переходить к более серьезным исследованиям, стоит потренироваться. Для получения первой загадки мне нужно изучить вещи, что являются фундаментальными в окружающем мире и найти покинутое веки назад, но все еще очень ценное знание.
+research.RESEARCHMASTERY.stage.2=Получилось! Кроме того, я заметил одну занимательную особенность, о которой раньше почему-то не задумывался. Кристаллы шести первичных аспектов нельзя разложить на составляющие, так как они сами являются основой всего сущего.<BR>Но ничто не мешает нам немного изменить правила игры! Мы будем использовать те аспекты, в состав которых входит нужный из первичной шестерки.
+
+# Auromancy
+research.THEORY_RECHARGEPEDESTAL.title=Теория: Направление ауры
+research.THEORY_VISAMULET.title=Теория: Аура на ходу
+research.THEORY_WORKBENCHCHARGER.title=Теория: Эффективный Вис
+research.THEORY_FOCUSADVANCED.title=Теория: Расширение заклинаний
+research.THEORY_FOCUSGREATER.title=Теория: Безграничный потенциал
+research.THEORY_FOCUSSCATTER.title=Теория: Двойственность
+research.THEORY_FOCUSSPLIT.title=Теория: Перерасчет
+research.THEORY_FOCUSPROJECTILE.title=Теория: Дальнобой
+research.THEORY_FOCUSBOLT.title=Теория: Сила тока
+research.THEORY_FOCUSMINE.title=Теория: Тихая угроза
+research.THEORY_FOCUSPLAN.title=Теория: Мистический чертеж
+research.THEORY_FOCUSEXCHANGE.title=Теория: Услуга за услугу
+research.THEORY_FOCUSCLOUD.title=Теория: Туманность
+research.THEORY_FOCUSSPELLBAT.title=Теория: Отродье
+research.THEORY_FOCUSRIFT.title=Теория: Внутри - больше
+research.THEORY_FOCUSBREAK.title=Теория: Легкий труд
+
+# Alchemy
+research.THEORY_METALLURGY.title=Теория: Смена свойств
+research.THEORY_METALPURIFICATION.title=Теория: Продуктивная обработка
+research.THEORY_LIQUIDDEATH.title=Теория: Смертельнейший яд
+research.THEORY_BOTTLETAINT.title=Теория: Приручение инфекции
+research.THEORY_BATHSALTS.title=Теория: Аномальный иммунитет
+research.THEORY_ARCANESPA.title=Теория: Чистые мысли
+research.THEORY_ESSENTIASMELTER.title=Теория: Извлечение эссенции
+research.THEORY_ESSENTIASMELTERTHAUMIUM.title=Теория: Продвинутое извлечение эссенции
+research.THEORY_ESSENTIASMELTERVOID.title=Теория: Первобытное извлечение эссенции
+research.THEORY_CENTRIFUGE.title=Теория: Расщепление эссенции
+research.THEORY_THAUMATORIUM.title=Теория: Алхимическая автоматизация
+research.THEORY_EVERFULLURN.title=Теория: Неисчерпаемый источник
+research.THEORY_POTIONSPRAYER.title=Теория: Удаленные эффекты
+research.THEORY_SANESOAP.title=Теория: Очищение души
+research.THEORY_FOCUSFLUX.title=Теория: Злоба
+research.THEORY_FOCUSCURSE.title=Теория: Тайна пехтов
+research.THEORY_FOCUSHEAL.title=Теория: Панацея
+
+# Artifice
+research.THEORY_MIRROR.title=Теория: Союз в отражении
+research.THEORY_MIRRORHAND.title=Теория: Портативные зеркала
+research.THEORY_MIRRORESSENTIA.title=Теория: Передача эссенции
+research.THEORY_LAMPGROWTH.title=Теория: Ускорение роста
+research.THEORY_LAMPFERTILITY.title=Теория: Мистическое соблазнение
+research.THEORY_ARCANEPATTERNCRAFTER.title=Теория: Автокрафт
+research.THEORY_BASICTURRET.title=Теория: Система безопасности
+research.THEORY_ARCANEBORE.title=Теория: Мистическая добыча
+research.THEORY_GRAPPLEGUN.title=Теория: Аэробатика
+
+# Eldritch
+research.THEORY_VOIDSIPHON.title=Теория: Овеществление пустоты
+research.THEORY_VOIDSEERPEARL.title=Теория: Взгляд в бездну
+research.THEORY_VOIDROBEARMOR.title=Теория: Окутанный тьмой
+research.THEORY_PRIMALCRUSHER.title=Теория: Сила энтропии
+
+# Golemancy
+research.THEORY_JARBRAIN.title=Теория: Мерзкое хранилище
+research.THEORY_MINDCLOCKWORK.title=Теория: Контроль
+research.THEORY_MINDBIOTHAUMIC.title=Теория: Вера в мысль
+research.THEORY_SEALEMPTY.title=Теория: Извлечение
+research.THEORY_SEALPROVIDE.title=Теория: Поставка
+research.THEORY_SEALSTOCK.title=Теория: Резерв
+research.THEORY_SEALGUARD.title=Теория: Защита
+research.THEORY_SEALBUTCHER.title=Теория: Мясник
+research.THEORY_SEALUSE.title=Теория: Использование
+research.THEORY_SEALHARVEST.title=Теория: Фермерство
+research.THEORY_SEALBREAK.title=Теория: Разрушение
+research.THEORY_SEALLUMBER.title=Теория: Рубка
+research.THEORY_GOLEMDIRECT.title=Теория: Механическая армия
+research.THEORY_GOLEMVISION.title=Теория: Острое зрение
+research.THEORY_GOLEMCLIMBER.title=Теория: Ловкость
+research.THEORY_GOLEMFLYER.title=Теория: Ввысь
+research.THEORY_GOLEMBREAKER.title=Теория: Полный вперед!
+research.THEORY_GOLEMCOMBATADV.title=Теория: Резня
+
+# Arcane Infusion
+research.THEORY_INFUSION.title=Теория: Мистическое слияние
+research.THEORY_INFUSIONSTABLE.title=Теория: Усмирение угрозы
+research.THEORY_INFUSIONBOOST.title=Теория: Ускорение угрозы
+research.THEORY_BOOTSTRAVELLER.title=Теория: Один шаг за десять
+research.THEORY_ELEMENTALTOOLS.title=Теория: Воплощение стихий
+research.THEORY_INFUSIONENCHANTMENT.title=Теория: Имитация магии
+research.THEORY_RUNICSHIELDING.title=Теория: Незримая защита
+research.THEORY_ARMORFORTRESS.title=Теория: Дополнительное укрепление
+research.THEORY_FORTRESSMASK.title=Теория: Маска тысячи лиц
+research.THEORY_CURIOSITYBAND.title=Теория: Договор с удачей
+research.THEORY_VERDANTCHARMS.title=Теория: Ювелирный антидот
+research.THEORY_CHARMUNDYING.title=Теория: Удобная неуязвимость

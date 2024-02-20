@@ -1,0 +1,118 @@
+# =====
+# Items
+# =====
+item.contenttweaker.research_notes.name=Research Notes
+item.contenttweaker.discovery.name=Discovery
+item.contenttweaker.knowledge_fragment.name=Knowledge Fragment
+item.contenttweaker.rune_of_locking_1.name=Rune of Binding
+item.contenttweaker.rune_of_locking_2.name=Rune of Binding
+item.contenttweaker.rune_of_locking_3.name=Rune of Binding
+item.contenttweaker.rune_of_locking_4.name=Rune of Binding
+item.contenttweaker.rune_of_revelation_1.name=Symbol of Revelation
+item.contenttweaker.rune_of_revelation_2.name=Symbol of Aspiration
+item.contenttweaker.the_sacred_rune.name=The Sacred Rune
+
+# =====================
+# Thaumonomicon entries
+# =====================
+
+# Basics
+research.THEORY_FLUXCLEANUP.title=Theory: Fighting the Impurity
+research.THEORY_RIFTCLOSER.title=Theory: Radical Solution
+research.THEORY_RESEARCHMASTERY.title=Theory: Knowledge is Power
+#
+research.RESEARCHEXPERTISE.title=Research Expertise
+research.RESEARCHEXPERTISE.stage.1=Using the Thaumometer, I can not only study the aspects contained in the objects around me, but also benefit from them directly. By observing things related to certain crafts, I gain knowledge points, which in turn can be formed into ideas.<BR>However, this approach does not always provide a complete understanding of a particular phenomenon - I will need a workplace for detailed research.<BR>§oMaybe try the bookshelf trick with a wooden table?
+research.RESEARCHEXPERTISE.stage.2=Now that I have a workspace, I can begin to learn the secrets of this world!<BR>Researches in the Thaumonomicon are divided into 2 types - simple and complex. To discover simple ones, only observations and items are required, while for complex ones I need to solve a funky riddle.<BR> This is where my newfound table comes in handy! Once I get the Research Notes from the "Theory" entry, I should put them in the top left slot, then place the scribing tools next to it. The parchments contain the energy of vis crystals, which must be broken down into their component aspects by placing the required essences next to the main ones.<IMG>thaumcraft:textures/research/research1.png:0:0:256:155:0.5</IMG>Interestingly, crystals are not always spent. With a small chance, the item will remain lying on the table. 
+#
+research.RESEARCHMASTERY.title=Research Mastery
+research.RESEARCHMASTERY.stage.1=Before moving on to more complex research, it is worth practicing. To get the first riddle, I need to study things that are fundamental in the world around me and find knowledge that has been lost for centuries, but is still very valuable today.
+research.RESEARCHMASTERY.stage.2=It worked out! In addition, I noticed one feature that for some reason I had not thought about before. The crystals of the six primal aspects cannot be decomposed into their constituents, as they themselves are the basis of all things.<BR>But nothing prevents us from changing the rules of the game a little! We will use aspects that include the desired one from the primary six.
+
+# Auromancy
+research.THEORY_RECHARGEPEDESTAL.title=Theory: Aura Channeling
+research.THEORY_VISAMULET.title=Theory: Aura on the Go
+research.THEORY_WORKBENCHCHARGER.title=Theory: Effective Vis
+research.THEORY_FOCUSADVANCED.title=Theory: Spell Expansion
+research.THEORY_FOCUSGREATER.title=Theory: Unlimited Potential
+research.THEORY_FOCUSSCATTER.title=Theory: Duplicity
+research.THEORY_FOCUSSPLIT.title=Theory: Recalculation
+research.THEORY_FOCUSPROJECTILE.title=Theory: Far Away
+research.THEORY_FOCUSBOLT.title=Theory: Amperage
+research.THEORY_FOCUSMINE.title=Theory: Silent Danger
+research.THEORY_FOCUSPLAN.title=Theory: Arcane Blueprint
+research.THEORY_FOCUSEXCHANGE.title=Theory: Quid pro Quo
+research.THEORY_FOCUSCLOUD.title=Theory: Nebula
+research.THEORY_FOCUSSPELLBAT.title=Theory: Abomination
+research.THEORY_FOCUSRIFT.title=Theory: Bigger on the Inside
+research.THEORY_FOCUSBREAK.title=Theory: Light Labor
+
+# Alchemy
+research.THEORY_METALLURGY.title=Theory: Changing the Properties
+research.THEORY_METALPURIFICATION.title=Theory: Productive Processing
+research.THEORY_LIQUIDDEATH.title=Theory: The Deadliest Poison
+research.THEORY_BOTTLETAINT.title=Theory: Taming Infection
+research.THEORY_BATHSALTS.title=Theory: Paranormal Immunity
+research.THEORY_ARCANESPA.title=Theory: Clean Thoughts
+research.THEORY_ESSENTIASMELTER.title=Theory: Essentia Extraction
+research.THEORY_ESSENTIASMELTERTHAUMIUM.title=Theory: Advanced Essentia Extraction
+research.THEORY_ESSENTIASMELTERVOID.title=Theory: Primal Essentia Extraction
+research.THEORY_CENTRIFUGE.title=Theory: Essentia Fission
+research.THEORY_THAUMATORIUM.title=Theory: Alchemical Automation
+research.THEORY_EVERFULLURN.title=Theory: Inexhaustible Source
+research.THEORY_POTIONSPRAYER.title=Theory: Remote Effects
+research.THEORY_SANESOAP.title=Theory: Soul Purification
+research.THEORY_FOCUSFLUX.title=Theory: Malice
+research.THEORY_FOCUSCURSE.title=Theory: The Pech Mystery
+research.THEORY_FOCUSHEAL.title=Theory: Panacea
+
+# Artifice
+research.THEORY_MIRROR.title=Theory: Union in Reflection
+research.THEORY_MIRRORHAND.title=Theory: Portable Mirror Magic
+research.THEORY_MIRRORESSENTIA.title=Theory: Essentia Transmission
+research.THEORY_LAMPGROWTH.title=Theory: Growth Acceleration
+research.THEORY_LAMPFERTILITY.title=Theory: Arcane Seduction
+research.THEORY_ARCANEPATTERNCRAFTER.title=Theory: Autocraft
+research.THEORY_BASICTURRET.title=Theory: Security System
+research.THEORY_ARCANEBORE.title=Theory: Mystical Mining
+research.THEORY_GRAPPLEGUN.title=Theory: Aerobatics
+
+# Eldritch
+research.THEORY_VOIDSIPHON.title=Theory: Void Reification
+research.THEORY_VOIDSEERPEARL.title=Theory: The Abyss Sight
+research.THEORY_VOIDROBEARMOR.title=Theory: Shrouded in Darkness
+research.THEORY_PRIMALCRUSHER.title=Theory: The Power of Entropy
+
+# Golemancy
+research.THEORY_JARBRAIN.title=Theory: Vile Vault
+research.THEORY_MINDCLOCKWORK.title=Theory: Subordination
+research.THEORY_MINDBIOTHAUMIC.title=Theory: Faith in Thought
+research.THEORY_SEALEMPTY.title=Theory: Extraction
+research.THEORY_SEALPROVIDE.title=Theory: Supply
+research.THEORY_SEALSTOCK.title=Theory: Reserve
+research.THEORY_SEALGUARD.title=Theory: Guard
+research.THEORY_SEALBUTCHER.title=Theory: Butcher
+research.THEORY_SEALUSE.title=Theory: Usage
+research.THEORY_SEALHARVEST.title=Theory: Farming
+research.THEORY_SEALBREAK.title=Theory: Destruction
+research.THEORY_SEALLUMBER.title=Theory: Chopping
+research.THEORY_GOLEMDIRECT.title=Theory: Mechanical Army
+research.THEORY_GOLEMVISION.title=Theory: Sharp Vision
+research.THEORY_GOLEMCLIMBER.title=Theory: Agility
+research.THEORY_GOLEMFLYER.title=Theory: Skyward
+research.THEORY_GOLEMBREAKER.title=Theory: Full Speed Ahead!
+research.THEORY_GOLEMCOMBATADV.title=Theory: Massacre
+
+# Arcane Infusion
+research.THEORY_INFUSION.title=Theory: Mystical Fusion
+research.THEORY_INFUSIONSTABLE.title=Theory: Threat Pacification
+research.THEORY_INFUSIONBOOST.title=Theory: Threat Acceleration
+research.THEORY_BOOTSTRAVELLER.title=Theory: Ten Steps in One
+research.THEORY_ELEMENTALTOOLS.title=Theory: Elemental Impersonation
+research.THEORY_INFUSIONENCHANTMENT.title=Theory: Magical Imitation
+research.THEORY_RUNICSHIELDING.title=Theory: Intangible Protection
+research.THEORY_ARMORFORTRESS.title=Theory: Additional Fortification
+research.THEORY_FORTRESSMASK.title=Theory: Thousand-Faced Mask
+research.THEORY_CURIOSITYBAND.title=Theory: Luck Treat
+research.THEORY_VERDANTCHARMS.title=Theory: Jewelry Antidote
+research.THEORY_CHARMUNDYING.title=Theory: Comfortable Immortality

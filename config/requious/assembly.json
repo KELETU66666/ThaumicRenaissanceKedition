@@ -1,0 +1,27 @@
+[
+  {
+    "placeType": "Horizontal",
+    "layerType": "Cutout",
+    "hasGUI": true,
+    "resourceName": "research_table",
+    "model": "contenttweaker:research_table",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 1.0,
+    "blastResistance": 3.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  }
+]

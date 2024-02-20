@@ -393,5 +393,25 @@
 				"value": ["REVERSE"]
 			}
         ]
+	},
+	{
+        "key": "FM_ARCANECAKE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			}
+        ]
 	}
 ]

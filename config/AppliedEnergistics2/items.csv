@@ -643,6 +643,7 @@ minecraft:record_strad, 音乐唱片
 minecraft:record_ward, 音乐唱片
 minecraft:record_11, 音乐唱片
 minecraft:record_wait, 音乐唱片
+advanced_alchemy_furnace:advanced_alchemy_furnace, 荒古炼金炉
 avaritia:resource:0, 钻石晶格
 avaritia:resource:1, 水晶矩阵锭
 avaritia:resource:2, 中子素尘埃
@@ -699,15 +700,15 @@ familiarfauna:turkey_leg_raw, 生火鸡腿
 familiarfauna:turkey_leg_cooked, 熟火鸡腿
 familiarfauna:venison_raw, 生鹿肉
 familiarfauna:venison_cooked, 熟鹿肉
-lostmagic:purifying_shovel, 净化之锹
-lostmagic:ring_nutrition, 营养指环
-lostmagic:scribe_blood, 血腥抄录用具
 hammercore:iron_bordered_cobblestone, Iron-Bordered Cobblestone
 hammercore:gold_bordered_cobblestone, Gold-Bordered Cobblestone
 hammercore:diamond_bordered_cobblestone, Diamond-Bordered Cobblestone
 hammercore:emerald_bordered_cobblestone, Emerald-Bordered Cobblestone
 hammercore:quartz_bordered_cobblestone, Quartz-Bordered Cobblestone
 hammercore:manual, Hammer Core Manual
+lostmagic:purifying_shovel, 净化之锹
+lostmagic:ring_nutrition, 营养指环
+lostmagic:scribe_blood, 血腥抄录用具
 packagedauto:packager, 封包机
 packagedauto:encoder, 封包配方编码器
 packagedauto:unpackager, 解包机
@@ -716,7 +717,7 @@ packagedauto:recipe_holder, 封包配方储存器
 packagedauto:package, 配方封包
 packagedauto:package_component, 封包组件
 packagedauto:me_package_component, ME封包组件
-packagedthaumic:reinforced_porous_stone, 強化透水石
+packagedthaumic:reinforced_porous_stone, 强化透水石
 packagedthaumic:virial_chamber, 自魔匣
 packagedthaumic:clathrate_essence_former, 源质水合物形成器
 packagedthaumic:arcane_crafter, 奥术封包合成器
@@ -727,6 +728,7 @@ packagedthaumic:marked_arcane_pedestal, 标记奥术基座
 packagedthaumic:marked_ancient_pedestal, 标记荒古基座
 packagedthaumic:marked_eldritch_pedestal, 标记邪术基座
 packagedthaumic:virial_recharge_pedestal, 自魔充能基座
+packagedthaumic:clathrate_essence_materializer, 源质水合物实物化器
 packagedthaumic:thaumic_package_component, 神秘封包组件
 packagedthaumic:porous_stone_plate, 透水石板
 packagedthaumic:clathrate_essence, %s 源质水合物
@@ -965,23 +967,17 @@ thaumicbases:crystalblockorder, 秩序魔晶块
 thaumicbases:crystalblockentropy, 混沌魔晶块
 thaumicbases:crystalblockmixed, 元始魔晶块
 thaumicbases:crystalblocktainted, 腐化魔晶块
-thaumicbases:pyro, 魔力熔岩
+thaumicbases:thaumic_anvil:0, Thaumium Anvil
+thaumicbases:thaumic_anvil:1, Slightly Damaged Thaumium Anvil
+thaumicbases:thaumic_anvil:2, Very Damaged Thaumium Anvil
+thaumicbases:void_anvil:0, Void metal Anvil
+thaumicbases:void_anvil:1, Slightly Damaged Void metal Anvil
+thaumicbases:void_anvil:2, Very Damaged Void metal Anvil
 thaumicbases:pyrosolid, 魔力熔岩固体
 thaumicbases:rainbowcactus, 彩虹仙人掌
-thaumicbases:plax, 纤化草
-thaumicbases:sweed, 蔗糖草
 thaumicbases:aurelia, 灵气花
-thaumicbases:aureliapetalb, 灵气花瓣
-thaumicbases:tobacco, 烟草
-thaumicbases:metalleat, 蕴铁草
-thaumicbases:lazullia, 青金草
-thaumicbases:redlonstem, 红石瓜茎
-thaumicbases:lucrite, 生金草
 thaumicbases:briar, 野蔷薇
 thaumicbases:ashroom, 始源蘑菇
-thaumicbases:glieonia, 荧粉花
-thaumicbases:voidplant, tile.voidplant.name
-thaumicbases:knoze, Rosa Mysteria
 thaumicbases:ironspike, 铁钉
 thaumicbases:thaumspike, 神秘钉
 thaumicbases:voidspike, 虚空钉
@@ -997,6 +993,10 @@ thaumicbases:nethersapling, 地狱橡树树苗
 thaumicbases:netherlogs, 地狱橡木原木
 thaumicbases:netherleaves, 地狱橡树树叶
 thaumicbases:netherplanks, 地狱橡木木板
+thaumicbases:peacesapling, Peaceful Sapling
+thaumicbases:peacelogs, Peaceful Wood
+thaumicbases:peaceleaves, Peaceful Leaves
+thaumicbases:peaceplanks, Peaceful Planks
 thaumicbases:overchanter, 超吟附魔台
 thaumicbases:campfire, 神秘使营火
 thaumicbases:braizer, 神秘使火盆
@@ -1074,7 +1074,7 @@ thaumcraft:stone_eldritch_tile, 邪术石
 thaumcraft:stone_porous, 透水石
 thaumcraft:stairs_arcane, 奥术楼梯
 thaumcraft:stairs_arcane_brick, 奥术石砖楼梯
-thaumcraft:stairs_ancient, 荒古楼梯
+thaumcraft:stairs_ancient, 荒古石砖楼梯
 thaumcraft:slab_arcane_stone:0, 奥术台阶
 thaumcraft:slab_arcane_brick:0, 奥术石砖台阶
 thaumcraft:slab_ancient:0, 荒古台阶
@@ -3575,6 +3575,498 @@ chisel:wool_orange:1, 橙色地毯
 chisel:wool_white:0, 地毯
 chisel:wool_white:1, 地毯
 forge:bucketfilled, %s Bucket
+baubles:ring:0, 矿工指环
+thaumcraft:thaumonomicon:0, 魔导手册
+thaumcraft:thaumonomicon:1, 作弊者魔导手册
+thaumcraft:curio:0, 奥术珍品
+thaumcraft:curio:1, 传世珍品
+thaumcraft:curio:2, 远古珍品
+thaumcraft:curio:3, 邪术珍品
+thaumcraft:curio:4, 光明珍品
+thaumcraft:curio:5, 扭曲珍品
+thaumcraft:curio:6, 血腥仪式
+thaumcraft:loot_bag:0, 寻常藏宝袋
+thaumcraft:loot_bag:1, 稀有藏宝袋
+thaumcraft:loot_bag:2, 罕见藏宝袋
+thaumcraft:primordial_pearl, item.primordial_pearl.name
+thaumcraft:pech_wand, 岩精法杖
+thaumcraft:celestial_notes:0, 天象笔记
+thaumcraft:celestial_notes:1, 天象笔记
+thaumcraft:celestial_notes:2, 天象笔记
+thaumcraft:celestial_notes:3, 天象笔记
+thaumcraft:celestial_notes:4, 天象笔记
+thaumcraft:celestial_notes:5, 天象笔记
+thaumcraft:celestial_notes:6, 天象笔记
+thaumcraft:celestial_notes:7, 天象笔记
+thaumcraft:celestial_notes:8, 天象笔记
+thaumcraft:celestial_notes:9, 天象笔记
+thaumcraft:celestial_notes:10, 天象笔记
+thaumcraft:celestial_notes:11, 天象笔记
+thaumcraft:celestial_notes:12, 天象笔记
+thaumcraft:amber, 琥珀
+thaumcraft:quicksilver, 水银
+thaumcraft:ingot:0, 神秘锭
+thaumcraft:ingot:1, 虚空金属锭
+thaumcraft:ingot:2, 炼金黄铜锭
+thaumcraft:nugget:0, 铁粒
+thaumcraft:nugget:1, 铜粒
+thaumcraft:nugget:2, 锡粒
+thaumcraft:nugget:3, 银粒
+thaumcraft:nugget:4, 铅粒
+thaumcraft:nugget:5, 水银液滴
+thaumcraft:nugget:6, 神秘粒
+thaumcraft:nugget:7, 虚空金属粒
+thaumcraft:nugget:8, 炼金黄铜粒
+thaumcraft:nugget:9, 石英碎片
+thaumcraft:nugget:10, 稀土
+thaumcraft:cluster:0, 铁原矿簇
+thaumcraft:cluster:1, 金原矿簇
+thaumcraft:cluster:2, 铜原矿簇
+thaumcraft:cluster:3, 锡原矿簇
+thaumcraft:cluster:4, 银原矿簇
+thaumcraft:cluster:5, 铅原矿簇
+thaumcraft:cluster:6, 朱砂原矿簇
+thaumcraft:cluster:7, 石英原矿簇
+thaumcraft:fabric, 魔力布匹
+thaumcraft:vis_resonator, 魔力谐振器
+thaumcraft:tallow, 魔力油脂
+thaumcraft:mechanism_simple, 简易奥术装置
+thaumcraft:mechanism_complex, 精密奥术装置
+thaumcraft:plate:0, 黄铜板
+thaumcraft:plate:1, 铁板
+thaumcraft:plate:2, 神秘板
+thaumcraft:plate:3, 虚空金属板
+thaumcraft:filter, 源质滤管
+thaumcraft:morphic_resonator, 形态谐振器
+thaumcraft:salis_mundus, 世界盐
+thaumcraft:mirrored_glass, 镜面玻璃
+thaumcraft:void_seed, 虚空种子
+thaumcraft:mind:0, 发条之心
+thaumcraft:mind:1, 神秘生物学之心
+thaumcraft:module:0, 视觉组件
+thaumcraft:module:1, 攻击组件
+thaumcraft:crystal_essence, %s 魔力水晶碎片
+thaumcraft:chunk:0, 牛肉粒
+thaumcraft:chunk:1, 鸡肉粒
+thaumcraft:chunk:2, 猪肉粒
+thaumcraft:chunk:3, 鱼肉粒
+thaumcraft:chunk:4, 兔肉粒
+thaumcraft:chunk:5, 羊肉粒
+thaumcraft:triple_meat_treat, 三层肉饼
+thaumcraft:brain, 僵尸之脑
+thaumcraft:label:0, 空白标签
+thaumcraft:phial:0, 玻璃安瓿
+thaumcraft:phial:1, Aer 源质安瓿
+thaumcraft:phial:1, Terra 源质安瓿
+thaumcraft:phial:1, Ignis 源质安瓿
+thaumcraft:phial:1, Aqua 源质安瓿
+thaumcraft:phial:1, Ordo 源质安瓿
+thaumcraft:phial:1, Perditio 源质安瓿
+thaumcraft:phial:1, Vacuos 源质安瓿
+thaumcraft:phial:1, Lux 源质安瓿
+thaumcraft:phial:1, Motus 源质安瓿
+thaumcraft:phial:1, Gelum 源质安瓿
+thaumcraft:phial:1, Vitreus 源质安瓿
+thaumcraft:phial:1, Metallum 源质安瓿
+thaumcraft:phial:1, Victus 源质安瓿
+thaumcraft:phial:1, Mortuus 源质安瓿
+thaumcraft:phial:1, Potentia 源质安瓿
+thaumcraft:phial:1, Permutatio 源质安瓿
+thaumcraft:phial:1, Praecantatio 源质安瓿
+thaumcraft:phial:1, Auram 源质安瓿
+thaumcraft:phial:1, Alkimia 源质安瓿
+thaumcraft:phial:1, Vitium 源质安瓿
+thaumcraft:phial:1, Tenebrae 源质安瓿
+thaumcraft:phial:1, Alienis 源质安瓿
+thaumcraft:phial:1, Volatus 源质安瓿
+thaumcraft:phial:1, Herba 源质安瓿
+thaumcraft:phial:1, Instrumentum 源质安瓿
+thaumcraft:phial:1, Fabrico 源质安瓿
+thaumcraft:phial:1, Machina 源质安瓿
+thaumcraft:phial:1, Vinculum 源质安瓿
+thaumcraft:phial:1, Spiritus 源质安瓿
+thaumcraft:phial:1, Cognitio 源质安瓿
+thaumcraft:phial:1, Sensus 源质安瓿
+thaumcraft:phial:1, Aversio 源质安瓿
+thaumcraft:phial:1, Praemunio 源质安瓿
+thaumcraft:phial:1, Desiderium 源质安瓿
+thaumcraft:phial:1, Exanimis 源质安瓿
+thaumcraft:phial:1, Bestia 源质安瓿
+thaumcraft:phial:1, Humanus 源质安瓿
+thaumcraft:phial:1, Fames 源质安瓿
+thaumcraft:phial:1, Corpus 源质安瓿
+thaumcraft:phial:1, Invidia 源质安瓿
+thaumcraft:phial:1, Gula 源质安瓿
+thaumcraft:phial:1, Luxuria 源质安瓿
+thaumcraft:phial:1, Infernus 源质安瓿
+thaumcraft:phial:1, Superbia 源质安瓿
+thaumcraft:phial:1, Desidia 源质安瓿
+thaumcraft:phial:1, Ira 源质安瓿
+thaumcraft:phial:1, Terminus 源质安瓿
+thaumcraft:phial:1, Fluctus 源质安瓿
+thaumcraft:phial:1, Sonus 源质安瓿
+thaumcraft:phial:1, Exitium 源质安瓿
+thaumcraft:phial:1, Caeles 源质安瓿
+thaumcraft:phial:1, Draco 源质安瓿
+thaumcraft:phial:1, Infernum 源质安瓿
+thaumcraft:phial:1, Ventus 源质安瓿
+thaumcraft:phial:1, Visum 源质安瓿
+thaumcraft:phial:1, Imperium 源质安瓿
+thaumcraft:phial:1, Spatio 源质安瓿
+thaumcraft:phial:1, Tempus 源质安瓿
+thaumcraft:phial:1, Tinctura 源质安瓿
+thaumcraft:alumentum:0, 源动之焰
+thaumcraft:jar_brace, 黄铜盖箍
+thaumcraft:bottle_taint, 腐化瓶
+thaumcraft:sanity_soap, 祛邪肥皂
+thaumcraft:bath_salts, 净化浴盐
+thaumcraft:turret:0, 自动十字弩
+thaumcraft:turret:1, 高级自动弩
+thaumcraft:turret:2, 奥术钻探机
+thaumcraft:causality_collapser, 悖论物质
+thaumcraft:scribing_tools, 笔与墨
+thaumcraft:thaumometer, 魔导透镜
+thaumcraft:resonator, 源质谐振器
+thaumcraft:sanity_checker, 神智检测仪
+thaumcraft:hand_mirror, 魔力手镜
+thaumcraft:thaumium_axe, 神秘斧
+thaumcraft:thaumium_sword, 神秘剑
+thaumcraft:thaumium_shovel, 神秘锹
+thaumcraft:thaumium_pick, 神秘镐
+thaumcraft:thaumium_hoe, 神秘锄
+thaumcraft:void_axe, 虚空斧
+thaumcraft:void_sword, 虚空剑
+thaumcraft:void_shovel, 虚空锹
+thaumcraft:void_pick, 虚空镐
+thaumcraft:void_hoe, 虚空锄
+thaumcraft:elemental_axe, 奔流斧
+thaumcraft:elemental_sword, 风雷剑
+thaumcraft:elemental_shovel, 后土铲
+thaumcraft:elemental_pick, 炽心镐
+thaumcraft:elemental_hoe, 句芒锄
+thaumcraft:primal_crusher, 元始杵
+thaumcraft:crimson_blade, 血腥之刃
+thaumcraft:grapple_gun, 奥术机动装置
+thaumcraft:grapple_gun_tip, 机动装置头部
+thaumcraft:grapple_gun_spool, 机动装置滚轴
+thaumcraft:goggles, 揭示之护目镜
+thaumcraft:thaumium_helm, 神秘头盔
+thaumcraft:thaumium_chest, 神秘胸甲
+thaumcraft:thaumium_legs, 神秘护腿
+thaumcraft:thaumium_boots, 神秘靴子
+thaumcraft:cloth_chest, 神秘使法袍
+thaumcraft:cloth_legs, 神秘使护腿
+thaumcraft:cloth_boots, 神秘使之靴
+thaumcraft:traveller_boots, 旅行者之靴
+thaumcraft:fortress_helm, 神秘要塞兜鍪
+thaumcraft:fortress_chest, 神秘要塞胸铠
+thaumcraft:fortress_legs, 神秘要塞护胫
+thaumcraft:void_helm, 虚空头盔
+thaumcraft:void_chest, 虚空胸甲
+thaumcraft:void_legs, 虚空护腿
+thaumcraft:void_boots, 虚空靴子
+thaumcraft:void_robe_helm, 虚空神秘使兜帽
+thaumcraft:void_robe_chest, 虚空神秘使法袍
+thaumcraft:void_robe_legs, 虚空神秘使护腿
+thaumcraft:crimson_plate_helm, 血腥邪徒头盔
+thaumcraft:crimson_plate_chest, 血腥邪徒胸甲
+thaumcraft:crimson_plate_legs, 血腥邪徒护胫
+thaumcraft:crimson_boots, 血腥邪徒靴子
+thaumcraft:crimson_robe_helm, 血腥邪徒兜帽
+thaumcraft:crimson_robe_chest, 血腥邪徒法袍
+thaumcraft:crimson_robe_legs, 血腥邪徒护腿
+thaumcraft:crimson_praetor_helm, 血腥主教头盔
+thaumcraft:crimson_praetor_chest, 血腥主教胸甲
+thaumcraft:crimson_praetor_legs, 血腥主教护胫
+thaumcraft:baubles:0, 凡人护身符
+thaumcraft:baubles:1, 凡人指环
+thaumcraft:baubles:2, 凡人腰带
+thaumcraft:baubles:3, 学徒指环
+thaumcraft:baubles:4, 精致护身符
+thaumcraft:baubles:5, 精致指环
+thaumcraft:baubles:6, 精致腰带
+thaumcraft:amulet_vis:0, 魔力石
+thaumcraft:amulet_vis:1, 魔力护身符
+thaumcraft:verdant_charm, 翠心指环
+thaumcraft:curiosity_band, 求知发带
+thaumcraft:voidseer_charm, 虚空预言者的珍珠
+thaumcraft:cloud_ring, 云霄指环
+thaumcraft:charm_undying, 不死护符
+thaumcraft:creative_flux_sponge, 咒波清理海绵
+thaumcraft:enchanted_placeholder, 任何附魔物品
+thaumcraft:caster_basic, 法师护手
+thaumcraft:focus_1, 空白次级核心
+thaumcraft:focus_2, 空白高级核心
+thaumcraft:focus_3, 空白大师核心
+thaumcraft:focus_pouch, 施术核心手袋
+thaumcraft:golem_bell, 傀儡使铃铛
+thaumcraft:golem, 傀儡
+thaumcraft:seal:0, 空白印记
+thaumcraft:seal:1, 操控印记：聚集
+thaumcraft:seal:2, 高级操控印记：聚集
+thaumcraft:seal:3, 操控印记：贮存
+thaumcraft:seal:4, 高级操控印记：贮存
+thaumcraft:seal:5, 操控印记：空置
+thaumcraft:seal:6, 高级操控印记：空置
+thaumcraft:seal:7, 操控印记：收获
+thaumcraft:seal:8, 操控印记：屠宰
+thaumcraft:seal:9, 操控印记：守卫
+thaumcraft:seal:10, 高级操控印记：守卫
+thaumcraft:seal:11, 操控印记：砍伐
+thaumcraft:seal:12, 操控印记：采掘
+thaumcraft:seal:13, 操控印记：使用
+thaumcraft:seal:14, 操控印记：供给
+thaumcraft:seal:15, 操控印记：仓储
+thaumcraft:seal:16, Control Seal: Advanced Block Breaker
+thaumcraft:seal:17, 操控印记：治安
+thaumcraft:seal:18, 高级操控印记：治安
+thaumicaugmentation:vis_regenerator, 灵气再生器
+thaumicaugmentation:warded_chest, 守护箱子
+thaumicaugmentation:temporary_light, 秘术辉光
+thaumicaugmentation:stone:0, 虚空石
+thaumicaugmentation:stone:1, 腐化虚空石
+thaumicaugmentation:stone:2, 腐化虚空石壤
+thaumicaugmentation:stone:3, 荒古符石
+thaumicaugmentation:stone:4, 雕文古石
+thaumicaugmentation:stone:5, 荒古石砖
+thaumicaugmentation:stone:6, 陈年石头
+thaumicaugmentation:stone:7, 发光陈年石头
+thaumicaugmentation:stone:8, 荒古石柱
+thaumicaugmentation:stone:9, 平滑荒古石砖
+thaumicaugmentation:stone:10, 荒古圆石
+thaumicaugmentation:stone:11, 荒古石灯
+thaumicaugmentation:arcane_trapdoor_wood, 宏伟之木奥能活板门
+thaumicaugmentation:arcane_trapdoor_metal, 神秘奥能活板门
+thaumicaugmentation:arcane_trapdoor_silverwood, 银木奥能活板门
+thaumicaugmentation:taint_flower, 腐化花
+thaumicaugmentation:impetus_drainer, 元动汲取仪
+thaumicaugmentation:impetus_relay, 元动中继器
+thaumicaugmentation:impetus_diffuser, 元动弥散仪
+thaumicaugmentation:impetus_matrix, 元动矩阵
+thaumicaugmentation:impetus_matrix_base, 元动矩阵基座
+thaumicaugmentation:rift_feeder, 咒波引流仪
+thaumicaugmentation:rift_mover_input, 裂隙封装仪
+thaumicaugmentation:rift_mover_output, 裂隙释放仪
+thaumicaugmentation:void_recharge_pedestal, 元动充能基座
+thaumicaugmentation:arcane_terraformer, 奥术群系转换仪
+thaumicaugmentation:rift_monitor, 裂隙监测仪
+thaumicaugmentation:impetus_generator, 元动发电机
+thaumicaugmentation:stability_field_generator, 裂隙稳定器
+thaumicaugmentation:impetus_gate, 元动阀门
+thaumicaugmentation:stairs_ancient, 荒古石楼梯
+thaumicaugmentation:slab:0, 荒古石砖台阶
+thaumicaugmentation:stairs_eldritch_tile, 邪术石楼梯
+thaumicaugmentation:bars:0, 荒古栏杆
+thaumicaugmentation:fortified_glass, 奥术强化玻璃
+thaumicaugmentation:fortified_glass_pane, 奥术强化玻璃板
+thaumicaugmentation:starfield_glass:0, 星域玻璃（裂隙）
+thaumicaugmentation:starfield_glass:1, 星域玻璃（维度裂缝）
+thaumicaugmentation:starfield_glass:2, 星域玻璃（魔镜）
+thaumicaugmentation:capstone:0, 邪术拱顶石
+thaumicaugmentation:capstone:1, 荒古拱顶石
+thaumicaugmentation:capstone:2, 开眼邪术拱顶石
+thaumicaugmentation:capstone:3, 开眼荒古拱顶石
+thaumicaugmentation:strange_crystal, 诡异魔晶
+thaumicaugmentation:crab_vent, 陈年孔洞
+thaumicaugmentation:eldritch_lock:0, 邪术锁孔
+thaumicaugmentation:eldritch_lock:1, 邪术锁孔
+thaumicaugmentation:eldritch_lock:2, 邪术锁孔
+thaumicaugmentation:eldritch_lock:3, 邪术锁孔
+thaumicaugmentation:eldritch_lock_impetus, 邪术锁孔
+thaumicaugmentation:button_greatwood, 宏伟之木按钮
+thaumicaugmentation:button_silverwood, 银木按钮
+thaumicaugmentation:button_arcane_stone, 奥术石按钮
+thaumicaugmentation:warded_button_greatwood, 宏伟之木奥能按钮
+thaumicaugmentation:warded_button_silverwood, 银木奥能按钮
+thaumicaugmentation:warded_button_arcane_stone, 奥术石奥能按钮
+thaumicaugmentation:pressure_plate_greatwood, 宏伟之木压力板
+thaumicaugmentation:pressure_plate_silverwood, 银木压力板
+thaumicaugmentation:pressure_plate_arcane_stone, 奥术石压力板
+thaumicaugmentation:warded_pressure_plate_greatwood, 宏伟之木奥能压力板
+thaumicaugmentation:warded_pressure_plate_silverwood, 银木奥能压力板
+thaumicaugmentation:warded_pressure_plate_arcane_stone, 奥术石奥能压力板
+thaumicaugmentation:urn:0, 寻常瓮
+thaumicaugmentation:urn:1, 非凡瓮
+thaumicaugmentation:urn:2, 罕见瓮
+thaumicaugmentation:item_grate, 滤物格栅
+thaumicaugmentation:glass_tube, 玻璃源质管道
+thaumicaugmentation:impetus_creative:0, Creative Impetus Source
+thaumicaugmentation:impetus_creative:1, Creative Impetus Sink
+thaumicaugmentation:gauntlet:0, 神秘法师护手
+thaumicaugmentation:gauntlet:1, 虚空预言者法师护手
+thaumicaugmentation:material:0, 灵气再生格栅
+thaumicaugmentation:material:1, 守护印记
+thaumicaugmentation:material:2, 齿轮组
+thaumicaugmentation:material:3, 元动能量单元
+thaumicaugmentation:material:4, 背带基底
+thaumicaugmentation:material:5, 元动宝石
+thaumicaugmentation:seal_copier, 印记拓印器
+thaumicaugmentation:arcane_door:0, 宏伟之木奥能之扉
+thaumicaugmentation:arcane_door:1, 神秘奥能之扉
+thaumicaugmentation:arcane_door:2, 银木奥能之扉
+thaumicaugmentation:key:0, 铁钥匙
+thaumicaugmentation:key:1, 黄铜钥匙
+thaumicaugmentation:key:2, 神秘钥匙
+thaumicaugmentation:void_boots, 虚空神秘使靴子
+thaumicaugmentation:rift_seed:0, 咒波裂隙种子
+thaumicaugmentation:rift_seed:0, 咒波裂隙种子
+thaumicaugmentation:rift_seed:1, 咒波种子
+thaumicaugmentation:rift_seed:1, 咒波种子
+thaumicaugmentation:augment_caster_rift_energy_storage, 元动能量电池
+thaumicaugmentation:fracture_locator:0, 裂缝定位器
+thaumicaugmentation:augment_builder_power:0, 调整器：求知
+thaumicaugmentation:augment_builder_power:0, 调整器：元素
+thaumicaugmentation:augment_builder_power:0, 调整器：主世界
+thaumicaugmentation:augment_builder_power:0, 调整器：下界
+thaumicaugmentation:augment_builder_power:0, 调整器：末地
+thaumicaugmentation:augment_builder_power:0, 调整器：虚域
+thaumicaugmentation:augment_builder_power:0, 调整器：增流
+thaumicaugmentation:augment_builder_effect:0, 增效水晶：核心效能
+thaumicaugmentation:augment_builder_effect:0, 增效水晶：施法速度
+thaumicaugmentation:augment_builder_effect:0, 增效水晶：灵气减免
+thaumicaugmentation:morphic_tool, 幻形工具
+thaumicaugmentation:primal_cutter:0, 元始刃
+thaumicaugmentation:primal_cutter:0, 元始刃
+thaumicaugmentation:rift_jar:0, 奥术强化罐子
+thaumicaugmentation:rift_jar:0, 缸中裂隙
+thaumicaugmentation:impetus_mirror:0, 元动之镜
+thaumicaugmentation:impetus_linker:0, 元动谐振器
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:biome_selector:0, 群系核心
+thaumicaugmentation:thaumostatic_harness:0, 奥法背带
+thaumicaugmentation:thaumostatic_harness_augment:0, 回转仪升级组件
+thaumicaugmentation:thaumostatic_harness_augment:1, 腰带升级组件
+thaumicaugmentation:elytra_harness:0, 奥法鞘翅
+thaumicaugmentation:elytra_harness_augment:0, 元动助推器升级组件
+thaumicaugmentation:autocaster_placer:0, 施法器
+thaumicaugmentation:autocaster_placer:1, 邪术施法器
+thaumicaugmentation:impulse_cannon:0, 元动加农炮
+thaumicaugmentation:impulse_cannon_augment:0, 轨道炮模式组件
+thaumicaugmentation:impulse_cannon_augment:1, 迸射模式组件
+thaumicaugmentation:focus_ancient, 荒古核心
+thaumicaugmentation:eldritch_lock_key:0, 符文石板
+thaumicaugmentation:eldritch_lock_key:1, 镶尖符咒
+thaumicaugmentation:eldritch_lock_key:2, 禁忌知识
+thaumicaugmentation:eldritch_lock_key:3, 凶险剑刃
+thaumicaugmentation:obelisk_placer:0, 邪术方尖碑
+thaumicaugmentation:obelisk_placer:1, 荒古方尖碑
+thaumicaugmentation:research_notes:0, 破旧卷轴
+thaumicaugmentation:augment_vis_battery, 便携灵气电池
+thaumicaugmentation:thaumium_robes_hood, 秘术师兜帽
+thaumicaugmentation:thaumium_robes_chestplate, 秘术师法袍
+thaumicaugmentation:thaumium_robes_leggings, 秘术师护腿
+thaumicaugmentation:celestial_observer_placer, 天象瞭望镜
 appliedenergistics2:quartz_ore, 赛特斯石英矿石
 appliedenergistics2:charged_quartz_ore, 充能赛特斯石英矿石
 appliedenergistics2:matrix_frame, 矩阵框架
@@ -3895,7 +4387,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - Gold-Bordered Cobblestone
 appliedenergistics2:facade:0, 线缆伪装板 - Diamond-Bordered Cobblestone
 appliedenergistics2:facade:0, 线缆伪装板 - Emerald-Bordered Cobblestone
 appliedenergistics2:facade:0, 线缆伪装板 - Quartz-Bordered Cobblestone
-appliedenergistics2:facade:0, 线缆伪装板 - 強化透水石
+appliedenergistics2:facade:0, 线缆伪装板 - 强化透水石
 appliedenergistics2:facade:0, 线缆伪装板 - 自魔匣
 appliedenergistics2:facade:0, 线缆伪装板 - 黎明图腾
 appliedenergistics2:facade:0, 线缆伪装板 - 暮色图腾
@@ -3945,6 +4437,57 @@ appliedenergistics2:facade:0, 线缆伪装板 - 末影橡木木板
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱橡木原木
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱橡树树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱橡木木板
+appliedenergistics2:facade:0, 线缆伪装板 - Peaceful Wood
+appliedenergistics2:facade:0, 线缆伪装板 - Peaceful Leaves
+appliedenergistics2:facade:0, 线缆伪装板 - Peaceful Planks
+appliedenergistics2:facade:0, 线缆伪装板 - 琥珀矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 朱砂矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 石英矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 奥术石材
+appliedenergistics2:facade:0, 线缆伪装板 - 奥术石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古石
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古砖块
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古岩
+appliedenergistics2:facade:0, 线缆伪装板 - 雕文石头
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古门廊
+appliedenergistics2:facade:0, 线缆伪装板 - 邪术石
+appliedenergistics2:facade:0, 线缆伪装板 - 透水石
+appliedenergistics2:facade:0, 线缆伪装板 - 宏伟之木原木
+appliedenergistics2:facade:0, 线缆伪装板 - 银树原木
+appliedenergistics2:facade:0, 线缆伪装板 - 宏伟之木树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 银树树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 宏伟之木木板
+appliedenergistics2:facade:0, 线缆伪装板 - 银树木板
+appliedenergistics2:facade:0, 线缆伪装板 - 琥珀方块
+appliedenergistics2:facade:0, 线缆伪装板 - 琥珀砖块
+appliedenergistics2:facade:0, 线缆伪装板 - 血肉方块
+appliedenergistics2:facade:0, 线缆伪装板 - 陈年污点
+appliedenergistics2:facade:0, 线缆伪装板 - 腐化泥土
+appliedenergistics2:facade:0, 线缆伪装板 - 腐化岩石
+appliedenergistics2:facade:0, 线缆伪装板 - 腐化喷泉
+appliedenergistics2:facade:0, 线缆伪装板 - 腐化原木
+appliedenergistics2:facade:0, 线缆伪装板 - 蕴魔草方块
+appliedenergistics2:facade:0, 线缆伪装板 - 黄铜方块
+appliedenergistics2:facade:0, 线缆伪装板 - 神秘块
+appliedenergistics2:facade:0, 线缆伪装板 - 虚空金属块
+appliedenergistics2:facade:0, 线缆伪装板 - 炼金构材
+appliedenergistics2:facade:0, 线缆伪装板 - 高级炼金构材
+appliedenergistics2:facade:0, 线缆伪装板 - 注魔加速石
+appliedenergistics2:facade:0, 线缆伪装板 - 注魔效能石
+appliedenergistics2:facade:0, 线缆伪装板 - 灵气电池
+appliedenergistics2:facade:0, 线缆伪装板 - 间隙
+appliedenergistics2:facade:0, 线缆伪装板 - 虚空石
+appliedenergistics2:facade:0, 线缆伪装板 - 腐化虚空石
+appliedenergistics2:facade:0, 线缆伪装板 - 腐化虚空石壤
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古符石
+appliedenergistics2:facade:0, 线缆伪装板 - 雕文古石
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 陈年石头
+appliedenergistics2:facade:0, 线缆伪装板 - 发光陈年石头
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古石柱
+appliedenergistics2:facade:0, 线缆伪装板 - 平滑荒古石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 荒古石灯
 appliedenergistics2:facade:0, 线缆伪装板 - 赛特斯石英矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 充能赛特斯石英矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 赛特斯石英块
@@ -3957,6 +4500,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - 陨石
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石块
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石砖块
+appliedenergistics2:facade:0, 线缆伪装板 - Raw Radiant Quartz Block
+appliedenergistics2:facade:0, 线缆伪装板 - Shaped Radiant Quartz Block
 appliedenergistics2:facade:0, 线缆伪装板 - 空白符文
 appliedenergistics2:facade:0, 线缆伪装板 - 速度符文
 appliedenergistics2:facade:0, 线缆伪装板 - 效率符文
@@ -4040,42 +4585,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - [腐蚀]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [破坏]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [复仇]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [坚毅]意志之瞳
-appliedenergistics2:facade:0, 线缆伪装板 - 琥珀矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 朱砂矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 石英矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 奥术石材
-appliedenergistics2:facade:0, 线缆伪装板 - 奥术石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古石
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古砖块
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古岩
-appliedenergistics2:facade:0, 线缆伪装板 - 雕文石头
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古门廊
-appliedenergistics2:facade:0, 线缆伪装板 - 邪术石
-appliedenergistics2:facade:0, 线缆伪装板 - 透水石
-appliedenergistics2:facade:0, 线缆伪装板 - 宏伟之木原木
-appliedenergistics2:facade:0, 线缆伪装板 - 银树原木
-appliedenergistics2:facade:0, 线缆伪装板 - 宏伟之木树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 银树树叶
-appliedenergistics2:facade:0, 线缆伪装板 - 宏伟之木木板
-appliedenergistics2:facade:0, 线缆伪装板 - 银树木板
-appliedenergistics2:facade:0, 线缆伪装板 - 琥珀方块
-appliedenergistics2:facade:0, 线缆伪装板 - 琥珀砖块
-appliedenergistics2:facade:0, 线缆伪装板 - 血肉方块
-appliedenergistics2:facade:0, 线缆伪装板 - 陈年污点
-appliedenergistics2:facade:0, 线缆伪装板 - 腐化泥土
-appliedenergistics2:facade:0, 线缆伪装板 - 腐化岩石
-appliedenergistics2:facade:0, 线缆伪装板 - 腐化喷泉
-appliedenergistics2:facade:0, 线缆伪装板 - 腐化原木
-appliedenergistics2:facade:0, 线缆伪装板 - 蕴魔草方块
-appliedenergistics2:facade:0, 线缆伪装板 - 黄铜方块
-appliedenergistics2:facade:0, 线缆伪装板 - 神秘块
-appliedenergistics2:facade:0, 线缆伪装板 - 虚空金属块
-appliedenergistics2:facade:0, 线缆伪装板 - 炼金构材
-appliedenergistics2:facade:0, 线缆伪装板 - 高级炼金构材
-appliedenergistics2:facade:0, 线缆伪装板 - 注魔加速石
-appliedenergistics2:facade:0, 线缆伪装板 - 注魔效能石
-appliedenergistics2:facade:0, 线缆伪装板 - 灵气电池
-appliedenergistics2:facade:0, 线缆伪装板 - 间隙
 appliedenergistics2:facade:0, 线缆伪装板 - 活石
 appliedenergistics2:facade:0, 线缆伪装板 - 活石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 苔活石砖
@@ -6188,18 +6697,21 @@ appliedenergistics2:facade:0, 线缆伪装板 - 橙色地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 橙色地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 地毯
+appliedenergistics2:facade:0, 线缆伪装板 - Chocolate
+appliedenergistics2:facade:0, 线缆伪装板 - 精密侦测器
+appliedenergistics2:facade:0, 线缆伪装板 - 闸式侦测器
+appliedenergistics2:facade:0, 线缆伪装板 - 实体侦测器
+appliedenergistics2:facade:0, 线缆伪装板 - 监视器
+appliedenergistics2:facade:0, 线缆伪装板 - 炼化块
+appliedenergistics2:facade:0, 线缆伪装板 - 铋块
+appliedenergistics2:facade:0, 线缆伪装板 - 炼化炼金构材
+appliedenergistics2:facade:0, 线缆伪装板 - 镜面矩阵
 appliedenergistics2:facade:0, 线缆伪装板 - 腐化树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 腐化原木
 appliedenergistics2:facade:0, 线缆伪装板 - 腐化石头
 appliedenergistics2:facade:0, 线缆伪装板 - 腐化石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 腐化木板
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Star Block
-appliedenergistics2:facade:0, 线缆伪装板 - 灵液块
-appliedenergistics2:facade:0, 线缆伪装板 - Chocolate
-appliedenergistics2:facade:0, 线缆伪装板 - 炼化块
-appliedenergistics2:facade:0, 线缆伪装板 - 铋块
-appliedenergistics2:facade:0, 线缆伪装板 - 炼化炼金构材
-appliedenergistics2:facade:0, 线缆伪装板 - 镜面矩阵
 appliedenergistics2:facade:0, 线缆伪装板 - 橡木桥接方块
 appliedenergistics2:facade:0, 线缆伪装板 - 云杉木桥接方块
 appliedenergistics2:facade:0, 线缆伪装板 - 白桦木桥接方块
@@ -6225,18 +6737,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 光明金属块
 appliedenergistics2:facade:0, 线缆伪装板 - 暗影金属块
 appliedenergistics2:facade:0, 线缆伪装板 - 光明矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 暗影矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 虚空石
-appliedenergistics2:facade:0, 线缆伪装板 - 腐化虚空石
-appliedenergistics2:facade:0, 线缆伪装板 - 腐化虚空石壤
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古符石
-appliedenergistics2:facade:0, 线缆伪装板 - 雕文古石
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 陈年石头
-appliedenergistics2:facade:0, 线缆伪装板 - 发光陈年石头
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古石柱
-appliedenergistics2:facade:0, 线缆伪装板 - 平滑荒古石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 荒古石灯
+appliedenergistics2:facade:0, 线缆伪装板 - 烟黑石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 灵宝块
+appliedenergistics2:facade:0, 线缆伪装板 - Chlorophyte Ore
 appliedenergistics2:facade:0, 线缆伪装板 - Hexamite
 appliedenergistics2:facade:0, 线缆伪装板 - Flux Capacitor
 appliedenergistics2:facade:0, 线缆伪装板 - Coalescence Matrix
@@ -6577,6 +7080,58 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
+gbook_snapshot:guidebook:0, Guidebook Manual
+gbook_snapshot:guidebook:0, Guidebook Additions Manual
+arcanearchives:raw_quartz, Raw Radiant Quartz
+arcanearchives:shaped_quartz, Shaped Radiant Quartz
+arcanearchives:debugorb, Dhi Bogh's Sphere of Divination
+arcanearchives:manifest, Manifest
+arcanearchives:tome_arcana:0, Tome of Arcana
+arcanearchives:letter_invitation, Letter of Invitation
+arcanearchives:letter_resignation, Letter of Resignation
+arcanearchives:writ_expulsion, Writ of Expulsion
+arcanearchives:radiant_amphora, Radiant Amphora
+arcanearchives:containment_field, Containment Field
+arcanearchives:matrix_brace, Matrix Brace
+arcanearchives:material_interface, Material Interface
+arcanearchives:radiant_dust, Radiant Dust
+arcanearchives:scintillating_inlay, Scintillating Inlay
+arcanearchives:devouring_charm, Devouring Charm
+arcanearchives:scepter_revelation, Scepter of Revelation
+arcanearchives:scepter_manipulation, Scepter of Manipulation
+arcanearchives:gemsocket, Gem Socket
+arcanearchives:slaughtergleam, Slaughtergleam
+arcanearchives:murdergleam, Murdergleam
+arcanearchives:agegleam, Agegleam
+arcanearchives:cleansegleam, Cleansegleam
+arcanearchives:switchgleam, Switchgleam
+arcanearchives:salvegleam, Salvegleam
+arcanearchives:munchstone, Munchstone
+arcanearchives:orderstone, Orderstone
+arcanearchives:mindspindle, Mindspindle
+arcanearchives:elixirspindle, Elixirspindle
+arcanearchives:mountaintear, Mountaintear
+arcanearchives:rivertear, Rivertear
+arcanearchives:parchtear, Parchtear
+arcanearchives:phoenixway, Phoenixway
+arcanearchives:stormway, Stormway
+arcanearchives:chromatic_powder, Impossibly Colorless Chromatic Powder
+arcanearchives:full_spectrum_chromatic_powder, Full-Spectrum Chromatic Powder
+arcanearchives:radiant_key, Radiant Key
+arcanearchives:quartz_sliver, Sliver of Light
+arcanearchives:storage_raw_quartz, Raw Radiant Quartz Block
+arcanearchives:storage_shaped_quartz, Shaped Radiant Quartz Block
+arcanearchives:radiant_chest, Radiant Chest
+arcanearchives:radiant_crafting_table, Radiant Crafting Table
+arcanearchives:radiant_lantern, Radiant Lantern
+arcanearchives:radiant_resonator, Radiant Resonator
+arcanearchives:raw_quartz_cluster, Raw Quartz Cluster
+arcanearchives:lectern_manifest, Manifest Lectern
+arcanearchives:gemcutters_table, Gem Cutter's Table
+arcanearchives:radiant_trove, Radiant Trove
+arcanearchives:monitoring_crystal, Monitoring Crystal
+arcanearchives:radiant_tank, Radiant Tank
+arcanearchives:brazier_of_hoarding, Brazier of Hoarding
 bloodmagic:altar, 血之祭坛
 bloodmagic:blood_rune:0, 空白符文
 bloodmagic:blood_rune:1, 速度符文
@@ -6904,250 +7459,6 @@ bloodmagic:demon_will_gauge, 灵域测量仪
 bloodmagic:potion_flask, 药剂瓶
 bloodmagic:alchemic_vial, item.bloodmagic.alchemic_vial.name
 bloodmagic:icarus_scroll, Scroll of Icarus
-baubles:ring:0, 矿工指环
-thaumcraft:thaumonomicon:0, 魔导手册
-thaumcraft:curio:0, 奥术珍品
-thaumcraft:curio:1, 传世珍品
-thaumcraft:curio:2, 远古珍品
-thaumcraft:curio:3, 邪术珍品
-thaumcraft:curio:4, 光明珍品
-thaumcraft:curio:5, 扭曲珍品
-thaumcraft:curio:6, 血腥仪式
-thaumcraft:loot_bag:0, 寻常藏宝袋
-thaumcraft:loot_bag:1, 稀有藏宝袋
-thaumcraft:loot_bag:2, 罕见藏宝袋
-thaumcraft:primordial_pearl, item.primordial_pearl.name
-thaumcraft:pech_wand, 岩精法杖
-thaumcraft:celestial_notes:0, 天象笔记
-thaumcraft:celestial_notes:1, 天象笔记
-thaumcraft:celestial_notes:2, 天象笔记
-thaumcraft:celestial_notes:3, 天象笔记
-thaumcraft:celestial_notes:4, 天象笔记
-thaumcraft:celestial_notes:5, 天象笔记
-thaumcraft:celestial_notes:6, 天象笔记
-thaumcraft:celestial_notes:7, 天象笔记
-thaumcraft:celestial_notes:8, 天象笔记
-thaumcraft:celestial_notes:9, 天象笔记
-thaumcraft:celestial_notes:10, 天象笔记
-thaumcraft:celestial_notes:11, 天象笔记
-thaumcraft:celestial_notes:12, 天象笔记
-thaumcraft:amber, 琥珀
-thaumcraft:quicksilver, 水银
-thaumcraft:ingot:0, 神秘锭
-thaumcraft:ingot:1, 虚空金属锭
-thaumcraft:ingot:2, 炼金黄铜锭
-thaumcraft:nugget:0, 铁粒
-thaumcraft:nugget:1, 铜粒
-thaumcraft:nugget:2, 锡粒
-thaumcraft:nugget:3, 银粒
-thaumcraft:nugget:4, 铅粒
-thaumcraft:nugget:5, 水银液滴
-thaumcraft:nugget:6, 神秘粒
-thaumcraft:nugget:7, 虚空金属粒
-thaumcraft:nugget:8, 炼金黄铜粒
-thaumcraft:nugget:9, 石英碎片
-thaumcraft:nugget:10, 稀土
-thaumcraft:cluster:0, 铁原矿簇
-thaumcraft:cluster:1, 金原矿簇
-thaumcraft:cluster:2, 铜原矿簇
-thaumcraft:cluster:3, 锡原矿簇
-thaumcraft:cluster:4, 银原矿簇
-thaumcraft:cluster:5, 铅原矿簇
-thaumcraft:cluster:6, 朱砂原矿簇
-thaumcraft:cluster:7, 石英原矿簇
-thaumcraft:fabric, 魔力布匹
-thaumcraft:vis_resonator, 魔力谐振器
-thaumcraft:tallow, 魔力油脂
-thaumcraft:mechanism_simple, 简易奥术装置
-thaumcraft:mechanism_complex, 精密奥术装置
-thaumcraft:plate:0, 黄铜板
-thaumcraft:plate:1, 铁板
-thaumcraft:plate:2, 神秘板
-thaumcraft:plate:3, 虚空金属板
-thaumcraft:filter, 源质滤管
-thaumcraft:morphic_resonator, 形态谐振器
-thaumcraft:salis_mundus, 世界盐
-thaumcraft:mirrored_glass, 镜面玻璃
-thaumcraft:void_seed, 虚空种子
-thaumcraft:mind:0, 发条之心
-thaumcraft:mind:1, 神秘生物学之心
-thaumcraft:module:0, 视觉组件
-thaumcraft:module:1, 攻击组件
-thaumcraft:crystal_essence, %s 魔力水晶碎片
-thaumcraft:chunk:0, 牛肉粒
-thaumcraft:chunk:1, 鸡肉粒
-thaumcraft:chunk:2, 猪肉粒
-thaumcraft:chunk:3, 鱼肉粒
-thaumcraft:chunk:4, 兔肉粒
-thaumcraft:chunk:5, 羊肉粒
-thaumcraft:triple_meat_treat, 三层肉饼
-thaumcraft:brain, 僵尸之脑
-thaumcraft:label:0, 空白标签
-thaumcraft:phial:0, 玻璃安瓿
-thaumcraft:phial:1, Aer 源质安瓿
-thaumcraft:phial:1, Terra 源质安瓿
-thaumcraft:phial:1, Ignis 源质安瓿
-thaumcraft:phial:1, Aqua 源质安瓿
-thaumcraft:phial:1, Ordo 源质安瓿
-thaumcraft:phial:1, Perditio 源质安瓿
-thaumcraft:phial:1, Vacuos 源质安瓿
-thaumcraft:phial:1, Lux 源质安瓿
-thaumcraft:phial:1, Motus 源质安瓿
-thaumcraft:phial:1, Gelum 源质安瓿
-thaumcraft:phial:1, Vitreus 源质安瓿
-thaumcraft:phial:1, Metallum 源质安瓿
-thaumcraft:phial:1, Victus 源质安瓿
-thaumcraft:phial:1, Mortuus 源质安瓿
-thaumcraft:phial:1, Potentia 源质安瓿
-thaumcraft:phial:1, Permutatio 源质安瓿
-thaumcraft:phial:1, Praecantatio 源质安瓿
-thaumcraft:phial:1, Auram 源质安瓿
-thaumcraft:phial:1, Alkimia 源质安瓿
-thaumcraft:phial:1, Vitium 源质安瓿
-thaumcraft:phial:1, Tenebrae 源质安瓿
-thaumcraft:phial:1, Alienis 源质安瓿
-thaumcraft:phial:1, Volatus 源质安瓿
-thaumcraft:phial:1, Herba 源质安瓿
-thaumcraft:phial:1, Instrumentum 源质安瓿
-thaumcraft:phial:1, Fabrico 源质安瓿
-thaumcraft:phial:1, Machina 源质安瓿
-thaumcraft:phial:1, Vinculum 源质安瓿
-thaumcraft:phial:1, Spiritus 源质安瓿
-thaumcraft:phial:1, Cognitio 源质安瓿
-thaumcraft:phial:1, Sensus 源质安瓿
-thaumcraft:phial:1, Aversio 源质安瓿
-thaumcraft:phial:1, Praemunio 源质安瓿
-thaumcraft:phial:1, Desiderium 源质安瓿
-thaumcraft:phial:1, Exanimis 源质安瓿
-thaumcraft:phial:1, Bestia 源质安瓿
-thaumcraft:phial:1, Humanus 源质安瓿
-thaumcraft:phial:1, Fames 源质安瓿
-thaumcraft:phial:1, Corpus 源质安瓿
-thaumcraft:phial:1, Invidia 源质安瓿
-thaumcraft:phial:1, Gula 源质安瓿
-thaumcraft:phial:1, Luxuria 源质安瓿
-thaumcraft:phial:1, Infernus 源质安瓿
-thaumcraft:phial:1, Superbia 源质安瓿
-thaumcraft:phial:1, Desidia 源质安瓿
-thaumcraft:phial:1, Ira 源质安瓿
-thaumcraft:phial:1, Terminus 源质安瓿
-thaumcraft:phial:1, Fluctus 源质安瓿
-thaumcraft:phial:1, Sonus 源质安瓿
-thaumcraft:phial:1, Exitium 源质安瓿
-thaumcraft:phial:1, Caeles 源质安瓿
-thaumcraft:phial:1, Draco 源质安瓿
-thaumcraft:phial:1, Infernum 源质安瓿
-thaumcraft:phial:1, Ventus 源质安瓿
-thaumcraft:phial:1, Visum 源质安瓿
-thaumcraft:phial:1, Imperium 源质安瓿
-thaumcraft:phial:1, Spatio 源质安瓿
-thaumcraft:phial:1, Tempus 源质安瓿
-thaumcraft:phial:1, Tinctura 源质安瓿
-thaumcraft:alumentum:0, 源动之焰
-thaumcraft:jar_brace, 黄铜盖箍
-thaumcraft:bottle_taint, 腐化瓶
-thaumcraft:sanity_soap, 祛邪肥皂
-thaumcraft:bath_salts, 净化浴盐
-thaumcraft:turret:0, 自动十字弩
-thaumcraft:turret:1, 高级自动弩
-thaumcraft:turret:2, 奥术钻探机
-thaumcraft:causality_collapser, 悖论物质
-thaumcraft:scribing_tools, 笔与墨
-thaumcraft:thaumometer, 魔导透镜
-thaumcraft:resonator, 源质谐振器
-thaumcraft:sanity_checker, 神智检测仪
-thaumcraft:hand_mirror, 魔力手镜
-thaumcraft:thaumium_axe, 神秘斧
-thaumcraft:thaumium_sword, 神秘剑
-thaumcraft:thaumium_shovel, 神秘锹
-thaumcraft:thaumium_pick, 神秘镐
-thaumcraft:thaumium_hoe, 神秘锄
-thaumcraft:void_axe, 虚空斧
-thaumcraft:void_sword, 虚空剑
-thaumcraft:void_shovel, 虚空锹
-thaumcraft:void_pick, 虚空镐
-thaumcraft:void_hoe, 虚空锄
-thaumcraft:elemental_axe, 奔流斧
-thaumcraft:elemental_sword, 风雷剑
-thaumcraft:elemental_shovel, 后土铲
-thaumcraft:elemental_pick, 炽心镐
-thaumcraft:elemental_hoe, 句芒锄
-thaumcraft:primal_crusher, 元始杵
-thaumcraft:crimson_blade, 血腥之刃
-thaumcraft:grapple_gun, 奥术机动装置
-thaumcraft:grapple_gun_tip, 机动装置头部
-thaumcraft:grapple_gun_spool, 机动装置滚轴
-thaumcraft:goggles, 揭示之护目镜
-thaumcraft:thaumium_helm, 神秘头盔
-thaumcraft:thaumium_chest, 神秘胸甲
-thaumcraft:thaumium_legs, 神秘护腿
-thaumcraft:thaumium_boots, 神秘靴子
-thaumcraft:cloth_chest, 神秘使法袍
-thaumcraft:cloth_legs, 神秘使护腿
-thaumcraft:cloth_boots, 神秘使之靴
-thaumcraft:traveller_boots, 旅行者之靴
-thaumcraft:fortress_helm, 神秘要塞兜鍪
-thaumcraft:fortress_chest, 神秘要塞胸铠
-thaumcraft:fortress_legs, 神秘要塞护胫
-thaumcraft:void_helm, 虚空头盔
-thaumcraft:void_chest, 虚空胸甲
-thaumcraft:void_legs, 虚空护腿
-thaumcraft:void_boots, 虚空靴子
-thaumcraft:void_robe_helm, 虚空神秘使兜帽
-thaumcraft:void_robe_chest, 虚空神秘使法袍
-thaumcraft:void_robe_legs, 虚空神秘使护腿
-thaumcraft:crimson_plate_helm, 血腥邪徒头盔
-thaumcraft:crimson_plate_chest, 血腥邪徒胸甲
-thaumcraft:crimson_plate_legs, 血腥邪徒护胫
-thaumcraft:crimson_boots, 血腥邪徒靴子
-thaumcraft:crimson_robe_helm, 血腥邪徒兜帽
-thaumcraft:crimson_robe_chest, 血腥邪徒法袍
-thaumcraft:crimson_robe_legs, 血腥邪徒护腿
-thaumcraft:crimson_praetor_helm, 血腥主教头盔
-thaumcraft:crimson_praetor_chest, 血腥主教胸甲
-thaumcraft:crimson_praetor_legs, 血腥主教护胫
-thaumcraft:baubles:0, 凡人护身符
-thaumcraft:baubles:1, 凡人指环
-thaumcraft:baubles:2, 凡人腰带
-thaumcraft:baubles:3, 学徒指环
-thaumcraft:baubles:4, 精致护身符
-thaumcraft:baubles:5, 精致指环
-thaumcraft:baubles:6, 精致腰带
-thaumcraft:amulet_vis:0, 魔力石
-thaumcraft:amulet_vis:1, 魔力护身符
-thaumcraft:verdant_charm, 翠心指环
-thaumcraft:curiosity_band, 求知发带
-thaumcraft:voidseer_charm, 虚空预言者的珍珠
-thaumcraft:cloud_ring, 云霄指环
-thaumcraft:charm_undying, 不死护符
-thaumcraft:creative_flux_sponge, 咒波清理海绵
-thaumcraft:enchanted_placeholder, 任何附魔物品
-thaumcraft:caster_basic, 法师护手
-thaumcraft:focus_1, 空白次级核心
-thaumcraft:focus_2, 空白高级核心
-thaumcraft:focus_3, 空白大师核心
-thaumcraft:focus_pouch, 施术核心手袋
-thaumcraft:golem_bell, 傀儡使铃铛
-thaumcraft:golem, 傀儡
-thaumcraft:seal:0, 空白印记
-thaumcraft:seal:1, 操控印记：聚集
-thaumcraft:seal:2, 高级操控印记：聚集
-thaumcraft:seal:3, 操控印记：贮存
-thaumcraft:seal:4, 高级操控印记：贮存
-thaumcraft:seal:5, 操控印记：空置
-thaumcraft:seal:6, 高级操控印记：空置
-thaumcraft:seal:7, 操控印记：收获
-thaumcraft:seal:8, 操控印记：屠宰
-thaumcraft:seal:9, 操控印记：守卫
-thaumcraft:seal:10, 高级操控印记：守卫
-thaumcraft:seal:11, 操控印记：砍伐
-thaumcraft:seal:12, 操控印记：采掘
-thaumcraft:seal:13, 操控印记：使用
-thaumcraft:seal:14, 操控印记：供给
-thaumcraft:seal:15, 操控印记：仓储
-thaumcraft:seal:16, Control Seal: Advanced Block Breaker
-thaumcraft:seal:17, 操控印记：治安
-thaumcraft:seal:18, 高级操控印记：治安
 botania:flower:0, 白色神秘花
 botania:flower:1, 橙色神秘花
 botania:flower:2, 品红色神秘花
@@ -7985,6 +8296,14 @@ botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
 botania:managlasspane, tile.manaGlassPane.name
 botania:elfglasspane, tile.elfGlassPane.name
 botania:bifrostpermpane, tile.bifrostPermPane.name
+betterquesting:placeholder, Item Placeholder
+betterquesting:extra_life:0, Extra Life
+betterquesting:extra_life:1, Half Heart
+betterquesting:extra_life:2, Quarter Heart
+betterquesting:guide_book, Better Questing Starter Guide
+bq_standard:loot_chest, Loot Chest
+betterquesting:quest_book, Quest Book
+betterquesting:submit_station, Object Submission Station (OSS)
 bibliocraft:bookcase:0, 橡木书架
 bibliocraft:bookcase:1, 云杉木书架
 bibliocraft:bookcase:2, 白桦木书架
@@ -8409,106 +8728,8 @@ chisel:chisel_iron, 凿子
 chisel:chisel_diamond, 钻石凿子
 chisel:chisel_hitech, iChisel
 chisel:offsettool, 末影纹理平移手杖
-forbiddenmagicre:morph_shovel, Chameleon Shovel
-forbiddenmagicre:morph_sword, 避役剑
-forbiddenmagicre:morph_pick, Chameleon Pickaxe
-forbiddenmagicre:morph_axe, Chameleon Axe
-forbiddenmagicre:distortion_pick, 畸变镐
-forbiddenmagicre:riding_crop, 马鞭
-forbiddenmagicre:diabolist_fork, 妖魔之叉
-forbiddenmagicre:skull_axe, 啄颅斧
-forbiddenmagicre:resourcefm:0, 绿宝石碎片
-forbiddenmagicre:resourcefm:1, 暗影染料
-forbiddenmagicre:resourcefm:2, 腐血碎片
-forbiddenmagicre:resourcenethershard:0, 暴怒碎片
-forbiddenmagicre:resourcenethershard:1, 嫉妒碎片
-forbiddenmagicre:resourcenethershard:2, 傲慢碎片
-forbiddenmagicre:resourcenethershard:3, 欲望碎片
-forbiddenmagicre:resourcenethershard:4, 懈怠碎片
-forbiddenmagicre:resourcenethershard:5, 贪婪碎片
-forbiddenmagicre:gluttony_shard, 暴食碎片
-forbiddenmagicre:taint_fruit, 腐化果实
-forbiddenmagicre:taint_charcoal, 六重煤炭
-forbiddenmagicre:mob_crystal:0, 空白留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:mob_crystal:0, 留影水晶
-forbiddenmagicre:black_rose, 暗影玫瑰
-forbiddenmagicre:black_rose_bush, 暗影玫瑰丛
-forbiddenmagicre:arcane_cake, 奥术蛋糕
-forbiddenmagicre:sapling_tainted, 腐化树苗
-forbiddenmagicre:leaves_tainted, 腐化树叶
-forbiddenmagicre:log_tainted, 腐化原木
-forbiddenmagicre:tainted_stone, 腐化石头
-forbiddenmagicre:tainted_brick, 腐化石砖
-forbiddenmagicre:taint_planks, 腐化木板
-forbiddenmagicre:wrath_cage, 暴怒之笼
-forbiddenmagicre:netherstar_block, Nether Star Block
-forbiddenmagicre:eldritch_orb, [邪术]气血宝珠
-forbiddenmagicre:blood_rapier, 血鸮西洋剑
 gravestone:gravestone, 墓碑
 gravestone:death_info, Obituary
-ichoriumkit:ichorium_sword, 灵宝剑
-ichoriumkit:ichorium_pick, 灵宝镐
-ichoriumkit:ichorium_axe, 灵宝斧
-ichoriumkit:ichorium_shovel, 灵宝铲
-ichoriumkit:ichor_helm, 灵布头巾
-ichoriumkit:ichor_chest, 灵布法袍
-ichoriumkit:ichor_legs, 灵布护腿
-ichoriumkit:ichor_boots, 灵布靴子
-ichoriumkit:kami_helm, 无尽深渊之帽
-ichoriumkit:kami_chest, 云霄塔之法袍
-ichoriumkit:kami_legs, 熔岩地幔之护腿
-ichoriumkit:kami_boots, 地平线盾牌之靴
-ichoriumkit:ichorium_pick_adv, 觉醒灵宝镐
-ichoriumkit:ichorium_axe_adv, 觉醒灵宝斧
-ichoriumkit:ichorium_shovel_adv, 觉醒灵宝铲
-ichoriumkit:ichorium_sword_adv, 觉醒灵宝剑
-ichoriumkit:resourcekami:0, 末影裂痕
-ichoriumkit:resourcekami:1, 下界残片
-ichoriumkit:resourcekami:2, 灵液
-ichoriumkit:resourcekami:3, 灵宝
-ichoriumkit:resourcekami:4, 灵布
-ichoriumkit:resourcekami:5, 灵宝粒
-ichoriumkit:focus_pouch, 无底袋
-ichoriumkit:proto_clay, 息壤
-ichoriumkit:block_talisman:0, 黑洞指环
-ichoriumkit:ichor_block, 灵液块
-ichoriumkit:bedrock_portal, 基岩世界传送门
 isorropia:lens, Base Lens
 isorropia:chocolate_bar, Chocolate Bar
 isorropia:gold_egg, Gold Egg
@@ -8623,6 +8844,10 @@ metalchests:hungry_chest_upgrade:6, Iron to Obsidian Hungry Chest Upgrade
 metalchests:hungry_chest_upgrade:7, Gold to Diamond Hungry Chest Upgrade
 metalchests:hungry_chest_upgrade:8, Gold to Obsidian Hungry Chest Upgrade
 metalchests:hungry_chest_upgrade:9, Diamond to Obsidian Hungry Chest Upgrade
+moreobservers:discerner, 精密侦测器
+moreobservers:toggle_observer, 闸式侦测器
+moreobservers:mobserver, 实体侦测器
+moreobservers:surveyor, 监视器
 planarartifice:alkimium_block, 炼化块
 planarartifice:bismuth_block, 铋块
 planarartifice:alchemical_alkimium_construct, 炼化炼金构材
@@ -9229,6 +9454,79 @@ planarartifice:bismuth_claymore, Bismuth Claymore
 planarartifice:glass_cutter, Glass Cutter
 planarartifice:vis_glass_cutter, Alchemical Glass Cutter
 planarartifice:alchemical_universe, Alchemical Universe
+forbiddenmagicre:morph_shovel, Chameleon Shovel
+forbiddenmagicre:morph_sword, 避役剑
+forbiddenmagicre:morph_pick, Chameleon Pickaxe
+forbiddenmagicre:morph_axe, Chameleon Axe
+forbiddenmagicre:distortion_pick, 畸变镐
+forbiddenmagicre:riding_crop, 马鞭
+forbiddenmagicre:diabolist_fork, 妖魔之叉
+forbiddenmagicre:skull_axe, 啄颅斧
+forbiddenmagicre:resourcefm:0, 绿宝石碎片
+forbiddenmagicre:resourcefm:1, 暗影染料
+forbiddenmagicre:resourcefm:2, 腐血碎片
+forbiddenmagicre:resourcenethershard:0, 暴怒碎片
+forbiddenmagicre:resourcenethershard:1, 嫉妒碎片
+forbiddenmagicre:resourcenethershard:2, 傲慢碎片
+forbiddenmagicre:resourcenethershard:3, 欲望碎片
+forbiddenmagicre:resourcenethershard:4, 懈怠碎片
+forbiddenmagicre:resourcenethershard:5, 贪婪碎片
+forbiddenmagicre:gluttony_shard, 暴食碎片
+forbiddenmagicre:taint_fruit, 腐化果实
+forbiddenmagicre:taint_charcoal, 六重煤炭
+forbiddenmagicre:mob_crystal:0, 空白留影水晶
+forbiddenmagicre:mob_crystal:0, 爬行者 留影水晶
+forbiddenmagicre:mob_crystal:0, 蠹虫 留影水晶
+forbiddenmagicre:mob_crystal:0, 行尸走肉 留影水晶
+forbiddenmagicre:mob_crystal:0, 鱿鱼 留影水晶
+forbiddenmagicre:mob_crystal:0, 神秘史莱姆 留影水晶
+forbiddenmagicre:mob_crystal:0, 马 留影水晶
+forbiddenmagicre:mob_crystal:0, 村民 留影水晶
+forbiddenmagicre:mob_crystal:0, 血腥骑士 留影水晶
+forbiddenmagicre:mob_crystal:0, 骷髅 留影水晶
+forbiddenmagicre:mob_crystal:0, 狼 留影水晶
+forbiddenmagicre:mob_crystal:0, 女巫 留影水晶
+forbiddenmagicre:mob_crystal:0, 腐化孢子群 留影水晶
+forbiddenmagicre:mob_crystal:0, 岩精强盗 留影水晶
+forbiddenmagicre:mob_crystal:0, 邪术守卫 留影水晶
+forbiddenmagicre:mob_crystal:0, 哞菇 留影水晶
+forbiddenmagicre:mob_crystal:0, 豹猫 留影水晶
+forbiddenmagicre:mob_crystal:0, 岩浆怪 留影水晶
+forbiddenmagicre:mob_crystal:0, 僵尸 留影水晶
+forbiddenmagicre:mob_crystal:0, 精灵 留影水晶
+forbiddenmagicre:mob_crystal:0, 腐化魔蛛 留影水晶
+forbiddenmagicre:mob_crystal:0, 九狱焱蝠 留影水晶
+forbiddenmagicre:mob_crystal:0, 红眼僵尸 留影水晶
+forbiddenmagicre:mob_crystal:0, 牛 留影水晶
+forbiddenmagicre:mob_crystal:0, 邪术爪牙 留影水晶
+forbiddenmagicre:mob_crystal:0, 史莱姆 留影水晶
+forbiddenmagicre:mob_crystal:0, 猪 留影水晶
+forbiddenmagicre:mob_crystal:0, 凋灵骷髅 留影水晶
+forbiddenmagicre:mob_crystal:0, 红眼僵尸巨人 留影水晶
+forbiddenmagicre:mob_crystal:0, 蝙蝠 留影水晶
+forbiddenmagicre:mob_crystal:0, 末影人 留影水晶
+forbiddenmagicre:mob_crystal:0, 洞穴蜘蛛 留影水晶
+forbiddenmagicre:mob_crystal:0, 烈焰人 留影水晶
+forbiddenmagicre:mob_crystal:0, 僵尸猪人 留影水晶
+forbiddenmagicre:mob_crystal:0, 蜘蛛 留影水晶
+forbiddenmagicre:mob_crystal:0, 恶魂 留影水晶
+forbiddenmagicre:mob_crystal:0, 羊 留影水晶
+forbiddenmagicre:mob_crystal:0, 鸡 留影水晶
+forbiddenmagicre:mob_crystal:0, 血腥教徒 留影水晶
+forbiddenmagicre:black_rose, 暗影玫瑰
+forbiddenmagicre:black_rose_bush, 暗影玫瑰丛
+forbiddenmagicre:arcane_cake, 奥术蛋糕
+forbiddenmagicre:sapling_tainted, 腐化树苗
+forbiddenmagicre:leaves_tainted, 腐化树叶
+forbiddenmagicre:log_tainted, 腐化原木
+forbiddenmagicre:tainted_stone, 腐化石头
+forbiddenmagicre:tainted_brick, 腐化石砖
+forbiddenmagicre:taint_planks, 腐化木板
+forbiddenmagicre:wrath_cage, 暴怒之笼
+forbiddenmagicre:netherstar_block, Nether Star Block
+forbiddenmagicre:eldritch_orb, [邪术]气血宝珠
+forbiddenmagicre:blood_rapier, 血鸮西洋剑
+riftfeed:rift_feed, 裂隙饲料
 storagedrawers:upgrade_template, 升级模板
 storagedrawers:upgrade_storage:0, 抽屉容量升级 (I)
 storagedrawers:upgrade_storage:1, 抽屉容量升级 (II)
@@ -9339,6 +9637,30 @@ traverse:blue_rock_cobblestone_slab:0, 峭壁岩圆石台阶
 traverse:blue_rock_cobblestone_wall, 峭壁岩圆石墙
 traverse:dead_grass, 荒草
 traverse:cold_grass, 寒地草
+thaumic_calculator:calculator, Thaumic Calculator
+thaumicenergistics:infusion_provider, 源质供应器
+thaumicenergistics:arcane_assembler, 奥术装配器
+thaumicenergistics:essentia_cell_1k, 1k-ME源质储存元件
+thaumicenergistics:essentia_cell_4k, 4k-ME源质储存元件
+thaumicenergistics:essentia_cell_16k, 16k-ME源质储存元件
+thaumicenergistics:essentia_cell_64k, 64k-ME源质储存元件
+thaumicenergistics:essentia_cell_creative, 创造ME源质储存元件
+thaumicenergistics:essentia_import, ME源质输入总线
+thaumicenergistics:essentia_export, ME源质输出总线
+thaumicenergistics:essentia_storage, ME源质存储总线
+thaumicenergistics:essentia_terminal, ME源质终端
+thaumicenergistics:arcane_terminal, 奥术合成终端
+thaumicenergistics:arcane_inscriber, 奥术记录仪
+thaumicenergistics:diffusion_core, 扩散核心
+thaumicenergistics:coalescence_core, 聚集核心
+thaumicenergistics:essentia_component_1k, 1k-ME源质储存组件
+thaumicenergistics:essentia_component_4k, 4k-ME源质储存组件
+thaumicenergistics:essentia_component_16k, 16k-ME源质储存组件
+thaumicenergistics:essentia_component_64k, 64k-ME源质储存组件
+thaumicenergistics:upgrade_arcane, 奥术合成升级
+thaumicenergistics:knowledge_core, 知识核心
+thaumicenergistics:blank_knowledge_core, 空白知识核心
+thaumicenergistics:dummy_aspect, item.thaumicenergistics.dummy_aspect.name
 tg:helmet_light, 光明头盔
 tg:chestplate_light, 光明胸甲
 tg:leggins_light, 光明护腿
@@ -9404,8 +9726,6 @@ tg:sharped_crystal_fire, 锐化晶体 (Ignis)
 tg:sharped_crystal_water, 锐化晶体 (Aqua)
 tg:sharped_crystal_order, 锐化晶体 (Ordo)
 tg:sharped_crystal_entropy, 锐化晶体 (Perditio)
-tg:crystal_dust, 晶体之尘
-tg:ash, 灰烬
 tg:pouch_magic_1, 魔法手袋
 tg:pouch_magic_2, 梦幻手袋
 tg:pouch_magic_3, 迷幻手袋
@@ -9437,312 +9757,104 @@ tg:ageing_stone, 成长之石
 tg:obsidian_ph, tile.obsidian_ph.name
 tg:soul_sand_ph, tile.soul_sand_ph.name
 tg:nether_bricks_ph, tile.nether_bricks_ph.name
-thaumicaugmentation:vis_regenerator, 灵气再生器
-thaumicaugmentation:warded_chest, 守护箱子
-thaumicaugmentation:temporary_light, 秘术辉光
-thaumicaugmentation:stone:0, 虚空石
-thaumicaugmentation:stone:1, 腐化虚空石
-thaumicaugmentation:stone:2, 腐化虚空石壤
-thaumicaugmentation:stone:3, 荒古符石
-thaumicaugmentation:stone:4, 雕文古石
-thaumicaugmentation:stone:5, 荒古石砖
-thaumicaugmentation:stone:6, 陈年石头
-thaumicaugmentation:stone:7, 发光陈年石头
-thaumicaugmentation:stone:8, 荒古石柱
-thaumicaugmentation:stone:9, 平滑荒古石砖
-thaumicaugmentation:stone:10, 荒古圆石
-thaumicaugmentation:stone:11, 荒古石灯
-thaumicaugmentation:arcane_trapdoor_wood, 宏伟之木奥能活板门
-thaumicaugmentation:arcane_trapdoor_metal, 神秘奥能活板门
-thaumicaugmentation:arcane_trapdoor_silverwood, 银木奥能活板门
-thaumicaugmentation:taint_flower, 腐化花
-thaumicaugmentation:impetus_drainer, 元动汲取仪
-thaumicaugmentation:impetus_relay, 元动中继器
-thaumicaugmentation:impetus_diffuser, 元动弥散仪
-thaumicaugmentation:impetus_matrix, 元动矩阵
-thaumicaugmentation:impetus_matrix_base, 元动矩阵基座
-thaumicaugmentation:rift_feeder, 咒波引流仪
-thaumicaugmentation:rift_mover_input, 裂隙封装仪
-thaumicaugmentation:rift_mover_output, 裂隙释放仪
-thaumicaugmentation:void_recharge_pedestal, 元动充能基座
-thaumicaugmentation:arcane_terraformer, 奥术群系转换仪
-thaumicaugmentation:rift_monitor, 裂隙监测仪
-thaumicaugmentation:impetus_generator, 元动发电机
-thaumicaugmentation:stability_field_generator, 裂隙稳定器
-thaumicaugmentation:impetus_gate, 元动阀门
-thaumicaugmentation:stairs_ancient, 荒古石楼梯
-thaumicaugmentation:slab:0, 荒古石砖台阶
-thaumicaugmentation:stairs_eldritch_tile, 邪术石楼梯
-thaumicaugmentation:bars:0, 荒古栏杆
-thaumicaugmentation:fortified_glass, 奥术强化玻璃
-thaumicaugmentation:fortified_glass_pane, 奥术强化玻璃板
-thaumicaugmentation:starfield_glass:0, 星域玻璃（裂隙）
-thaumicaugmentation:starfield_glass:1, 星域玻璃（维度裂缝）
-thaumicaugmentation:starfield_glass:2, 星域玻璃（魔镜）
-thaumicaugmentation:capstone:0, 邪术拱顶石
-thaumicaugmentation:capstone:1, 荒古拱顶石
-thaumicaugmentation:capstone:2, 开眼邪术拱顶石
-thaumicaugmentation:capstone:3, 开眼荒古拱顶石
-thaumicaugmentation:strange_crystal, 诡异魔晶
-thaumicaugmentation:crab_vent, 陈年孔洞
-thaumicaugmentation:eldritch_lock:0, 邪术锁孔
-thaumicaugmentation:eldritch_lock:1, 邪术锁孔
-thaumicaugmentation:eldritch_lock:2, 邪术锁孔
-thaumicaugmentation:eldritch_lock:3, 邪术锁孔
-thaumicaugmentation:eldritch_lock_impetus, 邪术锁孔
-thaumicaugmentation:button_greatwood, 宏伟之木按钮
-thaumicaugmentation:button_silverwood, 银木按钮
-thaumicaugmentation:button_arcane_stone, 奥术石按钮
-thaumicaugmentation:warded_button_greatwood, 宏伟之木奥能按钮
-thaumicaugmentation:warded_button_silverwood, 银木奥能按钮
-thaumicaugmentation:warded_button_arcane_stone, 奥术石奥能按钮
-thaumicaugmentation:pressure_plate_greatwood, 宏伟之木压力板
-thaumicaugmentation:pressure_plate_silverwood, 银木压力板
-thaumicaugmentation:pressure_plate_arcane_stone, 奥术石压力板
-thaumicaugmentation:warded_pressure_plate_greatwood, 宏伟之木奥能压力板
-thaumicaugmentation:warded_pressure_plate_silverwood, 银木奥能压力板
-thaumicaugmentation:warded_pressure_plate_arcane_stone, 奥术石奥能压力板
-thaumicaugmentation:urn:0, 寻常瓮
-thaumicaugmentation:urn:1, 非凡瓮
-thaumicaugmentation:urn:2, 罕见瓮
-thaumicaugmentation:item_grate, 滤物格栅
-thaumicaugmentation:glass_tube, 玻璃源质管道
-thaumicaugmentation:impetus_creative:0, Creative Impetus Source
-thaumicaugmentation:impetus_creative:1, Creative Impetus Sink
-thaumicaugmentation:gauntlet:0, 神秘法师护手
-thaumicaugmentation:gauntlet:1, 虚空预言者法师护手
-thaumicaugmentation:material:0, 灵气再生格栅
-thaumicaugmentation:material:1, 守护印记
-thaumicaugmentation:material:2, 齿轮组
-thaumicaugmentation:material:3, 元动能量单元
-thaumicaugmentation:material:4, 背带基底
-thaumicaugmentation:material:5, 元动宝石
-thaumicaugmentation:seal_copier, 印记拓印器
-thaumicaugmentation:arcane_door:0, 宏伟之木奥能之扉
-thaumicaugmentation:arcane_door:1, 神秘奥能之扉
-thaumicaugmentation:arcane_door:2, 银木奥能之扉
-thaumicaugmentation:key:0, 铁钥匙
-thaumicaugmentation:key:1, 黄铜钥匙
-thaumicaugmentation:key:2, 神秘钥匙
-thaumicaugmentation:void_boots, 虚空神秘使靴子
-thaumicaugmentation:rift_seed:0, 咒波裂隙种子
-thaumicaugmentation:rift_seed:0, 咒波裂隙种子
-thaumicaugmentation:rift_seed:1, 咒波种子
-thaumicaugmentation:rift_seed:1, 咒波种子
-thaumicaugmentation:augment_caster_rift_energy_storage, 元动能量电池
-thaumicaugmentation:fracture_locator:0, 裂缝定位器
-thaumicaugmentation:augment_builder_power:0, 调整器：求知
-thaumicaugmentation:augment_builder_power:0, 调整器：元素
-thaumicaugmentation:augment_builder_power:0, 调整器：主世界
-thaumicaugmentation:augment_builder_power:0, 调整器：下界
-thaumicaugmentation:augment_builder_power:0, 调整器：末地
-thaumicaugmentation:augment_builder_power:0, 调整器：虚域
-thaumicaugmentation:augment_builder_power:0, 调整器：增流
-thaumicaugmentation:augment_builder_effect:0, 增效水晶：核心效能
-thaumicaugmentation:augment_builder_effect:0, 增效水晶：施法速度
-thaumicaugmentation:augment_builder_effect:0, 增效水晶：灵气减免
-thaumicaugmentation:morphic_tool, 幻形工具
-thaumicaugmentation:primal_cutter:0, 元始刃
-thaumicaugmentation:primal_cutter:0, 元始刃
-thaumicaugmentation:rift_jar:0, 奥术强化罐子
-thaumicaugmentation:rift_jar:0, 缸中裂隙
-thaumicaugmentation:impetus_mirror:0, 元动之镜
-thaumicaugmentation:impetus_linker:0, 元动谐振器
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:biome_selector:0, 群系核心
-thaumicaugmentation:thaumostatic_harness:0, 奥法背带
-thaumicaugmentation:thaumostatic_harness_augment:0, 回转仪升级组件
-thaumicaugmentation:thaumostatic_harness_augment:1, 腰带升级组件
-thaumicaugmentation:elytra_harness:0, 奥法鞘翅
-thaumicaugmentation:elytra_harness_augment:0, 元动助推器升级组件
-thaumicaugmentation:autocaster_placer:0, 施法器
-thaumicaugmentation:autocaster_placer:1, 邪术施法器
-thaumicaugmentation:impulse_cannon:0, 元动加农炮
-thaumicaugmentation:impulse_cannon_augment:0, 轨道炮模式组件
-thaumicaugmentation:impulse_cannon_augment:1, 迸射模式组件
-thaumicaugmentation:focus_ancient, 荒古核心
-thaumicaugmentation:eldritch_lock_key:0, 符文石板
-thaumicaugmentation:eldritch_lock_key:1, 镶尖符咒
-thaumicaugmentation:eldritch_lock_key:2, 禁忌知识
-thaumicaugmentation:eldritch_lock_key:3, 凶险剑刃
-thaumicaugmentation:obelisk_placer:0, 邪术方尖碑
-thaumicaugmentation:obelisk_placer:1, 荒古方尖碑
-thaumicaugmentation:research_notes:0, 破旧卷轴
-thaumicaugmentation:augment_vis_battery, 便携灵气电池
-thaumicaugmentation:thaumium_robes_hood, 秘术师兜帽
-thaumicaugmentation:thaumium_robes_chestplate, 秘术师法袍
-thaumicaugmentation:thaumium_robes_leggings, 秘术师护腿
-thaumicaugmentation:celestial_observer_placer, 天象瞭望镜
-thaumicenergistics:infusion_provider, 源质供应器
-thaumicenergistics:arcane_assembler, 奥术装配器
-thaumicenergistics:essentia_cell_1k, 1k-ME源质储存元件
-thaumicenergistics:essentia_cell_4k, 4k-ME源质储存元件
-thaumicenergistics:essentia_cell_16k, 16k-ME源质储存元件
-thaumicenergistics:essentia_cell_64k, 64k-ME源质储存元件
-thaumicenergistics:essentia_cell_creative, 创造ME源质储存元件
-thaumicenergistics:essentia_import, ME源质输入总线
-thaumicenergistics:essentia_export, ME源质输出总线
-thaumicenergistics:essentia_storage, ME源质存储总线
-thaumicenergistics:essentia_terminal, ME源质终端
-thaumicenergistics:arcane_terminal, 奥术合成终端
-thaumicenergistics:arcane_inscriber, 奥术记录仪
-thaumicenergistics:diffusion_core, 扩散核心
-thaumicenergistics:coalescence_core, 聚集核心
-thaumicenergistics:essentia_component_1k, 1k-ME源质储存组件
-thaumicenergistics:essentia_component_4k, 4k-ME源质储存组件
-thaumicenergistics:essentia_component_16k, 16k-ME源质储存组件
-thaumicenergistics:essentia_component_64k, 64k-ME源质储存组件
-thaumicenergistics:upgrade_arcane, 奥术合成升级
-thaumicenergistics:knowledge_core, 知识核心
-thaumicenergistics:blank_knowledge_core, 空白知识核心
-thaumicenergistics:dummy_aspect, item.thaumicenergistics.dummy_aspect.name
+tg:air_ph, tile.air_ph.name
 thaumicperiphery:caster_elementium, Elementium Caster's Gauntlet
 thaumicperiphery:pauldron, Pauldron
 thaumicperiphery:pauldron_repulsion, Pauldron of Repulsion
 thaumicperiphery:malignant_heart, Malignant Heart
 thaumicperiphery:magic_quiver, Conjurer's Quiver
 thaumicperiphery:vis_phylactery, Vis Phylactery
-thaumicwonders:vishroom_crop, Vishroom
-thaumicwonders:flux_distiller, Flux Distiller
-thaumicwonders:placeholder_adv_alch_construct, Primordial Accretion Chamber
-thaumicwonders:catalyzation_chamber, Catalyzation Chamber
-thaumicwonders:coalescence_matrix, Coalescence Matrix
-thaumicwonders:primordial_accelerator_tunnel, Primordial Accelerator Tunnel
-thaumicwonders:alkahest_vat, Alkahest Vat
-thaumicwonders:creative_essentia_jar, Creative Essentia Jar
-thaumicwonders:flux_capacitor, Flux Capacitor
-thaumicwonders:portal_anchor, Portal Anchor
-thaumicwonders:primordial_accretion_chamber, Primordial Accretion Chamber
-thaumicwonders:placeholder_thaumium_block, Primordial Accretion Chamber
-thaumicwonders:placeholder_obsidian, Catalyzation Chamber
-thaumicwonders:coalescence_matrix_precursor, Coalescence Matrix
-thaumicwonders:portal_generator, Portal Generator
-thaumicwonders:void_beacon, Void Beacon
+thaumictinkerer:funnel, 源质漏斗
+thaumictinkerer:dissimulation, 伪装方块
+thaumictinkerer:transvector_interface, 矢量变换接口
+thaumictinkerer:transvector_dislocator, 矢量转位仪
+thaumictinkerer:repairer, 奥法修复台
+thaumictinkerer:magnet, 奥术磁铁
+thaumictinkerer:mob_magnet, 奥术生物磁铁
+thaumictinkerer:osmotic_enchanter, 渗透附魔台
+thaumictinkerer:enchantment_pillar, 蕴魔柱
+thaumictinkerer:animation_tablet, 活化工作台
+thaumictinkerer:black_quartz_block, 烟黑石英块
+thaumictinkerer:summoner, Tablet of Necromancy
+thaumictinkerer:ichor_block, 灵宝块
+thaumictinkerer:bedrock_portal, 基岩世界传送门
+thaumictinkerer:warp_gate, Celestial Gateway
+thaumictinkerer:chlorophyte_ore, Chlorophyte Ore
+thaumictinkerer:share_book, 知识共享之书
+thaumictinkerer:black_quartz, 烟黑石英
+thaumictinkerer:cleaning_talisman, Cleansing Charm
+thaumictinkerer:connector, 矢量变换绑定器
+thaumictinkerer:soul_mould, 灵魂模具
+thaumictinkerer:energetic_nitor, 超能闪耀之光
+thaumictinkerer:gas_shadow_item, Shadow Gas Phial
+thaumictinkerer:gas_light_item, Light Gas Phial
+thaumictinkerer:gas_remover, Gas Remover
+thaumictinkerer:spellbinding_cloth, 魅惑之布
+thaumictinkerer:blood_sword, 咒灵之刃
+thaumictinkerer:mob_aspect, 生物灵魂
+thaumictinkerer:condensed_mob_aspect, Condensed Mob Aspect
+thaumictinkerer:kamiresource:0, 末影裂痕
+thaumictinkerer:kamiresource:1, 下界残片
+thaumictinkerer:kamiresource:2, 灵液
+thaumictinkerer:kamiresource:3, 灵宝
+thaumictinkerer:kamiresource:4, 灵布
+thaumictinkerer:kamiresource:5, 灵宝粒
+thaumictinkerer:proto_clay, 息壤
+thaumictinkerer:focus_pouch, Ichorcloth Pouch
+thaumictinkerer:placement_mirror, Worldshaper's Looking Glass
+thaumictinkerer:cat_amulet, Feline Amulet
+thaumictinkerer:ichorium_axe, 灵宝斧
+thaumictinkerer:ichorium_sword, 灵宝剑
+thaumictinkerer:ichorium_shovel, 灵宝铲
+thaumictinkerer:ichorium_pick, 灵宝镐
+thaumictinkerer:ichorium_pick_adv, 觉醒灵宝镐
+thaumictinkerer:ichorium_axe_adv, 觉醒灵宝斧
+thaumictinkerer:ichorium_shovel_adv, 觉醒灵宝铲
+thaumictinkerer:ichorium_sword_adv, 觉醒灵宝剑
+thaumictinkerer:ichor_helm, 灵布头巾
+thaumictinkerer:ichor_chest, 灵布法袍
+thaumictinkerer:ichor_legs, 灵布护腿
+thaumictinkerer:ichor_boots, 灵布靴子
+thaumictinkerer:kami_helm, 无尽深渊之帽
+thaumictinkerer:kami_chest, 云霄塔法袍
+thaumictinkerer:kami_legs, 熔岩地幔护腿
+thaumictinkerer:kami_boots, 地平线盾牌之靴
+thaumictinkerer:block_talisman:0, 黑洞指环
+thaumictinkerer:revealing_helm, 揭示之头盔
+thaumictinkerer:sky_pearl, Celestial Pearl
+thaumictinkerer:ichorium_fortress_helmet, Ichorium Fortress Mask
+thaumictinkerer:ichorium_fortress_chestplate, Ichorium Fortress Plate Mail
+thaumictinkerer:ichorium_fortress_leggings, Ichorium Fortress Greaves
+thaumicwonders:meaty_orb, Meaty Orb
 thaumicwonders:primordial_accelerator_terminus, Primordial Accelerator Terminus
 thaumicwonders:hexamite, Hexamite
-thaumicwonders:primordial_accelerator, Primordial Accelerator
-thaumicwonders:placeholder_arcane_stone, Catalyzation Chamber
-thaumicwonders:inspiration_engine, Inspiration Engine
-thaumicwonders:placeholder_void_metal_block, Primordial Accretion Chamber
-thaumicwonders:meaty_orb, Meaty Orb
-thaumicwonders:shimmerleaf_crop, Shimmerleaf
-thaumicwonders:meteorb, Meteorb
-thaumicwonders:ore_diviner, Ore Diviner
-thaumicwonders:cinderpearl_crop, Cinderpearl
+thaumicwonders:primordial_accelerator_tunnel, Primordial Accelerator Tunnel
+thaumicwonders:coalescence_matrix_precursor, Coalescence Matrix
+thaumicwonders:vishroom_crop, Vishroom
 thaumicwonders:dimensional_ripper, Dimensional Ripper
+thaumicwonders:portal_anchor, Portal Anchor
+thaumicwonders:void_beacon, Void Beacon
+thaumicwonders:meteorb, Meteorb
+thaumicwonders:placeholder_obsidian, Catalyzation Chamber
+thaumicwonders:placeholder_void_metal_block, Primordial Accretion Chamber
+thaumicwonders:flux_capacitor, Flux Capacitor
+thaumicwonders:alkahest_vat, Alkahest Vat
+thaumicwonders:ore_diviner, Ore Diviner
+thaumicwonders:coalescence_matrix, Coalescence Matrix
+thaumicwonders:placeholder_thaumium_block, Primordial Accretion Chamber
+thaumicwonders:placeholder_adv_alch_construct, Primordial Accretion Chamber
+thaumicwonders:inspiration_engine, Inspiration Engine
+thaumicwonders:primordial_accretion_chamber, Primordial Accretion Chamber
+thaumicwonders:catalyzation_chamber, Catalyzation Chamber
+thaumicwonders:shimmerleaf_crop, Shimmerleaf
+thaumicwonders:portal_generator, Portal Generator
+thaumicwonders:cinderpearl_crop, Cinderpearl
+thaumicwonders:creative_essentia_jar, Creative Essentia Jar
 thaumicwonders:everburning_urn, Everburning Urn
+thaumicwonders:primordial_accelerator, Primordial Accelerator
 thaumicwonders:madness_engine, Madness Engine
+thaumicwonders:placeholder_arcane_stone, Catalyzation Chamber
+thaumicwonders:flux_distiller, Flux Distiller
 thaumicwonders:disjunction_cloth, Disjunction Cloth
 thaumicwonders:primal_destroyer, Primal Destroyer
 thaumicwonders:flying_carpet, Flying Carpet
@@ -10165,7 +10277,6 @@ twilightforest:sort_fence, 分类木栅栏
 twilightforest:sort_gate, 分类木栅栏门
 twilightforest:sort_plate, 分类木压力板
 voidgoggles:voidgoggles, Voidseer's Goggles of Revealing
-voidgoggles:bigshot, [hyperlink blocked]
 botania_tweaks:compressed_tiny_potato_1, Little Potato
 botania_tweaks:compressed_tiny_potato_2, Small Potato
 botania_tweaks:compressed_tiny_potato_3, Medium Potato
@@ -10176,6 +10287,7 @@ botania_tweaks:compressed_tiny_potato_7, Colossal Potato
 botania_tweaks:compressed_tiny_potato_8, Galactic Potato
 botania_tweaks:potted_tiny_potato, Tiny Pot-tato
 botania_tweaks:dire_crafty_crate, Dire Crafty Crate
+base:wrench, 扳手
 testdummy:dummy, 试验假人
 patchouli:guide_book, 指南书
 storagedrawersunlimited:basicdrawers_thaumcraft_greatwood:0, 基础抽屉

@@ -750,7 +750,7 @@
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "-2"
+				"value": "-3"
 			},
 			{
 				"op": "replace",

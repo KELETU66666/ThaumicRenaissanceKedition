@@ -18,25 +18,5 @@
 				"value": ["REVERSE"]
 			}
         ]
-	},
-	{
-        "key": "DELICIOUS_KROMER",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-2"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "5"
-			},
-			{
-				"op": "add",
-				"path": "meta",
-				"value": ["REVERSE"]
-			}
-        ]
 	}
 ]

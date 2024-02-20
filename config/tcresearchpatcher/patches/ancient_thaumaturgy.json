@@ -1,0 +1,72 @@
+[
+	{
+        "key": "ADVANCED_ALCHEMY_FURNACE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "12"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ALCHEMY"
+			}
+        ]
+	},
+	{
+        "key": "SHADOW_METAL",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "!VOIDSTONE"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			}
+        ]
+	},
+	{
+        "key": "SHADOW_FORTRESS_ARMOR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
+			},
+			{
+				"op": "replace",
+				"path": "parents/1",
+				"value": "TWOND_VOID_FORTRESS_ARMOR"
+			}
+        ]
+	}
+]
