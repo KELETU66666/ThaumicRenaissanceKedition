@@ -3529,16 +3529,6 @@
               "Damage:2": 0,
               "OreDict:8": "ingotGold",
               "id:8": "minecraft:gold_ingot"
-            },
-            "2:10": {
-              "Count:3": 32,
-              "Damage:2": 0,
-              "OreDict:8": "ingotCopper",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "immersiveengineering:metal",
-                "orig_meta:3": 0
-              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
