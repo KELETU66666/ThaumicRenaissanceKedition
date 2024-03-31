@@ -1,5 +1,5 @@
 {
-  "build:8": "4.1.0",
+  "build:8": "4.2.2",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -38,6 +38,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -146,6 +147,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -163,110 +165,6 @@
       }
     },
     "3:10": {
-      "preRequisites:11": [
-        8
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与秘银罐子相同，可以用于储存源质，但是精金罐子能提供2000点储存空间。\n\n相当于一个黑洞了。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“精金源质罐子”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:jar_adaminite"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "奇点罐子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 3,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:jar_adaminite"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "4:10": {
-      "preRequisites:11": [
-        3
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与虚空罐子相同，可以用于储存源质并抹消多余的源质，但是这个罐子能提供5000点储存空间，而且当罐子里没有源质时，进入罐子的源质必定翻倍。\n\n这已经比冶炼厂要好用了。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“秘金源质罐子”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:jar_mithminite"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "无底罐子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 4,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:jar_mithminite"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "5:10": {
       "preRequisites:11": [
         32
       ],
@@ -302,6 +200,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -348,7 +247,7 @@
         }
       }
     },
-    "6:10": {
+    "4:10": {
       "preRequisites:11": [
         89
       ],
@@ -384,6 +283,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -400,7 +300,7 @@
         }
       }
     },
-    "7:10": {
+    "5:10": {
       "preRequisites:11": [
         98,
         89
@@ -444,6 +344,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -460,59 +361,7 @@
         }
       }
     },
-    "8:10": {
-      "preRequisites:11": [
-        19
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与邪术罐子相同，可以用于储存源质，但是秘银罐子能提供1000点储存空间。\n\n质的飞跃。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“秘银源质罐子”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:jar_mithrillium"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更大的罐子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 8,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:jar_mithrillium"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "9:10": {
+    "6:10": {
       "preRequisites:11": [
         59
       ],
@@ -548,6 +397,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -564,7 +414,7 @@
         }
       }
     },
-    "10:10": {
+    "7:10": {
       "preRequisites:11": [
         6
       ],
@@ -600,6 +450,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -616,7 +467,7 @@
         }
       }
     },
-    "11:10": {
+    "8:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -666,7 +517,7 @@
         }
       }
     },
-    "12:10": {
+    "9:10": {
       "preRequisites:11": [
         10
       ],
@@ -702,6 +553,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -718,7 +570,7 @@
         }
       }
     },
-    "13:10": {
+    "10:10": {
       "preRequisites:11": [
         54
       ],
@@ -757,7 +609,7 @@
         }
       }
     },
-    "14:10": {
+    "11:10": {
       "preRequisites:11": [
         12,
         98
@@ -794,6 +646,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -810,111 +663,7 @@
         }
       }
     },
-    "15:10": {
-      "preRequisites:11": [
-        14
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与普通的秘银冶炼厂相同，不过有着炼化虚空冶炼厂的共同特点：速度更快，储量更高。\n\n而且只需要使用炼化版的附属泵和排放口即可正常工作。\n\n想要制作这个物品，需要解锁位于“镜面艺术”的研究“秘银冶炼厂升级”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:alkimium_smeltery_mithrillium"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更快，更好，更清洁的源质冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 15,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:alkimium_smeltery_mithrillium"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "16:10": {
-      "preRequisites:11": [
-        15
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与普通的精金冶炼厂相同，不过有着炼化冶炼厂的共同特点：速度更快，储量更高。\n\n而且只需要使用炼化版的附属泵和排放口即可正常工作。\n\n想要制作这个物品，需要解锁位于“镜面艺术”的研究“精金冶炼厂升级”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:alkimium_smeltery_adaminite"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更快，更好，更清洁，更牛皮的冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 16,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:alkimium_smeltery_adaminite"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "17:10": {
+    "12:10": {
       "preRequisites:11": [
         88
       ],
@@ -963,6 +712,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -985,111 +735,7 @@
         }
       }
     },
-    "18:10": {
-      "preRequisites:11": [
-        16
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "恭喜你走到了这里，这是此整合包最高级的冶炼厂。\n\n与秘金冶炼厂相同，不过有着炼化冶炼厂的共同特点：速度更快，储量更高。\n\n而且只需要使用炼化版的附属泵和排放口即可正常工作。\n\n想要制作这个物品，需要解锁位于“镜面艺术”的研究“秘金冶炼厂升级”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:alkimium_smeltery_mithminite"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "最快，最好，最大，最牛皮的冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 18,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:alkimium_smeltery_mithminite"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "19:10": {
-      "preRequisites:11": [
-        26
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与神秘罐子相同，可以用于储存源质，但是邪术罐子能提供500点储存空间。\n\n以一敌三。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“邪术源质罐子”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:jar_eldritch"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "很大的罐子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 19,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:jar_eldritch"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "20:10": {
+    "13:10": {
       "preRequisites:11": [
         99
       ],
@@ -1125,6 +771,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1141,7 +788,7 @@
         }
       }
     },
-    "21:10": {
+    "14:10": {
       "preRequisites:11": [
         29,
         6,
@@ -1179,6 +826,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1196,6 +844,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1212,7 +861,7 @@
         }
       }
     },
-    "22:10": {
+    "15:10": {
       "preRequisites:11": [
         30
       ],
@@ -1251,7 +900,7 @@
         }
       }
     },
-    "23:10": {
+    "16:10": {
       "preRequisites:11": [
         1
       ],
@@ -1303,7 +952,7 @@
         }
       }
     },
-    "24:10": {
+    "17:10": {
       "preRequisites:11": [
         20
       ],
@@ -1339,6 +988,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1355,7 +1005,7 @@
         }
       }
     },
-    "25:10": {
+    "18:10": {
       "preRequisites:11": [
         148
       ],
@@ -1391,6 +1041,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1407,59 +1058,7 @@
         }
       }
     },
-    "26:10": {
-      "preRequisites:11": [
-        31
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与黄铜罐子相同，可以用于储存源质，但是黄铜罐子能提供300点储存空间。\n\n大有提升。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“神秘源质罐子”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:jar_thaumium"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "稍大的罐子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 26,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:jar_thaumium"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "27:10": {
+    "19:10": {
       "preRequisites:11": [
         51
       ],
@@ -1536,6 +1135,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1559,6 +1159,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -1575,59 +1176,7 @@
         }
       }
     },
-    "28:10": {
-      "preRequisites:11": [
-        7
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "秘银源质冶炼厂\n是一个神秘领域模组添加的，位于虚空源质冶炼厂更上一级的源质冶炼厂，它不仅速度更快，而且分解的效率更高，达到了100%，也就意味着这个冶炼厂不会产生咒波。当你探索完虚域后，首要目的就是升级你的源质冶炼厂到秘银级。\n\n想要制作这个物品，需要解锁位于“神秘领域”的研究“秘银源质冶炼厂”，其前置研究为“秘银金属”，其前置的前置为“虚空金属”。\n\n无法在其侧面直接放置附属黏浆泵，想要为此冶炼厂添加升级装置需要先将附属黏浆泵放置于神秘原版的冶炼厂侧面，再将原版的冶炼厂替换为此模组添加的冶炼厂即可。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:mithrillium_smelter"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "咒波毁灭者",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 28,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:mithrillium_smelter"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "29:10": {
+    "20:10": {
       "preRequisites:11": [
         89
       ],
@@ -1670,6 +1219,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1687,6 +1237,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1703,7 +1254,7 @@
         }
       }
     },
-    "30:10": {
+    "21:10": {
       "preRequisites:11": [
         59
       ],
@@ -1739,6 +1290,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1756,6 +1308,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1772,59 +1325,7 @@
         }
       }
     },
-    "31:10": {
-      "preRequisites:11": [
-        30
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与普通罐子相同，可以用于储存源质，但是黄铜罐子能提供200点储存空间。\n\n稍有提升。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“黄铜源质罐子”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:jar_brass"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "大罐子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 31,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:jar_brass"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "32:10": {
+    "22:10": {
       "preRequisites:11": [
         20,
         163
@@ -1861,6 +1362,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1877,111 +1379,7 @@
         }
       }
     },
-    "33:10": {
-      "preRequisites:11": [
-        34
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与秘银冶炼厂类似，但是拥有150%的效率，不会产生咒波，可以配合一些炼金复制配方刷取物品。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“秘金源质冶炼厂”，其前置研究为“秘金”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:mithminite_smelter"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "最后的冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 33,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:mithminite_smelter"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "34:10": {
-      "preRequisites:11": [
-        28
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与秘银冶炼厂类似，但是拥有120%的效率，不会产生咒波，可以配合一些炼金复制配方刷取物品。\n\n想要制作这个物品，需解锁位于“神秘领域”的研究“精金源质冶炼厂”，其前置研究为“精金”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:adaminite_smelter"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "物质超脱",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 34,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:adaminite_smelter"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "35:10": {
+    "23:10": {
       "preRequisites:11": [
         20
       ],
@@ -2017,6 +1415,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2033,7 +1432,7 @@
         }
       }
     },
-    "36:10": {
+    "24:10": {
       "preRequisites:11": [
         20
       ],
@@ -2069,6 +1468,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2085,7 +1485,7 @@
         }
       }
     },
-    "37:10": {
+    "25:10": {
       "preRequisites:11": [
         17
       ],
@@ -2149,7 +1549,7 @@
         }
       }
     },
-    "38:10": {
+    "26:10": {
       "preRequisites:11": [
         37
       ],
@@ -2201,7 +1601,7 @@
         }
       }
     },
-    "39:10": {
+    "27:10": {
       "preRequisites:11": [
         37,
         191
@@ -2251,6 +1651,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2268,6 +1669,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -2284,7 +1686,7 @@
         }
       }
     },
-    "40:10": {
+    "28:10": {
       "preRequisites:11": [
         37
       ],
@@ -2348,7 +1750,7 @@
         }
       }
     },
-    "41:10": {
+    "29:10": {
       "preRequisites:11": [
         37
       ],
@@ -2409,6 +1811,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2431,7 +1834,7 @@
         }
       }
     },
-    "42:10": {
+    "30:10": {
       "preRequisites:11": [
         37
       ],
@@ -2470,6 +1873,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2489,7 +1893,7 @@
         }
       }
     },
-    "43:10": {
+    "31:10": {
       "preRequisites:11": [
         37
       ],
@@ -2536,7 +1940,7 @@
         }
       }
     },
-    "44:10": {
+    "32:10": {
       "preRequisites:11": [
         117
       ],
@@ -2572,6 +1976,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2588,7 +1993,7 @@
         }
       }
     },
-    "45:10": {
+    "33:10": {
       "preRequisites:11": [
         117
       ],
@@ -2624,6 +2029,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2640,7 +2046,7 @@
         }
       }
     },
-    "46:10": {
+    "34:10": {
       "preRequisites:11": [
         148
       ],
@@ -2676,6 +2082,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2692,7 +2099,7 @@
         }
       }
     },
-    "47:10": {
+    "35:10": {
       "preRequisites:11": [
         17
       ],
@@ -2777,6 +2184,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 1,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2793,7 +2201,7 @@
         }
       }
     },
-    "48:10": {
+    "36:10": {
       "preRequisites:11": [
         281
       ],
@@ -2806,7 +2214,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "riftfeed:rift_feed"
+            "id:8": "renaissance_core:rift_feed"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -2833,7 +2241,7 @@
               "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "riftfeed:rift_feed"
+              "id:8": "renaissance_core:rift_feed"
             }
           }
         }
@@ -2842,6 +2250,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2851,173 +2260,14 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "riftfeed:rift_feed"
+              "id:8": "renaissance_core:rift_feed"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       }
     },
-    "49:10": {
-      "preRequisites:11": [
-        145
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "感到要素获取太麻烦了？\n来点要素种子。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:vis_seeds/caeles"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "基础要素种子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": 200,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 49,
-      "rewards:9": {
-        "0:10": {
-          "choices:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:vis_seeds/aer"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:vis_seeds/aqua"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:vis_seeds/terra"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:vis_seeds/ordo"
-            },
-            "4:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:vis_seeds/perditio"
-            },
-            "5:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:vis_seeds/ignis"
-            }
-          },
-          "index:3": 0,
-          "rewardID:8": "bq_standard:choice"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicaugmentation:research_notes"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:crystal_aer"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:crystal_ignis"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:crystal_aqua"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:crystal_terra"
-            },
-            "4:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:crystal_perditio"
-            },
-            "5:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:crystal_ordo"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 12,
-              "OreDict:8": "",
-              "id:8": "botania:rune"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "50:10": {
+    "37:10": {
       "preRequisites:11": [
         37
       ],
@@ -3030,7 +2280,10 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "thaumadditions:knowledge_tome"
+            "id:8": "thaumictinkerer:share_book",
+            "tag:10": {
+              "player:8": "[none]"
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -3053,6 +2306,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3062,14 +2316,17 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "thaumadditions:knowledge_tome"
+              "id:8": "thaumictinkerer:share_book",
+              "tag:10": {
+                "player:8": "[none]"
+              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       }
     },
-    "51:10": {
+    "38:10": {
       "preRequisites:11": [
         23
       ],
@@ -3196,6 +2453,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -3220,7 +2478,7 @@
         }
       }
     },
-    "52:10": {
+    "39:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -3402,7 +2660,7 @@
         }
       }
     },
-    "53:10": {
+    "40:10": {
       "preRequisites:11": [
         99
       ],
@@ -3454,7 +2712,7 @@
         }
       }
     },
-    "54:10": {
+    "41:10": {
       "preRequisites:11": [
         23
       ],
@@ -3490,6 +2748,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3513,6 +2772,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -3535,7 +2795,7 @@
         }
       }
     },
-    "55:10": {
+    "42:10": {
       "preRequisites:11": [
         124
       ],
@@ -3582,6 +2842,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 1,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3619,7 +2880,137 @@
         }
       }
     },
-    "56:10": {
+    "43:10": {
+      "preRequisites:11": [
+        27
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "在神秘时代模组中,物品需要解锁对应的研究才能合成.\n如果您材料凑齐但却无法合成某种物品,请尝试解锁其对应的研究.\n\nQ:研究在哪里找?\nA:魔导手册,请打开你的魔导手册查看,也可以利用魔导手册左下角的搜索界面搜索你所要寻找的研究.\n\nQ:搜不到\nA:和旧版本minecraft的成就一样,神秘时代的研究也是逐步解锁的,以及某些研究需要通过特殊的条件解锁.\n\nQ:特殊条件是什么?\nA:扫描某种物品，前往某些维度等等.\n\nQ:JEI显示物品已经可以制作,为什么还是制作失败?\nA:JEI对于炼金合成的配方存在显示漏洞,会导致您在打开但未解锁研究的时候判定为您已经解锁这项研究,所以是否可以制作某种物品请以魔导手册为准.\n\nQ:要素种子无法制作\nA:要素种子由于破坏游戏体验,此包禁止使用及制作.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "thaumcraft:arcane_workbench"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "为什么我无法合成某种物品?",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 56,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "tg:magicfood"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "44:10": {
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "神秘能源模组本身自带的谐振仓发电并不易于使用,所以可以使用以下几种方式发电:\n\n1.神秘时代本体的\"灵气发电机\",可以将灵气转换为RF,它的研究位于\"炼化学\"界面.\n2.植物魔法的\"魔力转换器\",可以将魔力转换为RF,直接可以制作.\n3.元动发电机,需要解锁游戏后期元动能量系列,用法详见魔导手册.\n\n注:以上三种发电产生的能量均为RF,想要直接供给应用能源的设备,需要使用“能源接收器”.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:energy_acceptor"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "神秘能源供电问题",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 57,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "45:10": {
+      "preRequisites:11": [
+        56
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "1.注魔祭坛稳定性/符文矩阵为什么不转?\n用世界盐完成注魔祭坛的结构后需要再用法师护手右击激活符文矩阵才可以正常注魔.\n\n2.我的核心怎么打自己/为什么核心无法镶饰?\n符印是核心的“核心”部分，是构成法术的必要组件，分为三种:\n效果:决定了法术最终能产生什么效果，伤害还是治疗，破坏还是建造(虽然没有建造这一效果).\n媒介:决定了法术生效的媒介/弹道/方式.符印形状为六边形.\n调整:对前两种符印进行调整,目前只有三种,\n通过三者的组合可以产生或是实用或是有趣的法术,接下来将依次介绍每个符印的具体效用,\n\n\n3.怎么知道要素在哪种物品里有/怎么合成要素?\n请活用JEI,R键/左键查看合成表,U键/右键查看其可合成的物品前期要素只能通过源质离心机进行分解,想要合成要素则需要神秘领域后期材料“秘银”所制作的源质合成机.\n\n4.为啥我家里经常出现一条黑黑的长长的东西啊，怎么消除它?\n咒波裂隙会在当前区域咒波污染过高时在附近生成,会破坏它接触的方块,伤害接触它的生物.\n裂隙会随时间慢慢增大最终自然消失,并有极高概率生成会散播腐化腐化孢子巢穴,需及时击杀以断绝腐化源头.\n人工消除腐化裂隙需解锁基础学中的悖论物质,其前置研究为灵气电池(再前置为结晶农场即扫描野生魔力水晶晶簇).\n注意:悖论物质炸裂缝时需在其完全消失之前远离,否则会增加大量扭曲值及debuff.\n\n5.如何清除咒波?\n(1)神秘原版的咒波凝结器\n(2)神秘领域的纯净花（单个效果不明显，需量产）\n(3)镜像学的咒波净化器，烧世界盐以极快速度消耗灵气清除咒波，比例为1.5：1.\n注:此方法见效快但治标不治本.\n(4).神秘奇境的咒波容器,是后期一个比较稳定的清理咒波方块,单个效率略低但极其稳定.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:fish"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "新人常见问题",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 58,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "46:10": {
       "preRequisites:11": [
         145,
         17
@@ -3659,7 +3050,7 @@
         }
       }
     },
-    "57:10": {
+    "47:10": {
       "preRequisites:11": [
         68
       ],
@@ -3711,7 +3102,7 @@
         }
       }
     },
-    "58:10": {
+    "48:10": {
       "preRequisites:11": [
         96
       ],
@@ -3767,7 +3158,7 @@
         }
       }
     },
-    "59:10": {
+    "49:10": {
       "preRequisites:11": [
         60
       ],
@@ -3806,7 +3197,7 @@
         }
       }
     },
-    "60:10": {
+    "50:10": {
       "preRequisites:11": [
         60
       ],
@@ -3845,7 +3236,7 @@
         }
       }
     },
-    "61:10": {
+    "51:10": {
       "preRequisites:11": [
         75
       ],
@@ -3884,7 +3275,7 @@
         }
       }
     },
-    "62:10": {
+    "52:10": {
       "preRequisites:11": [
         81
       ],
@@ -3920,6 +3311,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3936,59 +3328,7 @@
         }
       }
     },
-    "63:10": {
-      "preRequisites:11": [
-        81
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "纯净花可以缓慢的吸收灵气场中的咒波，没有任何消耗或副作用，唯一的问题是一朵纯净花的效率很低，需要种植许多朵来发挥作用。\n\n想要制作这个物品，需要解锁位于神秘领域的研究“纯净花”，此研究为隐藏研究，其前置研究为“图腾学”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:puriflower"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "高效咒波清理 - 纯净花",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 85,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:puriflower"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "64:10": {
+    "53:10": {
       "preRequisites:11": [
         81
       ],
@@ -4024,6 +3364,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4046,7 +3387,7 @@
         }
       }
     },
-    "65:10": {
+    "54:10": {
       "preRequisites:11": [
         27,
         54
@@ -4083,6 +3424,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4100,6 +3442,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -4116,7 +3459,7 @@
         }
       }
     },
-    "66:10": {
+    "55:10": {
       "preRequisites:11": [
         59
       ],
@@ -4152,6 +3495,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4168,7 +3512,7 @@
         }
       }
     },
-    "67:10": {
+    "56:10": {
       "preRequisites:11": [
         78
       ],
@@ -4207,7 +3551,7 @@
         }
       }
     },
-    "68:10": {
+    "57:10": {
       "preRequisites:11": [
         88,
         200
@@ -4261,6 +3605,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4277,7 +3622,7 @@
         }
       }
     },
-    "69:10": {
+    "58:10": {
       "preRequisites:11": [
         2,
         89
@@ -4314,6 +3659,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4330,7 +3676,7 @@
         }
       }
     },
-    "70:10": {
+    "59:10": {
       "preRequisites:11": [
         88,
         96
@@ -4367,6 +3713,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4384,6 +3731,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -4406,7 +3754,7 @@
         }
       }
     },
-    "71:10": {
+    "60:10": {
       "preRequisites:11": [
         99
       ],
@@ -4442,6 +3790,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -4458,7 +3807,7 @@
         }
       }
     },
-    "72:10": {
+    "61:10": {
       "preRequisites:11": [
         95
       ],
@@ -4494,6 +3843,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4510,7 +3860,7 @@
         }
       }
     },
-    "73:10": {
+    "62:10": {
       "preRequisites:11": [
         95
       ],
@@ -4558,6 +3908,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4586,7 +3937,7 @@
         }
       }
     },
-    "74:10": {
+    "63:10": {
       "preRequisites:11": [
         95
       ],
@@ -4634,7 +3985,7 @@
         }
       }
     },
-    "75:10": {
+    "64:10": {
       "preRequisites:11": [
         117
       ],
@@ -4673,7 +4024,7 @@
         }
       }
     },
-    "76:10": {
+    "65:10": {
       "preRequisites:11": [
         256
       ],
@@ -4712,7 +4063,7 @@
         }
       }
     },
-    "77:10": {
+    "66:10": {
       "preRequisites:11": [
         116
       ],
@@ -4748,6 +4099,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4764,7 +4116,7 @@
         }
       }
     },
-    "78:10": {
+    "67:10": {
       "preRequisites:11": [
         116
       ],
@@ -4800,6 +4152,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -4816,7 +4169,7 @@
         }
       }
     },
-    "79:10": {
+    "68:10": {
       "preRequisites:11": [
         104
       ],
@@ -4852,6 +4205,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4869,6 +4223,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -4885,7 +4240,7 @@
         }
       }
     },
-    "80:10": {
+    "69:10": {
       "preRequisites:11": [
         119
       ],
@@ -4924,6 +4279,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4943,76 +4299,7 @@
         }
       }
     },
-    "81:10": {
-      "preRequisites:11": [
-        119
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "芬芳吊坠消耗芬芳之尘工作，当佩戴有芬芳吊坠的玩家没有扭曲守护Buff且背包里含有芬芳之尘时，将消耗芬芳之尘给予玩家扭曲守护Debuff30s，每个净化浴盐可以做4个芬芳之尘，相当于时间延长了4倍，比较划算。\n\n想要制作这个物品，需要解锁位于“神秘领域”的研究“带上理智出发”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumadditions:fragnant_pendant"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更好的抑制扭曲发作 - 芬芳吊坠",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 139,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:odour_powder"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumadditions:fragnant_pendant"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "82:10": {
+    "70:10": {
       "preRequisites:11": [
         119
       ],
@@ -5048,6 +4335,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5064,7 +4352,7 @@
         }
       }
     },
-    "83:10": {
+    "71:10": {
       "preRequisites:11": [
         99
       ],
@@ -5100,6 +4388,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5195,6 +4484,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -5346,6 +4636,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -5374,7 +4665,7 @@
         }
       }
     },
-    "84:10": {
+    "72:10": {
       "preRequisites:11": [
         145,
         104
@@ -5411,6 +4702,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5445,7 +4737,7 @@
         }
       }
     },
-    "85:10": {
+    "73:10": {
       "preRequisites:11": [
         116
       ],
@@ -5481,6 +4773,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5497,7 +4790,7 @@
         }
       }
     },
-    "86:10": {
+    "74:10": {
       "preRequisites:11": [
         148
       ],
@@ -5533,6 +4826,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -5549,7 +4843,7 @@
         }
       }
     },
-    "87:10": {
+    "75:10": {
       "preRequisites:11": [
         88
       ],
@@ -5585,6 +4879,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5620,6 +4915,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -5654,7 +4950,7 @@
         }
       }
     },
-    "88:10": {
+    "76:10": {
       "preRequisites:11": [
         124
       ],
@@ -5690,6 +4986,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5706,7 +5003,7 @@
         }
       }
     },
-    "89:10": {
+    "77:10": {
       "preRequisites:11": [
         116
       ],
@@ -5742,6 +5039,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5758,7 +5056,7 @@
         }
       }
     },
-    "90:10": {
+    "78:10": {
       "preRequisites:11": [
         124
       ],
@@ -5794,6 +5092,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5810,7 +5109,7 @@
         }
       }
     },
-    "91:10": {
+    "79:10": {
       "preRequisites:11": [
         124
       ],
@@ -5846,6 +5145,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5862,7 +5162,7 @@
         }
       }
     },
-    "92:10": {
+    "80:10": {
       "preRequisites:11": [
         175
       ],
@@ -5899,7 +5199,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "93:10": {
+    "81:10": {
       "preRequisites:11": [
         169,
         124
@@ -5944,6 +5244,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -5968,7 +5269,7 @@
         }
       }
     },
-    "94:10": {
+    "82:10": {
       "preRequisites:11": [
         145
       ],
@@ -6004,6 +5305,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6021,6 +5323,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -6038,6 +5341,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -6054,7 +5358,7 @@
         }
       }
     },
-    "95:10": {
+    "83:10": {
       "preRequisites:11": [
         146
       ],
@@ -6090,6 +5394,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6106,7 +5411,7 @@
         }
       }
     },
-    "96:10": {
+    "84:10": {
       "preRequisites:11": [
         146,
         145
@@ -6143,6 +5448,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6165,7 +5471,7 @@
         }
       }
     },
-    "97:10": {
+    "85:10": {
       "preRequisites:11": [
         146
       ],
@@ -6201,6 +5507,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6217,7 +5524,7 @@
         }
       }
     },
-    "98:10": {
+    "86:10": {
       "preRequisites:11": [
         186
       ],
@@ -6253,6 +5560,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6269,7 +5577,7 @@
         }
       }
     },
-    "99:10": {
+    "87:10": {
       "preRequisites:11": [
         186
       ],
@@ -6305,6 +5613,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6321,7 +5630,7 @@
         }
       }
     },
-    "100:10": {
+    "88:10": {
       "preRequisites:11": [
         186
       ],
@@ -6355,7 +5664,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "101:10": {
+    "89:10": {
       "preRequisites:11": [
         192
       ],
@@ -6391,6 +5700,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6407,7 +5717,7 @@
         }
       }
     },
-    "102:10": {
+    "90:10": {
       "preRequisites:11": [
         192
       ],
@@ -6443,6 +5753,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6459,7 +5770,7 @@
         }
       }
     },
-    "103:10": {
+    "91:10": {
       "preRequisites:11": [
         192
       ],
@@ -6495,6 +5806,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6511,7 +5823,7 @@
         }
       }
     },
-    "104:10": {
+    "92:10": {
       "preRequisites:11": [
         201,
         146
@@ -6548,6 +5860,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6564,7 +5877,7 @@
         }
       }
     },
-    "105:10": {
+    "93:10": {
       "preRequisites:11": [
         161
       ],
@@ -6603,6 +5916,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6640,7 +5954,7 @@
         }
       }
     },
-    "106:10": {
+    "94:10": {
       "preRequisites:11": [
         54
       ],
@@ -6710,7 +6024,7 @@
         }
       }
     },
-    "107:10": {
+    "95:10": {
       "preRequisites:11": [
         99
       ],
@@ -6746,6 +6060,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6762,7 +6077,7 @@
         }
       }
     },
-    "108:10": {
+    "96:10": {
       "preRequisites:11": [
         146
       ],
@@ -6838,7 +6153,7 @@
         }
       }
     },
-    "109:10": {
+    "97:10": {
       "preRequisites:11": [
         238
       ],
@@ -6922,6 +6237,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6945,6 +6261,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -6961,7 +6278,7 @@
         }
       }
     },
-    "110:10": {
+    "98:10": {
       "preRequisites:11": [
         238
       ],
@@ -7016,6 +6333,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7057,6 +6375,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -7073,7 +6392,7 @@
         }
       }
     },
-    "111:10": {
+    "99:10": {
       "preRequisites:11": [
         238
       ],
@@ -7134,6 +6453,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7174,7 +6494,7 @@
         }
       }
     },
-    "112:10": {
+    "100:10": {
       "preRequisites:11": [
         256
       ],
@@ -7244,6 +6564,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7266,7 +6587,7 @@
         }
       }
     },
-    "113:10": {
+    "101:10": {
       "preRequisites:11": [
         238
       ],
@@ -7321,6 +6642,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7349,7 +6671,7 @@
         }
       }
     },
-    "114:10": {
+    "102:10": {
       "preRequisites:11": [
         239
       ],
@@ -7430,6 +6752,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7446,7 +6769,7 @@
         }
       }
     },
-    "115:10": {
+    "103:10": {
       "preRequisites:11": [
         239,
         246
@@ -7483,6 +6806,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7499,7 +6823,7 @@
         }
       }
     },
-    "116:10": {
+    "104:10": {
       "preRequisites:11": [
         239
       ],
@@ -7580,6 +6904,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7596,7 +6921,7 @@
         }
       }
     },
-    "117:10": {
+    "105:10": {
       "preRequisites:11": [
         238
       ],
@@ -7651,6 +6976,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7667,7 +6993,7 @@
         }
       }
     },
-    "118:10": {
+    "106:10": {
       "preRequisites:11": [
         244
       ],
@@ -7722,6 +7048,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7738,7 +7065,7 @@
         }
       }
     },
-    "119:10": {
+    "107:10": {
       "preRequisites:11": [
         244
       ],
@@ -7793,6 +7120,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7809,7 +7137,7 @@
         }
       }
     },
-    "120:10": {
+    "108:10": {
       "preRequisites:11": [
         243
       ],
@@ -7898,6 +7226,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7914,7 +7243,7 @@
         }
       }
     },
-    "121:10": {
+    "109:10": {
       "preRequisites:11": [
         243
       ],
@@ -7975,6 +7304,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8020,6 +7350,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -8036,7 +7367,7 @@
         }
       }
     },
-    "122:10": {
+    "110:10": {
       "preRequisites:11": [
         238,
         163
@@ -8073,6 +7404,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8089,7 +7421,7 @@
         }
       }
     },
-    "123:10": {
+    "111:10": {
       "preRequisites:11": [
         175,
         288,
@@ -8127,6 +7459,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8143,7 +7476,7 @@
         }
       }
     },
-    "124:10": {
+    "112:10": {
       "preRequisites:11": [
         175
       ],
@@ -8179,6 +7512,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8195,7 +7529,7 @@
         }
       }
     },
-    "125:10": {
+    "113:10": {
       "preRequisites:11": [
         242
       ],
@@ -8231,6 +7565,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8247,7 +7582,7 @@
         }
       }
     },
-    "126:10": {
+    "114:10": {
       "preRequisites:11": [
         281,
         279
@@ -8284,6 +7619,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8300,7 +7636,7 @@
         }
       }
     },
-    "127:10": {
+    "115:10": {
       "preRequisites:11": [
         277
       ],
@@ -8344,6 +7680,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8368,7 +7705,7 @@
         }
       }
     },
-    "128:10": {
+    "116:10": {
       "preRequisites:11": [
         293
       ],
@@ -8404,6 +7741,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8420,7 +7758,7 @@
         }
       }
     },
-    "129:10": {
+    "117:10": {
       "preRequisites:11": [
         298
       ],
@@ -8471,7 +7809,7 @@
         }
       }
     },
-    "130:10": {
+    "118:10": {
       "preRequisites:11": [
         301
       ],
@@ -8507,6 +7845,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8523,7 +7862,7 @@
         }
       }
     },
-    "131:10": {
+    "119:10": {
       "preRequisites:11": [
         303
       ],
@@ -8559,6 +7898,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8576,6 +7916,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -8593,6 +7934,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -8609,7 +7951,7 @@
         }
       }
     },
-    "132:10": {
+    "120:10": {
       "preRequisites:11": [
         242
       ],
@@ -8645,6 +7987,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8661,7 +8004,7 @@
         }
       }
     },
-    "133:10": {
+    "121:10": {
       "preRequisites:11": [
         304
       ],
@@ -8697,6 +8040,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8713,7 +8057,7 @@
         }
       }
     },
-    "134:10": {
+    "122:10": {
       "preRequisites:11": [
         406
       ],
@@ -8762,6 +8106,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8779,6 +8124,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -8796,6 +8142,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -8813,6 +8160,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -8830,6 +8178,7 @@
         "4:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 4,
@@ -8847,6 +8196,7 @@
         "5:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 5,
@@ -8863,7 +8213,7 @@
         }
       }
     },
-    "135:10": {
+    "123:10": {
       "preRequisites:11": [
         390
       ],
@@ -8900,6 +8250,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8917,7 +8268,7 @@
         }
       }
     },
-    "136:10": {
+    "124:10": {
       "preRequisites:11": [
         387
       ],
@@ -8971,6 +8322,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8988,7 +8340,7 @@
         }
       }
     },
-    "137:10": {
+    "125:10": {
       "preRequisites:11": [
         404
       ],
@@ -9037,6 +8389,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9053,7 +8406,7 @@
         }
       }
     },
-    "138:10": {
+    "126:10": {
       "preRequisites:11": [
         388
       ],
@@ -9102,6 +8455,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9119,6 +8473,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9135,7 +8490,7 @@
         }
       }
     },
-    "139:10": {
+    "127:10": {
       "preRequisites:11": [
         383
       ],
@@ -9171,6 +8526,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9188,6 +8544,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9204,7 +8561,7 @@
         }
       }
     },
-    "140:10": {
+    "128:10": {
       "preRequisites:11": [
         370
       ],
@@ -9257,6 +8614,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9273,7 +8631,7 @@
         }
       }
     },
-    "141:10": {
+    "129:10": {
       "preRequisites:11": [
         13
       ],
@@ -9322,6 +8680,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9338,7 +8697,7 @@
         }
       }
     },
-    "142:10": {
+    "130:10": {
       "preRequisites:11": [
         383
       ],
@@ -9374,6 +8733,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9391,6 +8751,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9407,7 +8768,7 @@
         }
       }
     },
-    "143:10": {
+    "131:10": {
       "preRequisites:11": [
         387
       ],
@@ -9456,6 +8817,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9472,7 +8834,7 @@
         }
       }
     },
-    "144:10": {
+    "132:10": {
       "preRequisites:11": [
         377
       ],
@@ -9521,6 +8883,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9537,7 +8900,7 @@
         }
       }
     },
-    "145:10": {
+    "133:10": {
       "preRequisites:11": [
         374
       ],
@@ -9573,6 +8936,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9590,6 +8954,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9606,7 +8971,7 @@
         }
       }
     },
-    "146:10": {
+    "134:10": {
       "preRequisites:11": [
         397
       ],
@@ -9642,6 +9007,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9659,6 +9025,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9676,6 +9043,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -9692,7 +9060,7 @@
         }
       }
     },
-    "147:10": {
+    "135:10": {
       "preRequisites:11": [
         373
       ],
@@ -9741,6 +9109,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9758,6 +9127,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9775,6 +9145,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -9792,6 +9163,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -9808,7 +9180,7 @@
         }
       }
     },
-    "148:10": {
+    "136:10": {
       "preRequisites:11": [
         402
       ],
@@ -9857,6 +9229,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9873,7 +9246,7 @@
         }
       }
     },
-    "149:10": {
+    "137:10": {
       "preRequisites:11": [
         380
       ],
@@ -9922,6 +9295,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9938,7 +9312,7 @@
         }
       }
     },
-    "150:10": {
+    "138:10": {
       "preRequisites:11": [
         404
       ],
@@ -9974,6 +9348,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9991,6 +9366,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10007,7 +9383,7 @@
         }
       }
     },
-    "151:10": {
+    "139:10": {
       "preRequisites:11": [
         407,
         391
@@ -10057,6 +9433,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10073,7 +9450,7 @@
         }
       }
     },
-    "152:10": {
+    "140:10": {
       "preRequisites:11": [
         378
       ],
@@ -10109,6 +9486,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10125,7 +9503,7 @@
         }
       }
     },
-    "153:10": {
+    "141:10": {
       "preRequisites:11": [
         383
       ],
@@ -10174,6 +9552,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10190,7 +9569,7 @@
         }
       }
     },
-    "154:10": {
+    "142:10": {
       "preRequisites:11": [
         372
       ],
@@ -10226,6 +9605,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10242,7 +9622,7 @@
         }
       }
     },
-    "155:10": {
+    "143:10": {
       "preRequisites:11": [
         405
       ],
@@ -10324,6 +9704,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10341,6 +9722,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10358,6 +9740,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -10374,7 +9757,7 @@
         }
       }
     },
-    "156:10": {
+    "144:10": {
       "preRequisites:11": [
         383
       ],
@@ -10423,6 +9806,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10440,6 +9824,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10456,7 +9841,7 @@
         }
       }
     },
-    "157:10": {
+    "145:10": {
       "preRequisites:11": [
         403
       ],
@@ -10492,6 +9877,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10509,6 +9895,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10526,6 +9913,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -10543,6 +9931,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -10559,7 +9948,7 @@
         }
       }
     },
-    "158:10": {
+    "146:10": {
       "preRequisites:11": [
         387
       ],
@@ -10595,6 +9984,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10612,6 +10002,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10629,7 +10020,7 @@
         }
       }
     },
-    "159:10": {
+    "147:10": {
       "preRequisites:11": [
         377
       ],
@@ -10665,6 +10056,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10687,7 +10079,7 @@
         }
       }
     },
-    "160:10": {
+    "148:10": {
       "preRequisites:11": [
         392
       ],
@@ -10736,6 +10128,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10753,6 +10146,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10769,7 +10163,7 @@
         }
       }
     },
-    "161:10": {
+    "149:10": {
       "preRequisites:11": [
         383
       ],
@@ -10818,6 +10212,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10835,6 +10230,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10851,7 +10247,7 @@
         }
       }
     },
-    "162:10": {
+    "150:10": {
       "preRequisites:11": [
         404
       ],
@@ -10887,6 +10283,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10904,6 +10301,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -10920,7 +10318,7 @@
         }
       }
     },
-    "163:10": {
+    "151:10": {
       "preRequisites:11": [
         390
       ],
@@ -10957,6 +10355,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10974,7 +10373,7 @@
         }
       }
     },
-    "164:10": {
+    "152:10": {
       "preRequisites:11": [
         390
       ],
@@ -11010,6 +10409,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11027,6 +10427,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11044,7 +10445,7 @@
         }
       }
     },
-    "165:10": {
+    "153:10": {
       "preRequisites:11": [
         388
       ],
@@ -11080,6 +10481,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11097,6 +10499,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11114,6 +10517,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -11130,7 +10534,7 @@
         }
       }
     },
-    "166:10": {
+    "154:10": {
       "preRequisites:11": [
         400
       ],
@@ -11167,6 +10571,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11185,6 +10590,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11201,7 +10607,7 @@
         }
       }
     },
-    "167:10": {
+    "155:10": {
       "preRequisites:11": [
         377
       ],
@@ -11250,6 +10656,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11267,6 +10674,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11283,7 +10691,7 @@
         }
       }
     },
-    "168:10": {
+    "156:10": {
       "preRequisites:11": [
         387
       ],
@@ -11333,6 +10741,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11350,6 +10759,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11367,6 +10777,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -11384,7 +10795,7 @@
         }
       }
     },
-    "169:10": {
+    "157:10": {
       "preRequisites:11": [
         406,
         380
@@ -11421,6 +10832,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11437,7 +10849,7 @@
         }
       }
     },
-    "170:10": {
+    "158:10": {
       "preRequisites:11": [
         380
       ],
@@ -11473,6 +10885,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11490,6 +10903,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11507,6 +10921,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -11524,6 +10939,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -11540,7 +10956,7 @@
         }
       }
     },
-    "171:10": {
+    "159:10": {
       "preRequisites:11": [
         393
       ],
@@ -11589,6 +11005,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11606,6 +11023,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11623,6 +11041,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -11640,6 +11059,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -11656,7 +11076,7 @@
         }
       }
     },
-    "172:10": {
+    "160:10": {
       "preRequisites:11": [
         390
       ],
@@ -11770,6 +11190,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11787,7 +11208,7 @@
         }
       }
     },
-    "173:10": {
+    "161:10": {
       "preRequisites:11": [
         245
       ],
@@ -11842,6 +11263,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11871,6 +11293,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11887,7 +11310,7 @@
         }
       }
     },
-    "174:10": {
+    "162:10": {
       "preRequisites:11": [
         238
       ],
@@ -11950,6 +11373,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11991,6 +11415,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -12071,7 +11496,7 @@
         }
       }
     },
-    "175:10": {
+    "163:10": {
       "preRequisites:11": [
         530
       ],
@@ -12120,6 +11545,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12136,7 +11562,7 @@
         }
       }
     },
-    "176:10": {
+    "164:10": {
       "preRequisites:11": [
         530
       ],
@@ -12199,6 +11625,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12233,7 +11660,7 @@
         }
       }
     },
-    "177:10": {
+    "165:10": {
       "preRequisites:11": [
         530
       ],
@@ -12288,6 +11715,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12304,7 +11732,7 @@
         }
       }
     },
-    "178:10": {
+    "166:10": {
       "preRequisites:11": [
         238
       ],
@@ -12359,6 +11787,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12405,7 +11834,7 @@
         }
       }
     },
-    "179:10": {
+    "167:10": {
       "preRequisites:11": [
         572
       ],
@@ -12441,6 +11870,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12457,7 +11887,7 @@
         }
       }
     },
-    "180:10": {
+    "168:10": {
       "preRequisites:11": [
         573
       ],
@@ -12493,6 +11923,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12510,6 +11941,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -12529,7 +11961,7 @@
         }
       }
     },
-    "181:10": {
+    "169:10": {
       "preRequisites:11": [
         569
       ],
@@ -12565,6 +11997,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12581,7 +12014,7 @@
         }
       }
     },
-    "182:10": {
+    "170:10": {
       "preRequisites:11": [
         572
       ],
@@ -12617,6 +12050,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12634,6 +12068,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -12651,6 +12086,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -12667,7 +12103,7 @@
         }
       }
     },
-    "183:10": {
+    "171:10": {
       "preRequisites:11": [
         573
       ],
@@ -12716,6 +12152,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12732,7 +12169,7 @@
         }
       }
     },
-    "184:10": {
+    "172:10": {
       "preRequisites:11": [
         387
       ],
@@ -12771,7 +12208,7 @@
         }
       }
     },
-    "185:10": {
+    "173:10": {
       "preRequisites:11": [
         575
       ],
@@ -12807,6 +12244,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12823,7 +12261,7 @@
         }
       }
     },
-    "186:10": {
+    "174:10": {
       "preRequisites:11": [
         569
       ],
@@ -12859,6 +12297,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12876,6 +12315,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -12892,7 +12332,7 @@
         }
       }
     },
-    "187:10": {
+    "175:10": {
       "preRequisites:11": [
         543
       ],
@@ -12947,6 +12387,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12964,6 +12405,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -12981,6 +12423,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -12997,7 +12440,7 @@
         }
       }
     },
-    "188:10": {
+    "176:10": {
       "preRequisites:11": [
         601
       ],
@@ -13052,6 +12495,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13068,7 +12512,7 @@
         }
       }
     },
-    "189:10": {
+    "177:10": {
       "preRequisites:11": [
         601
       ],
@@ -13129,6 +12573,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13146,6 +12591,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -13163,6 +12609,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -13179,7 +12626,7 @@
         }
       }
     },
-    "190:10": {
+    "178:10": {
       "preRequisites:11": [
         601,
         603
@@ -13235,6 +12682,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13252,6 +12700,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 4,
@@ -13268,7 +12717,7 @@
         }
       }
     },
-    "191:10": {
+    "179:10": {
       "preRequisites:11": [
         619
       ],
@@ -13304,6 +12753,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -13338,7 +12788,7 @@
         }
       }
     },
-    "192:10": {
+    "180:10": {
       "preRequisites:11": [
         146,
         192
@@ -13375,6 +12825,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13391,7 +12842,7 @@
         }
       }
     },
-    "193:10": {
+    "181:10": {
       "preRequisites:11": [
         609
       ],
@@ -13427,6 +12878,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -13443,7 +12895,7 @@
         }
       }
     },
-    "194:10": {
+    "182:10": {
       "preRequisites:11": [
         609
       ],
@@ -13479,6 +12931,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -13495,7 +12948,7 @@
         }
       }
     },
-    "195:10": {
+    "183:10": {
       "preRequisites:11": [
         618
       ],
@@ -13531,6 +12984,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13547,7 +13001,7 @@
         }
       }
     },
-    "196:10": {
+    "184:10": {
       "preRequisites:11": [
         632
       ],
@@ -13583,6 +13037,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13599,7 +13054,7 @@
         }
       }
     },
-    "197:10": {
+    "185:10": {
       "preRequisites:11": [
         632
       ],
@@ -13635,6 +13090,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13651,7 +13107,7 @@
         }
       }
     },
-    "198:10": {
+    "186:10": {
       "preRequisites:11": [
         146,
         238,
@@ -13689,6 +13145,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13705,7 +13162,7 @@
         }
       }
     },
-    "199:10": {
+    "187:10": {
       "preRequisites:11": [
         618
       ],
@@ -13741,6 +13198,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13757,7 +13215,7 @@
         }
       }
     },
-    "200:10": {
+    "188:10": {
       "preRequisites:11": [
         628
       ],
@@ -13793,6 +13251,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13809,7 +13268,7 @@
         }
       }
     },
-    "201:10": {
+    "189:10": {
       "preRequisites:11": [
         628
       ],
@@ -13845,6 +13304,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13861,7 +13321,7 @@
         }
       }
     },
-    "202:10": {
+    "190:10": {
       "preRequisites:11": [
         609
       ],
@@ -13897,6 +13357,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -13913,7 +13374,7 @@
         }
       }
     },
-    "203:10": {
+    "191:10": {
       "preRequisites:11": [
         628
       ],
@@ -13949,6 +13410,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13966,6 +13428,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -13982,7 +13445,7 @@
         }
       }
     },
-    "204:10": {
+    "192:10": {
       "preRequisites:11": [
         310
       ],
@@ -14037,6 +13500,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14054,6 +13518,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14073,7 +13538,7 @@
         }
       }
     },
-    "205:10": {
+    "193:10": {
       "preRequisites:11": [
         627
       ],
@@ -14109,6 +13574,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14126,6 +13592,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14143,6 +13610,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -14159,7 +13627,7 @@
         }
       }
     },
-    "206:10": {
+    "194:10": {
       "preRequisites:11": [
         632
       ],
@@ -14195,6 +13663,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14211,7 +13680,7 @@
         }
       }
     },
-    "207:10": {
+    "195:10": {
       "preRequisites:11": [
         626
       ],
@@ -14257,6 +13726,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -14283,7 +13753,7 @@
         }
       }
     },
-    "208:10": {
+    "196:10": {
       "preRequisites:11": [
         614
       ],
@@ -14319,6 +13789,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14353,7 +13824,7 @@
         }
       }
     },
-    "209:10": {
+    "197:10": {
       "preRequisites:11": [
         609
       ],
@@ -14389,6 +13860,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14405,7 +13877,7 @@
         }
       }
     },
-    "210:10": {
+    "198:10": {
       "preRequisites:11": [
         632
       ],
@@ -14441,6 +13913,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14457,7 +13930,7 @@
         }
       }
     },
-    "211:10": {
+    "199:10": {
       "preRequisites:11": [
         624
       ],
@@ -14493,6 +13966,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14522,6 +13996,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14539,6 +14014,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -14556,6 +14032,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -14572,7 +14049,7 @@
         }
       }
     },
-    "212:10": {
+    "200:10": {
       "preRequisites:11": [
         628
       ],
@@ -14606,7 +14083,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "213:10": {
+    "201:10": {
       "preRequisites:11": [
         637
       ],
@@ -14761,7 +14238,7 @@
         }
       }
     },
-    "214:10": {
+    "202:10": {
       "preRequisites:11": [
         628
       ],
@@ -14797,6 +14274,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14813,7 +14291,7 @@
         }
       }
     },
-    "215:10": {
+    "203:10": {
       "preRequisites:11": [
         626,
         635
@@ -14850,6 +14328,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14871,7 +14350,7 @@
         }
       }
     },
-    "216:10": {
+    "204:10": {
       "preRequisites:11": [
         99
       ],
@@ -14907,6 +14386,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14933,7 +14413,7 @@
   "questLines:9": {
     "0:10": {
       "lineID:3": 0,
-      "order:3": 5,
+      "order:3": 6,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -14965,167 +14445,83 @@
           "y:3": -120
         },
         "2:10": {
-          "id:3": 3,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 24
-        },
-        "3:10": {
-          "id:3": 4,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 24
-        },
-        "4:10": {
           "id:3": 6,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -120
         },
-        "5:10": {
+        "3:10": {
           "id:3": 7,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": -84
         },
-        "6:10": {
-          "id:3": 8,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -12
-        },
-        "7:10": {
+        "4:10": {
           "id:3": 9,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -12
         },
-        "8:10": {
+        "5:10": {
           "id:3": 10,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -120
         },
-        "9:10": {
+        "6:10": {
           "id:3": 12,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -84
         },
-        "10:10": {
+        "7:10": {
           "id:3": 14,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -84
         },
-        "11:10": {
-          "id:3": 15,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -48
-        },
-        "12:10": {
-          "id:3": 16,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -12
-        },
-        "13:10": {
-          "id:3": 18,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": 24
-        },
-        "14:10": {
-          "id:3": 19,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": -12
-        },
-        "15:10": {
+        "8:10": {
           "id:3": 21,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -156
         },
-        "16:10": {
+        "9:10": {
           "id:3": 22,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -120
         },
-        "17:10": {
-          "id:3": 26,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": -48
-        },
-        "18:10": {
-          "id:3": 28,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -48
-        },
-        "19:10": {
+        "10:10": {
           "id:3": 29,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -156
         },
-        "20:10": {
+        "11:10": {
           "id:3": 30,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -84
         },
-        "21:10": {
-          "id:3": 31,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -48
-        },
-        "22:10": {
-          "id:3": 33,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": 24
-        },
-        "23:10": {
-          "id:3": 34,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -12
-        },
-        "24:10": {
+        "12:10": {
           "id:3": 89,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": -120
         },
-        "25:10": {
+        "13:10": {
           "id:3": 98,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -15148,7 +14544,7 @@
             "OreDict:8": "",
             "id:8": "thaumcraft:thaumonomicon"
           },
-          "name:8": "第一章",
+          "name:8": "第一章:神秘开端",
           "visibility:8": "NORMAL"
         }
       },
@@ -15472,7 +14868,7 @@
     },
     "2:10": {
       "lineID:3": 2,
-      "order:3": 3,
+      "order:3": 4,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -15549,7 +14945,7 @@
     },
     "3:10": {
       "lineID:3": 3,
-      "order:3": 8,
+      "order:3": 9,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -15574,20 +14970,13 @@
           "y:3": -36
         },
         "1:10": {
-          "id:3": 49,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -36
-        },
-        "2:10": {
           "id:3": 53,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 12
         },
-        "3:10": {
+        "2:10": {
           "id:3": 55,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -15597,8 +14986,50 @@
       }
     },
     "4:10": {
+      "lineID:3": 4,
+      "order:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "新人经常遇到的问题,若此处未列出请进群询问",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "thaumcraft:enchanted_placeholder"
+          },
+          "name:8": "常见问题",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 56,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -12
+        },
+        "1:10": {
+          "id:3": 57,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -12
+        },
+        "2:10": {
+          "id:3": 58,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -12
+        }
+      }
+    },
+    "5:10": {
       "lineID:3": 5,
-      "order:3": 4,
+      "order:3": 5,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -15687,114 +15118,100 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
-          "y:3": -36
-        },
-        "10:10": {
-          "id:3": 85,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
           "y:3": -72
         },
-        "11:10": {
+        "10:10": {
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 0
         },
-        "12:10": {
+        "11:10": {
           "id:3": 95,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -132
         },
-        "13:10": {
+        "12:10": {
           "id:3": 107,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -132
         },
-        "14:10": {
+        "13:10": {
           "id:3": 113,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -132
         },
-        "15:10": {
+        "14:10": {
           "id:3": 114,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -180
         },
-        "16:10": {
+        "15:10": {
           "id:3": 116,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -132
         },
-        "17:10": {
+        "16:10": {
           "id:3": 117,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -84
         },
-        "18:10": {
+        "17:10": {
           "id:3": 118,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -132
         },
-        "19:10": {
+        "18:10": {
           "id:3": 119,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -144
         },
-        "20:10": {
+        "19:10": {
           "id:3": 128,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -180
         },
-        "21:10": {
-          "id:3": 139,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -144
-        },
-        "22:10": {
+        "20:10": {
           "id:3": 143,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -108
         },
-        "23:10": {
+        "21:10": {
           "id:3": 148,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -168
         },
-        "24:10": {
+        "22:10": {
           "id:3": 154,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -216
         },
-        "25:10": {
+        "23:10": {
           "id:3": 166,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -15803,9 +15220,9 @@
         }
       }
     },
-    "5:10": {
+    "6:10": {
       "lineID:3": 6,
-      "order:3": 6,
+      "order:3": 7,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -16097,7 +15514,7 @@
         }
       }
     },
-    "6:10": {
+    "7:10": {
       "lineID:3": 8,
       "order:3": 1,
       "properties:10": {
@@ -16111,7 +15528,7 @@
             "OreDict:8": "",
             "id:8": "thaumcraft:curio"
           },
-          "name:8": "第二章",
+          "name:8": "第二章:注魔进阶与邪术",
           "visibility:8": "NORMAL"
         }
       },
@@ -16377,9 +15794,9 @@
         }
       }
     },
-    "7:10": {
+    "8:10": {
       "lineID:3": 11,
-      "order:3": 7,
+      "order:3": 8,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -16457,7 +15874,7 @@
         }
       }
     },
-    "8:10": {
+    "9:10": {
       "lineID:3": 12,
       "order:3": 2,
       "properties:10": {
@@ -16471,7 +15888,7 @@
             "OreDict:8": "",
             "id:8": "thaumictinkerer:kamiresource"
           },
-          "name:8": "神秘揭谛",
+          "name:8": "第三章:神秘揭谛",
           "visibility:8": "NORMAL"
         }
       },
@@ -16659,7 +16076,7 @@
       "livesdef:3": 3,
       "livesmax:3": 10,
       "pack_name:8": "thaumicrenaissance_kedition",
-      "pack_version:3": 500,
+      "pack_version:3": 620,
       "party_enable:1": 1
     }
   }
