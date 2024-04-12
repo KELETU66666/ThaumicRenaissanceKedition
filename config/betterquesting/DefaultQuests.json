@@ -3,59 +3,6 @@
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
-      "preRequisites:11": [
-        9
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "噬肉之球是一个小道具，可以吸收源质，并释放咒波，以此换来天上落下许多的原版的动物肉，很有意思。\n\n想要制作这个物品，需要解锁位于“炼金术”的研究“噬肉之球”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicwonders:meaty_orb"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更多的肉",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 0,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicwonders:meaty_orb"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -111,60 +58,7 @@
         }
       }
     },
-    "2:10": {
-      "preRequisites:11": [
-        89
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "神秘源质冶炼厂是源质冶炼厂的升级版，拥有更高的源质转化效率和更快的速度，如果你的资源允许，推荐先做一个，增加效率并减少咒波。\n\n想要制作这个物品，需要解锁位于“炼金术”研究“神秘源质冶炼厂”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumcraft:smelter_thaumium"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更好的冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 2,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:smelter_thaumium"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "3:10": {
+    "1:10": {
       "preRequisites:11": [
         32
       ],
@@ -247,227 +141,7 @@
         }
       }
     },
-    "4:10": {
-      "preRequisites:11": [
-        89
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "炼化冶炼厂是镜面艺术模组添加的源质冶炼厂，有着更快的速度和更高的储量，不过有着一些特殊的限制。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:alchemical_alkimium_construct"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "炼化冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 6,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:alchemical_alkimium_construct"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "5:10": {
-      "preRequisites:11": [
-        98,
-        89
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "虚空源质冶炼厂是一个更高级的冶炼厂，速度略逊于神秘源质冶炼厂，但效率却远高于它，是一个不可多得的神秘后期的源质冶炼厂，如果你有了超过1/8的元始珍珠，推荐你首先制作它。\n\n想要制作这个物品，需要解锁位于“炼金术”的研究“虚空源质冶炼厂”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumcraft:smelter_void"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "炼金进化",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 7,
-      "rewards:9": {
-        "0:10": {
-          "amount:3": 30,
-          "index:3": 0,
-          "isLevels:1": 0,
-          "rewardID:8": "bq_standard:xp"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:smelter_void"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "6:10": {
-      "preRequisites:11": [
-        59
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "气象之球是一个工具，可以用来转换天气，在相应的要素口通入对应的50点要素即可改变天气（下雨，雷雨，晴天）。\n\n想要制作这个物品，需要解锁位于“炼金术”的研究“气象之球”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicwonders:meteorb"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "苍穹变换",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 9,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicwonders:meteorb"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "7:10": {
-      "preRequisites:11": [
-        6
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与普通的冶炼厂相同，不过有着炼化冶炼厂的共同特点：速度更快，储量更高。\n\n想要制作这个物品，需要解锁位于“镜面艺术”的研究“炼金升级”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:alkimium_smeltery"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "普通炼化冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 10,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:alkimium_smeltery"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "8:10": {
+    "2:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -517,60 +191,7 @@
         }
       }
     },
-    "9:10": {
-      "preRequisites:11": [
-        10
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与普通的神秘冶炼厂相同，不过有着炼化冶炼厂的共同特点：速度更快，储量更高。\n\n想要制作这个物品，需要解锁位于“镜面艺术”的研究“神秘冶炼厂升级”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:alkimium_smeltery_thaumium"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更好的炼化源质冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 12,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:alkimium_smeltery_thaumium"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "10:10": {
+    "3:10": {
       "preRequisites:11": [
         54
       ],
@@ -609,61 +230,7 @@
         }
       }
     },
-    "11:10": {
-      "preRequisites:11": [
-        12,
-        98
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与普通的虚空冶炼厂相同，不过有着炼化虚空冶炼厂的共同特点：速度更快，储量更高。\n\n想要制作这个物品，需要解锁位于“镜面艺术”的研究“虚空冶炼厂升级”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:alkimium_smeltery_void"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更快，更好的冶炼厂",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 14,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:alkimium_smeltery_void"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "12:10": {
+    "4:10": {
       "preRequisites:11": [
         88
       ],
@@ -735,7 +302,7 @@
         }
       }
     },
-    "13:10": {
+    "5:10": {
       "preRequisites:11": [
         99
       ],
@@ -788,119 +355,7 @@
         }
       }
     },
-    "14:10": {
-      "preRequisites:11": [
-        29,
-        6,
-        10
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "与普通的附属黏浆泵和辅助排放口一样，不过它们可以应用于炼化版本的冶炼厂。\n\n解锁相应研究即可制作。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "planarartifice:smelter_aux"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "炼化专属附属接口",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 21,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:smelter_aux"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "planarartifice:smelter_vent"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "15:10": {
-      "preRequisites:11": [
-        30
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "请先发展AE至ME控制器完成相关任务即可解锁神秘能源任务线",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:controller"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "比罐子更好么?",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 22,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "16:10": {
+    "6:10": {
       "preRequisites:11": [
         1
       ],
@@ -952,7 +407,7 @@
         }
       }
     },
-    "17:10": {
+    "7:10": {
       "preRequisites:11": [
         20
       ],
@@ -1005,7 +460,7 @@
         }
       }
     },
-    "18:10": {
+    "8:10": {
       "preRequisites:11": [
         148
       ],
@@ -1058,7 +513,7 @@
         }
       }
     },
-    "19:10": {
+    "9:10": {
       "preRequisites:11": [
         51
       ],
@@ -1176,156 +631,7 @@
         }
       }
     },
-    "20:10": {
-      "preRequisites:11": [
-        89
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 2,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumcraft:smelter_aux"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "提高运输效率",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 29,
-      "rewards:9": {
-        "0:10": {
-          "amount:3": 20,
-          "index:3": 0,
-          "isLevels:1": 0,
-          "rewardID:8": "bq_standard:xp"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:smelter_aux"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:smelter_vent"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "21:10": {
-      "preRequisites:11": [
-        59
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumcraft:jar_normal"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "源质储存第二步",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 30,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 15,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:label"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:jar_brace"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "22:10": {
+    "10:10": {
       "preRequisites:11": [
         20,
         163
@@ -1379,7 +685,7 @@
         }
       }
     },
-    "23:10": {
+    "11:10": {
       "preRequisites:11": [
         20
       ],
@@ -1432,7 +738,7 @@
         }
       }
     },
-    "24:10": {
+    "12:10": {
       "preRequisites:11": [
         20
       ],
@@ -1485,7 +791,7 @@
         }
       }
     },
-    "25:10": {
+    "13:10": {
       "preRequisites:11": [
         17
       ],
@@ -1549,7 +855,7 @@
         }
       }
     },
-    "26:10": {
+    "14:10": {
       "preRequisites:11": [
         37
       ],
@@ -1601,7 +907,7 @@
         }
       }
     },
-    "27:10": {
+    "15:10": {
       "preRequisites:11": [
         37,
         191
@@ -1686,7 +992,7 @@
         }
       }
     },
-    "28:10": {
+    "16:10": {
       "preRequisites:11": [
         37
       ],
@@ -1750,7 +1056,7 @@
         }
       }
     },
-    "29:10": {
+    "17:10": {
       "preRequisites:11": [
         37
       ],
@@ -1834,7 +1140,7 @@
         }
       }
     },
-    "30:10": {
+    "18:10": {
       "preRequisites:11": [
         37
       ],
@@ -1893,7 +1199,7 @@
         }
       }
     },
-    "31:10": {
+    "19:10": {
       "preRequisites:11": [
         37
       ],
@@ -1940,7 +1246,7 @@
         }
       }
     },
-    "32:10": {
+    "20:10": {
       "preRequisites:11": [
         117
       ],
@@ -1993,7 +1299,7 @@
         }
       }
     },
-    "33:10": {
+    "21:10": {
       "preRequisites:11": [
         117
       ],
@@ -2046,7 +1352,7 @@
         }
       }
     },
-    "34:10": {
+    "22:10": {
       "preRequisites:11": [
         148
       ],
@@ -2099,7 +1405,7 @@
         }
       }
     },
-    "35:10": {
+    "23:10": {
       "preRequisites:11": [
         17
       ],
@@ -2201,7 +1507,7 @@
         }
       }
     },
-    "36:10": {
+    "24:10": {
       "preRequisites:11": [
         281
       ],
@@ -2267,7 +1573,7 @@
         }
       }
     },
-    "37:10": {
+    "25:10": {
       "preRequisites:11": [
         37
       ],
@@ -2326,7 +1632,7 @@
         }
       }
     },
-    "38:10": {
+    "26:10": {
       "preRequisites:11": [
         23
       ],
@@ -2478,7 +1784,7 @@
         }
       }
     },
-    "39:10": {
+    "27:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -2660,7 +1966,7 @@
         }
       }
     },
-    "40:10": {
+    "28:10": {
       "preRequisites:11": [
         99
       ],
@@ -2712,7 +2018,7 @@
         }
       }
     },
-    "41:10": {
+    "29:10": {
       "preRequisites:11": [
         23
       ],
@@ -2795,7 +2101,7 @@
         }
       }
     },
-    "42:10": {
+    "30:10": {
       "preRequisites:11": [
         124
       ],
@@ -2880,7 +2186,7 @@
         }
       }
     },
-    "43:10": {
+    "31:10": {
       "preRequisites:11": [
         27
       ],
@@ -2932,7 +2238,7 @@
         }
       }
     },
-    "44:10": {
+    "32:10": {
       "preRequisites:11": [
         13
       ],
@@ -2971,7 +2277,7 @@
         }
       }
     },
-    "45:10": {
+    "33:10": {
       "preRequisites:11": [
         56
       ],
@@ -3010,7 +2316,7 @@
         }
       }
     },
-    "46:10": {
+    "34:10": {
       "preRequisites:11": [
         145,
         17
@@ -3050,7 +2356,7 @@
         }
       }
     },
-    "47:10": {
+    "35:10": {
       "preRequisites:11": [
         68
       ],
@@ -3102,7 +2408,7 @@
         }
       }
     },
-    "48:10": {
+    "36:10": {
       "preRequisites:11": [
         96
       ],
@@ -3158,7 +2464,7 @@
         }
       }
     },
-    "49:10": {
+    "37:10": {
       "preRequisites:11": [
         60
       ],
@@ -3197,7 +2503,7 @@
         }
       }
     },
-    "50:10": {
+    "38:10": {
       "preRequisites:11": [
         60
       ],
@@ -3236,7 +2542,7 @@
         }
       }
     },
-    "51:10": {
+    "39:10": {
       "preRequisites:11": [
         75
       ],
@@ -3275,7 +2581,7 @@
         }
       }
     },
-    "52:10": {
+    "40:10": {
       "preRequisites:11": [
         81
       ],
@@ -3328,7 +2634,7 @@
         }
       }
     },
-    "53:10": {
+    "41:10": {
       "preRequisites:11": [
         81
       ],
@@ -3387,7 +2693,7 @@
         }
       }
     },
-    "54:10": {
+    "42:10": {
       "preRequisites:11": [
         27,
         54
@@ -3459,60 +2765,7 @@
         }
       }
     },
-    "55:10": {
-      "preRequisites:11": [
-        59
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "想要解锁高级炼金，首先你需要制作一批炼金构材，这是高级炼金的基础材料。\n\n想要制作这个物品，需要解锁位于“炼金术”的研究“源质管道”。\n\n所需要素安瓿来源：\n腐化：地狱疣/纤毛蘑菇\n异域：源质钢锭/末影珍珠/神秘旗帜\n陷阱：琥珀\n炼金：水银",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumcraft:crucible"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "炼金构材",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 89,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:metal_alchemical"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "56:10": {
+    "43:10": {
       "preRequisites:11": [
         78
       ],
@@ -3551,7 +2804,7 @@
         }
       }
     },
-    "57:10": {
+    "44:10": {
       "preRequisites:11": [
         88,
         200
@@ -3622,61 +2875,7 @@
         }
       }
     },
-    "58:10": {
-      "preRequisites:11": [
-        2,
-        89
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "你走到了这一步，几乎已经无路可走了，但是使用元始珍珠能解决这个问题。\n\n用元始珍珠，虚空金属板和炼金构材可以合成高级炼金构材，用于制作更强力的源质冶炼厂，例如虚空源质冶炼厂。\n\n想要制作这个物品，需要解锁位于“炼金术”的研究“虚空源质冶炼厂”，其前置研究为“元始珍珠”和“神秘源质冶炼厂”。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumcraft:metal_alchemical_advanced"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "高级炼金",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 98,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:metal_alchemical_advanced"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "59:10": {
+    "45:10": {
       "preRequisites:11": [
         88,
         96
@@ -3754,7 +2953,7 @@
         }
       }
     },
-    "60:10": {
+    "46:10": {
       "preRequisites:11": [
         99
       ],
@@ -3807,7 +3006,7 @@
         }
       }
     },
-    "61:10": {
+    "47:10": {
       "preRequisites:11": [
         95
       ],
@@ -3860,7 +3059,7 @@
         }
       }
     },
-    "62:10": {
+    "48:10": {
       "preRequisites:11": [
         95
       ],
@@ -3937,7 +3136,7 @@
         }
       }
     },
-    "63:10": {
+    "49:10": {
       "preRequisites:11": [
         95
       ],
@@ -3985,7 +3184,7 @@
         }
       }
     },
-    "64:10": {
+    "50:10": {
       "preRequisites:11": [
         117
       ],
@@ -4024,7 +3223,7 @@
         }
       }
     },
-    "65:10": {
+    "51:10": {
       "preRequisites:11": [
         256
       ],
@@ -4063,7 +3262,7 @@
         }
       }
     },
-    "66:10": {
+    "52:10": {
       "preRequisites:11": [
         116
       ],
@@ -4116,7 +3315,7 @@
         }
       }
     },
-    "67:10": {
+    "53:10": {
       "preRequisites:11": [
         116
       ],
@@ -4169,7 +3368,7 @@
         }
       }
     },
-    "68:10": {
+    "54:10": {
       "preRequisites:11": [
         104
       ],
@@ -4240,7 +3439,7 @@
         }
       }
     },
-    "69:10": {
+    "55:10": {
       "preRequisites:11": [
         119
       ],
@@ -4299,7 +3498,7 @@
         }
       }
     },
-    "70:10": {
+    "56:10": {
       "preRequisites:11": [
         119
       ],
@@ -4352,7 +3551,7 @@
         }
       }
     },
-    "71:10": {
+    "57:10": {
       "preRequisites:11": [
         99
       ],
@@ -4665,7 +3864,7 @@
         }
       }
     },
-    "72:10": {
+    "58:10": {
       "preRequisites:11": [
         145,
         104
@@ -4737,7 +3936,7 @@
         }
       }
     },
-    "73:10": {
+    "59:10": {
       "preRequisites:11": [
         116
       ],
@@ -4790,7 +3989,7 @@
         }
       }
     },
-    "74:10": {
+    "60:10": {
       "preRequisites:11": [
         148
       ],
@@ -4843,7 +4042,7 @@
         }
       }
     },
-    "75:10": {
+    "61:10": {
       "preRequisites:11": [
         88
       ],
@@ -4950,7 +4149,7 @@
         }
       }
     },
-    "76:10": {
+    "62:10": {
       "preRequisites:11": [
         124
       ],
@@ -5003,7 +4202,7 @@
         }
       }
     },
-    "77:10": {
+    "63:10": {
       "preRequisites:11": [
         116
       ],
@@ -5056,7 +4255,7 @@
         }
       }
     },
-    "78:10": {
+    "64:10": {
       "preRequisites:11": [
         124
       ],
@@ -5109,7 +4308,7 @@
         }
       }
     },
-    "79:10": {
+    "65:10": {
       "preRequisites:11": [
         124
       ],
@@ -5162,7 +4361,7 @@
         }
       }
     },
-    "80:10": {
+    "66:10": {
       "preRequisites:11": [
         175
       ],
@@ -5199,7 +4398,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "81:10": {
+    "67:10": {
       "preRequisites:11": [
         169,
         124
@@ -5269,7 +4468,7 @@
         }
       }
     },
-    "82:10": {
+    "68:10": {
       "preRequisites:11": [
         145
       ],
@@ -5358,7 +4557,7 @@
         }
       }
     },
-    "83:10": {
+    "69:10": {
       "preRequisites:11": [
         146
       ],
@@ -5411,7 +4610,7 @@
         }
       }
     },
-    "84:10": {
+    "70:10": {
       "preRequisites:11": [
         146,
         145
@@ -5471,7 +4670,7 @@
         }
       }
     },
-    "85:10": {
+    "71:10": {
       "preRequisites:11": [
         146
       ],
@@ -5524,7 +4723,7 @@
         }
       }
     },
-    "86:10": {
+    "72:10": {
       "preRequisites:11": [
         186
       ],
@@ -5577,7 +4776,7 @@
         }
       }
     },
-    "87:10": {
+    "73:10": {
       "preRequisites:11": [
         186
       ],
@@ -5630,7 +4829,7 @@
         }
       }
     },
-    "88:10": {
+    "74:10": {
       "preRequisites:11": [
         186
       ],
@@ -5664,7 +4863,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "89:10": {
+    "75:10": {
       "preRequisites:11": [
         192
       ],
@@ -5717,7 +4916,7 @@
         }
       }
     },
-    "90:10": {
+    "76:10": {
       "preRequisites:11": [
         192
       ],
@@ -5770,7 +4969,7 @@
         }
       }
     },
-    "91:10": {
+    "77:10": {
       "preRequisites:11": [
         192
       ],
@@ -5823,7 +5022,7 @@
         }
       }
     },
-    "92:10": {
+    "78:10": {
       "preRequisites:11": [
         201,
         146
@@ -5877,7 +5076,7 @@
         }
       }
     },
-    "93:10": {
+    "79:10": {
       "preRequisites:11": [
         161
       ],
@@ -5954,7 +5153,7 @@
         }
       }
     },
-    "94:10": {
+    "80:10": {
       "preRequisites:11": [
         54
       ],
@@ -6024,7 +5223,7 @@
         }
       }
     },
-    "95:10": {
+    "81:10": {
       "preRequisites:11": [
         99
       ],
@@ -6077,7 +5276,7 @@
         }
       }
     },
-    "96:10": {
+    "82:10": {
       "preRequisites:11": [
         146
       ],
@@ -6153,7 +5352,7 @@
         }
       }
     },
-    "97:10": {
+    "83:10": {
       "preRequisites:11": [
         238
       ],
@@ -6186,34 +5385,8 @@
       "questID:3": 239,
       "rewards:9": {
         "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
-            }
-          }
-        },
-        "1:10": {
           "choices:9": {
             "0:10": {
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
-            },
-            "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -6222,7 +5395,7 @@
                 "props:4": 72341268037894144
               }
             },
-            "2:10": {
+            "1:10": {
               "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -6278,7 +5451,7 @@
         }
       }
     },
-    "98:10": {
+    "84:10": {
       "preRequisites:11": [
         238
       ],
@@ -6392,7 +5565,7 @@
         }
       }
     },
-    "99:10": {
+    "85:10": {
       "preRequisites:11": [
         238
       ],
@@ -6494,7 +5667,7 @@
         }
       }
     },
-    "100:10": {
+    "86:10": {
       "preRequisites:11": [
         256
       ],
@@ -6587,7 +5760,7 @@
         }
       }
     },
-    "101:10": {
+    "87:10": {
       "preRequisites:11": [
         238
       ],
@@ -6671,7 +5844,7 @@
         }
       }
     },
-    "102:10": {
+    "88:10": {
       "preRequisites:11": [
         239
       ],
@@ -6708,28 +5881,20 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 3,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
+              "id:8": "thaumcraft:mirror"
             }
           }
         },
         "1:10": {
           "choices:9": {
             "0:10": {
-              "Count:3": 2,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
+              "id:8": "thaumcraft:goggles"
             },
             "1:10": {
               "Count:3": 1,
@@ -6769,7 +5934,7 @@
         }
       }
     },
-    "103:10": {
+    "89:10": {
       "preRequisites:11": [
         239,
         246
@@ -6823,7 +5988,7 @@
         }
       }
     },
-    "104:10": {
+    "90:10": {
       "preRequisites:11": [
         239
       ],
@@ -6860,28 +6025,20 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 3,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
+              "id:8": "thaumcraft:mirror_essentia"
             }
           }
         },
         "1:10": {
           "choices:9": {
             "0:10": {
-              "Count:3": 2,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
+              "id:8": "thaumcraft:resonator"
             },
             "1:10": {
               "Count:3": 1,
@@ -6921,7 +6078,7 @@
         }
       }
     },
-    "105:10": {
+    "91:10": {
       "preRequisites:11": [
         238
       ],
@@ -6993,7 +6150,7 @@
         }
       }
     },
-    "106:10": {
+    "92:10": {
       "preRequisites:11": [
         244
       ],
@@ -7065,7 +6222,7 @@
         }
       }
     },
-    "107:10": {
+    "93:10": {
       "preRequisites:11": [
         244
       ],
@@ -7137,7 +6294,7 @@
         }
       }
     },
-    "108:10": {
+    "94:10": {
       "preRequisites:11": [
         243
       ],
@@ -7243,7 +6400,7 @@
         }
       }
     },
-    "109:10": {
+    "95:10": {
       "preRequisites:11": [
         243
       ],
@@ -7367,7 +6524,7 @@
         }
       }
     },
-    "110:10": {
+    "96:10": {
       "preRequisites:11": [
         238,
         163
@@ -7421,7 +6578,7 @@
         }
       }
     },
-    "111:10": {
+    "97:10": {
       "preRequisites:11": [
         175,
         288,
@@ -7476,7 +6633,7 @@
         }
       }
     },
-    "112:10": {
+    "98:10": {
       "preRequisites:11": [
         175
       ],
@@ -7529,7 +6686,7 @@
         }
       }
     },
-    "113:10": {
+    "99:10": {
       "preRequisites:11": [
         242
       ],
@@ -7582,7 +6739,7 @@
         }
       }
     },
-    "114:10": {
+    "100:10": {
       "preRequisites:11": [
         281,
         279
@@ -7636,7 +6793,7 @@
         }
       }
     },
-    "115:10": {
+    "101:10": {
       "preRequisites:11": [
         277
       ],
@@ -7705,7 +6862,7 @@
         }
       }
     },
-    "116:10": {
+    "102:10": {
       "preRequisites:11": [
         293
       ],
@@ -7758,7 +6915,7 @@
         }
       }
     },
-    "117:10": {
+    "103:10": {
       "preRequisites:11": [
         298
       ],
@@ -7809,7 +6966,7 @@
         }
       }
     },
-    "118:10": {
+    "104:10": {
       "preRequisites:11": [
         301
       ],
@@ -7862,7 +7019,7 @@
         }
       }
     },
-    "119:10": {
+    "105:10": {
       "preRequisites:11": [
         303
       ],
@@ -7951,7 +7108,7 @@
         }
       }
     },
-    "120:10": {
+    "106:10": {
       "preRequisites:11": [
         242
       ],
@@ -8004,7 +7161,7 @@
         }
       }
     },
-    "121:10": {
+    "107:10": {
       "preRequisites:11": [
         304
       ],
@@ -8057,7 +7214,7 @@
         }
       }
     },
-    "122:10": {
+    "108:10": {
       "preRequisites:11": [
         406
       ],
@@ -8213,7 +7370,7 @@
         }
       }
     },
-    "123:10": {
+    "109:10": {
       "preRequisites:11": [
         390
       ],
@@ -8268,7 +7425,7 @@
         }
       }
     },
-    "124:10": {
+    "110:10": {
       "preRequisites:11": [
         387
       ],
@@ -8340,7 +7497,7 @@
         }
       }
     },
-    "125:10": {
+    "111:10": {
       "preRequisites:11": [
         404
       ],
@@ -8406,7 +7563,7 @@
         }
       }
     },
-    "126:10": {
+    "112:10": {
       "preRequisites:11": [
         388
       ],
@@ -8490,7 +7647,7 @@
         }
       }
     },
-    "127:10": {
+    "113:10": {
       "preRequisites:11": [
         383
       ],
@@ -8561,7 +7718,7 @@
         }
       }
     },
-    "128:10": {
+    "114:10": {
       "preRequisites:11": [
         370
       ],
@@ -8631,7 +7788,7 @@
         }
       }
     },
-    "129:10": {
+    "115:10": {
       "preRequisites:11": [
         13
       ],
@@ -8697,7 +7854,7 @@
         }
       }
     },
-    "130:10": {
+    "116:10": {
       "preRequisites:11": [
         383
       ],
@@ -8768,7 +7925,7 @@
         }
       }
     },
-    "131:10": {
+    "117:10": {
       "preRequisites:11": [
         387
       ],
@@ -8834,7 +7991,7 @@
         }
       }
     },
-    "132:10": {
+    "118:10": {
       "preRequisites:11": [
         377
       ],
@@ -8900,7 +8057,7 @@
         }
       }
     },
-    "133:10": {
+    "119:10": {
       "preRequisites:11": [
         374
       ],
@@ -8971,7 +8128,7 @@
         }
       }
     },
-    "134:10": {
+    "120:10": {
       "preRequisites:11": [
         397
       ],
@@ -9060,7 +8217,7 @@
         }
       }
     },
-    "135:10": {
+    "121:10": {
       "preRequisites:11": [
         373
       ],
@@ -9180,7 +8337,7 @@
         }
       }
     },
-    "136:10": {
+    "122:10": {
       "preRequisites:11": [
         402
       ],
@@ -9246,7 +8403,7 @@
         }
       }
     },
-    "137:10": {
+    "123:10": {
       "preRequisites:11": [
         380
       ],
@@ -9312,7 +8469,7 @@
         }
       }
     },
-    "138:10": {
+    "124:10": {
       "preRequisites:11": [
         404
       ],
@@ -9383,7 +8540,7 @@
         }
       }
     },
-    "139:10": {
+    "125:10": {
       "preRequisites:11": [
         407,
         391
@@ -9450,7 +8607,7 @@
         }
       }
     },
-    "140:10": {
+    "126:10": {
       "preRequisites:11": [
         378
       ],
@@ -9503,7 +8660,7 @@
         }
       }
     },
-    "141:10": {
+    "127:10": {
       "preRequisites:11": [
         383
       ],
@@ -9569,7 +8726,7 @@
         }
       }
     },
-    "142:10": {
+    "128:10": {
       "preRequisites:11": [
         372
       ],
@@ -9622,7 +8779,7 @@
         }
       }
     },
-    "143:10": {
+    "129:10": {
       "preRequisites:11": [
         405
       ],
@@ -9757,7 +8914,7 @@
         }
       }
     },
-    "144:10": {
+    "130:10": {
       "preRequisites:11": [
         383
       ],
@@ -9841,7 +8998,7 @@
         }
       }
     },
-    "145:10": {
+    "131:10": {
       "preRequisites:11": [
         403
       ],
@@ -9948,7 +9105,7 @@
         }
       }
     },
-    "146:10": {
+    "132:10": {
       "preRequisites:11": [
         387
       ],
@@ -10020,7 +9177,7 @@
         }
       }
     },
-    "147:10": {
+    "133:10": {
       "preRequisites:11": [
         377
       ],
@@ -10079,7 +9236,7 @@
         }
       }
     },
-    "148:10": {
+    "134:10": {
       "preRequisites:11": [
         392
       ],
@@ -10163,7 +9320,7 @@
         }
       }
     },
-    "149:10": {
+    "135:10": {
       "preRequisites:11": [
         383
       ],
@@ -10247,7 +9404,7 @@
         }
       }
     },
-    "150:10": {
+    "136:10": {
       "preRequisites:11": [
         404
       ],
@@ -10318,7 +9475,7 @@
         }
       }
     },
-    "151:10": {
+    "137:10": {
       "preRequisites:11": [
         390
       ],
@@ -10373,7 +9530,7 @@
         }
       }
     },
-    "152:10": {
+    "138:10": {
       "preRequisites:11": [
         390
       ],
@@ -10445,7 +9602,7 @@
         }
       }
     },
-    "153:10": {
+    "139:10": {
       "preRequisites:11": [
         388
       ],
@@ -10534,7 +9691,7 @@
         }
       }
     },
-    "154:10": {
+    "140:10": {
       "preRequisites:11": [
         400
       ],
@@ -10607,7 +9764,7 @@
         }
       }
     },
-    "155:10": {
+    "141:10": {
       "preRequisites:11": [
         377
       ],
@@ -10691,7 +9848,7 @@
         }
       }
     },
-    "156:10": {
+    "142:10": {
       "preRequisites:11": [
         387
       ],
@@ -10795,7 +9952,7 @@
         }
       }
     },
-    "157:10": {
+    "143:10": {
       "preRequisites:11": [
         406,
         380
@@ -10849,7 +10006,7 @@
         }
       }
     },
-    "158:10": {
+    "144:10": {
       "preRequisites:11": [
         380
       ],
@@ -10956,7 +10113,7 @@
         }
       }
     },
-    "159:10": {
+    "145:10": {
       "preRequisites:11": [
         393
       ],
@@ -11076,7 +10233,7 @@
         }
       }
     },
-    "160:10": {
+    "146:10": {
       "preRequisites:11": [
         390
       ],
@@ -11208,7 +10365,7 @@
         }
       }
     },
-    "161:10": {
+    "147:10": {
       "preRequisites:11": [
         245
       ],
@@ -11310,7 +10467,7 @@
         }
       }
     },
-    "162:10": {
+    "148:10": {
       "preRequisites:11": [
         238
       ],
@@ -11496,7 +10653,7 @@
         }
       }
     },
-    "163:10": {
+    "149:10": {
       "preRequisites:11": [
         530
       ],
@@ -11562,7 +10719,7 @@
         }
       }
     },
-    "164:10": {
+    "150:10": {
       "preRequisites:11": [
         530
       ],
@@ -11660,7 +10817,7 @@
         }
       }
     },
-    "165:10": {
+    "151:10": {
       "preRequisites:11": [
         530
       ],
@@ -11732,7 +10889,7 @@
         }
       }
     },
-    "166:10": {
+    "152:10": {
       "preRequisites:11": [
         238
       ],
@@ -11834,7 +10991,7 @@
         }
       }
     },
-    "167:10": {
+    "153:10": {
       "preRequisites:11": [
         572
       ],
@@ -11887,7 +11044,7 @@
         }
       }
     },
-    "168:10": {
+    "154:10": {
       "preRequisites:11": [
         573
       ],
@@ -11961,7 +11118,7 @@
         }
       }
     },
-    "169:10": {
+    "155:10": {
       "preRequisites:11": [
         569
       ],
@@ -12014,7 +11171,7 @@
         }
       }
     },
-    "170:10": {
+    "156:10": {
       "preRequisites:11": [
         572
       ],
@@ -12103,7 +11260,7 @@
         }
       }
     },
-    "171:10": {
+    "157:10": {
       "preRequisites:11": [
         573
       ],
@@ -12169,7 +11326,7 @@
         }
       }
     },
-    "172:10": {
+    "158:10": {
       "preRequisites:11": [
         387
       ],
@@ -12208,7 +11365,7 @@
         }
       }
     },
-    "173:10": {
+    "159:10": {
       "preRequisites:11": [
         575
       ],
@@ -12261,7 +11418,7 @@
         }
       }
     },
-    "174:10": {
+    "160:10": {
       "preRequisites:11": [
         569
       ],
@@ -12332,7 +11489,7 @@
         }
       }
     },
-    "175:10": {
+    "161:10": {
       "preRequisites:11": [
         543
       ],
@@ -12440,7 +11597,7 @@
         }
       }
     },
-    "176:10": {
+    "162:10": {
       "preRequisites:11": [
         601
       ],
@@ -12512,7 +11669,7 @@
         }
       }
     },
-    "177:10": {
+    "163:10": {
       "preRequisites:11": [
         601
       ],
@@ -12626,7 +11783,7 @@
         }
       }
     },
-    "178:10": {
+    "164:10": {
       "preRequisites:11": [
         601,
         603
@@ -12717,7 +11874,7 @@
         }
       }
     },
-    "179:10": {
+    "165:10": {
       "preRequisites:11": [
         619
       ],
@@ -12788,7 +11945,7 @@
         }
       }
     },
-    "180:10": {
+    "166:10": {
       "preRequisites:11": [
         146,
         192
@@ -12842,7 +11999,7 @@
         }
       }
     },
-    "181:10": {
+    "167:10": {
       "preRequisites:11": [
         609
       ],
@@ -12895,7 +12052,7 @@
         }
       }
     },
-    "182:10": {
+    "168:10": {
       "preRequisites:11": [
         609
       ],
@@ -12948,7 +12105,7 @@
         }
       }
     },
-    "183:10": {
+    "169:10": {
       "preRequisites:11": [
         618
       ],
@@ -13001,7 +12158,7 @@
         }
       }
     },
-    "184:10": {
+    "170:10": {
       "preRequisites:11": [
         632
       ],
@@ -13054,7 +12211,7 @@
         }
       }
     },
-    "185:10": {
+    "171:10": {
       "preRequisites:11": [
         632
       ],
@@ -13107,7 +12264,7 @@
         }
       }
     },
-    "186:10": {
+    "172:10": {
       "preRequisites:11": [
         146,
         238,
@@ -13162,7 +12319,7 @@
         }
       }
     },
-    "187:10": {
+    "173:10": {
       "preRequisites:11": [
         618
       ],
@@ -13215,7 +12372,7 @@
         }
       }
     },
-    "188:10": {
+    "174:10": {
       "preRequisites:11": [
         628
       ],
@@ -13268,7 +12425,7 @@
         }
       }
     },
-    "189:10": {
+    "175:10": {
       "preRequisites:11": [
         628
       ],
@@ -13321,7 +12478,7 @@
         }
       }
     },
-    "190:10": {
+    "176:10": {
       "preRequisites:11": [
         609
       ],
@@ -13374,7 +12531,7 @@
         }
       }
     },
-    "191:10": {
+    "177:10": {
       "preRequisites:11": [
         628
       ],
@@ -13445,7 +12602,7 @@
         }
       }
     },
-    "192:10": {
+    "178:10": {
       "preRequisites:11": [
         310
       ],
@@ -13538,7 +12695,7 @@
         }
       }
     },
-    "193:10": {
+    "179:10": {
       "preRequisites:11": [
         627
       ],
@@ -13627,7 +12784,7 @@
         }
       }
     },
-    "194:10": {
+    "180:10": {
       "preRequisites:11": [
         632
       ],
@@ -13680,7 +12837,7 @@
         }
       }
     },
-    "195:10": {
+    "181:10": {
       "preRequisites:11": [
         626
       ],
@@ -13753,7 +12910,7 @@
         }
       }
     },
-    "196:10": {
+    "182:10": {
       "preRequisites:11": [
         614
       ],
@@ -13824,7 +12981,7 @@
         }
       }
     },
-    "197:10": {
+    "183:10": {
       "preRequisites:11": [
         609
       ],
@@ -13877,7 +13034,7 @@
         }
       }
     },
-    "198:10": {
+    "184:10": {
       "preRequisites:11": [
         632
       ],
@@ -13930,7 +13087,7 @@
         }
       }
     },
-    "199:10": {
+    "185:10": {
       "preRequisites:11": [
         624
       ],
@@ -14049,7 +13206,7 @@
         }
       }
     },
-    "200:10": {
+    "186:10": {
       "preRequisites:11": [
         628
       ],
@@ -14083,7 +13240,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "201:10": {
+    "187:10": {
       "preRequisites:11": [
         637
       ],
@@ -14238,7 +13395,7 @@
         }
       }
     },
-    "202:10": {
+    "188:10": {
       "preRequisites:11": [
         628
       ],
@@ -14291,7 +13448,7 @@
         }
       }
     },
-    "203:10": {
+    "189:10": {
       "preRequisites:11": [
         626,
         635
@@ -14350,7 +13507,7 @@
         }
       }
     },
-    "204:10": {
+    "190:10": {
       "preRequisites:11": [
         99
       ],
@@ -14412,125 +13569,6 @@
   },
   "questLines:9": {
     "0:10": {
-      "lineID:3": 0,
-      "order:3": 6,
-      "properties:10": {
-        "betterquesting:10": {
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "更多炼金术内容！",
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumcraft:crucible"
-          },
-          "name:8": "炼金套娃，逐级递增",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -48
-        },
-        "1:10": {
-          "id:3": 2,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": -120
-        },
-        "2:10": {
-          "id:3": 6,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -120
-        },
-        "3:10": {
-          "id:3": 7,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": -84
-        },
-        "4:10": {
-          "id:3": 9,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -12
-        },
-        "5:10": {
-          "id:3": 10,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -120
-        },
-        "6:10": {
-          "id:3": 12,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -84
-        },
-        "7:10": {
-          "id:3": 14,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -84
-        },
-        "8:10": {
-          "id:3": 21,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -156
-        },
-        "9:10": {
-          "id:3": 22,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -120
-        },
-        "10:10": {
-          "id:3": 29,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -156
-        },
-        "11:10": {
-          "id:3": 30,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -84
-        },
-        "12:10": {
-          "id:3": 89,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -120
-        },
-        "13:10": {
-          "id:3": 98,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -84
-        }
-      }
-    },
-    "1:10": {
       "lineID:3": 1,
       "order:3": 0,
       "properties:10": {
@@ -14866,7 +13904,7 @@
         }
       }
     },
-    "2:10": {
+    "1:10": {
       "lineID:3": 2,
       "order:3": 4,
       "properties:10": {
@@ -14943,9 +13981,9 @@
         }
       }
     },
-    "3:10": {
+    "2:10": {
       "lineID:3": 3,
-      "order:3": 9,
+      "order:3": 8,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -14985,7 +14023,7 @@
         }
       }
     },
-    "4:10": {
+    "3:10": {
       "lineID:3": 4,
       "order:3": 3,
       "properties:10": {
@@ -15027,7 +14065,7 @@
         }
       }
     },
-    "5:10": {
+    "4:10": {
       "lineID:3": 5,
       "order:3": 5,
       "properties:10": {
@@ -15220,9 +14258,9 @@
         }
       }
     },
-    "6:10": {
+    "5:10": {
       "lineID:3": 6,
-      "order:3": 7,
+      "order:3": 6,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -15514,7 +14552,7 @@
         }
       }
     },
-    "7:10": {
+    "6:10": {
       "lineID:3": 8,
       "order:3": 1,
       "properties:10": {
@@ -15794,9 +14832,9 @@
         }
       }
     },
-    "8:10": {
+    "7:10": {
       "lineID:3": 11,
-      "order:3": 8,
+      "order:3": 7,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -15874,7 +14912,7 @@
         }
       }
     },
-    "9:10": {
+    "8:10": {
       "lineID:3": 12,
       "order:3": 2,
       "properties:10": {

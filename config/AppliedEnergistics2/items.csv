@@ -3451,6 +3451,8 @@ thaumcraft:phial:1, Superbia 源质安瓿
 thaumcraft:phial:1, Desidia 源质安瓿
 thaumcraft:phial:1, Ira 源质安瓿
 thaumcraft:phial:1, Terminus 源质安瓿
+thaumcraft:phial:1, Mythus 源质安瓿
+thaumcraft:phial:1, Draco 源质安瓿
 thaumcraft:phial:1, Spatio 源质安瓿
 thaumcraft:phial:1, Tempus 源质安瓿
 thaumcraft:phial:1, Tinctura 源质安瓿
@@ -3673,6 +3675,7 @@ thaumicaugmentation:rift_jar:0, 奥术强化罐子
 thaumicaugmentation:rift_jar:0, 缸中裂隙
 thaumicaugmentation:impetus_mirror:0, 元动之镜
 thaumicaugmentation:impetus_linker:0, 元动谐振器
+thaumicaugmentation:biome_selector:0, 群系核心
 thaumicaugmentation:biome_selector:0, 群系核心
 thaumicaugmentation:biome_selector:0, 群系核心
 thaumicaugmentation:biome_selector:0, 群系核心
@@ -4248,8 +4251,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 薄暮仪式石
 appliedenergistics2:facade:0, 线缆伪装板 - 破晓仪式石
 appliedenergistics2:facade:0, 线缆伪装板 - 大血石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 血石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 晶簇块
-appliedenergistics2:facade:0, 线缆伪装板 - 晶簇砖
 appliedenergistics2:facade:0, 线缆伪装板 - 木制路面
 appliedenergistics2:facade:0, 线缆伪装板 - 木瓦路面
 appliedenergistics2:facade:0, 线缆伪装板 - 石砖路面
@@ -4313,65 +4314,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - [腐蚀]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [破坏]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [复仇]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [坚毅]意志之瞳
-appliedenergistics2:facade:0, 线缆伪装板 - 烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质森林石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质平原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高山石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质菌丝石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沼泽石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沙漠石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质雪原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 白色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 黑色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 蓝色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 红色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 黄色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 绿色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 活石
 appliedenergistics2:facade:0, 线缆伪装板 - 活石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 苔活石砖
@@ -4442,6 +4384,65 @@ appliedenergistics2:facade:0, 线缆伪装板 - 鲜草草地
 appliedenergistics2:facade:0, 线缆伪装板 - 焦草草地
 appliedenergistics2:facade:0, 线缆伪装板 - 注魔草地
 appliedenergistics2:facade:0, 线缆伪装板 - 异变草地
+appliedenergistics2:facade:0, 线缆伪装板 - 烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质森林石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质平原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高山石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质菌丝石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沼泽石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沙漠石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质雪原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 白色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 黑色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 蓝色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 红色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 黄色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 绿色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
@@ -6383,6 +6384,69 @@ appliedenergistics2:facade:0, 线缆伪装板 - 橙色地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 橙色地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 地毯
+appliedenergistics2:facade:0, 线缆伪装板 - 紫水晶矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 铜矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 银矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 蓝宝石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 紫水晶块
+appliedenergistics2:facade:0, 线缆伪装板 - 铜块
+appliedenergistics2:facade:0, 线缆伪装板 - 银块
+appliedenergistics2:facade:0, 线缆伪装板 - 蓝宝石块
+appliedenergistics2:facade:0, 线缆伪装板 - 焦土
+appliedenergistics2:facade:0, 线缆伪装板 - 焦灰草皮
+appliedenergistics2:facade:0, 线缆伪装板 - 焦灰石头
+appliedenergistics2:facade:0, 线缆伪装板 - 焦灰圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 焦灰沙砾
+appliedenergistics2:facade:0, 线缆伪装板 - 霆霹泥土
+appliedenergistics2:facade:0, 线缆伪装板 - 霆霹草方块
+appliedenergistics2:facade:0, 线缆伪装板 - 霆霹石头
+appliedenergistics2:facade:0, 线缆伪装板 - 霆霹圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 霆霹砂砾
+appliedenergistics2:facade:0, 线缆伪装板 - 灰烬
+appliedenergistics2:facade:0, 线缆伪装板 - 冻土
+appliedenergistics2:facade:0, 线缆伪装板 - 霜冻草皮
+appliedenergistics2:facade:0, 线缆伪装板 - 霜冻石头
+appliedenergistics2:facade:0, 线缆伪装板 - 霜冻圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 霜冻沙砾
+appliedenergistics2:facade:0, 线缆伪装板 - 冰结碎片
+appliedenergistics2:facade:0, 线缆伪装板 - 闪电石
+appliedenergistics2:facade:0, 线缆伪装板 - 龙巢
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 龙骨块
+appliedenergistics2:facade:0, 线缆伪装板 - 沙漠恐蚁粘液
+appliedenergistics2:facade:0, 线缆伪装板 - 丛林恐蚁粘液
+appliedenergistics2:facade:0, 线缆伪装板 - 黏性沙漠恐蚁粘液
+appliedenergistics2:facade:0, 线缆伪装板 - 粘性丛林恐蚁粘液
+appliedenergistics2:facade:0, 线缆伪装板 - 硬化的沙漠恐蚁粘液
+appliedenergistics2:facade:0, 线缆伪装板 - 硬化的丛林恐蚁粘液
+appliedenergistics2:facade:0, 线缆伪装板 - 沙漠恐蚁粘液玻璃
+appliedenergistics2:facade:0, 线缆伪装板 - 丛林恐蚁粘液玻璃
+appliedenergistics2:facade:0, 线缆伪装板 - 悚石
+appliedenergistics2:facade:0, 线缆伪装板 - 悚砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制悚砖
+appliedenergistics2:facade:0, 线缆伪装板 - 裂悚砖
+appliedenergistics2:facade:0, 线缆伪装板 - 苔悚砖
+appliedenergistics2:facade:0, 线缆伪装板 - 悚石瓦块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制骷面悚砖
+appliedenergistics2:facade:0, 线缆伪装板 - 悚砖台阶
+appliedenergistics2:facade:0, 线缆伪装板 - 海蟒鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 海蟒鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 海蟒鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 海蟒鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 海蟒鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 海蟒鳞块
+appliedenergistics2:facade:0, 线缆伪装板 - 海蟒鳞块
 appliedenergistics2:facade:0, 线缆伪装板 - Chocolate
 appliedenergistics2:facade:0, 线缆伪装板 - 精密侦测器
 appliedenergistics2:facade:0, 线缆伪装板 - 闸式侦测器
@@ -6858,8 +6922,6 @@ bloodmagic:demon_crystal:4, [坚毅]意志晶簇
 bloodmagic:alchemy_table, 炼金术桌
 bloodmagic:decorative_brick:0, 大血石砖
 bloodmagic:decorative_brick:1, 血石砖
-bloodmagic:decorative_brick:2, 晶簇块
-bloodmagic:decorative_brick:3, 晶簇砖
 bloodmagic:path:0, 木制路面
 bloodmagic:path:1, 木瓦路面
 bloodmagic:path:2, 石砖路面
@@ -6988,7 +7050,6 @@ bloodmagic:blood_orb:0, [学徒]气血宝珠
 bloodmagic:blood_orb:0, [法师]气血宝珠
 bloodmagic:blood_orb:0, [导师]气血宝珠
 bloodmagic:blood_orb:0, [贤者]气血宝珠
-bloodmagic:blood_orb:0, [卓越]气血宝珠
 bloodmagic:activation_crystal:0, [虚弱]激活水晶
 bloodmagic:activation_crystal:1, [觉醒]激活水晶
 bloodmagic:activation_crystal:2, [创造]激活水晶
@@ -7002,7 +7063,6 @@ bloodmagic:inscription_tool:2, 元素铭文工具：火
 bloodmagic:inscription_tool:3, 元素铭文工具：土
 bloodmagic:inscription_tool:4, 元素铭文工具：风
 bloodmagic:inscription_tool:5, 元素铭文工具：薄暮
-bloodmagic:inscription_tool:6, 元素铭文工具：破晓
 bloodmagic:sacrificial_dagger:0, 牺牲匕首
 bloodmagic:sacrificial_dagger:1, [创造]牺牲匕首
 bloodmagic:pack_sacrifice, 斗士铠衣
@@ -7488,169 +7548,6 @@ botania:supercloudpendant, item.superCloudPendant.name
 botania:thirdeye, item.thirdEye.name
 botania:astrolabe, item.astrolabe.name
 botania:goddesscharm, item.goddessCharm.name
-botania:livingwood0stairs, tile.livingwood0Stairs.name
-botania:livingwood0slab:0, 活木台阶
-botania:livingwood0wall, tile.livingwood0Wall.name
-botania:livingwood1stairs, tile.livingwood1Stairs.name
-botania:livingwood1slab:0, 活木台阶
-botania:livingrock0stairs, tile.livingrock0Stairs.name
-botania:livingrock0slab:0, 活石台阶
-botania:livingrock0wall, tile.livingrock0Wall.name
-botania:livingrock1stairs, tile.livingrock1Stairs.name
-botania:livingrock1slab:0, 活石砖台阶
-botania:dreamwood0stairs, tile.dreamwood0Stairs.name
-botania:dreamwood0slab:0, 梦之木台阶
-botania:dreamwood0wall, tile.dreamwood0Wall.name
-botania:dreamwood1stairs, tile.dreamwood1Stairs.name
-botania:dreamwood1slab:0, 梦之木台阶
-botania:quartztypedark:0, 烟熏石英块
-botania:quartztypedark:1, 錾制烟熏石英块
-botania:quartztypedark:2, 竖纹烟熏石英块
-botania:quartzslabdarkhalf:0, 烟熏石英台阶
-botania:quartzstairsdark, tile.quartzStairsDark.name
-botania:quartztypemana:0, 魔力石英块
-botania:quartztypemana:1, 錾制魔力石英块
-botania:quartztypemana:2, 竖纹魔力石英块
-botania:quartzslabmanahalf:0, 魔力石英台阶
-botania:quartzstairsmana, tile.quartzStairsMana.name
-botania:quartztypeblaze:0, 烈焰石英块
-botania:quartztypeblaze:1, 錾制烈焰石英块
-botania:quartztypeblaze:2, 竖纹烈焰石英块
-botania:quartzslabblazehalf:0, 烈焰石英台阶
-botania:quartzstairsblaze, tile.quartzStairsBlaze.name
-botania:quartztypelavender:0, 熏香石英块
-botania:quartztypelavender:1, 錾制熏香石英块
-botania:quartztypelavender:2, 竖纹熏香石英块
-botania:quartzslablavenderhalf:0, 熏香石英台阶
-botania:quartzstairslavender, tile.quartzStairsLavender.name
-botania:quartztypered:0, 红色石英块
-botania:quartztypered:1, 錾制红色石英块
-botania:quartztypered:2, 竖纹红色石英块
-botania:quartzslabredhalf:0, 红色石英台阶
-botania:quartzstairsred, tile.quartzStairsRed.name
-botania:quartztypeelf:0, 精灵石英块
-botania:quartztypeelf:1, 錾制精灵石英块
-botania:quartztypeelf:2, 竖纹精灵石英块
-botania:quartzslabelfhalf:0, 精灵石英台阶
-botania:quartzstairself, tile.quartzStairsElf.name
-botania:quartztypesunny:0, 金黄石英块
-botania:quartztypesunny:1, 錾制金黄石英块
-botania:quartztypesunny:2, 竖纹金黄石英块
-botania:quartzslabsunnyhalf:0, 金黄石英台阶
-botania:quartzstairssunny, tile.quartzStairsSunny.name
-botania:biomestonea:0, 变质森林石头
-botania:biomestonea:1, 变质平原石头
-botania:biomestonea:2, 变质高山石头
-botania:biomestonea:3, 变质菌丝石头
-botania:biomestonea:4, 变质沼泽石头
-botania:biomestonea:5, 变质沙漠石头
-botania:biomestonea:6, 变质雪原石头
-botania:biomestonea:7, 变质高原石头
-botania:biomestonea:8, 变质森林圆石
-botania:biomestonea:9, 变质平原圆石
-botania:biomestonea:10, 变质高山圆石
-botania:biomestonea:11, 变质菌丝圆石
-botania:biomestonea:12, 变质沼泽圆石
-botania:biomestonea:13, 变质沙漠圆石
-botania:biomestonea:14, 变质雪原圆石
-botania:biomestonea:15, 变质高原圆石
-botania:biomestoneb:0, 变质森林石砖
-botania:biomestoneb:1, 变质平原石砖
-botania:biomestoneb:2, 变质高山石砖
-botania:biomestoneb:3, 变质菌丝石砖
-botania:biomestoneb:4, 变质沼泽石砖
-botania:biomestoneb:5, 变质沙漠石砖
-botania:biomestoneb:6, 变质雪原石砖
-botania:biomestoneb:7, 变质高原石砖
-botania:biomestoneb:8, 錾制变质森林石砖
-botania:biomestoneb:9, 錾制变质平原石砖
-botania:biomestoneb:10, 錾制变质高山石砖
-botania:biomestoneb:11, 錾制变质菌丝石砖
-botania:biomestoneb:12, 錾制变质沼泽石砖
-botania:biomestoneb:13, 錾制变质沙漠石砖
-botania:biomestoneb:14, 錾制变质雪原石砖
-botania:biomestoneb:15, 錾制变质高原石砖
-botania:pavement:0, 白色葡萄牙路面
-botania:pavement:1, 黑色葡萄牙路面
-botania:pavement:2, 蓝色葡萄牙路面
-botania:pavement:3, 红色葡萄牙路面
-botania:pavement:4, 黄色葡萄牙路面
-botania:pavement:5, 绿色葡萄牙路面
-botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
-botania:biomestonea0slab:0, 变质森林石头台阶
-botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
-botania:biomestonea1slab:0, 变质平原石头台阶
-botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
-botania:biomestonea2slab:0, 变质高山石头台阶
-botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
-botania:biomestonea3slab:0, 变质菌丝石头台阶
-botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
-botania:biomestonea4slab:0, 变质沼泽石头台阶
-botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
-botania:biomestonea5slab:0, 变质沙漠石头台阶
-botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
-botania:biomestonea6slab:0, 变质雪原石头台阶
-botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
-botania:biomestonea7slab:0, 变质高原石头台阶
-botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
-botania:biomestonea8slab:0, 变质森林圆石台阶
-botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
-botania:biomestonea9slab:0, 变质平原圆石台阶
-botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
-botania:biomestonea10slab:0, 变质高山圆石台阶
-botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
-botania:biomestonea11slab:0, 变质菌丝圆石台阶
-botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
-botania:biomestonea12slab:0, 变质沼泽圆石台阶
-botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
-botania:biomestonea13slab:0, 变质沙漠圆石台阶
-botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
-botania:biomestonea14slab:0, 变质雪原圆石台阶
-botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
-botania:biomestonea15slab:0, 变质高原圆石台阶
-botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
-botania:biomestoneb0slab:0, 变质森林石砖台阶
-botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
-botania:biomestoneb1slab:0, 变质平原石砖台阶
-botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
-botania:biomestoneb2slab:0, 变质高山石砖台阶
-botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
-botania:biomestoneb3slab:0, 变质菌丝石砖台阶
-botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
-botania:biomestoneb4slab:0, 变质沼泽石砖台阶
-botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
-botania:biomestoneb5slab:0, 变质沙漠石砖台阶
-botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
-botania:biomestoneb6slab:0, 变质雪原石砖台阶
-botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
-botania:biomestoneb7slab:0, 变质高原石砖台阶
-botania:biomestonea0wall:0, 变质森林石墙
-botania:biomestonea0wall:1, 变质平原石墙
-botania:biomestonea0wall:2, 变质高山石墙
-botania:biomestonea0wall:3, 变质菌丝石墙
-botania:biomestonea0wall:4, 变质沼泽石墙
-botania:biomestonea0wall:5, 变质沙漠石墙
-botania:biomestonea0wall:6, 变质雪原石墙
-botania:biomestonea0wall:7, 变质高原石墙
-botania:pavement0stairs, tile.pavement0Stairs.name
-botania:pavement0slab:0, 白色葡萄牙台阶
-botania:pavement1stairs, tile.pavement1Stairs.name
-botania:pavement1slab:0, 黑色葡萄牙台阶
-botania:pavement2stairs, tile.pavement2Stairs.name
-botania:pavement2slab:0, 蓝色葡萄牙台阶
-botania:pavement3stairs, tile.pavement3Stairs.name
-botania:pavement3slab:0, 红色葡萄牙台阶
-botania:pavement4stairs, tile.pavement4Stairs.name
-botania:pavement4slab:0, 黄色葡萄牙台阶
-botania:pavement5stairs, tile.pavement5Stairs.name
-botania:pavement5slab:0, 绿色葡萄牙台阶
-botania:shimmerrock0slab:0, 微光石台阶
-botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
-botania:shimmerwoodplanks0slab:0, 微光木板台阶
-botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
-botania:managlasspane, tile.manaGlassPane.name
-botania:elfglasspane, tile.elfGlassPane.name
-botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:flower:0, 白色神秘花
 botania:flower:1, 橙色神秘花
 botania:flower:2, 品红色神秘花
@@ -7990,6 +7887,169 @@ botania:altgrass:3, 焦草草地
 botania:altgrass:4, 注魔草地
 botania:altgrass:5, 异变草地
 botania:animatedtorch, tile.animatedTorch.name
+botania:livingwood0stairs, tile.livingwood0Stairs.name
+botania:livingwood0slab:0, 活木台阶
+botania:livingwood0wall, tile.livingwood0Wall.name
+botania:livingwood1stairs, tile.livingwood1Stairs.name
+botania:livingwood1slab:0, 活木台阶
+botania:livingrock0stairs, tile.livingrock0Stairs.name
+botania:livingrock0slab:0, 活石台阶
+botania:livingrock0wall, tile.livingrock0Wall.name
+botania:livingrock1stairs, tile.livingrock1Stairs.name
+botania:livingrock1slab:0, 活石砖台阶
+botania:dreamwood0stairs, tile.dreamwood0Stairs.name
+botania:dreamwood0slab:0, 梦之木台阶
+botania:dreamwood0wall, tile.dreamwood0Wall.name
+botania:dreamwood1stairs, tile.dreamwood1Stairs.name
+botania:dreamwood1slab:0, 梦之木台阶
+botania:quartztypedark:0, 烟熏石英块
+botania:quartztypedark:1, 錾制烟熏石英块
+botania:quartztypedark:2, 竖纹烟熏石英块
+botania:quartzslabdarkhalf:0, 烟熏石英台阶
+botania:quartzstairsdark, tile.quartzStairsDark.name
+botania:quartztypemana:0, 魔力石英块
+botania:quartztypemana:1, 錾制魔力石英块
+botania:quartztypemana:2, 竖纹魔力石英块
+botania:quartzslabmanahalf:0, 魔力石英台阶
+botania:quartzstairsmana, tile.quartzStairsMana.name
+botania:quartztypeblaze:0, 烈焰石英块
+botania:quartztypeblaze:1, 錾制烈焰石英块
+botania:quartztypeblaze:2, 竖纹烈焰石英块
+botania:quartzslabblazehalf:0, 烈焰石英台阶
+botania:quartzstairsblaze, tile.quartzStairsBlaze.name
+botania:quartztypelavender:0, 熏香石英块
+botania:quartztypelavender:1, 錾制熏香石英块
+botania:quartztypelavender:2, 竖纹熏香石英块
+botania:quartzslablavenderhalf:0, 熏香石英台阶
+botania:quartzstairslavender, tile.quartzStairsLavender.name
+botania:quartztypered:0, 红色石英块
+botania:quartztypered:1, 錾制红色石英块
+botania:quartztypered:2, 竖纹红色石英块
+botania:quartzslabredhalf:0, 红色石英台阶
+botania:quartzstairsred, tile.quartzStairsRed.name
+botania:quartztypeelf:0, 精灵石英块
+botania:quartztypeelf:1, 錾制精灵石英块
+botania:quartztypeelf:2, 竖纹精灵石英块
+botania:quartzslabelfhalf:0, 精灵石英台阶
+botania:quartzstairself, tile.quartzStairsElf.name
+botania:quartztypesunny:0, 金黄石英块
+botania:quartztypesunny:1, 錾制金黄石英块
+botania:quartztypesunny:2, 竖纹金黄石英块
+botania:quartzslabsunnyhalf:0, 金黄石英台阶
+botania:quartzstairssunny, tile.quartzStairsSunny.name
+botania:biomestonea:0, 变质森林石头
+botania:biomestonea:1, 变质平原石头
+botania:biomestonea:2, 变质高山石头
+botania:biomestonea:3, 变质菌丝石头
+botania:biomestonea:4, 变质沼泽石头
+botania:biomestonea:5, 变质沙漠石头
+botania:biomestonea:6, 变质雪原石头
+botania:biomestonea:7, 变质高原石头
+botania:biomestonea:8, 变质森林圆石
+botania:biomestonea:9, 变质平原圆石
+botania:biomestonea:10, 变质高山圆石
+botania:biomestonea:11, 变质菌丝圆石
+botania:biomestonea:12, 变质沼泽圆石
+botania:biomestonea:13, 变质沙漠圆石
+botania:biomestonea:14, 变质雪原圆石
+botania:biomestonea:15, 变质高原圆石
+botania:biomestoneb:0, 变质森林石砖
+botania:biomestoneb:1, 变质平原石砖
+botania:biomestoneb:2, 变质高山石砖
+botania:biomestoneb:3, 变质菌丝石砖
+botania:biomestoneb:4, 变质沼泽石砖
+botania:biomestoneb:5, 变质沙漠石砖
+botania:biomestoneb:6, 变质雪原石砖
+botania:biomestoneb:7, 变质高原石砖
+botania:biomestoneb:8, 錾制变质森林石砖
+botania:biomestoneb:9, 錾制变质平原石砖
+botania:biomestoneb:10, 錾制变质高山石砖
+botania:biomestoneb:11, 錾制变质菌丝石砖
+botania:biomestoneb:12, 錾制变质沼泽石砖
+botania:biomestoneb:13, 錾制变质沙漠石砖
+botania:biomestoneb:14, 錾制变质雪原石砖
+botania:biomestoneb:15, 錾制变质高原石砖
+botania:pavement:0, 白色葡萄牙路面
+botania:pavement:1, 黑色葡萄牙路面
+botania:pavement:2, 蓝色葡萄牙路面
+botania:pavement:3, 红色葡萄牙路面
+botania:pavement:4, 黄色葡萄牙路面
+botania:pavement:5, 绿色葡萄牙路面
+botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
+botania:biomestonea0slab:0, 变质森林石头台阶
+botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
+botania:biomestonea1slab:0, 变质平原石头台阶
+botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
+botania:biomestonea2slab:0, 变质高山石头台阶
+botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
+botania:biomestonea3slab:0, 变质菌丝石头台阶
+botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
+botania:biomestonea4slab:0, 变质沼泽石头台阶
+botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
+botania:biomestonea5slab:0, 变质沙漠石头台阶
+botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
+botania:biomestonea6slab:0, 变质雪原石头台阶
+botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
+botania:biomestonea7slab:0, 变质高原石头台阶
+botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
+botania:biomestonea8slab:0, 变质森林圆石台阶
+botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
+botania:biomestonea9slab:0, 变质平原圆石台阶
+botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
+botania:biomestonea10slab:0, 变质高山圆石台阶
+botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
+botania:biomestonea11slab:0, 变质菌丝圆石台阶
+botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
+botania:biomestonea12slab:0, 变质沼泽圆石台阶
+botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
+botania:biomestonea13slab:0, 变质沙漠圆石台阶
+botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
+botania:biomestonea14slab:0, 变质雪原圆石台阶
+botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
+botania:biomestonea15slab:0, 变质高原圆石台阶
+botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
+botania:biomestoneb0slab:0, 变质森林石砖台阶
+botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
+botania:biomestoneb1slab:0, 变质平原石砖台阶
+botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
+botania:biomestoneb2slab:0, 变质高山石砖台阶
+botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
+botania:biomestoneb3slab:0, 变质菌丝石砖台阶
+botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
+botania:biomestoneb4slab:0, 变质沼泽石砖台阶
+botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
+botania:biomestoneb5slab:0, 变质沙漠石砖台阶
+botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
+botania:biomestoneb6slab:0, 变质雪原石砖台阶
+botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
+botania:biomestoneb7slab:0, 变质高原石砖台阶
+botania:biomestonea0wall:0, 变质森林石墙
+botania:biomestonea0wall:1, 变质平原石墙
+botania:biomestonea0wall:2, 变质高山石墙
+botania:biomestonea0wall:3, 变质菌丝石墙
+botania:biomestonea0wall:4, 变质沼泽石墙
+botania:biomestonea0wall:5, 变质沙漠石墙
+botania:biomestonea0wall:6, 变质雪原石墙
+botania:biomestonea0wall:7, 变质高原石墙
+botania:pavement0stairs, tile.pavement0Stairs.name
+botania:pavement0slab:0, 白色葡萄牙台阶
+botania:pavement1stairs, tile.pavement1Stairs.name
+botania:pavement1slab:0, 黑色葡萄牙台阶
+botania:pavement2stairs, tile.pavement2Stairs.name
+botania:pavement2slab:0, 蓝色葡萄牙台阶
+botania:pavement3stairs, tile.pavement3Stairs.name
+botania:pavement3slab:0, 红色葡萄牙台阶
+botania:pavement4stairs, tile.pavement4Stairs.name
+botania:pavement4slab:0, 黄色葡萄牙台阶
+botania:pavement5stairs, tile.pavement5Stairs.name
+botania:pavement5slab:0, 绿色葡萄牙台阶
+botania:shimmerrock0slab:0, 微光石台阶
+botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
+botania:shimmerwoodplanks0slab:0, 微光木板台阶
+botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
+botania:managlasspane, tile.manaGlassPane.name
+botania:elfglasspane, tile.elfGlassPane.name
+botania:bifrostpermpane, tile.bifrostPermPane.name
 betterquesting:placeholder, Item Placeholder
 betterquesting:extra_life:0, Extra Life
 betterquesting:extra_life:1, Half Heart
@@ -8325,8 +8385,435 @@ chisel:chisel_iron, 凿子
 chisel:chisel_diamond, 钻石凿子
 chisel:chisel_hitech, iChisel
 chisel:offsettool, 末影纹理平移手杖
+forgotten_relics:advanced_mining_charm, item.advanced_mining_charm.name
+forgotten_relics:mining_charm, item.mining_charm.name
+forgotten_relics:ancient_aegis, item.ancient_aegis.name
+forgotten_relics:chaos_core, Chaos Core
+forgotten_relics:dark_sun_ring, item.dark_sun_ring.name
+forgotten_relics:shiny_stone, item.shiny_stone.name
+forgotten_relics:terror_crown, Crown of Terror
+forgotten_relics:paradox, The Paradox
+forgotten_relics:deific_amulet, item.deific_amulet.name
+forgotten_relics:xp_tome, Tome of Ageless Wisdom
+forgotten_relics:weather_stone, Runic Stone
+forgotten_relics:superposition_ring, item.superposition_ring.name
+forgotten_relics:oblivion_stone, Keystone of The Oblivion
+forgotten_relics:oblivion_amulet, item.oblivion_amulet.name
+forgotten_relics:dimensional_mirror, Dimensional Mirror
+forgotten_relics:arcanum, item.arcanum.name
+forgotten_relics:dormant_arcanum, item.dormant_arcanum.name
 gravestone:gravestone, 墓碑
 gravestone:death_info, Obituary
+iceandfire:lectern, 书桌
+iceandfire:podium:0, 橡木龙蛋台
+iceandfire:podium:1, 云杉木龙蛋台
+iceandfire:podium:2, 白桦木龙蛋台
+iceandfire:podium:3, 丛林木龙蛋台
+iceandfire:podium:4, 金合欢木龙蛋台
+iceandfire:podium:5, 深色橡木龙蛋台
+iceandfire:fire_lily, 烈焰百合
+iceandfire:frost_lily, 寒冰百合
+iceandfire:lightning_lily, 闪电百合
+iceandfire:copperpile, 铜堆
+iceandfire:goldpile, 金堆
+iceandfire:silverpile, 银堆
+iceandfire:amethyst_ore, 紫水晶矿石
+iceandfire:copper_ore, 铜矿石
+iceandfire:silver_ore, 银矿石
+iceandfire:sapphire_ore, 蓝宝石矿石
+iceandfire:amethyst_block, 紫水晶块
+iceandfire:copper_block, 铜块
+iceandfire:silver_block, 银块
+iceandfire:sapphire_block, 蓝宝石块
+iceandfire:chared_dirt, 焦土
+iceandfire:chared_grass, 焦灰草皮
+iceandfire:chared_stone, 焦灰石头
+iceandfire:chared_cobblestone, 焦灰圆石
+iceandfire:chared_gravel, 焦灰沙砾
+iceandfire:chared_grass_path, 焦灰草径
+iceandfire:crackled_dirt, 霆霹泥土
+iceandfire:crackled_grass, 霆霹草方块
+iceandfire:crackled_stone, 霆霹石头
+iceandfire:crackled_cobblestone, 霆霹圆石
+iceandfire:crackled_gravel, 霆霹砂砾
+iceandfire:crackled_grass_path, 霆霹草径
+iceandfire:ash, 灰烬
+iceandfire:frozen_dirt, 冻土
+iceandfire:frozen_grass, 霜冻草皮
+iceandfire:frozen_stone, 霜冻石头
+iceandfire:frozen_cobblestone, 霜冻圆石
+iceandfire:frozen_gravel, 霜冻沙砾
+iceandfire:frozen_grass_path, 霜冻草径
+iceandfire:frozen_splinters, 冰结碎片
+iceandfire:dragon_ice, 龙息冰块
+iceandfire:lightning_stone, 闪电石
+iceandfire:dragon_ice_spikes, 龙息冰刺
+iceandfire:nest, 龙巢
+iceandfire:dragonscale_red, 龙鳞块
+iceandfire:dragonscale_green, 龙鳞块
+iceandfire:dragonscale_bronze, 龙鳞块
+iceandfire:dragonscale_gray, 龙鳞块
+iceandfire:dragonscale_blue, 龙鳞块
+iceandfire:dragonscale_white, 龙鳞块
+iceandfire:dragonscale_sapphire, 龙鳞块
+iceandfire:dragonscale_silver, 龙鳞块
+iceandfire:dragonscale_amethyst, 龙鳞块
+iceandfire:dragonscale_copper, 龙鳞块
+iceandfire:dragonscale_electric, 龙鳞块
+iceandfire:dragonscale_black, 龙鳞块
+iceandfire:dragon_bone_block, 龙骨块
+iceandfire:dragon_bone_wall, 龙骨墙
+iceandfire:egginice, 冰龙蛋
+iceandfire:pixie_house:0, 棕蘑菇精灵小屋
+iceandfire:pixie_house:1, 红蘑菇精灵小屋
+iceandfire:pixie_house:2, 白桦木精灵小屋
+iceandfire:pixie_house:3, 橡木精灵小屋
+iceandfire:pixie_house:4, 深色橡木精灵小屋
+iceandfire:pixie_house:5, 云杉木精灵小屋
+iceandfire:jar_empty, Jar
+iceandfire:jar_pixie:0, 红粉精灵瓶
+iceandfire:jar_pixie:1, 灵紫精灵瓶
+iceandfire:jar_pixie:2, 天蓝精灵瓶
+iceandfire:jar_pixie:3, 鲜绿精灵瓶
+iceandfire:jar_pixie:4, 明黄精灵瓶
+iceandfire:myrmex_resin:0, 沙漠恐蚁粘液
+iceandfire:myrmex_resin:1, 丛林恐蚁粘液
+iceandfire:myrmex_resin_sticky:0, 黏性沙漠恐蚁粘液
+iceandfire:myrmex_resin_sticky:1, 粘性丛林恐蚁粘液
+iceandfire:desert_myrmex_cocoon, 沙漠恐蚁卵
+iceandfire:jungle_myrmex_cocoon, 丛林恐蚁卵
+iceandfire:myrmex_desert_biolight, 沙漠恐蚁生物光
+iceandfire:myrmex_jungle_biolight, 丛林恐蚁生物光
+iceandfire:myrmex_desert_resin_block, 硬化的沙漠恐蚁粘液
+iceandfire:myrmex_jungle_resin_block, 硬化的丛林恐蚁粘液
+iceandfire:myrmex_desert_resin_glass, 沙漠恐蚁粘液玻璃
+iceandfire:myrmex_jungle_resin_glass, 丛林恐蚁粘液玻璃
+iceandfire:ghost_chest, Cursed Chest
+iceandfire:dread_stone, 悚石
+iceandfire:dread_stone_bricks, 悚砖
+iceandfire:dread_stone_bricks_chiseled, 錾制悚砖
+iceandfire:dread_stone_bricks_cracked, 裂悚砖
+iceandfire:dread_stone_bricks_mossy, 苔悚砖
+iceandfire:dread_stone_tile, 悚石瓦块
+iceandfire:dread_stone_face, 錾制骷面悚砖
+iceandfire:dread_torch, 悚石火把
+iceandfire:dread_stone_stairs, 悚砖楼梯
+iceandfire:dread_stone_slab_double:0, 悚砖台阶
+iceandfire:dread_stone_slab:0, 悚砖台阶
+iceandfire:dread_spawner, 悚域刷怪笼
+iceandfire:sea_serpent_scale_block_blue, 海蟒鳞块
+iceandfire:sea_serpent_scale_block_bronze, 海蟒鳞块
+iceandfire:sea_serpent_scale_block_deepblue, 海蟒鳞块
+iceandfire:sea_serpent_scale_block_green, 海蟒鳞块
+iceandfire:sea_serpent_scale_block_purple, 海蟒鳞块
+iceandfire:sea_serpent_scale_block_red, 海蟒鳞块
+iceandfire:sea_serpent_scale_block_teal, 海蟒鳞块
+iceandfire:bestiary, 龙之寓言
+iceandfire:manuscript, 手稿
+iceandfire:amethyst_gem, 紫水晶
+iceandfire:sapphire_gem, 蓝宝石
+iceandfire:bronze_alloy, 青铜合金
+iceandfire:copper_ingot, 铜锭
+iceandfire:copper_nugget, 铜粒
+iceandfire:armor_copper_metal_helmet, 铜头盔
+iceandfire:armor_copper_metal_chestplate, 铜胸甲
+iceandfire:armor_copper_metal_leggings, 铜护腿
+iceandfire:armor_copper_metal_boots, 铜战靴
+iceandfire:copper_sword, 铜剑
+iceandfire:copper_shovel, 铜锹
+iceandfire:copper_pickaxe, 铜镐
+iceandfire:copper_axe, 铜斧
+iceandfire:copper_hoe, 铜锄
+iceandfire:silver_ingot, 银锭
+iceandfire:silver_nugget, 银粒
+iceandfire:armor_silver_metal_helmet, 银头盔
+iceandfire:armor_silver_metal_chestplate, 银胸甲
+iceandfire:armor_silver_metal_leggings, 银护腿
+iceandfire:armor_silver_metal_boots, 银战靴
+iceandfire:silver_sword, 银剑
+iceandfire:silver_shovel, 银锹
+iceandfire:silver_pickaxe, 银镐
+iceandfire:silver_axe, 银斧
+iceandfire:silver_hoe, 银锄
+iceandfire:fire_stew, 花火汤
+iceandfire:frost_stew, 花霜酱
+iceandfire:lightning_stew, 花电浆
+iceandfire:dragonegg_red:0, 龙蛋
+iceandfire:dragonegg_green:0, 龙蛋
+iceandfire:dragonegg_bronze:0, 龙蛋
+iceandfire:dragonegg_gray:0, 龙蛋
+iceandfire:dragonegg_blue:0, 龙蛋
+iceandfire:dragonegg_white:0, 龙蛋
+iceandfire:dragonegg_sapphire:0, 龙蛋
+iceandfire:dragonegg_silver:0, 龙蛋
+iceandfire:dragonegg_electric:0, 龙蛋
+iceandfire:dragonegg_amethyst:0, 龙蛋
+iceandfire:dragonegg_copper:0, 龙蛋
+iceandfire:dragonegg_black:0, 龙蛋
+iceandfire:dragonscales_red:0, 龙鳞
+iceandfire:dragonscales_green:0, 龙鳞
+iceandfire:dragonscales_bronze:0, 龙鳞
+iceandfire:dragonscales_gray:0, 龙鳞
+iceandfire:dragonscales_blue:0, 龙鳞
+iceandfire:dragonscales_white:0, 龙鳞
+iceandfire:dragonscales_sapphire:0, 龙鳞
+iceandfire:dragonscales_silver:0, 龙鳞
+iceandfire:dragonscales_electric:0, 龙鳞
+iceandfire:dragonscales_amethyst:0, 龙鳞
+iceandfire:dragonscales_copper:0, 龙鳞
+iceandfire:dragonscales_black:0, 龙鳞
+iceandfire:dragonbone, 龙之骨
+iceandfire:witherbone, 凋灵之骨
+iceandfire:fishing_spear, 鱼叉
+iceandfire:wither_shard, 凋灵骨片
+iceandfire:dragonbone_sword, 龙骨剑
+iceandfire:dragonbone_shovel, 龙骨锹
+iceandfire:dragonbone_pickaxe, 龙骨镐
+iceandfire:dragonbone_axe, 龙骨斧
+iceandfire:dragonbone_hoe, 龙骨锄
+iceandfire:dragonbone_sword_fire, 烈龙火刃
+iceandfire:dragonbone_sword_ice, 寒龙冰刃
+iceandfire:dragonbone_sword_lightning, 龙霆骨血剑
+iceandfire:dragonbone_arrow, 龙骨箭
+iceandfire:dragonbone_bow, 龙骨长弓
+iceandfire:dragon_skull:0, 骸骨龙首
+iceandfire:dragon_skull:1, 骸骨龙首
+iceandfire:dragon_skull:2, 骸骨龙首
+iceandfire:dragonarmor_iron:0, 铸铁龙铠
+iceandfire:dragonarmor_iron:1, 铸铁龙铠
+iceandfire:dragonarmor_iron:2, 铸铁龙铠
+iceandfire:dragonarmor_iron:3, 铸铁龙铠
+iceandfire:dragonarmor_gold:0, 黄金龙铠
+iceandfire:dragonarmor_gold:1, 黄金龙铠
+iceandfire:dragonarmor_gold:2, 黄金龙铠
+iceandfire:dragonarmor_gold:3, 黄金龙铠
+iceandfire:dragonarmor_diamond:0, 钻石龙铠
+iceandfire:dragonarmor_diamond:1, 钻石龙铠
+iceandfire:dragonarmor_diamond:2, 钻石龙铠
+iceandfire:dragonarmor_diamond:3, 钻石龙铠
+iceandfire:dragonarmor_silver:0, 白银龙铠
+iceandfire:dragonarmor_silver:1, 白银龙铠
+iceandfire:dragonarmor_silver:2, 白银龙铠
+iceandfire:dragonarmor_silver:3, 白银龙铠
+iceandfire:dragonarmor_copper:0, 赤铜龙铠
+iceandfire:dragonarmor_copper:1, 赤铜龙铠
+iceandfire:dragonarmor_copper:2, 赤铜龙铠
+iceandfire:dragonarmor_copper:3, 赤铜龙铠
+iceandfire:dragon_meal, 龙食
+iceandfire:sickly_dragon_meal, 生病的龙食
+iceandfire:fire_dragon_flesh, 火龙肉
+iceandfire:ice_dragon_flesh, 冰龙肉
+iceandfire:lightning_dragon_flesh, 电龙肉
+iceandfire:fire_dragon_heart, 火龙心
+iceandfire:ice_dragon_heart, 冰龙心
+iceandfire:lightning_dragon_heart, 电龙心脏
+iceandfire:fire_dragon_blood, 火龙血
+iceandfire:ice_dragon_blood, 冰龙血
+iceandfire:lightning_dragon_blood, 电龙心脏
+iceandfire:dragon_stick, 驯龙杖
+iceandfire:dragon_horn, 龙吟号角
+iceandfire:dragon_horn_fire, 火龙号角
+iceandfire:dragon_horn_ice, 冰龙号角
+iceandfire:dragon_horn_lightning, 龙吟号角
+iceandfire:dragon_flute, 龙骨长笛
+iceandfire:hippogryph_egg:0, 骏鹰蛋
+iceandfire:hippogryph_egg:1, 骏鹰蛋
+iceandfire:hippogryph_egg:2, 骏鹰蛋
+iceandfire:hippogryph_egg:3, 骏鹰蛋
+iceandfire:hippogryph_egg:4, 骏鹰蛋
+iceandfire:hippogryph_egg:5, 骏鹰蛋
+iceandfire:hippogryph_egg:6, 骏鹰蛋
+iceandfire:iron_hippogryph_armor, 铁铸骏鹰甲
+iceandfire:gold_hippogryph_armor, 黄金骏鹰甲
+iceandfire:diamond_hippogryph_armor, 钻石骏鹰甲
+iceandfire:gorgon_head, 蛇发女妖头颅
+iceandfire:stone_statue, 石像
+iceandfire:blindfold, 眼罩
+iceandfire:pixie_dust, 精灵尘
+iceandfire:ambrosia, 神肴
+iceandfire:sheep_helmet, 拟羊头盔
+iceandfire:sheep_chestplate, 拟羊胸甲
+iceandfire:sheep_leggings, 拟羊护腿
+iceandfire:sheep_boots, 拟羊靴子
+iceandfire:shiny_scales, 闪光鳞片
+iceandfire:earplugs, 耳塞
+iceandfire:troll_leather_forest, 森林巨魔皮革
+iceandfire:troll_leather_frost, 冰霜巨魔皮革
+iceandfire:troll_leather_mountain, 山地巨魔皮革
+iceandfire:deathworm_chitin:0, 黄褐死亡蠕虫甲壳
+iceandfire:deathworm_chitin:1, 白色死亡蠕虫甲壳
+iceandfire:deathworm_chitin:2, 血红死亡蠕虫甲壳
+iceandfire:deathworm_yellow_helmet, 黄褐死亡蠕虫甲壳头盔
+iceandfire:deathworm_yellow_chestplate, 黄褐死亡蠕虫甲壳胸甲
+iceandfire:deathworm_yellow_leggings, 黄褐死亡蠕虫甲壳护腿
+iceandfire:deathworm_yellow_boots, 黄褐死亡蠕虫甲壳战靴
+iceandfire:deathworm_white_helmet, 白色死亡蠕虫甲壳头盔
+iceandfire:deathworm_white_chestplate, 白色死亡蠕虫甲壳胸甲
+iceandfire:deathworm_white_leggings, 白色死亡蠕虫甲壳护腿
+iceandfire:deathworm_white_boots, 白色死亡蠕虫甲壳战靴
+iceandfire:deathworm_red_helmet, 血红死亡蠕虫甲壳头盔
+iceandfire:deathworm_red_chestplate, 血红死亡蠕虫甲壳胸甲
+iceandfire:deathworm_red_leggings, 血红死亡蠕虫甲壳护腿
+iceandfire:deathworm_red_boots, 血红死亡蠕虫甲壳战靴
+iceandfire:iceandfire.deathworm_egg:0, 死亡蠕虫卵
+iceandfire:iceandfire.deathworm_egg:1, 死亡蠕虫巨卵
+iceandfire:rotten_egg, 腐败之卵
+iceandfire:stymphalian_bird_feather, 金属恐鸟羽毛
+iceandfire:stymphalian_arrow, 金属箭羽
+iceandfire:troll_tusk, 巨魔象牙
+iceandfire:myrmex_desert_egg:0, 沙漠恐蚁蛋
+iceandfire:myrmex_desert_egg:1, 沙漠恐蚁蛋
+iceandfire:myrmex_desert_egg:2, 沙漠恐蚁蛋
+iceandfire:myrmex_desert_egg:3, 沙漠恐蚁蛋
+iceandfire:myrmex_desert_egg:4, 沙漠恐蚁蛋
+iceandfire:myrmex_jungle_egg:0, 丛林恐蚁蛋
+iceandfire:myrmex_jungle_egg:1, 丛林恐蚁蛋
+iceandfire:myrmex_jungle_egg:2, 丛林恐蚁蛋
+iceandfire:myrmex_jungle_egg:3, 丛林恐蚁蛋
+iceandfire:myrmex_jungle_egg:4, 丛林恐蚁蛋
+iceandfire:myrmex_desert_resin, 沙漠恐蚁粘液块
+iceandfire:myrmex_jungle_resin, 丛林恐蚁粘液块
+iceandfire:myrmex_desert_chitin, 沙漠恐蚁甲壳
+iceandfire:myrmex_jungle_chitin, 丛林恐蚁甲壳
+iceandfire:myrmex_stinger, 恐蚁刺
+iceandfire:myrmex_desert_sword, 沙漠恐蚁甲剑
+iceandfire:myrmex_desert_sword_venom, 沙漠恐蚁刺剑
+iceandfire:myrmex_desert_shovel, 沙漠恐蚁甲铲
+iceandfire:myrmex_desert_pickaxe, 沙漠恐蚁甲镐
+iceandfire:myrmex_desert_axe, 沙漠恐蚁甲斧
+iceandfire:myrmex_desert_hoe, 沙漠恐蚁甲锄
+iceandfire:myrmex_jungle_sword, 丛林恐蚁甲剑
+iceandfire:myrmex_jungle_sword_venom, 丛林恐蚁刺剑
+iceandfire:myrmex_jungle_shovel, 丛林恐蚁甲铲
+iceandfire:myrmex_jungle_pickaxe, 丛林恐蚁甲镐
+iceandfire:myrmex_jungle_axe, 丛林恐蚁甲斧
+iceandfire:myrmex_jungle_hoe, 丛林恐蚁甲锄
+iceandfire:myrmex_desert_staff, 沙漠恐蚁权杖
+iceandfire:myrmex_jungle_staff, 丛林恐蚁权杖
+iceandfire:myrmex_desert_helmet, 沙漠恐蚁甲壳头盔
+iceandfire:myrmex_desert_chestplate, 沙漠恐蚁甲壳胸甲
+iceandfire:myrmex_desert_leggings, 沙漠恐蚁甲壳护腿
+iceandfire:myrmex_desert_boots, 沙漠恐蚁甲壳鞋子
+iceandfire:myrmex_jungle_helmet, 丛林恐蚁甲壳头盔
+iceandfire:myrmex_jungle_chestplate, 丛林恐蚁甲壳胸甲
+iceandfire:myrmex_jungle_leggings, 丛林恐蚁甲壳护腿
+iceandfire:myrmex_jungle_boots, 丛林恐蚁甲壳鞋子
+iceandfire:amphithere_feather, Amphithere Feather
+iceandfire:amphithere_arrow, Amphithere Arrow
+iceandfire:sea_serpent_fang, Sea Serpent Fang
+iceandfire:sea_serpent_arrow, Tide Arrow
+iceandfire:hydra_fang, 九头蛇毒牙
+iceandfire:hydra_heart, 九头蛇心脏
+iceandfire:hydra_arrow, 九头蛇毒箭
+iceandfire:tide_trident, 海潮三叉戟
+iceandfire:lich_staff, 悚怖尸巫之杖
+iceandfire:dread_shard, 悚怖碎片
+iceandfire:dread_sword, 悚怖尸奴之剑
+iceandfire:dread_knight_sword, 悚怖尸骑之剑
+iceandfire:ghost_ingot, Phantasmal Ingot
+iceandfire:ghost_sword, Phantasmal Blade
+iceandfire:armor_red_helmet, 龙鳞头盔
+iceandfire:armor_red_chestplate, 龙鳞胸甲
+iceandfire:armor_red_leggings, 龙鳞护腿
+iceandfire:armor_red_boots, 龙鳞战靴
+iceandfire:armor_bronze_helmet, 龙鳞头盔
+iceandfire:armor_bronze_chestplate, 龙鳞胸甲
+iceandfire:armor_bronze_leggings, 龙鳞护腿
+iceandfire:armor_bronze_boots, 龙鳞战靴
+iceandfire:armor_green_helmet, 龙鳞头盔
+iceandfire:armor_green_chestplate, 龙鳞胸甲
+iceandfire:armor_green_leggings, 龙鳞护腿
+iceandfire:armor_green_boots, 龙鳞战靴
+iceandfire:armor_gray_helmet, 龙鳞头盔
+iceandfire:armor_gray_chestplate, 龙鳞胸甲
+iceandfire:armor_gray_leggings, 龙鳞护腿
+iceandfire:armor_gray_boots, 龙鳞战靴
+iceandfire:armor_blue_helmet, 龙鳞头盔
+iceandfire:armor_blue_chestplate, 龙鳞胸甲
+iceandfire:armor_blue_leggings, 龙鳞护腿
+iceandfire:armor_blue_boots, 龙鳞战靴
+iceandfire:armor_white_helmet, 龙鳞头盔
+iceandfire:armor_white_chestplate, 龙鳞胸甲
+iceandfire:armor_white_leggings, 龙鳞护腿
+iceandfire:armor_white_boots, 龙鳞战靴
+iceandfire:armor_sapphire_helmet, 龙鳞头盔
+iceandfire:armor_sapphire_chestplate, 龙鳞胸甲
+iceandfire:armor_sapphire_leggings, 龙鳞护腿
+iceandfire:armor_sapphire_boots, 龙鳞战靴
+iceandfire:armor_silver_helmet, 龙鳞头盔
+iceandfire:armor_silver_chestplate, 龙鳞胸甲
+iceandfire:armor_silver_leggings, 龙鳞护腿
+iceandfire:armor_silver_boots, 龙鳞战靴
+iceandfire:armor_electric_helmet, 龙鳞头盔
+iceandfire:armor_electric_chestplate, 龙鳞胸甲
+iceandfire:armor_electric_leggings, 龙鳞护腿
+iceandfire:armor_electric_boots, 龙鳞战靴
+iceandfire:armor_amethyst_helmet, 龙鳞头盔
+iceandfire:armor_amethyst_chestplate, 龙鳞胸甲
+iceandfire:armor_amethyst_leggings, 龙鳞护腿
+iceandfire:armor_amethyst_boots, 龙鳞战靴
+iceandfire:armor_copper_helmet, 龙鳞头盔
+iceandfire:armor_copper_chestplate, 龙鳞胸甲
+iceandfire:armor_copper_leggings, 龙鳞护腿
+iceandfire:armor_copper_boots, 龙鳞战靴
+iceandfire:armor_black_helmet, 龙鳞头盔
+iceandfire:armor_black_chestplate, 龙鳞胸甲
+iceandfire:armor_black_leggings, 龙鳞护腿
+iceandfire:armor_black_boots, 龙鳞战靴
+iceandfire:sea_serpent_scales_blue, Sea Serpent Scales
+iceandfire:tide_blue_helmet, Tide Guardian Helmet
+iceandfire:tide_blue_chestplate, Tide Guardian Chestplate
+iceandfire:tide_blue_leggings, Tide Guardian Leggings
+iceandfire:tide_blue_boots, Tide Guardian Boots
+iceandfire:sea_serpent_scales_bronze, Sea Serpent Scales
+iceandfire:tide_bronze_helmet, Tide Guardian Helmet
+iceandfire:tide_bronze_chestplate, Tide Guardian Chestplate
+iceandfire:tide_bronze_leggings, Tide Guardian Leggings
+iceandfire:tide_bronze_boots, Tide Guardian Boots
+iceandfire:sea_serpent_scales_deepblue, Sea Serpent Scales
+iceandfire:tide_deepblue_helmet, Tide Guardian Helmet
+iceandfire:tide_deepblue_chestplate, Tide Guardian Chestplate
+iceandfire:tide_deepblue_leggings, Tide Guardian Leggings
+iceandfire:tide_deepblue_boots, Tide Guardian Boots
+iceandfire:sea_serpent_scales_green, Sea Serpent Scales
+iceandfire:tide_green_helmet, Tide Guardian Helmet
+iceandfire:tide_green_chestplate, Tide Guardian Chestplate
+iceandfire:tide_green_leggings, Tide Guardian Leggings
+iceandfire:tide_green_boots, Tide Guardian Boots
+iceandfire:sea_serpent_scales_purple, Sea Serpent Scales
+iceandfire:tide_purple_helmet, Tide Guardian Helmet
+iceandfire:tide_purple_chestplate, Tide Guardian Chestplate
+iceandfire:tide_purple_leggings, Tide Guardian Leggings
+iceandfire:tide_purple_boots, Tide Guardian Boots
+iceandfire:sea_serpent_scales_red, Sea Serpent Scales
+iceandfire:tide_red_helmet, Tide Guardian Helmet
+iceandfire:tide_red_chestplate, Tide Guardian Chestplate
+iceandfire:tide_red_leggings, Tide Guardian Leggings
+iceandfire:tide_red_boots, Tide Guardian Boots
+iceandfire:sea_serpent_scales_teal, Sea Serpent Scales
+iceandfire:tide_teal_helmet, Tide Guardian Helmet
+iceandfire:tide_teal_chestplate, Tide Guardian Chestplate
+iceandfire:tide_teal_leggings, Tide Guardian Leggings
+iceandfire:tide_teal_boots, Tide Guardian Boots
+iceandfire:troll_weapon.axe, 巨魔的斧头
+iceandfire:troll_weapon.column, 巨魔的石柱
+iceandfire:troll_weapon.column_forest, 巨魔的苔藓专栏
+iceandfire:troll_weapon.column_frost, 巨魔的磨砂门
+iceandfire:troll_weapon.hammer, 巨魔的锤子
+iceandfire:troll_weapon.trunk, 巨魔的树干
+iceandfire:troll_weapon.trunk_frost, 巨魔的磨砂树干
+iceandfire:forest_troll_leather_helmet, 森林巨魔皮革头盔
+iceandfire:forest_troll_leather_chestplate, 森林巨魔皮革胸甲
+iceandfire:forest_troll_leather_leggings, 森林巨魔皮革护腿
+iceandfire:forest_troll_leather_boots, 森林巨魔皮靴
+iceandfire:frost_troll_leather_helmet, 冰霜巨魔皮革头盔
+iceandfire:frost_troll_leather_chestplate, 冰霜巨魔皮革胸甲
+iceandfire:frost_troll_leather_leggings, 冰霜巨魔皮革护腿
+iceandfire:frost_troll_leather_boots, 冰霜巨魔皮靴
+iceandfire:mountain_troll_leather_helmet, 山地巨魔皮革头盔
+iceandfire:mountain_troll_leather_chestplate, 山地巨魔胸甲
+iceandfire:mountain_troll_leather_leggings, 山地巨魔皮革护腿
+iceandfire:mountain_troll_leather_boots, 山地巨魔皮靴
 isorropia:lens, Base Lens
 isorropia:chocolate_bar, Chocolate Bar
 isorropia:gold_egg, Gold Egg
@@ -8394,6 +8881,8 @@ isorropia:jelly:0, Superbia Jelly
 isorropia:jelly:0, Desidia Jelly
 isorropia:jelly:0, Ira Jelly
 isorropia:jelly:0, Terminus Jelly
+isorropia:jelly:0, Mythus Jelly
+isorropia:jelly:0, Draco Jelly
 isorropia:jelly:0, Spatio Jelly
 isorropia:jelly:0, Tempus Jelly
 isorropia:jelly:0, Tinctura Jelly
@@ -8404,34 +8893,60 @@ isorropia:vat_interior, tile.isorropia.vat_interior.name
 isorropia:jar_soul, tile.isorropia.jar_soul.name
 isorropia:chocolate, Chocolate
 isorropia:modified_matrix, Modified Matrix
-metalchests:metal_hungry_chest:0, Copper Hungry Chest
-metalchests:metal_hungry_chest:1, Iron Hungry Chest
-metalchests:metal_hungry_chest:2, Silver Hungry Chest
-metalchests:metal_hungry_chest:3, Gold Hungry Chest
-metalchests:hungry_chest_upgrade:0, Wood to Iron Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:1, Wood to Gold Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:2, Wood to Diamond Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:3, Wood to Obsidian Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:4, Iron to Gold Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:5, Iron to Diamond Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:6, Iron to Obsidian Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:7, Gold to Diamond Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:8, Gold to Obsidian Hungry Chest Upgrade
-metalchests:hungry_chest_upgrade:9, Diamond to Obsidian Hungry Chest Upgrade
 metalchests:metal_chest:0, Copper Chest
 metalchests:metal_chest:1, Iron Chest
 metalchests:metal_chest:2, Silver Chest
 metalchests:metal_chest:3, Gold Chest
-metalchests:chest_upgrade:0, Wood to Iron Chest Upgrade
-metalchests:chest_upgrade:1, Wood to Gold Chest Upgrade
-metalchests:chest_upgrade:2, Wood to Diamond Chest Upgrade
-metalchests:chest_upgrade:3, Wood to Obsidian Chest Upgrade
-metalchests:chest_upgrade:4, Iron to Gold Chest Upgrade
-metalchests:chest_upgrade:5, Iron to Diamond Chest Upgrade
-metalchests:chest_upgrade:6, Iron to Obsidian Chest Upgrade
-metalchests:chest_upgrade:7, Gold to Diamond Chest Upgrade
-metalchests:chest_upgrade:8, Gold to Obsidian Chest Upgrade
-metalchests:chest_upgrade:9, Diamond to Obsidian Chest Upgrade
+metalchests:metal_chest:4, Diamond Chest
+metalchests:metal_chest:5, Obsidian Chest
+metalchests:chest_upgrade:0, Wood to Copper Chest Upgrade
+metalchests:chest_upgrade:1, Wood to Iron Chest Upgrade
+metalchests:chest_upgrade:2, Wood to Silver Chest Upgrade
+metalchests:chest_upgrade:3, Wood to Gold Chest Upgrade
+metalchests:chest_upgrade:4, Wood to Diamond Chest Upgrade
+metalchests:chest_upgrade:5, Wood to Obsidian Chest Upgrade
+metalchests:chest_upgrade:6, Copper to Iron Chest Upgrade
+metalchests:chest_upgrade:7, Copper to Silver Chest Upgrade
+metalchests:chest_upgrade:8, Copper to Gold Chest Upgrade
+metalchests:chest_upgrade:9, Copper to Diamond Chest Upgrade
+metalchests:chest_upgrade:10, Copper to Obsidian Chest Upgrade
+metalchests:chest_upgrade:11, Iron to Silver Chest Upgrade
+metalchests:chest_upgrade:12, Iron to Gold Chest Upgrade
+metalchests:chest_upgrade:13, Iron to Diamond Chest Upgrade
+metalchests:chest_upgrade:14, Iron to Obsidian Chest Upgrade
+metalchests:chest_upgrade:15, Silver to Gold Chest Upgrade
+metalchests:chest_upgrade:16, Silver to Diamond Chest Upgrade
+metalchests:chest_upgrade:17, Silver to Obsidian Chest Upgrade
+metalchests:chest_upgrade:18, Gold to Diamond Chest Upgrade
+metalchests:chest_upgrade:19, Gold to Obsidian Chest Upgrade
+metalchests:chest_upgrade:20, Diamond to Obsidian Chest Upgrade
+metalchests:metal_hungry_chest:0, Copper Hungry Chest
+metalchests:metal_hungry_chest:1, Iron Hungry Chest
+metalchests:metal_hungry_chest:2, Silver Hungry Chest
+metalchests:metal_hungry_chest:3, Gold Hungry Chest
+metalchests:metal_hungry_chest:4, Diamond Hungry Chest
+metalchests:metal_hungry_chest:5, Obsidian Hungry Chest
+metalchests:hungry_chest_upgrade:0, Wood to Copper Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:1, Wood to Iron Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:2, Wood to Silver Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:3, Wood to Gold Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:4, Wood to Diamond Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:5, Wood to Obsidian Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:6, Copper to Iron Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:7, Copper to Silver Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:8, Copper to Gold Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:9, Copper to Diamond Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:10, Copper to Obsidian Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:11, Iron to Silver Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:12, Iron to Gold Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:13, Iron to Diamond Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:14, Iron to Obsidian Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:15, Silver to Gold Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:16, Silver to Diamond Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:17, Silver to Obsidian Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:18, Gold to Diamond Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:19, Gold to Obsidian Hungry Chest Upgrade
+metalchests:hungry_chest_upgrade:20, Diamond to Obsidian Hungry Chest Upgrade
 moreobservers:discerner, 精密侦测器
 moreobservers:toggle_observer, 闸式侦测器
 moreobservers:mobserver, 实体侦测器
@@ -9098,6 +9613,7 @@ forbiddenmagicre:mob_crystal:0, 恶魂 留影水晶
 forbiddenmagicre:mob_crystal:0, 羊 留影水晶
 forbiddenmagicre:mob_crystal:0, 鸡 留影水晶
 forbiddenmagicre:mob_crystal:0, 血腥教徒 留影水晶
+forbiddenmagicre:dragon_slayer, Sword of the Dragonslayer
 forbiddenmagicre:black_rose, 暗影玫瑰
 forbiddenmagicre:black_rose_bush, 暗影玫瑰丛
 forbiddenmagicre:arcane_cake, 奥术蛋糕
@@ -9124,6 +9640,7 @@ renaissance_core:thaumic_dagger_of_sacrifice, Thaumic Dagger of Sacrifice
 renaissance_core:botany_dagger_of_sacrifice, Botany Dagger of Sacrifice
 renaissance_core:mana_slate, Mana Slate
 renaissance_core:thaumic_slate, Thaumic Slate
+renaissance_core:mana_bean:0, 魔豆
 storagedrawers:upgrade_template, 升级模板
 storagedrawers:upgrade_storage:0, 抽屉容量升级 (I)
 storagedrawers:upgrade_storage:1, 抽屉容量升级 (II)
@@ -9235,6 +9752,10 @@ traverse:blue_rock_cobblestone_wall, 峭壁岩圆石墙
 traverse:dead_grass, 荒草
 traverse:cold_grass, 寒地草
 thaumic_calculator:calculator, Thaumic Calculator
+thaumicenergistics:infusion_provider, 源质供应器
+thaumicenergistics:arcane_assembler, 奥术装配器
+thaumicenergistics:iron_gearbox, 铁齿轮箱
+thaumicenergistics:thaumium_gearbox, 神秘齿轮箱
 thaumicenergistics:essentia_cell_1k, 1k-ME源质储存元件
 thaumicenergistics:essentia_cell_4k, 4k-ME源质储存元件
 thaumicenergistics:essentia_cell_16k, 16k-ME源质储存元件
@@ -9257,10 +9778,6 @@ thaumicenergistics:upgrade_arcane, 奥术合成升级
 thaumicenergistics:knowledge_core, 知识核心
 thaumicenergistics:blank_knowledge_core, 空白知识核心
 thaumicenergistics:dummy_aspect, item.thaumicenergistics.dummy_aspect.name
-thaumicenergistics:infusion_provider, 源质供应器
-thaumicenergistics:arcane_assembler, 奥术装配器
-thaumicenergistics:iron_gearbox, 铁齿轮箱
-thaumicenergistics:thaumium_gearbox, 神秘齿轮箱
 tg:helmet_light, 光明头盔
 tg:chestplate_light, 光明胸甲
 tg:leggins_light, 光明护腿
@@ -9364,21 +9881,6 @@ thaumicperiphery:pauldron_repulsion, Pauldron of Repulsion
 thaumicperiphery:malignant_heart, Malignant Heart
 thaumicperiphery:magic_quiver, Conjurer's Quiver
 thaumicperiphery:vis_phylactery, Vis Phylactery
-thaumictinkerer:funnel, 源质漏斗
-thaumictinkerer:dissimulation, 伪装方块
-thaumictinkerer:transvector_interface, 矢量变换接口
-thaumictinkerer:transvector_dislocator, 矢量转位仪
-thaumictinkerer:repairer, 奥法修复台
-thaumictinkerer:magnet, 奥术磁铁
-thaumictinkerer:mob_magnet, 奥术生物磁铁
-thaumictinkerer:osmotic_enchanter, 渗透附魔台
-thaumictinkerer:enchantment_pillar, 蕴魔柱
-thaumictinkerer:animation_tablet, 活化工作台
-thaumictinkerer:black_quartz_block, 烟黑石英块
-thaumictinkerer:summoner, Tablet of Necromancy
-thaumictinkerer:ichor_block, 灵宝块
-thaumictinkerer:bedrock_portal, 基岩世界传送门
-thaumictinkerer:warp_gate, Celestial Gateway
 thaumictinkerer:share_book, 知识共享之书
 thaumictinkerer:black_quartz, 烟黑石英
 thaumictinkerer:cleaning_talisman, Cleansing Charm
@@ -9424,36 +9926,51 @@ thaumictinkerer:sky_pearl, Celestial Pearl
 thaumictinkerer:ichorium_fortress_helmet, Ichorium Fortress Mask
 thaumictinkerer:ichorium_fortress_chestplate, Ichorium Fortress Plate Mail
 thaumictinkerer:ichorium_fortress_leggings, Ichorium Fortress Greaves
-thaumicwonders:dimensional_ripper, Dimensional Ripper
-thaumicwonders:ore_diviner, Ore Diviner
-thaumicwonders:creative_essentia_jar, Creative Essentia Jar
-thaumicwonders:primordial_accelerator, Primordial Accelerator
-thaumicwonders:void_beacon, Void Beacon
-thaumicwonders:placeholder_obsidian, Catalyzation Chamber
-thaumicwonders:hexamite, Hexamite
-thaumicwonders:placeholder_thaumium_block, Primordial Accretion Chamber
-thaumicwonders:madness_engine, Madness Engine
-thaumicwonders:portal_anchor, Portal Anchor
-thaumicwonders:placeholder_arcane_stone, Catalyzation Chamber
-thaumicwonders:everburning_urn, Everburning Urn
-thaumicwonders:cinderpearl_crop, Cinderpearl
+thaumictinkerer:funnel, 源质漏斗
+thaumictinkerer:dissimulation, 伪装方块
+thaumictinkerer:transvector_interface, 矢量变换接口
+thaumictinkerer:transvector_dislocator, 矢量转位仪
+thaumictinkerer:repairer, 奥法修复台
+thaumictinkerer:magnet, 奥术磁铁
+thaumictinkerer:mob_magnet, 奥术生物磁铁
+thaumictinkerer:osmotic_enchanter, 渗透附魔台
+thaumictinkerer:enchantment_pillar, 蕴魔柱
+thaumictinkerer:animation_tablet, 活化工作台
+thaumictinkerer:black_quartz_block, 烟黑石英块
+thaumictinkerer:summoner, Tablet of Necromancy
+thaumictinkerer:ichor_block, 灵宝块
+thaumictinkerer:bedrock_portal, 基岩世界传送门
+thaumictinkerer:warp_gate, Celestial Gateway
+thaumicwonders:flux_distiller, Flux Distiller
+thaumicwonders:coalescence_matrix_precursor, Coalescence Matrix
+thaumicwonders:meaty_orb, Meaty Orb
 thaumicwonders:vishroom_crop, Vishroom
 thaumicwonders:flux_capacitor, Flux Capacitor
 thaumicwonders:primordial_accelerator_terminus, Primordial Accelerator Terminus
-thaumicwonders:inspiration_engine, Inspiration Engine
-thaumicwonders:coalescence_matrix_precursor, Coalescence Matrix
-thaumicwonders:portal_generator, Portal Generator
-thaumicwonders:shimmerleaf_crop, Shimmerleaf
-thaumicwonders:alkahest_vat, Alkahest Vat
-thaumicwonders:placeholder_adv_alch_construct, Primordial Accretion Chamber
-thaumicwonders:meaty_orb, Meaty Orb
-thaumicwonders:flux_distiller, Flux Distiller
-thaumicwonders:coalescence_matrix, Coalescence Matrix
-thaumicwonders:meteorb, Meteorb
-thaumicwonders:primordial_accretion_chamber, Primordial Accretion Chamber
-thaumicwonders:placeholder_void_metal_block, Primordial Accretion Chamber
 thaumicwonders:catalyzation_chamber, Catalyzation Chamber
+thaumicwonders:primordial_accretion_chamber, Primordial Accretion Chamber
 thaumicwonders:primordial_accelerator_tunnel, Primordial Accelerator Tunnel
+thaumicwonders:madness_engine, Madness Engine
+thaumicwonders:placeholder_adv_alch_construct, Primordial Accretion Chamber
+thaumicwonders:everburning_urn, Everburning Urn
+thaumicwonders:hexamite, Hexamite
+thaumicwonders:placeholder_thaumium_block, Primordial Accretion Chamber
+thaumicwonders:dimensional_ripper, Dimensional Ripper
+thaumicwonders:cinderpearl_crop, Cinderpearl
+thaumicwonders:placeholder_obsidian, Catalyzation Chamber
+thaumicwonders:inspiration_engine, Inspiration Engine
+thaumicwonders:alkahest_vat, Alkahest Vat
+thaumicwonders:shimmerleaf_crop, Shimmerleaf
+thaumicwonders:ore_diviner, Ore Diviner
+thaumicwonders:placeholder_void_metal_block, Primordial Accretion Chamber
+thaumicwonders:void_beacon, Void Beacon
+thaumicwonders:coalescence_matrix, Coalescence Matrix
+thaumicwonders:portal_anchor, Portal Anchor
+thaumicwonders:portal_generator, Portal Generator
+thaumicwonders:primordial_accelerator, Primordial Accelerator
+thaumicwonders:meteorb, Meteorb
+thaumicwonders:placeholder_arcane_stone, Catalyzation Chamber
+thaumicwonders:creative_essentia_jar, Creative Essentia Jar
 thaumicwonders:disjunction_cloth, Disjunction Cloth
 thaumicwonders:primal_destroyer, Primal Destroyer
 thaumicwonders:flying_carpet, Flying Carpet
@@ -9876,16 +10393,6 @@ twilightforest:sort_fence, 分类木栅栏
 twilightforest:sort_gate, 分类木栅栏门
 twilightforest:sort_plate, 分类木压力板
 voidgoggles:voidgoggles, Voidseer's Goggles of Revealing
-botania_tweaks:compressed_tiny_potato_1, Little Potato
-botania_tweaks:compressed_tiny_potato_2, Small Potato
-botania_tweaks:compressed_tiny_potato_3, Medium Potato
-botania_tweaks:compressed_tiny_potato_4, Jumbo Potato
-botania_tweaks:compressed_tiny_potato_5, Immense Potato
-botania_tweaks:compressed_tiny_potato_6, Enormous Potato
-botania_tweaks:compressed_tiny_potato_7, Colossal Potato
-botania_tweaks:compressed_tiny_potato_8, Galactic Potato
-botania_tweaks:potted_tiny_potato, Tiny Pot-tato
-botania_tweaks:dire_crafty_crate, Dire Crafty Crate
 testdummy:dummy, 试验假人
 patchouli:guide_book, 指南书
 storagedrawersunlimited:basicdrawers_thaumcraft_greatwood:0, 基础抽屉

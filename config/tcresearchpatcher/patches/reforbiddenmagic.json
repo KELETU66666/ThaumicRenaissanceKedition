@@ -413,5 +413,29 @@
 				"value": "INFUSION"
 			}
         ]
+	},
+	{
+        "key": "DRAGONSLAYER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-9"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-4"
+			},
+			{
+				"op": "remove",
+				"path": "parents/0"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			}
+        ]
 	}
 ]
