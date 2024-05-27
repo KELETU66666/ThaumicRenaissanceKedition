@@ -4229,8 +4229,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 陨石
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石块
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石砖块
-appliedenergistics2:facade:0, 线缆伪装板 - Raw Radiant Quartz Block
-appliedenergistics2:facade:0, 线缆伪装板 - Shaped Radiant Quartz Block
 appliedenergistics2:facade:0, 线缆伪装板 - 空白符文
 appliedenergistics2:facade:0, 线缆伪装板 - 速度符文
 appliedenergistics2:facade:0, 线缆伪装板 - 效率符文
@@ -4443,6 +4441,10 @@ appliedenergistics2:facade:0, 线缆伪装板 - 蓝色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 红色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 黄色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 绿色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - Thaumic Rune
+appliedenergistics2:facade:0, 线缆伪装板 - Mana Rune
+appliedenergistics2:facade:0, 线缆伪装板 - Raw Radiant Quartz Block
+appliedenergistics2:facade:0, 线缆伪装板 - Shaped Radiant Quartz Block
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
@@ -6462,8 +6464,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 腐化石头
 appliedenergistics2:facade:0, 线缆伪装板 - 腐化石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 腐化木板
 appliedenergistics2:facade:0, 线缆伪装板 - Nether Star Block
-appliedenergistics2:facade:0, 线缆伪装板 - Thaumic Rune
-appliedenergistics2:facade:0, 线缆伪装板 - Mana Rune
 appliedenergistics2:facade:0, 线缆伪装板 - Bloody Thaumium Block
 appliedenergistics2:facade:0, 线缆伪装板 - Bloody Void Block
 appliedenergistics2:facade:0, 线缆伪装板 - Bloody Ichorium Block
@@ -6834,58 +6834,6 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
-gbook_snapshot:guidebook:0, Guidebook Manual
-gbook_snapshot:guidebook:0, Guidebook Additions Manual
-arcanearchives:raw_quartz, Raw Radiant Quartz
-arcanearchives:shaped_quartz, Shaped Radiant Quartz
-arcanearchives:debugorb, Dhi Bogh's Sphere of Divination
-arcanearchives:manifest, Manifest
-arcanearchives:tome_arcana:0, Tome of Arcana
-arcanearchives:letter_invitation, Letter of Invitation
-arcanearchives:letter_resignation, Letter of Resignation
-arcanearchives:writ_expulsion, Writ of Expulsion
-arcanearchives:radiant_amphora, Radiant Amphora
-arcanearchives:containment_field, Containment Field
-arcanearchives:matrix_brace, Matrix Brace
-arcanearchives:material_interface, Material Interface
-arcanearchives:radiant_dust, Radiant Dust
-arcanearchives:scintillating_inlay, Scintillating Inlay
-arcanearchives:devouring_charm, Devouring Charm
-arcanearchives:scepter_revelation, Scepter of Revelation
-arcanearchives:scepter_manipulation, Scepter of Manipulation
-arcanearchives:gemsocket, Gem Socket
-arcanearchives:slaughtergleam, Slaughtergleam
-arcanearchives:murdergleam, Murdergleam
-arcanearchives:agegleam, Agegleam
-arcanearchives:cleansegleam, Cleansegleam
-arcanearchives:switchgleam, Switchgleam
-arcanearchives:salvegleam, Salvegleam
-arcanearchives:munchstone, Munchstone
-arcanearchives:orderstone, Orderstone
-arcanearchives:mindspindle, Mindspindle
-arcanearchives:elixirspindle, Elixirspindle
-arcanearchives:mountaintear, Mountaintear
-arcanearchives:rivertear, Rivertear
-arcanearchives:parchtear, Parchtear
-arcanearchives:phoenixway, Phoenixway
-arcanearchives:stormway, Stormway
-arcanearchives:chromatic_powder, Impossibly Colorless Chromatic Powder
-arcanearchives:full_spectrum_chromatic_powder, Full-Spectrum Chromatic Powder
-arcanearchives:radiant_key, Radiant Key
-arcanearchives:quartz_sliver, Sliver of Light
-arcanearchives:storage_raw_quartz, Raw Radiant Quartz Block
-arcanearchives:storage_shaped_quartz, Shaped Radiant Quartz Block
-arcanearchives:radiant_chest, Radiant Chest
-arcanearchives:radiant_crafting_table, Radiant Crafting Table
-arcanearchives:radiant_lantern, Radiant Lantern
-arcanearchives:radiant_resonator, Radiant Resonator
-arcanearchives:raw_quartz_cluster, Raw Quartz Cluster
-arcanearchives:lectern_manifest, Manifest Lectern
-arcanearchives:gemcutters_table, Gem Cutter's Table
-arcanearchives:radiant_trove, Radiant Trove
-arcanearchives:monitoring_crystal, Monitoring Crystal
-arcanearchives:radiant_tank, Radiant Tank
-arcanearchives:brazier_of_hoarding, Brazier of Hoarding
 bloodmagic:altar, 血之祭坛
 bloodmagic:blood_rune:0, 空白符文
 bloodmagic:blood_rune:1, 速度符文
@@ -8050,6 +7998,66 @@ botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
 botania:managlasspane, tile.manaGlassPane.name
 botania:elfglasspane, tile.elfGlassPane.name
 botania:bifrostpermpane, tile.bifrostPermPane.name
+arcane_arteries:thaumic_rune, Thaumic Rune
+arcane_arteries:mana_rune, Mana Rune
+arcane_arteries:thaumic_sacrificial_dagger:0, Thaumic Sacrificial Dagger
+arcane_arteries:botany_sacrificial_dagger:0, Botany Sacrificial Dagger
+arcane_arteries:thaumic_dagger_of_sacrifice, Thaumic Dagger of Sacrifice
+arcane_arteries:botany_dagger_of_sacrifice, Botany Dagger of Sacrifice
+arcane_arteries:mana_slate, Mana Slate
+arcane_arteries:thaumic_slate, Thaumic Slate
+gbook_snapshot:guidebook:0, Guidebook Manual
+gbook_snapshot:guidebook:0, Guidebook Additions Manual
+arcanearchives:raw_quartz, Raw Radiant Quartz
+arcanearchives:shaped_quartz, Shaped Radiant Quartz
+arcanearchives:debugorb, Dhi Bogh's Sphere of Divination
+arcanearchives:manifest, Manifest
+arcanearchives:tome_arcana:0, Tome of Arcana
+arcanearchives:letter_invitation, Letter of Invitation
+arcanearchives:letter_resignation, Letter of Resignation
+arcanearchives:writ_expulsion, Writ of Expulsion
+arcanearchives:radiant_amphora, Radiant Amphora
+arcanearchives:containment_field, Containment Field
+arcanearchives:matrix_brace, Matrix Brace
+arcanearchives:material_interface, Material Interface
+arcanearchives:radiant_dust, Radiant Dust
+arcanearchives:scintillating_inlay, Scintillating Inlay
+arcanearchives:devouring_charm, Devouring Charm
+arcanearchives:scepter_revelation, Scepter of Revelation
+arcanearchives:scepter_manipulation, Scepter of Manipulation
+arcanearchives:gemsocket, Gem Socket
+arcanearchives:slaughtergleam, Slaughtergleam
+arcanearchives:murdergleam, Murdergleam
+arcanearchives:agegleam, Agegleam
+arcanearchives:cleansegleam, Cleansegleam
+arcanearchives:switchgleam, Switchgleam
+arcanearchives:salvegleam, Salvegleam
+arcanearchives:munchstone, Munchstone
+arcanearchives:orderstone, Orderstone
+arcanearchives:mindspindle, Mindspindle
+arcanearchives:elixirspindle, Elixirspindle
+arcanearchives:mountaintear, Mountaintear
+arcanearchives:rivertear, Rivertear
+arcanearchives:parchtear, Parchtear
+arcanearchives:phoenixway, Phoenixway
+arcanearchives:stormway, Stormway
+arcanearchives:chromatic_powder, Impossibly Colorless Chromatic Powder
+arcanearchives:full_spectrum_chromatic_powder, Full-Spectrum Chromatic Powder
+arcanearchives:radiant_key, Radiant Key
+arcanearchives:quartz_sliver, Sliver of Light
+arcanearchives:storage_raw_quartz, Raw Radiant Quartz Block
+arcanearchives:storage_shaped_quartz, Shaped Radiant Quartz Block
+arcanearchives:radiant_chest, Radiant Chest
+arcanearchives:radiant_crafting_table, Radiant Crafting Table
+arcanearchives:radiant_lantern, Radiant Lantern
+arcanearchives:radiant_resonator, Radiant Resonator
+arcanearchives:raw_quartz_cluster, Raw Quartz Cluster
+arcanearchives:lectern_manifest, Manifest Lectern
+arcanearchives:gemcutters_table, Gem Cutter's Table
+arcanearchives:radiant_trove, Radiant Trove
+arcanearchives:monitoring_crystal, Monitoring Crystal
+arcanearchives:radiant_tank, Radiant Tank
+arcanearchives:brazier_of_hoarding, Brazier of Hoarding
 betterquesting:placeholder, Item Placeholder
 betterquesting:extra_life:0, Extra Life
 betterquesting:extra_life:1, Half Heart
@@ -8833,6 +8841,7 @@ isorropia:cat:10, item.isorropia.cat.name
 isorropia:cat:11, item.isorropia.cat.name
 isorropia:cat:12, item.isorropia.cat.name
 isorropia:cat:13, item.isorropia.cat.name
+isorropia:cat:14, item.isorropia.cat.name
 isorropia:jelly:0, Jelly
 isorropia:jelly:0, Aer Jelly
 isorropia:jelly:0, Terra Jelly
@@ -8951,6 +8960,9 @@ moreobservers:discerner, 精密侦测器
 moreobservers:toggle_observer, 闸式侦测器
 moreobservers:mobserver, 实体侦测器
 moreobservers:surveyor, 监视器
+crimsonrevelations:crimson_fabric, Crimson Fabric
+crimsonrevelations:crimson_plate, Crimson Plate
+crimsonrevelations:crimson_sword, Crimson Cult Sword
 planarartifice:alkimium_block, 炼化块
 planarartifice:bismuth_block, 铋块
 planarartifice:alchemical_alkimium_construct, 炼化炼金构材
@@ -9632,15 +9644,8 @@ renaissance_core:ethereal_bloom, Ethereal Bloom
 renaissance_core:bloody_thaumium, Bloody Thaumium Block
 renaissance_core:bloody_void, Bloody Void Block
 renaissance_core:bloody_ichorium, Bloody Ichorium Block
-renaissance_core:thaumic_rune, Thaumic Rune
-renaissance_core:mana_rune, Mana Rune
-renaissance_core:thaumic_sacrificial_dagger:0, Thaumic Sacrificial Dagger
-renaissance_core:botany_sacrificial_dagger:0, Botany Sacrificial Dagger
-renaissance_core:thaumic_dagger_of_sacrifice, Thaumic Dagger of Sacrifice
-renaissance_core:botany_dagger_of_sacrifice, Botany Dagger of Sacrifice
-renaissance_core:mana_slate, Mana Slate
-renaissance_core:thaumic_slate, Thaumic Slate
 renaissance_core:mana_bean:0, 魔豆
+sandbag:sandbag, Sandbag
 storagedrawers:upgrade_template, 升级模板
 storagedrawers:upgrade_storage:0, 抽屉容量升级 (I)
 storagedrawers:upgrade_storage:1, 抽屉容量升级 (II)
@@ -9751,11 +9756,6 @@ traverse:blue_rock_cobblestone_slab:0, 峭壁岩圆石台阶
 traverse:blue_rock_cobblestone_wall, 峭壁岩圆石墙
 traverse:dead_grass, 荒草
 traverse:cold_grass, 寒地草
-thaumic_calculator:calculator, Thaumic Calculator
-thaumicenergistics:infusion_provider, 源质供应器
-thaumicenergistics:arcane_assembler, 奥术装配器
-thaumicenergistics:iron_gearbox, 铁齿轮箱
-thaumicenergistics:thaumium_gearbox, 神秘齿轮箱
 thaumicenergistics:essentia_cell_1k, 1k-ME源质储存元件
 thaumicenergistics:essentia_cell_4k, 4k-ME源质储存元件
 thaumicenergistics:essentia_cell_16k, 16k-ME源质储存元件
@@ -9778,6 +9778,10 @@ thaumicenergistics:upgrade_arcane, 奥术合成升级
 thaumicenergistics:knowledge_core, 知识核心
 thaumicenergistics:blank_knowledge_core, 空白知识核心
 thaumicenergistics:dummy_aspect, item.thaumicenergistics.dummy_aspect.name
+thaumicenergistics:infusion_provider, 源质供应器
+thaumicenergistics:arcane_assembler, 奥术装配器
+thaumicenergistics:iron_gearbox, 铁齿轮箱
+thaumicenergistics:thaumium_gearbox, 神秘齿轮箱
 tg:helmet_light, 光明头盔
 tg:chestplate_light, 光明胸甲
 tg:leggins_light, 光明护腿
@@ -9891,6 +9895,7 @@ thaumictinkerer:gas_shadow_item, Shadow Gas Phial
 thaumictinkerer:gas_light_item, Light Gas Phial
 thaumictinkerer:gas_remover, Gas Remover
 thaumictinkerer:spellbinding_cloth, 魅惑之布
+thaumictinkerer:experience_charm, XP Talisman
 thaumictinkerer:blood_sword, 咒灵之刃
 thaumictinkerer:mob_aspect, 生物灵魂
 thaumictinkerer:condensed_mob_aspect, Condensed Mob Aspect
@@ -9917,8 +9922,8 @@ thaumictinkerer:ichor_chest, 灵布法袍
 thaumictinkerer:ichor_legs, 灵布护腿
 thaumictinkerer:ichor_boots, 灵布靴子
 thaumictinkerer:kami_helm, 无尽深渊之帽
-thaumictinkerer:kami_chest, 云霄塔法袍
-thaumictinkerer:kami_legs, 熔岩地幔护腿
+thaumictinkerer:kami_chest, 云霄塔之法袍
+thaumictinkerer:kami_legs, 熔岩地幔之护腿
 thaumictinkerer:kami_boots, 地平线盾牌之靴
 thaumictinkerer:block_talisman:0, 黑洞指环
 thaumictinkerer:revealing_helm, 揭示之头盔
@@ -9941,36 +9946,36 @@ thaumictinkerer:summoner, Tablet of Necromancy
 thaumictinkerer:ichor_block, 灵宝块
 thaumictinkerer:bedrock_portal, 基岩世界传送门
 thaumictinkerer:warp_gate, Celestial Gateway
-thaumicwonders:flux_distiller, Flux Distiller
-thaumicwonders:coalescence_matrix_precursor, Coalescence Matrix
-thaumicwonders:meaty_orb, Meaty Orb
-thaumicwonders:vishroom_crop, Vishroom
-thaumicwonders:flux_capacitor, Flux Capacitor
-thaumicwonders:primordial_accelerator_terminus, Primordial Accelerator Terminus
-thaumicwonders:catalyzation_chamber, Catalyzation Chamber
-thaumicwonders:primordial_accretion_chamber, Primordial Accretion Chamber
-thaumicwonders:primordial_accelerator_tunnel, Primordial Accelerator Tunnel
-thaumicwonders:madness_engine, Madness Engine
-thaumicwonders:placeholder_adv_alch_construct, Primordial Accretion Chamber
-thaumicwonders:everburning_urn, Everburning Urn
-thaumicwonders:hexamite, Hexamite
-thaumicwonders:placeholder_thaumium_block, Primordial Accretion Chamber
-thaumicwonders:dimensional_ripper, Dimensional Ripper
-thaumicwonders:cinderpearl_crop, Cinderpearl
-thaumicwonders:placeholder_obsidian, Catalyzation Chamber
-thaumicwonders:inspiration_engine, Inspiration Engine
 thaumicwonders:alkahest_vat, Alkahest Vat
-thaumicwonders:shimmerleaf_crop, Shimmerleaf
-thaumicwonders:ore_diviner, Ore Diviner
+thaumicwonders:cinderpearl_crop, Cinderpearl
+thaumicwonders:coalescence_matrix_precursor, Coalescence Matrix
 thaumicwonders:placeholder_void_metal_block, Primordial Accretion Chamber
-thaumicwonders:void_beacon, Void Beacon
-thaumicwonders:coalescence_matrix, Coalescence Matrix
-thaumicwonders:portal_anchor, Portal Anchor
-thaumicwonders:portal_generator, Portal Generator
-thaumicwonders:primordial_accelerator, Primordial Accelerator
-thaumicwonders:meteorb, Meteorb
-thaumicwonders:placeholder_arcane_stone, Catalyzation Chamber
+thaumicwonders:madness_engine, Madness Engine
 thaumicwonders:creative_essentia_jar, Creative Essentia Jar
+thaumicwonders:primordial_accretion_chamber, Primordial Accretion Chamber
+thaumicwonders:dimensional_ripper, Dimensional Ripper
+thaumicwonders:primordial_accelerator, Primordial Accelerator
+thaumicwonders:placeholder_arcane_stone, Catalyzation Chamber
+thaumicwonders:meteorb, Meteorb
+thaumicwonders:placeholder_thaumium_block, Primordial Accretion Chamber
+thaumicwonders:meaty_orb, Meaty Orb
+thaumicwonders:primordial_accelerator_tunnel, Primordial Accelerator Tunnel
+thaumicwonders:vishroom_crop, Vishroom
+thaumicwonders:everburning_urn, Everburning Urn
+thaumicwonders:flux_capacitor, Flux Capacitor
+thaumicwonders:inspiration_engine, Inspiration Engine
+thaumicwonders:shimmerleaf_crop, Shimmerleaf
+thaumicwonders:catalyzation_chamber, Catalyzation Chamber
+thaumicwonders:hexamite, Hexamite
+thaumicwonders:coalescence_matrix, Coalescence Matrix
+thaumicwonders:ore_diviner, Ore Diviner
+thaumicwonders:portal_generator, Portal Generator
+thaumicwonders:portal_anchor, Portal Anchor
+thaumicwonders:primordial_accelerator_terminus, Primordial Accelerator Terminus
+thaumicwonders:void_beacon, Void Beacon
+thaumicwonders:placeholder_obsidian, Catalyzation Chamber
+thaumicwonders:placeholder_adv_alch_construct, Primordial Accretion Chamber
+thaumicwonders:flux_distiller, Flux Distiller
 thaumicwonders:disjunction_cloth, Disjunction Cloth
 thaumicwonders:primal_destroyer, Primal Destroyer
 thaumicwonders:flying_carpet, Flying Carpet
@@ -10393,7 +10398,6 @@ twilightforest:sort_fence, 分类木栅栏
 twilightforest:sort_gate, 分类木栅栏门
 twilightforest:sort_plate, 分类木压力板
 voidgoggles:voidgoggles, Voidseer's Goggles of Revealing
-testdummy:dummy, 试验假人
 patchouli:guide_book, 指南书
 storagedrawersunlimited:basicdrawers_thaumcraft_greatwood:0, 基础抽屉
 storagedrawersunlimited:basicdrawers_thaumcraft_greatwood:1, 1x2 基础抽屉
