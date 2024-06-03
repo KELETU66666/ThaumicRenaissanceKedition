@@ -495,22 +495,17 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-1"
+				"value": "-4"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "8"
+				"value": "7"
 			},
 			{
 				"op": "replace",
 				"path": "category",
 				"value": "AUROMANCY"
-			},
-			{
-				"op": "add",
-				"path": "meta",
-				"value": ["REVERSE"]
 			}
         ]
 	},
@@ -520,22 +515,17 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-3"
+				"value": "-4"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "8"
+				"value": "5"
 			},
 			{
 				"op": "replace",
 				"path": "category",
 				"value": "AUROMANCY"
-			},
-			{
-				"op": "add",
-				"path": "meta",
-				"value": ["REVERSE"]
 			}
         ]
 	},
@@ -563,287 +553,37 @@
         "key": "PA_BUSH_ALCHEMY",
         "ops": [
 			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-2"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-2"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ALCHEMY"
-			},
-			{
-				"op": "replace",
-				"path": "parents/0",
-				"value": "~PA_ALKIMIUM"
-			},
-			{
-				"op": "replace",
-				"path": "stages",
-				"value": [
-					{
-					  "text": "planarartifice.research.bush_alchemy.stage.1.text",
-					  "required_knowledge": [
-						"THEORY;ARTIFICE;2",
-						"THEORY;BASICS;3"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy.stage.2.text",
-					  "required_item": [
-						"minecraft:blaze_rod;16"
-					  ],
-					  "recipes": [
-						"planarartifice:endereye",
-						"planarartifice:redstone"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy.stage.3.text",
-					  "required_item": [
-						"thaumcraft:amber;8",
-						"thaumcraft:quicksilver;8"
-					  ],
-					  "recipes": [
-						"planarartifice:endereye",
-						"planarartifice:redstone",
-						"planarartifice:blaze_powder"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy.complete.text",
-					  "recipes": [
-						"planarartifice:endereye",
-						"planarartifice:redstone",
-						"planarartifice:blaze_powder",
-						"planarartifice:amber_alchemy",
-						"planarartifice:quicksilver_alchemy"
-					  ]
-					}
-				  ]
+				"op": "remove",
+				"path": "key"
 			}
-        ]
+		]
 	},
     {
         "key": "PA_BUSH_ALCHEMY_CONJURING",
         "ops": [
 			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-3"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-3"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ALCHEMY"
-			},
-			{
-				"op": "replace",
-				"path": "stages",
-				"value": [
-					{
-					  "text": "planarartifice.research.bush_alchemy_conjuring.stage.1.text",
-					  "required_item": [
-						"minecraft:redstone_block;64"
-					  ],
-					  "required_knowledge": [
-						"THEORY;BASICS;3"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy_conjuring.stage.2.text",
-					  "required_item": [
-						"minecraft:coal_block;64"
-					  ],
-					  "required_knowledge": [
-						"THEORY;ALCHEMY;3",
-						"THEORY;BASICS;3"
-					  ],
-					  "recipes": [
-						"planarartifice:sugar_conjure",
-						"planarartifice:ender_pearls",
-						"planarartifice:redstone2"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy_conjuring.stage.3.text",
-					  "required_item": [
-						"thaumcraft:amber_block;64"
-					  ],
-					  "required_knowledge": [
-						"THEORY;ALCHEMY;3",
-						"THEORY;BASICS;3"
-					  ],
-					  "recipes": [
-						"planarartifice:sugar_conjure",
-						"planarartifice:ender_pearls",
-						"planarartifice:redstone2",
-						"planarartifice:lapis_conjure",
-						"planarartifice:coal_conjure",
-						"planarartifice:quartz_conjure"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy_conjuring.complete.text",
-					  "recipes": [
-						"planarartifice:sugar_conjure",
-						"planarartifice:ender_pearls",
-						"planarartifice:redstone2",
-						"planarartifice:lapis_conjure",
-						"planarartifice:coal_conjure",
-						"planarartifice:quartz_conjure",
-						"planarartifice:amber_conjure",
-						"planarartifice:blaze_conjure",
-						"planarartifice:chorus_conjure",
-						"planarartifice:flesh_conjure",
-						"planarartifice:bone_conjure",
-						"planarartifice:cactus_conjure",
-						"planarartifice:mushroom_conjure",
-						"planarartifice:mushroom_conjure2",
-						"planarartifice:gunpowder_conjure"
-					  ],
-					  "warp": 3
-					}
-				  ]
+				"op": "remove",
+				"path": "key"
 			}
-        ]
-	},
-    {
-        "key": "PA_BUSH_ALCHEMY_ESSENTIA",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-1"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-3"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ALCHEMY"
-			},
-			{
-				"op": "replace",
-				"path": "stages",
-				"value": [
-					{
-					  "text": "planarartifice.research.bush_alchemy_essentia.stage.1.text",
-					  "required_knowledge": [
-						"THEORY;ALCHEMY;1"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy_essentia.stage.2.text",
-					  "required_item": [
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"aer\"}]}",
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"ignis\"}]}",
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"aqua\"}]}",
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"terra\"}]}",
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"ordo\"}]}",
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"perditio\"}]}",
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"vitium\"}]}",
-						"thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:\"tinctura\"}]}"
-					  ],
-					  "required_craft": [
-						"planarartifice:condensed_crystal_cluster"
-					  ],
-					  "recipes": [
-						"planarartifice:condensed_crystal_cluster1",
-						"planarartifice:condensed_crystal_cluster2",
-						"planarartifice:condensed_crystal_cluster3",
-						"planarartifice:condensed_crystal_cluster4",
-						"planarartifice:condensed_crystal_cluster5",
-						"planarartifice:condensed_crystal_cluster6"
-					  ]
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy_essentia.stage.3.text",
-					  "required_item": [
-						"thaumcraft:salis_mundus;64"
-					  ],
-					  "recipes": [
-						"planarartifice:condensed_crystal_cluster1",
-						"planarartifice:condensed_crystal_cluster2",
-						"planarartifice:condensed_crystal_cluster3",
-						"planarartifice:condensed_crystal_cluster4",
-						"planarartifice:condensed_crystal_cluster5",
-						"planarartifice:condensed_crystal_cluster6",
-						"planarartifice:random_vis_crystal1",
-						"planarartifice:random_vis_crystal2"
-					  ],
-					  "warp": 2
-					},
-					{
-					  "text": "planarartifice.research.bush_alchemy_essentia.complete.text",
-					  "recipes": [
-						"planarartifice:condensed_crystal_cluster1",
-						"planarartifice:condensed_crystal_cluster2",
-						"planarartifice:condensed_crystal_cluster3",
-						"planarartifice:condensed_crystal_cluster4",
-						"planarartifice:condensed_crystal_cluster5",
-						"planarartifice:condensed_crystal_cluster6",
-						"planarartifice:random_vis_crystal1",
-						"planarartifice:random_vis_crystal2",
-						"planarartifice:salis_mundus"
-					  ]
-					}
-				  ]
-			}
-        ]
+		]
 	},
     {
         "key": "PA_BUSH_ALCHEMY_METAL_1",
         "ops": [
 			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-2"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-4"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ALCHEMY"
+				"op": "remove",
+				"path": "key"
 			}
-        ]
+		]
 	},
     {
         "key": "PA_BUSH_ALCHEMY_METAL_BISMUTH",
         "ops": [
 			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-2"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-6"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ALCHEMY"
+				"op": "remove",
+				"path": "key"
 			}
-        ]
+		]
 	},
     {
         "key": "PA_RARE_ITEMS",

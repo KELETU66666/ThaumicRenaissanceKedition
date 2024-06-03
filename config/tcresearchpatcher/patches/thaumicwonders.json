@@ -147,7 +147,7 @@
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "4"
+				"value": "6"
 			},
 			{
 				"op": "replace",
@@ -167,12 +167,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-2"
+				"value": "-3"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "4"
+				"value": "-6"
 			},
 			{
 				"op": "replace",

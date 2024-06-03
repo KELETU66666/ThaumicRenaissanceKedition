@@ -1,0 +1,313 @@
+[
+  {
+    "key": "!OVERGROWN_TAINTACLE",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-11"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "0"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "FOCUS_POISON",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "3"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "AUROMANCY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "CRIMSON_REVELATIONS",
+          "FOCUSELEMENTAL"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ANCIENT_STONE",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-9"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "CRIMSON_BLADE",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-10"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "~CRIMSON_REVELATIONS",
+          "CRIMSON_SWORD",
+          "~BASEELDRITCH"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "PRAETOR_ARMOR",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-6"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "CRIMSON_ARMOR",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-7"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "CRIMSON_SWORD",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-8"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "FOCUS_TAINT_POISON",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "AUROMANCY"
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": [
+          "REVERSE"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ORDERED_DECONSTRUCTION",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ALCHEMY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "HEDGEALCHEMY"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ENTROPIC_PROCESSING",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ALCHEMY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "HEDGEALCHEMY"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "QUARTZ_PURIFICATION",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "0"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ALCHEMY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "~ORDERED_DECONSTRUCTION",
+          "METALPURIFICATION",
+          "~INFERNALFURNACE"
+        ]
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": [
+          "REVERSE"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ERYTHURGY",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CRIMSON_REVELATIONS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-8"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "5"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "CrimsonRites",
+          "~INFUSIONSTABLE"
+        ]
+      }
+    ]
+  }
+]

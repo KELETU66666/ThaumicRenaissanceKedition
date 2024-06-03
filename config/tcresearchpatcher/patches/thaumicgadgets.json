@@ -25,45 +25,45 @@
     ]
   },
   {
-  "key": "TG_BAGS",
-  "ops": [
-    {
-      "op": "replace",
-      "path": "location/0",
-      "value": "-1"
-    },
-    {
-      "op": "replace",
-      "path": "location/1",
-      "value": "-8"
-    },
-    {
-      "op": "replace",
-      "path": "category",
-      "value": "ARTIFICE"
-    }
-  ]
+    "key": "TG_BAGS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-8"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
   },
   {
-  "key": "TG_HUNGRY_BAGS",
-  "ops": [
-    {
-      "op": "replace",
-      "path": "location/0",
-      "value": "-1"
-    },
-    {
-      "op": "replace",
-      "path": "location/1",
-      "value": "-10"
-    },
-    {
-      "op": "replace",
-      "path": "category",
-      "value": "ARTIFICE"
-    }
-  ]
-},
+    "key": "TG_HUNGRY_BAGS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-10"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ARTIFICE"
+      }
+    ]
+  },
   {
     "key": "TG_ENDER_BAG",
     "ops": [
@@ -218,7 +218,10 @@
       {
         "op": "add",
         "path": "meta",
-        "value": ["REVERSE", "HIDDEN"]
+        "value": [
+          "REVERSE",
+          "HIDDEN"
+        ]
       }
     ]
   },
@@ -243,7 +246,10 @@
       {
         "op": "add",
         "path": "meta",
-        "value": ["REVERSE", "HIDDEN"]
+        "value": [
+          "REVERSE",
+          "HIDDEN"
+        ]
       }
     ]
   },
@@ -373,7 +379,9 @@
       {
         "op": "add",
         "path": "meta",
-        "value": ["REVERSE"]
+        "value": [
+          "REVERSE"
+        ]
       }
     ]
   },
@@ -383,21 +391,27 @@
       {
         "op": "replace",
         "path": "location/0",
-        "value": "-2"
+        "value": "-3"
       },
       {
         "op": "replace",
         "path": "location/1",
-        "value": "-2"
+        "value": "8"
       },
       {
         "op": "replace",
         "path": "category",
-        "value": "INFUSION"
+        "value": "ARTIFICE"
       },
       {
-        "op": "remove",
-        "path": "parents/0"
+        "op": "replace",
+        "path": "parents/0",
+        "value": "LEVITATOR"
+      },
+      {
+        "op": "add",
+        "path": "meta/1",
+        "value": "REVERSE"
       }
     ]
   }

@@ -40,12 +40,37 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-4"
+				"value": "-2"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "-2"
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "ENTROPIC_PROCESSING"
+			}
+        ]
+	},
+	{
+        "key": "EVERFULLURN",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "ORDERED_DECONSTRUCTION"
 			}
         ]
 	},
@@ -128,6 +153,26 @@
 				"value": ["REVERSE"]
 			}
         ]
+	},
+	{
+        "key": "LIQUIDDEATH",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "ENTROPIC_PROCESSING"
+			}
+		]
 	},
 	{
         "key": "POTIONSPRAYER",

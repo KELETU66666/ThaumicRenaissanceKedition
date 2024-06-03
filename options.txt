@@ -4,20 +4,20 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:12
+renderDistance:8
 guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:120
+maxFps:150
 fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["Inlay Fix 1.0.zip","Modernity-format3-v3.9.1.zip","Sonomagy TC6 v1.6.zip","Thaum_pack.zip","tmr0.26.zip"]
-incompatibleResourcePacks:["Thaum_pack.zip","tmr0.26.zip"]
-lastServer:mc53.starmc.cn:32061
+resourcePacks:["Inlay Fix 1.0.zip","Sonomagy TC6 v1.6.zip","Thaum_pack.zip","NewTextures 1.0.5.2.zip","ThaumMenu1.1.zip"]
+incompatibleResourcePacks:["Thaum_pack.zip"]
+lastServer:
 lang:zh_cn
 chatVisibility:0
 chatColors:true
@@ -26,10 +26,10 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -88,14 +88,16 @@ key_key.hotbar.9:10
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:11
-key_arcanearchives.gui.keybinds.manifest:0
+key_thaumicaugmentation.key.augment_radial:34
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
+key_arcanearchives.gui.keybinds.manifest:0
+key_key.betterquesting.quests:41
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
-key_keybind.hammercorerenderstack:77
 key_ingameinfoxml.key.toggle:0
+key_显示/隐藏:47
 key_smoothfont.key.guiOpen:199
 key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
@@ -119,31 +121,13 @@ key_invtweaks.key.sort:19
 key_key.planarartifice.openThaumonomicon:25
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:78
-key_gui.xaero_toggle_slime:0
-key_gui.xaero_toggle_grid:0
-key_gui.xaero_toggle_waypoints:0
-key_gui.xaero_toggle_map_waypoints:0
-key_gui.xaero_toggle_map:0
-key_gui.xaero_enlarge_map:44
-key_gui.xaero_waypoints_key:22
-key_gui.xaero_zoom_in:0
-key_gui.xaero_zoom_out:0
-key_gui.xaero_new_waypoint:48
-key_gui.xaero_display_all_sets:0
-key_gui.xaero_toggle_light_overlay:0
-key_gui.xaero_toggle_entity_radar:0
-key_gui.xaero_reverse_entity_radar:0
-key_gui.xaero_toggle_manual_cave_mode:0
-key_gui.xaero_alternative_list_players:0
-key_gui.xaero_toggle_tracked_players:0
-key_gui.xaero_minimap_settings:21
-key_gui.xaero_open_map:50
-key_gui.xaero_open_settings:27
-key_gui.xaero_map_zoom_in:0
-key_gui.xaero_map_zoom_out:0
-key_gui.xaero_quick_confirm:54
+key_key.minimap.voxelmapmenu:50
+key_key.minimap.waypointmenu:0
+key_key.minimap.zoom:44
+key_key.minimap.togglefullscreen:45
+key_key.minimap.waypointhotkey:49
+key_key.minimap.togglemobs:0
+key_key.minimap.toggleingamewaypoints:0
 key_Change Goggles Lens:47
 key_key.tg.open_gui:19
 key_key.tg.armor_ability:46
