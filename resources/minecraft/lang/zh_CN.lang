@@ -89,46 +89,41 @@ research.largervial.title=精灵玻璃烧瓶
 research.largervial.stage.0=这种异世界玻璃是一种非常优秀的药剂容器.
 research.largervial.stage.1=这种异世界玻璃是一种非常优秀的药剂容器.<BR>由于玻璃本身已高度魔法化,所以烧瓶从药剂吸收的更少,留下的药性更多.
 
-//Thaumonomicon Isorropia
+//Witchery
+tc.research_category.WITCHERY=巫术
 
-//Cultivation
-research.wheatdupe.title=炼金栽培
-research.wheatdupe.stage.0=虽然针对无生命物质的炼金变换已经足够简单,但鲜有活体在被实施炼金术之后生还的案例.你在最近的研究中应用了一些不一样的思路-你只是简单用炼金术加速了它们自然生长的过程,而非尝试去直接"修改"它们.
-research.wheatdupe.stage.1=虽然针对无生命物质的炼金变换已经足够简单,但鲜有活体在被实施炼金术之后生还的案例.你在最近的研究中应用了一些不一样的思路-你只是简单用炼金术加速了它们自然生长的过程,而非尝试去直接"修改"它们.<BR>通过把普通食用作物的种子浸入浓缩的光,水,土的混合精华之中,植物可以以令人震惊的速度生长.但很不幸,这个过程是把双刃剑;这些植物毫无例外地在它们结出果实前就已经死亡了.
-
-//egg incubation
-research.incubated.title=炼金孵化
-research.incubated.stage.0=在炼金栽培的成功之后,将类似的方法应用于动物上似乎是一个符合逻辑的选择.
-research.incubated.stage.1=在炼金栽培的成功之后,将类似的方法应用于动物上似乎是一个符合逻辑的选择.向一个鸡蛋提供温暖而原始的生命能量将保证鸡蛋中的胚胎在破壳时能够存活.<BR>但更好的消息是,通过对鸡的初期生长过程的限制,你好像已经解决了作物快速老化的灾难性问题. 
-
-//Meat Growth
-research.meatgrowth.title=肉类复制
-research.meatgrowth.stage.0=你现在有了对炼金术是如何作用于有机生命的自然生长过程的坚定认识.通过细心选择并应用这些技术,你可以在无需饲养整个动物体的条件下单独培育出动物组织.
-research.meatgrowth.stage.1=你现在有了对炼金术是如何作用于有机生命的自然生长过程的坚定认识.通过细心选择并应用这些技术,你可以在无需饲养整个动物体的条件下单独培育出动物组织.<BR>这个发现最明显的应用就是食物生产 - 一小块生肉样本可以"长"成任意大小,还不失原本的色泽和味道.
-
-//Harding
-research.fleshharding.title=肉类硬化
-research.fleshharding.stage.0=尽管你在复制肉类的实验中大获成功,培养实用皮革已被证明是一个更让人上火的问题.
-research.fleshharding.stage.1=尽管你在复制肉类的实验中大获成功,培养实用皮革已被证明是一个更让人上火的问题.现在你也许已经发现了解决皮革生产问题的另一种替代方法.<BR>肉类若在合适的混合要素源质中煮沸,大多数将会硬化直到它们无法和普通皮革分辨开来.你甚至还成功把少量僵尸肉嬗变为更有用的形式,尽管在这种情况下你需要一点点§7Ordo§0要素以阻止它们腐烂.
-
-//Chocolate Cow
-research.chococow.title=神秘牛奶
-research.chococow.stage.0=你发现了一种增强你的普普通通的奶牛的方法.
-research.chococow.stage.1=你发现了一种增强你的普普通通的奶牛的方法.<BR>首先,也是最简单的,修改奶牛的udders使其产出糖浆一样的巧克力牛奶.可以直接饮用来获取一般牛奶的效果,或者把它晾干获取巧克力棒.使用魔法捏制你还可以急速冷冻它使其变成美味的冰淇淋.<BR>有些人声称九个巧克力棒可以合成一个巧克力块,不过又有什么不正常的人会拿巧克力盖房子?
-
-//mob exchange
-research.mobexchange.title=生物转换
-research.mobexchange.stage.0=另一种牛的注魔，将融合牛以及菌类生物,以产生著名的稀有共生体,哞菇.
-research.mobexchange.stage.1=另一种牛的注魔，将融合牛以及菌类生物,以产生著名的稀有共生体,哞菇.<BR>这是否可以说明哞菇是一种古代神秘使制造的人造生物,或者说明你重演了一遍自然现象,依旧不得而知.不像其它的注魔生物,哞菇是可以生产后代的.<BR>你也可以用这种方法制作火鸡.
-
-//goldenchicken
-research.goldchicken.title=一个鸡蛋的魔法
-research.goldchicken.stage.0=甚至谦逊的鸡也拥有巨大的潜能;它只是在等待一个聪慧的神秘使的发现.
-research.goldchicken.stage.1=甚至谦逊的鸡也拥有巨大的潜能;它只是在等待一个聪慧的神秘使的发现.<BR>你发现了一种在鸡体内发生炼金反应的方法.它所留下的金蛋可以熔炼为一个金粒.<BR>值得注意的是这个过程缓慢而持续;并且杀鸡取卵是没用的.
-
-//END GAME
-
-//keletu
-research.endgamegoal.title=§l最终目标
-research.endgamegoal.stage.0=您可以在此查看神秘复兴整合包毕业目标：制作可乐兔，并击杀他来获取创造模式物品。
-research.endgamegoal.stage.1=您可以在此查看神秘复兴整合包毕业目标：制作可乐兔，并击杀他来获取创造模式物品。<BR>你需要遍历所有神秘相关的模组才能制作他，所以你还有很长的路要走。<BR>制作可乐兔的装置为治愈之缸，而不是注魔祭坛。
+tc.research_name.WITCHESOVEN=女巫烤炉
+tc.research_text.WITCHESOVEN=冶炼炉是一个好动西，但是我想让它的效能不是“那么的”高效，也许我因该对我的冶炼炉进行改造...
+tc.research_page.WITCHESOVEN=我成功的制造了女巫烤炉，现在，它能烧制一部分物品并留下副产物，不过概率有一点低...
+tc.research_name.FUMEFUNNEL=熏气漏斗
+tc.research_text.FUMEFUNNEL=女巫烤炉的效率很低，导致我需要燃烧大量物品却只能得到很少的一点东西，我想我能通过神秘学的知识来解决这个问题。
+tc.research_page.FUMEFUNNEL=我现在成功的制造了熏气漏斗，把它插在女巫烤炉的两侧，它就能增加女巫烤炉的工作效率，不过它的效果还有着一定的提升空间。
+tc.research_name.ATTUNEDSTONE=调谐之石
+tc.research_text.ATTUNEDSTONE=我已经制造了巫师烤炉，也许，我可以用它的产物来制作一些更加新奇的玩意。
+tc.research_page.ATTUNEDSTONE=我成功的制作出了调谐之石，它将会在我未来的发展中起到举足轻重的作用。
+tc.research_name.WALTAR=祭坛
+tc.research_text.WALTAR=我的机器需要能量供给才能够工作，我需要想个办法来为它提供能量。
+tc.research_page.WALTAR=我成功的制作出了祭坛，现在，我可以把火把，头骨和龙蛋之类的东西放在上面来充当基石，以及在附近种植不同种类的绿植来使祭坛产生能量，以为附近的机器供能。<BR>但不知为何，这些物品提升祭坛能量的效率不是很低，就是很难获得，我得想个办法来解决这个棘手的问题。
+tc.research_name.FUMEFILTER=熏气过滤器
+tc.research_text.FUMEFILTER=为了增熏气漏斗的效率，我应该怎么去做呢?
+tc.research_page.FUMEFILTER=通过充能的调谐之石，我制作出了这个简易的熏气漏斗升级装置，不过，我无法通过一个简单的合成就把它安放到熏气漏斗上去，也许我还需要进一步的探索。
+tc.research_name.FILTERED_FUME_FUNNEL=充满的熏气漏斗
+tc.research_text.FILTERED_FUME_FUNNEL=我无法正常的把熏气漏斗升级装置插入一个平凡的熏气漏斗，也许结合注魔的新知识，可以帮助我解决这个问题
+tc.research_page.FILTERED_FUME_FUNNEL=成功了，现在这些升过级的漏斗的效率从原来的40%提升到了现在的55%，也就意味着如果我插上了两个升级过的熏气漏斗，我的蒸馏副产物产出就能达到原来的110%，这真的是太棒了。
+tc.research_name.RELICS=更珍贵的祭品
+tc.research_text.RELICS=我发现，也许仅凭火把和花盆虽然可以为那些耗能微不足道的机器供能，但是它们几乎不能为一个圆环法阵或大型冶炼仪式功能，也许，我需要一批新的祭品。
+tc.research_page.RELICS=这些使用调谐之石制作出的祭品可以称得上是祭品中的极品，它们能极大效率的提升祭坛的功能，使祭坛能量积累上限更高。
+tc.research_name.MACHINES=魔力机器
+tc.research_text.MACHINES=我学会了制作祭坛，那么，我也应该学着做一些使用祭坛能量的机器。
+tc.research_page.MACHINES=这些机器都是用需要用祭坛能量来工作的，只要你提供了祭坛能量，它们就会在条件合适时，自动运转。
+tc.research_name.ARTHANA=仪式匕首
+tc.research_text.ARTHANA=我跑遍了我找到过的所有矿洞，只为了那一点点蝙蝠之毛，而蝙蝠似乎不愿意交出它们的皮毛，以至于很多时候我都在做无用的工作，我得想办法改变这一现状。
+tc.research_page.ARTHANA=我成功做出了仪式匕首，现在，它能增加巫术相关物品的掉落概率，这确实是非常方便。
+tc.research_page.ARTHANA.2=我还发现，仪式匕首可以摆放在祭坛上，让祭坛的供能范围翻倍。
+tc.research_name.WARMBLOOD=吸血鬼的款待
+tc.research_text.WARMBLOOD=我也许可以通过把那些凝固的血液经过某些加工让它变得更加...美味？我不清楚这到底是为了什么。
+tc.research_page.WARMBLOOD=我成功的炼制出了一瓶温暖的血液，但是它的味道和腐肉一样令我反胃，也许，吸血鬼会喜欢它？
+tc.research_name.GLYPH=圆环法阵
+tc.research_text.GLYPH=我已经使用祭坛为一批机器供能了，现在，我要施展一些更强大的法术了！
+tc.research_page.GLYPH=我现在已经能够熟练的制作4根粉笔了，不过因为魔导手册的限制，我只能在这本书中查看到一根粉笔的制作方法，其余的，我可以在"巫术：圆环法阵"这本书中查找到。
+tc.research_name.TALISMAN=环形护身符

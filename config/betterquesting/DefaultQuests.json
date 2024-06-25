@@ -33,6 +33,32 @@
       "questID:3": 1,
       "rewards:9": {
         "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "minecraft:skull",
+              "tag:10": {
+                "SkullOwner:10": {
+                  "Id:8": "726a7324-c840-4851-ace2-d45659b29411",
+                  "Name:8": "keletu",
+                  "Properties:10": {
+                    "textures:9": {
+                      "0:10": {
+                        "Signature:8": "FXK5XwEua0hlSKh4Xd5i2xGB0Mxbf+Np8rvqbVMa+0iySkZXA+Bew3UF5k0vYuKRbjlGI7WJV6iaxDcUQLR/MH76bBTCFzYbW+FibR58KlO+WwAQee4XI80mWbDTgr6nQdOwSjQuuf8PyUQEJFYPbt1V2bEuW5pA/DkJ+T6LURhf+QH1LbTVPTqcf2mh2r/WWjniWVZyfLW3rY68lYu9HtTM3u+dEfOTxET0vtvsLFgj9bzuGXuUcK6OErswlIzq7T1Pr8+lNUquGs+1oHHxqTaee9n16uLDy7Crx2uIy0Hqsnn3kvqHOZkkMi53OqPMcxrJ7fVzDsQIOid5DPP13jlUj5yxHpAIB55OmcOBgfgS1BIX2FJejf1EfF1LjC91jhIU4PJrf+Cg4weOZiY+J+tZPwn+JcBLThTB6CPicgzwRbARg85GWxej98tiGx67sV39ZBqFFXi/xLN3DYiHdX8q1Fb3nVZ338bp32FXKSz2/dQfOFq/Vov6CeSeEi83TsuK4Pwr4nTXpCkK6lBn2v/ILvS64OCTtvyJi2rDXeie3zzeWU3B3em/3o8dwgLQU5IHFoVP4W0oyuvpIUL5dSzwcsWWXlkGIInEbt5wteQI2hyHy9j3VSG5UDaqYHZjUz4gS9My1AqZ+U7stxJleajgR5qmGtim7KUm2ysWhVU\u003d",
+                        "Value:8": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTMzNTc4NjgzMiwKICAicHJvZmlsZUlkIiA6ICI3MjZhNzMyNGM4NDA0ODUxYWNlMmQ0NTY1OWIyOTQxMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJrZWxldHUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZlZTg1YTAwNzEzZDRhMjcyOGRkODQzNjcwNjk2ZjZmYTkxOTYzY2E1YTQxYWZjOGU5MmMxN2U0Yjg4ZjgzNSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5ZDgyYWIxN2ZkOTIwMjJkYmQ0YTg2Y2RlNGMzODJhNzU0MGUxMTdmYWU3YjlhMjg1MzY1ODUwNWE4MDYyNSIKICAgIH0KICB9Cn0\u003d"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "1:10": {
           "choices:9": {
             "0:10": {
               "Count:3": 1,
@@ -146,7 +172,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "懈怠碎片至今我无法在生存模式种获得，如果确实不能获得，请加群反馈。",
+          "desc:8": "懈怠碎片至今我无法在生存模式获得，如果确实不能获得，请加群反馈。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -192,45 +218,6 @@
       }
     },
     "3:10": {
-      "preRequisites:11": [
-        54
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "在地下的探索途中，你还能发现赛特斯石英水晶，你可以收集它，在之后制作应用能源模组的物品。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:material"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "另一种水晶",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 13,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "4:10": {
       "preRequisites:11": [
         88
       ],
@@ -302,7 +289,7 @@
         }
       }
     },
-    "5:10": {
+    "4:10": {
       "preRequisites:11": [
         99
       ],
@@ -355,7 +342,7 @@
         }
       }
     },
-    "6:10": {
+    "5:10": {
       "preRequisites:11": [
         1
       ],
@@ -407,7 +394,7 @@
         }
       }
     },
-    "7:10": {
+    "6:10": {
       "preRequisites:11": [
         20
       ],
@@ -460,7 +447,7 @@
         }
       }
     },
-    "8:10": {
+    "7:10": {
       "preRequisites:11": [
         148
       ],
@@ -513,7 +500,7 @@
         }
       }
     },
-    "9:10": {
+    "8:10": {
       "preRequisites:11": [
         51
       ],
@@ -631,7 +618,7 @@
         }
       }
     },
-    "10:10": {
+    "9:10": {
       "preRequisites:11": [
         20,
         163
@@ -685,7 +672,7 @@
         }
       }
     },
-    "11:10": {
+    "10:10": {
       "preRequisites:11": [
         20
       ],
@@ -738,7 +725,7 @@
         }
       }
     },
-    "12:10": {
+    "11:10": {
       "preRequisites:11": [
         20
       ],
@@ -791,7 +778,7 @@
         }
       }
     },
-    "13:10": {
+    "12:10": {
       "preRequisites:11": [
         17
       ],
@@ -855,7 +842,7 @@
         }
       }
     },
-    "14:10": {
+    "13:10": {
       "preRequisites:11": [
         37
       ],
@@ -907,7 +894,7 @@
         }
       }
     },
-    "15:10": {
+    "14:10": {
       "preRequisites:11": [
         37,
         191
@@ -992,7 +979,7 @@
         }
       }
     },
-    "16:10": {
+    "15:10": {
       "preRequisites:11": [
         37
       ],
@@ -1056,7 +1043,7 @@
         }
       }
     },
-    "17:10": {
+    "16:10": {
       "preRequisites:11": [
         37
       ],
@@ -1140,7 +1127,7 @@
         }
       }
     },
-    "18:10": {
+    "17:10": {
       "preRequisites:11": [
         37
       ],
@@ -1199,7 +1186,7 @@
         }
       }
     },
-    "19:10": {
+    "18:10": {
       "preRequisites:11": [
         37
       ],
@@ -1246,7 +1233,7 @@
         }
       }
     },
-    "20:10": {
+    "19:10": {
       "preRequisites:11": [
         117
       ],
@@ -1299,7 +1286,7 @@
         }
       }
     },
-    "21:10": {
+    "20:10": {
       "preRequisites:11": [
         117
       ],
@@ -1352,7 +1339,7 @@
         }
       }
     },
-    "22:10": {
+    "21:10": {
       "preRequisites:11": [
         148
       ],
@@ -1405,7 +1392,7 @@
         }
       }
     },
-    "23:10": {
+    "22:10": {
       "preRequisites:11": [
         17
       ],
@@ -1507,7 +1494,7 @@
         }
       }
     },
-    "24:10": {
+    "23:10": {
       "preRequisites:11": [
         281
       ],
@@ -1573,7 +1560,7 @@
         }
       }
     },
-    "25:10": {
+    "24:10": {
       "preRequisites:11": [
         37
       ],
@@ -1632,7 +1619,7 @@
         }
       }
     },
-    "26:10": {
+    "25:10": {
       "preRequisites:11": [
         23
       ],
@@ -1784,7 +1771,7 @@
         }
       }
     },
-    "27:10": {
+    "26:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -1966,7 +1953,7 @@
         }
       }
     },
-    "28:10": {
+    "27:10": {
       "preRequisites:11": [
         99
       ],
@@ -2018,7 +2005,7 @@
         }
       }
     },
-    "29:10": {
+    "28:10": {
       "preRequisites:11": [
         23
       ],
@@ -2057,30 +2044,6 @@
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crank"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:grindstone"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -2101,7 +2064,7 @@
         }
       }
     },
-    "30:10": {
+    "29:10": {
       "preRequisites:11": [
         124
       ],
@@ -2186,7 +2149,7 @@
         }
       }
     },
-    "31:10": {
+    "30:10": {
       "preRequisites:11": [
         27
       ],
@@ -2238,46 +2201,7 @@
         }
       }
     },
-    "32:10": {
-      "preRequisites:11": [
-        13
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "神秘能源模组本身自带的谐振仓发电并不易于使用,所以可以使用以下几种方式发电:\n\n1.神秘时代本体的\"灵气发电机\",可以将灵气转换为RF,它的研究位于\"炼化学\"界面.\n2.植物魔法的\"魔力转换器\",可以将魔力转换为RF,直接可以制作.\n3.元动发电机,需要解锁游戏后期元动能量系列,用法详见魔导手册.\n\n注:以上三种发电产生的能量均为RF,想要直接供给应用能源的设备,需要使用“能源接收器”.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:energy_acceptor"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "神秘能源供电问题",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 57,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "33:10": {
+    "31:10": {
       "preRequisites:11": [
         56
       ],
@@ -2316,7 +2240,7 @@
         }
       }
     },
-    "34:10": {
+    "32:10": {
       "preRequisites:11": [
         145,
         17
@@ -2356,7 +2280,7 @@
         }
       }
     },
-    "35:10": {
+    "33:10": {
       "preRequisites:11": [
         68
       ],
@@ -2408,7 +2332,7 @@
         }
       }
     },
-    "36:10": {
+    "34:10": {
       "preRequisites:11": [
         96
       ],
@@ -2464,7 +2388,7 @@
         }
       }
     },
-    "37:10": {
+    "35:10": {
       "preRequisites:11": [
         60
       ],
@@ -2503,7 +2427,7 @@
         }
       }
     },
-    "38:10": {
+    "36:10": {
       "preRequisites:11": [
         60
       ],
@@ -2542,7 +2466,7 @@
         }
       }
     },
-    "39:10": {
+    "37:10": {
       "preRequisites:11": [
         75
       ],
@@ -2581,7 +2505,7 @@
         }
       }
     },
-    "40:10": {
+    "38:10": {
       "preRequisites:11": [
         81
       ],
@@ -2634,7 +2558,7 @@
         }
       }
     },
-    "41:10": {
+    "39:10": {
       "preRequisites:11": [
         81
       ],
@@ -2693,7 +2617,7 @@
         }
       }
     },
-    "42:10": {
+    "40:10": {
       "preRequisites:11": [
         27,
         54
@@ -2765,7 +2689,7 @@
         }
       }
     },
-    "43:10": {
+    "41:10": {
       "preRequisites:11": [
         78
       ],
@@ -2804,7 +2728,7 @@
         }
       }
     },
-    "44:10": {
+    "42:10": {
       "preRequisites:11": [
         88,
         200
@@ -2875,7 +2799,7 @@
         }
       }
     },
-    "45:10": {
+    "43:10": {
       "preRequisites:11": [
         88,
         96
@@ -2953,7 +2877,7 @@
         }
       }
     },
-    "46:10": {
+    "44:10": {
       "preRequisites:11": [
         99
       ],
@@ -3006,7 +2930,7 @@
         }
       }
     },
-    "47:10": {
+    "45:10": {
       "preRequisites:11": [
         95
       ],
@@ -3059,7 +2983,7 @@
         }
       }
     },
-    "48:10": {
+    "46:10": {
       "preRequisites:11": [
         95
       ],
@@ -3136,7 +3060,7 @@
         }
       }
     },
-    "49:10": {
+    "47:10": {
       "preRequisites:11": [
         95
       ],
@@ -3184,7 +3108,7 @@
         }
       }
     },
-    "50:10": {
+    "48:10": {
       "preRequisites:11": [
         117
       ],
@@ -3223,7 +3147,7 @@
         }
       }
     },
-    "51:10": {
+    "49:10": {
       "preRequisites:11": [
         256
       ],
@@ -3262,7 +3186,7 @@
         }
       }
     },
-    "52:10": {
+    "50:10": {
       "preRequisites:11": [
         116
       ],
@@ -3315,7 +3239,7 @@
         }
       }
     },
-    "53:10": {
+    "51:10": {
       "preRequisites:11": [
         116
       ],
@@ -3368,7 +3292,7 @@
         }
       }
     },
-    "54:10": {
+    "52:10": {
       "preRequisites:11": [
         104
       ],
@@ -3439,7 +3363,7 @@
         }
       }
     },
-    "55:10": {
+    "53:10": {
       "preRequisites:11": [
         119
       ],
@@ -3498,7 +3422,7 @@
         }
       }
     },
-    "56:10": {
+    "54:10": {
       "preRequisites:11": [
         119
       ],
@@ -3551,7 +3475,7 @@
         }
       }
     },
-    "57:10": {
+    "55:10": {
       "preRequisites:11": [
         99
       ],
@@ -3864,7 +3788,7 @@
         }
       }
     },
-    "58:10": {
+    "56:10": {
       "preRequisites:11": [
         145,
         104
@@ -3936,7 +3860,7 @@
         }
       }
     },
-    "59:10": {
+    "57:10": {
       "preRequisites:11": [
         116
       ],
@@ -3989,7 +3913,7 @@
         }
       }
     },
-    "60:10": {
+    "58:10": {
       "preRequisites:11": [
         148
       ],
@@ -4042,7 +3966,7 @@
         }
       }
     },
-    "61:10": {
+    "59:10": {
       "preRequisites:11": [
         88
       ],
@@ -4149,7 +4073,7 @@
         }
       }
     },
-    "62:10": {
+    "60:10": {
       "preRequisites:11": [
         124
       ],
@@ -4202,7 +4126,7 @@
         }
       }
     },
-    "63:10": {
+    "61:10": {
       "preRequisites:11": [
         116
       ],
@@ -4255,7 +4179,7 @@
         }
       }
     },
-    "64:10": {
+    "62:10": {
       "preRequisites:11": [
         124
       ],
@@ -4308,7 +4232,7 @@
         }
       }
     },
-    "65:10": {
+    "63:10": {
       "preRequisites:11": [
         124
       ],
@@ -4361,7 +4285,7 @@
         }
       }
     },
-    "66:10": {
+    "64:10": {
       "preRequisites:11": [
         175
       ],
@@ -4398,7 +4322,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "67:10": {
+    "65:10": {
       "preRequisites:11": [
         169,
         124
@@ -4468,7 +4392,7 @@
         }
       }
     },
-    "68:10": {
+    "66:10": {
       "preRequisites:11": [
         145
       ],
@@ -4557,7 +4481,7 @@
         }
       }
     },
-    "69:10": {
+    "67:10": {
       "preRequisites:11": [
         146
       ],
@@ -4610,7 +4534,7 @@
         }
       }
     },
-    "70:10": {
+    "68:10": {
       "preRequisites:11": [
         146,
         145
@@ -4670,7 +4594,7 @@
         }
       }
     },
-    "71:10": {
+    "69:10": {
       "preRequisites:11": [
         146
       ],
@@ -4723,7 +4647,7 @@
         }
       }
     },
-    "72:10": {
+    "70:10": {
       "preRequisites:11": [
         186
       ],
@@ -4776,7 +4700,7 @@
         }
       }
     },
-    "73:10": {
+    "71:10": {
       "preRequisites:11": [
         186
       ],
@@ -4829,7 +4753,7 @@
         }
       }
     },
-    "74:10": {
+    "72:10": {
       "preRequisites:11": [
         186
       ],
@@ -4863,7 +4787,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "75:10": {
+    "73:10": {
       "preRequisites:11": [
         192
       ],
@@ -4916,7 +4840,7 @@
         }
       }
     },
-    "76:10": {
+    "74:10": {
       "preRequisites:11": [
         192
       ],
@@ -4969,7 +4893,7 @@
         }
       }
     },
-    "77:10": {
+    "75:10": {
       "preRequisites:11": [
         192
       ],
@@ -5022,7 +4946,7 @@
         }
       }
     },
-    "78:10": {
+    "76:10": {
       "preRequisites:11": [
         201,
         146
@@ -5076,7 +5000,7 @@
         }
       }
     },
-    "79:10": {
+    "77:10": {
       "preRequisites:11": [
         161
       ],
@@ -5153,7 +5077,7 @@
         }
       }
     },
-    "80:10": {
+    "78:10": {
       "preRequisites:11": [
         54
       ],
@@ -5223,7 +5147,7 @@
         }
       }
     },
-    "81:10": {
+    "79:10": {
       "preRequisites:11": [
         99
       ],
@@ -5276,7 +5200,7 @@
         }
       }
     },
-    "82:10": {
+    "80:10": {
       "preRequisites:11": [
         146
       ],
@@ -5352,7 +5276,7 @@
         }
       }
     },
-    "83:10": {
+    "81:10": {
       "preRequisites:11": [
         238
       ],
@@ -5451,7 +5375,7 @@
         }
       }
     },
-    "84:10": {
+    "82:10": {
       "preRequisites:11": [
         238
       ],
@@ -5565,7 +5489,7 @@
         }
       }
     },
-    "85:10": {
+    "83:10": {
       "preRequisites:11": [
         238
       ],
@@ -5667,7 +5591,7 @@
         }
       }
     },
-    "86:10": {
+    "84:10": {
       "preRequisites:11": [
         256
       ],
@@ -5760,7 +5684,7 @@
         }
       }
     },
-    "87:10": {
+    "85:10": {
       "preRequisites:11": [
         238
       ],
@@ -5844,7 +5768,7 @@
         }
       }
     },
-    "88:10": {
+    "86:10": {
       "preRequisites:11": [
         239
       ],
@@ -5934,7 +5858,7 @@
         }
       }
     },
-    "89:10": {
+    "87:10": {
       "preRequisites:11": [
         239,
         246
@@ -5988,7 +5912,7 @@
         }
       }
     },
-    "90:10": {
+    "88:10": {
       "preRequisites:11": [
         239
       ],
@@ -6078,7 +6002,7 @@
         }
       }
     },
-    "91:10": {
+    "89:10": {
       "preRequisites:11": [
         238
       ],
@@ -6150,7 +6074,7 @@
         }
       }
     },
-    "92:10": {
+    "90:10": {
       "preRequisites:11": [
         244
       ],
@@ -6222,7 +6146,7 @@
         }
       }
     },
-    "93:10": {
+    "91:10": {
       "preRequisites:11": [
         244
       ],
@@ -6294,7 +6218,7 @@
         }
       }
     },
-    "94:10": {
+    "92:10": {
       "preRequisites:11": [
         243
       ],
@@ -6327,40 +6251,14 @@
       "questID:3": 264,
       "rewards:9": {
         "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
-            }
-          }
-        },
-        "1:10": {
           "choices:9": {
             "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
-            },
-            "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "thaumcraft:bellows"
             },
-            "2:10": {
+            "1:10": {
               "Count:3": 32,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -6400,7 +6298,7 @@
         }
       }
     },
-    "95:10": {
+    "93:10": {
       "preRequisites:11": [
         243
       ],
@@ -6524,7 +6422,7 @@
         }
       }
     },
-    "96:10": {
+    "94:10": {
       "preRequisites:11": [
         238,
         163
@@ -6578,7 +6476,7 @@
         }
       }
     },
-    "97:10": {
+    "95:10": {
       "preRequisites:11": [
         175,
         288,
@@ -6633,7 +6531,7 @@
         }
       }
     },
-    "98:10": {
+    "96:10": {
       "preRequisites:11": [
         175
       ],
@@ -6686,7 +6584,7 @@
         }
       }
     },
-    "99:10": {
+    "97:10": {
       "preRequisites:11": [
         242
       ],
@@ -6739,7 +6637,7 @@
         }
       }
     },
-    "100:10": {
+    "98:10": {
       "preRequisites:11": [
         281,
         279
@@ -6793,7 +6691,7 @@
         }
       }
     },
-    "101:10": {
+    "99:10": {
       "preRequisites:11": [
         277
       ],
@@ -6862,7 +6760,7 @@
         }
       }
     },
-    "102:10": {
+    "100:10": {
       "preRequisites:11": [
         293
       ],
@@ -6915,7 +6813,7 @@
         }
       }
     },
-    "103:10": {
+    "101:10": {
       "preRequisites:11": [
         298
       ],
@@ -6966,7 +6864,7 @@
         }
       }
     },
-    "104:10": {
+    "102:10": {
       "preRequisites:11": [
         301
       ],
@@ -7019,7 +6917,7 @@
         }
       }
     },
-    "105:10": {
+    "103:10": {
       "preRequisites:11": [
         303
       ],
@@ -7108,7 +7006,7 @@
         }
       }
     },
-    "106:10": {
+    "104:10": {
       "preRequisites:11": [
         242
       ],
@@ -7161,7 +7059,7 @@
         }
       }
     },
-    "107:10": {
+    "105:10": {
       "preRequisites:11": [
         304
       ],
@@ -7214,3158 +7112,7 @@
         }
       }
     },
-    "108:10": {
-      "preRequisites:11": [
-        406
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "石英纤维作为不完整线缆只能传输AE能量，玻璃线缆，包层线缆及智能线缆可传输能量并承载8个频道，致密包层线缆与致密线缆可传输能量并承载32个频道\n两种智能线缆可以从外观看出当前占用的频道数  ",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 140,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "管线森林",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 370,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 140,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 16,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 36,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 56,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "4:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 4,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 516,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "5:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 5,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 76,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "109:10": {
-      "preRequisites:11": [
-        390
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "除福鲁伊克斯色（即原色），不同颜色的线缆不会相互连接，故可以通过染色来减少线缆锚消耗并增加美观度\n染色器需放入ME驱动器或ME箱子补充颜料,shift右键或滚轮以切换染料种类",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:color_applicator",
-            "tag:10": {}
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "我想把这玩意儿染成绿的",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 371,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:color_applicator",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "110:10": {
-      "preRequisites:11": [
-        387
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "如果发电量不足可增大能量缓存以长时间维持网络运作",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:energy_cell",
-            "tag:10": {}
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "国家电网",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 372,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:energy_cell",
-              "tag:10": {
-                "internalCurrentPower:6": 200000.0,
-                "internalMaxPower:6": 200000.0
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:energy_cell",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "111:10": {
-      "preRequisites:11": [
-        404
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "可以直接使用网络中储存的物品进行合成，不必到处找材料了",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 360,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "更大的工作台",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 373,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 180,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 360,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "112:10": {
-      "preRequisites:11": [
-        388
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "聚合奇点需大量物品，常见方法是破坏面板配合雪傀儡快速产雪球，不过会造成一定卡顿",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 38,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:material"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "无穷密度",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 374,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:tiny_tnt"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 38,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 47,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "113:10": {
-      "preRequisites:11": [
-        383
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "ME标准发信器会在标记的物品数量或者网络中能量满足所设条件时发出红石信号，占用一个频道\n触发总线会阻断线缆间的能量和频道传输，当接受到红石信号时恢复通路，可合成为反相触发总线\n两者配合可依据网络中物品/能量情况改变机器的工作情况",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 80,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "反馈调节",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 375,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 80,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 280,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "114:10": {
-      "preRequisites:11": [
-        370
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "线缆锚可隔绝线缆相连，同时可当梯子攀爬\n伪装板可以将线缆伪装成其他方块的外观，支持绝大多数方块",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 12,
-            "Damage:2": 120,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "网络美学",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 376,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:facade",
-              "tag:10": {
-                "damage:3": 0,
-                "item:8": "minecraft:diamond_block"
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 12,
-              "Damage:2": 120,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "115:10": {
-      "preRequisites:11": [
-        13
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "发光冒蓝火的即充能赛特斯石英矿石",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 1,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:material"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "震动",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 377,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "116:10": {
-      "preRequisites:11": [
-        383
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "成型面板标记物品后，会将输入网络的已标记物品放置在前方一格或以掉落物的形式投出，而对网络中已存在的物品则不会生效\n破坏面板会在有输出途径的情况下破坏前方一格方块并收入网络，也会回收接触其表面的掉落物\n两种面板都会占用一个频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 320,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "世界交互",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 378,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 320,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 300,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "117:10": {
-      "preRequisites:11": [
-        387
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "指向AE部件右击可查看当前网络中所含部件及耗能情况，空气右击可打开升级卡储存界面\n可代替扳手",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:network_tool"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "网络诊断",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 379,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:network_tool"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "118:10": {
-      "preRequisites:11": [
-        377
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "将一份充能赛特斯石英水晶，一份下界石英及一份红石投入水中，转化为两份福鲁伊克斯水晶",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 7,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:material"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "非自然",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 380,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 7,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "119:10": {
-      "preRequisites:11": [
-        374
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "将一个奇点与一个末影珍珠粉扔在地上，并施加爆炸的压力，即可产生一对彼此绑定的量子缠绕态奇点\n一个量子环的搭建需要中心的一个量子链接仓即环绕其的8个量子环方块，搭建好一对量子环，在两者的链接仓中放上已配对的缠绕态奇点并提供能量，两个量子环就会形成连接，一对量子环最多传输32个频道，且只有4个边量子环方块才能连接线缆\n量子环可以跨越维度，前提是两者所在区块都被加载",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 16,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:quantum_ring"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "遇事不决",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 381,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 16,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:quantum_ring"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:quantum_link"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "120:10": {
-      "preRequisites:11": [
-        397
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "四台放有模板的压印器需要一个ME接口发送原料，一个输入总线接受成品\n最终成型的压印器有些麻烦，需要同时输入三种原料，但有两种原料是固定的，可以用输出总线常输出，其中硅板的输出总线可以插入合成卡以请求压印硅板的合成。再用一个ME接口发送原料即可\n压印器的上下底面对应原料槽的上下两格，侧面则对应中间原料槽和输出槽\n记得通电，以及注意频道分配",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:inscriber"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "阿姨压一压",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 382,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 32,
-              "Damage:2": 23,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 32,
-              "Damage:2": 22,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 8,
-              "Damage:2": 24,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "121:10": {
-      "preRequisites:11": [
-        373
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "将空白样板放入样板终端进行合成/处理编码，然后放入ME接口中，即可在网络中请求物品合成/处理\n发出请求后ME接口会向相邻的机器/容器传输原料，接收成品后再传回网络\n接口终端可以对网络中所有接口的样板进行管理\n接口占用一个频道\nME接口的其他功能可前往mcmod百科自行查询",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:interface"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "动态网络",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 383,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 52,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:interface"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 340,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 52,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 480,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "122:10": {
-      "preRequisites:11": [
-        402
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "增幅器需放入无线访问点\n增幅范围及额外耗能呈加速型增长",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 42,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:material"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "这儿信号不好",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 384,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 42,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 42,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "123:10": {
-      "preRequisites:11": [
-        380
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "顶部或底部接入能源或使用木制曲柄\n可为本模组其他有能量缓存的物品充能\n利用漏斗可以简易自动化\n不占用频道，可接其他模组的能源",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:charger"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Fluix生产",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 385,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:charger"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "124:10": {
-      "preRequisites:11": [
-        404
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "存储元件在元件工作台中标记后只能储存特定物品,工作台不需提供能量和频道,可用内存卡复制标记\nME-IO端口可将网络中已储存物品传输到特定元件中，反之亦然，占用一个频道\n依此可将网络中较多的物品传输至较大的元件中，小元件用来储存较少的杂物",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:io_port"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "元件互通",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 386,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:io_port"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:cell_workbench"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "125:10": {
-      "preRequisites:11": [
-        407,
-        391
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "没有控制器的ME网络只提供8个可用的频道，ME控制器每个面都可提供32个频道\n一个网络中至多含有一个ME控制器多方块结构\n兼具能源接收器的功能\n关于ME控制器及ME网络频道的详细介绍可前往mcmod百科自行查询",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:controller"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "建网配电",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 387,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:controller"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "126:10": {
-      "preRequisites:11": [
-        378
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "第一种模式,所有输入的物品直接销毁，不会储存\n第二种模式需插入任意存储组件，每输入256个物品产生一个物质球\n第三种模式需插入64k存储组件，每输入256000个物品产生一个奇点",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:condenser"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "数字回收站",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 388,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:condenser"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "127:10": {
-      "preRequisites:11": [
-        383
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "配合ME接口可实现“子网络”的构建，具体可参阅mcmod百科\n占用一个频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 220,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "无限潜能",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 389,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:interface"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 220,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "128:10": {
-      "preRequisites:11": [
-        372
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "相当于只有一个格子的自带终端的ME驱动器，占用一个频道但是不提供频道也能工作",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:chest"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "还是个箱子",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 390,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:chest"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "129:10": {
-      "preRequisites:11": [
-        405
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "将种子投入水中等待生长，晶体催生器需放在与水相邻的六格并在上下面接入AE能源，越多加速效果越明显\n非常耗电，记得及时关闭\n不占用频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:quartz_growth_accelerator"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "加速轻而易举",
-          "questlogic:8": "OR",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 391,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crystal_seed",
-              "tag:10": {
-                "progress:3": 0
-              }
-            }
-          }
-        },
-        "1:10": {
-          "index:3": 1,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crystal_seed",
-              "tag:10": {
-                "progress:3": 1200
-              }
-            }
-          }
-        },
-        "2:10": {
-          "index:3": 2,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crystal_seed",
-              "tag:10": {
-                "progress:3": 600
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:quartz_growth_accelerator"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 10,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 12,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "130:10": {
-      "preRequisites:11": [
-        383
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "在终端使用中键请求合成\n每一个正在进行的合成都需要一个处于网络中由合成存储器构成的长方体CPU提供支持\n分子装配室从ME接口接受原料进行合成后，会将合成产物自动输出回ME接口中\n可插入加速卡提高合成速度\n分子装配室不占用频道，每个CPU占用一个频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:molecular_assembler"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "新一代合成技术",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 392,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crafting_unit"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:molecular_assembler"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crafting_storage_1k"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "131:10": {
-      "preRequisites:11": [
-        403
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "每颗陨石的中心都会有一个陨石箱子，其中存放着压印模板，一般需要2-3颗陨石才能集齐",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 13,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:material"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "未知科技",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 393,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 13,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 15,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 14,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 19,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "132:10": {
-      "preRequisites:11": [
-        387
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "制作出的P2P通道默认传输频道，可通过使用特定物品右击改变其传输的类型，包括但不限于漏斗（物品），桶（液体），IC2线缆（EU），RF能量管道（RF），火把（光），红石（红石）\n使用内存卡进行绑定,shift右击绑定输入端，右击绑定输出端，输入端只能有一个，但输出端可以有多个\n每个P2P通道占用一个频道，但传输频道时一般可以不占用主网络频道，如贴着ME控制器用石英纤维供能，即可用便宜的线缆远距离传输32个频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 2,
-            "Damage:2": 460,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "点对点建网",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 394,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 460,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:memory_card",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "133:10": {
-      "preRequisites:11": [
-        377
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Shift右击拆除，右击旋转",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:certus_quartz_wrench"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "轻松拆卸",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 395,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:certus_quartz_wrench"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:nether_quartz_wrench"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "134:10": {
-      "preRequisites:11": [
-        392
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "并行处理单元可以提高原料发配性能，合成监控器会显示当前合成任务\n两者均需置于CPU结构内",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:crafting_accelerator"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "经典多线程",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 396,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crafting_unit"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crafting_accelerator"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crafting_monitor"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "135:10": {
-      "preRequisites:11": [
-        383
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "输入/输出是相对于ME网络来说的，可设置白名单，可插入各种升级卡",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 240,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "往来翕忽",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 397,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 28,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 240,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 260,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "136:10": {
-      "preRequisites:11": [
-        404
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "存储监控器手持物品右击可显示物品储量，shift右击锁定，空手右击清空，占用一个频道\n显示元件在元件工作台中进行标记后放入终端，此终端就只会显示以标记的物品，可插入反相卡和模糊卡",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 400,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:part"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "网络监控",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 398,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 400,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:view_cell"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "137:10": {
-      "preRequisites:11": [
-        390
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "可存放种类较少，适合存放大量同种物品",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:portable_cell",
-            "tag:10": {}
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "存储漫步",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 399,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:portable_cell",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "138:10": {
-      "preRequisites:11": [
-        390
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "多人游戏中安全终端可起到禁止他人访问网络的作用，可使用身份卡添加白名单\n另一作用是作为无线终端的绑定目标\n占用一个频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:security_station"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "网络安全",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 400,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:security_station"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:biometric_card",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "139:10": {
-      "preRequisites:11": [
-        388
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "连入网络时，给装有空间组件的空间IO端口提供红石信号会将当前空间塔结构内的方块与实体与空间组件内的进行交换\n空间塔结构的搭建与能耗效率可参阅mcmod空间塔词条",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:spatial_io_port"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "时间与空间的相对维度",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 401,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:spatial_io_port"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:spatial_pylon"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 32,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "140:10": {
-      "preRequisites:11": [
-        400
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "将无线终端在安全终端中绑定后，且网络中存在有效的无线访问点，即可在一定范围内通过无线终端访问网络中的物品\n无线访问点占用一个频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:wireless_terminal",
-            "tag:10": {}
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Wi-Fi",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 402,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:wireless_terminal",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:wireless_access_point"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "141:10": {
-      "preRequisites:11": [
-        377
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "罗盘会指向最近的陨石方块，当足够接近时指针会快速旋转，可以依此定位地下陨石的边界从而确定中心陨石坐标\n指针缓慢旋转时说明附近地区没有陨石存在\n陨石挖掘等级为黑曜石",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:sky_compass"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "陨石猎手",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 403,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:sky_compass"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 16,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:sky_stone_block"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "142:10": {
-      "preRequisites:11": [
-        387
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "一个驱动器最多容纳10个存储元件，一个元件可储存63种物品\n终端可对网络中的物品进行存取\n驱动器和终端各占用一个频道",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:drive"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "比箱子更好",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 404,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:storage_cell_1k",
-              "tag:10": {}
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:drive"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 380,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:storage_cell_1k",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "143:10": {
-      "preRequisites:11": [
-        406,
-        380
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "输入能源可接工业2或末影接口的导线，输出可使用AE线缆连接AE各部件以供能",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:energy_acceptor"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "接化发",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 405,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:energy_acceptor"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "144:10": {
-      "preRequisites:11": [
-        380
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "初期手工打粉的机器，磨制原矿有90%几率产出双份矿粉\n也可以用工业打粉机或者神秘炼金磨粉",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:grindstone"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "手工制品",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 406,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:grindstone"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:crank"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 8,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "145:10": {
-      "preRequisites:11": [
-        393
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "五个压印器对应四种模板及最终成型，可放入加速卡提高压印效率\n不占用频道，可接其他模组的能源",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 5,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:inscriber"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "钻石vs液压机",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 407,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 5,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 5,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:inscriber"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 23,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 22,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 24,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:material"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "146:10": {
-      "preRequisites:11": [
-        390
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "发射弹药以破坏方块或伤害生物，有效距离等同于玩家手长，触物指环有效\n放入ME驱动器或ME箱子填充弹药，弹药为物质球或各种金属粒，金属粒威力较强且各有差异，同时只能存有一种弹药\n请将此物品放置在儿童接触不到的地方，以免发生意外",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:matter_cannon",
-            "tag:10": {}
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "反-物质",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 408,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:nugget"
-            }
-          }
-        },
-        "1:10": {
-          "index:3": 1,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:nugget"
-            }
-          }
-        },
-        "2:10": {
-          "index:3": 2,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:nugget"
-            }
-          }
-        },
-        "3:10": {
-          "index:3": 3,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 3,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:nugget"
-            }
-          }
-        },
-        "4:10": {
-          "index:3": 4,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "keletupack:packresource",
-                "orig_meta:3": 0
-              }
-            }
-          }
-        },
-        "5:10": {
-          "index:3": 5,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 4,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:nugget"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:matter_cannon",
-              "tag:10": {}
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "147:10": {
+    "106:10": {
       "preRequisites:11": [
         245
       ],
@@ -10467,7 +7214,7 @@
         }
       }
     },
-    "148:10": {
+    "107:10": {
       "preRequisites:11": [
         238
       ],
@@ -10653,7 +7400,7 @@
         }
       }
     },
-    "149:10": {
+    "108:10": {
       "preRequisites:11": [
         530
       ],
@@ -10719,7 +7466,7 @@
         }
       }
     },
-    "150:10": {
+    "109:10": {
       "preRequisites:11": [
         530
       ],
@@ -10817,7 +7564,7 @@
         }
       }
     },
-    "151:10": {
+    "110:10": {
       "preRequisites:11": [
         530
       ],
@@ -10889,7 +7636,7 @@
         }
       }
     },
-    "152:10": {
+    "111:10": {
       "preRequisites:11": [
         238
       ],
@@ -10991,505 +7738,7 @@
         }
       }
     },
-    "153:10": {
-      "preRequisites:11": [
-        572
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "插入升级后，奥术终端可用灵气由所处区块扩充到周围9个区块，消耗均分",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:upgrade_arcane"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "电子扩容",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 568,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:upgrade_arcane"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "154:10": {
-      "preRequisites:11": [
-        573
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "终端只能通过要素安瓿进行源质存取，不像1.7.10可以直接用罐子",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:essentia_terminal"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "数字化源质",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 569,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:essentia_terminal"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:essentia_cell_1k",
-              "tag:10": {
-                "filter:10": {}
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "155:10": {
-      "preRequisites:11": [
-        569
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "相当于存有网络中所有源质的一个罐子，能供给注魔祭坛及源质注入装置,比较实用",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:infusion_provider"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "超大源质库",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 570,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:infusion_provider"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "156:10": {
-      "preRequisites:11": [
-        572
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "将知识核心放入奥术样板终端添加合成，再放入奥术装配室，无需ME接口，即可在终端中请求奥术合成",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:blank_knowledge_core"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "奥术编码",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 571,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:blank_knowledge_core"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:arcane_assembler"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:arcane_inscriber"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "157:10": {
-      "preRequisites:11": [
-        573
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "确保灵气及所需对应水晶足够，水晶需放在格子中",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:arcane_terminal"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "绿色护眼",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 572,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumcraft:salis_mundus"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:arcane_terminal"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "158:10": {
-      "preRequisites:11": [
-        387
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "相比于神秘4的神秘能源来说，这个版本少了自动化源质的功能以及一些细节，略有遗憾",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:arcane_assembler"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "当魔法遇见科技",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 573,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "159:10": {
-      "preRequisites:11": [
-        575
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "当存储元件不够或忙于将源质导入网络中时，可以用存储总线连罐子的方法，方便源质统计与管理",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:essentia_storage"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "另一种选择",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 574,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:essentia_storage"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "160:10": {
-      "preRequisites:11": [
-        569
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "让源质在源质容器与网络间传输\n可使用含有要素的罐子或安瓿进行标记\n可插入各种升级卡",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:essentia_import"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "动感要素",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 575,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:essentia_import"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "thaumicenergistics:essentia_export"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "161:10": {
+    "112:10": {
       "preRequisites:11": [
         543
       ],
@@ -11597,7 +7846,7 @@
         }
       }
     },
-    "162:10": {
+    "113:10": {
       "preRequisites:11": [
         601
       ],
@@ -11669,7 +7918,7 @@
         }
       }
     },
-    "163:10": {
+    "114:10": {
       "preRequisites:11": [
         601
       ],
@@ -11783,7 +8032,7 @@
         }
       }
     },
-    "164:10": {
+    "115:10": {
       "preRequisites:11": [
         601,
         603
@@ -11874,7 +8123,7 @@
         }
       }
     },
-    "165:10": {
+    "116:10": {
       "preRequisites:11": [
         619
       ],
@@ -11945,7 +8194,7 @@
         }
       }
     },
-    "166:10": {
+    "117:10": {
       "preRequisites:11": [
         146,
         192
@@ -11999,7 +8248,7 @@
         }
       }
     },
-    "167:10": {
+    "118:10": {
       "preRequisites:11": [
         609
       ],
@@ -12052,7 +8301,7 @@
         }
       }
     },
-    "168:10": {
+    "119:10": {
       "preRequisites:11": [
         609
       ],
@@ -12105,7 +8354,7 @@
         }
       }
     },
-    "169:10": {
+    "120:10": {
       "preRequisites:11": [
         618
       ],
@@ -12158,7 +8407,7 @@
         }
       }
     },
-    "170:10": {
+    "121:10": {
       "preRequisites:11": [
         632
       ],
@@ -12211,7 +8460,7 @@
         }
       }
     },
-    "171:10": {
+    "122:10": {
       "preRequisites:11": [
         632
       ],
@@ -12264,7 +8513,7 @@
         }
       }
     },
-    "172:10": {
+    "123:10": {
       "preRequisites:11": [
         146,
         238,
@@ -12319,7 +8568,7 @@
         }
       }
     },
-    "173:10": {
+    "124:10": {
       "preRequisites:11": [
         618
       ],
@@ -12372,7 +8621,7 @@
         }
       }
     },
-    "174:10": {
+    "125:10": {
       "preRequisites:11": [
         628
       ],
@@ -12425,7 +8674,7 @@
         }
       }
     },
-    "175:10": {
+    "126:10": {
       "preRequisites:11": [
         628
       ],
@@ -12478,7 +8727,7 @@
         }
       }
     },
-    "176:10": {
+    "127:10": {
       "preRequisites:11": [
         609
       ],
@@ -12531,7 +8780,7 @@
         }
       }
     },
-    "177:10": {
+    "128:10": {
       "preRequisites:11": [
         628
       ],
@@ -12602,7 +8851,7 @@
         }
       }
     },
-    "178:10": {
+    "129:10": {
       "preRequisites:11": [
         310
       ],
@@ -12695,7 +8944,7 @@
         }
       }
     },
-    "179:10": {
+    "130:10": {
       "preRequisites:11": [
         627
       ],
@@ -12784,7 +9033,7 @@
         }
       }
     },
-    "180:10": {
+    "131:10": {
       "preRequisites:11": [
         632
       ],
@@ -12837,7 +9086,7 @@
         }
       }
     },
-    "181:10": {
+    "132:10": {
       "preRequisites:11": [
         626
       ],
@@ -12910,7 +9159,7 @@
         }
       }
     },
-    "182:10": {
+    "133:10": {
       "preRequisites:11": [
         614
       ],
@@ -12981,7 +9230,7 @@
         }
       }
     },
-    "183:10": {
+    "134:10": {
       "preRequisites:11": [
         609
       ],
@@ -13034,7 +9283,7 @@
         }
       }
     },
-    "184:10": {
+    "135:10": {
       "preRequisites:11": [
         632
       ],
@@ -13087,7 +9336,7 @@
         }
       }
     },
-    "185:10": {
+    "136:10": {
       "preRequisites:11": [
         624
       ],
@@ -13206,7 +9455,7 @@
         }
       }
     },
-    "186:10": {
+    "137:10": {
       "preRequisites:11": [
         628
       ],
@@ -13240,7 +9489,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "187:10": {
+    "138:10": {
       "preRequisites:11": [
         637
       ],
@@ -13395,7 +9644,7 @@
         }
       }
     },
-    "188:10": {
+    "139:10": {
       "preRequisites:11": [
         628
       ],
@@ -13448,7 +9697,7 @@
         }
       }
     },
-    "189:10": {
+    "140:10": {
       "preRequisites:11": [
         626,
         635
@@ -13507,7 +9756,7 @@
         }
       }
     },
-    "190:10": {
+    "141:10": {
       "preRequisites:11": [
         99
       ],
@@ -13609,293 +9858,286 @@
           "y:3": 12
         },
         "3:10": {
-          "id:3": 13,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -132,
-          "y:3": -156
-        },
-        "4:10": {
           "id:3": 17,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": 12
         },
-        "5:10": {
+        "4:10": {
           "id:3": 20,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -108
         },
-        "6:10": {
+        "5:10": {
           "id:3": 23,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
           "y:3": -48
         },
-        "7:10": {
+        "6:10": {
           "id:3": 24,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -168
         },
-        "8:10": {
+        "7:10": {
           "id:3": 27,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": -48
         },
-        "9:10": {
+        "8:10": {
           "id:3": 32,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": -108
         },
-        "10:10": {
+        "9:10": {
           "id:3": 35,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -168
         },
-        "11:10": {
+        "10:10": {
           "id:3": 36,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -168
         },
-        "12:10": {
+        "11:10": {
           "id:3": 51,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -48
         },
-        "13:10": {
+        "12:10": {
           "id:3": 52,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -180,
           "y:3": -132
         },
-        "14:10": {
+        "13:10": {
           "id:3": 54,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
           "y:3": -108
         },
-        "15:10": {
+        "14:10": {
           "id:3": 59,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": 72
         },
-        "16:10": {
+        "15:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -48
         },
-        "17:10": {
+        "16:10": {
           "id:3": 96,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -108
         },
-        "18:10": {
+        "17:10": {
           "id:3": 99,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -48
         },
-        "19:10": {
+        "18:10": {
           "id:3": 104,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -48
         },
-        "20:10": {
+        "19:10": {
           "id:3": 124,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 12
         },
-        "21:10": {
+        "20:10": {
           "id:3": 145,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 12
         },
-        "22:10": {
+        "21:10": {
           "id:3": 146,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 72
         },
-        "23:10": {
+        "22:10": {
           "id:3": 161,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 12
         },
-        "24:10": {
+        "23:10": {
           "id:3": 163,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": -48
         },
-        "25:10": {
+        "24:10": {
           "id:3": 168,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": 12
         },
-        "26:10": {
+        "25:10": {
           "id:3": 169,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 72
         },
-        "27:10": {
+        "26:10": {
           "id:3": 171,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": 132
         },
-        "28:10": {
+        "27:10": {
           "id:3": 175,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": 72
         },
-        "29:10": {
+        "28:10": {
           "id:3": 178,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 72
         },
-        "30:10": {
+        "29:10": {
           "id:3": 186,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 180
         },
-        "31:10": {
+        "30:10": {
           "id:3": 187,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 132
         },
-        "32:10": {
+        "31:10": {
           "id:3": 188,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 180
         },
-        "33:10": {
+        "32:10": {
           "id:3": 189,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 240
         },
-        "34:10": {
+        "33:10": {
           "id:3": 191,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 240
         },
-        "35:10": {
+        "34:10": {
           "id:3": 192,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 180
         },
-        "36:10": {
+        "35:10": {
           "id:3": 193,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": 180
         },
-        "37:10": {
+        "36:10": {
           "id:3": 194,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 240
         },
-        "38:10": {
+        "37:10": {
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": 240
         },
-        "39:10": {
+        "38:10": {
           "id:3": 197,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 24
         },
-        "40:10": {
+        "39:10": {
           "id:3": 199,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 72
         },
-        "41:10": {
+        "40:10": {
           "id:3": 200,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -108
         },
-        "42:10": {
+        "41:10": {
           "id:3": 201,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -12
         },
-        "43:10": {
+        "42:10": {
           "id:3": 611,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 132
         },
-        "44:10": {
+        "43:10": {
           "id:3": 641,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -13983,7 +10225,7 @@
     },
     "2:10": {
       "lineID:3": 3,
-      "order:3": 8,
+      "order:3": 6,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -14050,13 +10292,6 @@
           "y:3": -12
         },
         "1:10": {
-          "id:3": 57,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -12
-        },
-        "2:10": {
           "id:3": 58,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -14259,300 +10494,6 @@
       }
     },
     "5:10": {
-      "lineID:3": 6,
-      "order:3": 6,
-      "properties:10": {
-        "betterquesting:10": {
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "应用能源基础教程",
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "appliedenergistics2:creative_energy_cell"
-          },
-          "name:8": "应用能源",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 370,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": 132
-        },
-        "1:10": {
-          "id:3": 371,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": 36
-        },
-        "2:10": {
-          "id:3": 372,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -12
-        },
-        "3:10": {
-          "id:3": 373,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 84
-        },
-        "4:10": {
-          "id:3": 374,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": 180
-        },
-        "5:10": {
-          "id:3": 375,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 132
-        },
-        "6:10": {
-          "id:3": 376,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": 180
-        },
-        "7:10": {
-          "id:3": 377,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": -204
-        },
-        "8:10": {
-          "id:3": 378,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 132
-        },
-        "9:10": {
-          "id:3": 379,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -108
-        },
-        "10:10": {
-          "id:3": 380,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": -108
-        },
-        "11:10": {
-          "id:3": 381,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": 180
-        },
-        "12:10": {
-          "id:3": 382,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": 84
-        },
-        "13:10": {
-          "id:3": 383,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 132
-        },
-        "14:10": {
-          "id:3": 384,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -204
-        },
-        "15:10": {
-          "id:3": 385,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -108
-        },
-        "16:10": {
-          "id:3": 386,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 84
-        },
-        "17:10": {
-          "id:3": 387,
-          "sizeX:3": 42,
-          "sizeY:3": 42,
-          "x:3": -21,
-          "y:3": -21
-        },
-        "18:10": {
-          "id:3": 388,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 132
-        },
-        "19:10": {
-          "id:3": 389,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 180
-        },
-        "20:10": {
-          "id:3": 390,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -12
-        },
-        "21:10": {
-          "id:3": 391,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -12
-        },
-        "22:10": {
-          "id:3": 392,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 180
-        },
-        "23:10": {
-          "id:3": 393,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -156
-        },
-        "24:10": {
-          "id:3": 394,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 36
-        },
-        "25:10": {
-          "id:3": 395,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -156
-        },
-        "26:10": {
-          "id:3": 396,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 180
-        },
-        "27:10": {
-          "id:3": 397,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 84
-        },
-        "28:10": {
-          "id:3": 398,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 36
-        },
-        "29:10": {
-          "id:3": 399,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 36
-        },
-        "30:10": {
-          "id:3": 400,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": -60
-        },
-        "31:10": {
-          "id:3": 401,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": 132
-        },
-        "32:10": {
-          "id:3": 402,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -108
-        },
-        "33:10": {
-          "id:3": 403,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -204
-        },
-        "34:10": {
-          "id:3": 404,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 36
-        },
-        "35:10": {
-          "id:3": 405,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -12
-        },
-        "36:10": {
-          "id:3": 406,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": -12
-        },
-        "37:10": {
-          "id:3": 407,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -156
-        },
-        "38:10": {
-          "id:3": 408,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -12
-        }
-      }
-    },
-    "6:10": {
       "lineID:3": 8,
       "order:3": 1,
       "properties:10": {
@@ -14832,87 +10773,7 @@
         }
       }
     },
-    "7:10": {
-      "lineID:3": 11,
-      "order:3": 7,
-      "properties:10": {
-        "betterquesting:10": {
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "魔法与科技的结合！",
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "thaumicenergistics:essentia_cell_1k",
-            "tag:10": {
-              "filter:10": {}
-            }
-          },
-          "name:8": "神秘能源",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 568,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": 24
-        },
-        "1:10": {
-          "id:3": 569,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -12
-        },
-        "2:10": {
-          "id:3": 570,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -60
-        },
-        "3:10": {
-          "id:3": 571,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": -48
-        },
-        "4:10": {
-          "id:3": 572,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -12
-        },
-        "5:10": {
-          "id:3": 573,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": -15,
-          "y:3": -15
-        },
-        "6:10": {
-          "id:3": 574,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 24
-        },
-        "7:10": {
-          "id:3": 575,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -12
-        }
-      }
-    },
-    "8:10": {
+    "6:10": {
       "lineID:3": 12,
       "order:3": 2,
       "properties:10": {
