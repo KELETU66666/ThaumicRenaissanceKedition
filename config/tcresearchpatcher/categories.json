@@ -9,16 +9,5 @@
         "icon": "botania:textures/items/grassseeds0.png",
         "background": "thaumcraft:textures/gui/gui_research_back_3.jpg",
         "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
-    },
-    {
-        "key": "WITCHERY",
-        "requirement": "FIRSTSTEPS",
-        "aspects": {
-            "aqua": 10,
-            "ignis": 15
-        },
-        "icon": "renaissance:witchery_icon.png",
-        "background": "renaissance:witchery.jpg",
-        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
     }
 ]

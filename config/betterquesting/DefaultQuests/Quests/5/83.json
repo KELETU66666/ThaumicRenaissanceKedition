@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    81
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "咒波净化器可消耗世界盐以灵气咒波比1：1.5快速清除灵气场中的咒波，造价较为昂贵，但是可以高效清除咒波。但是其对灵气的消耗过于巨大，以至于如果灵气场中的灵气不够多，可能会造成灵气为0但咒波有剩余的情况！这种情况可能导致裂隙提前出现！\n\n想要制作这个物品，需要解锁位于镜像学的研究“咒波净化器”。",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "planarartifice:flux_scrubber"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "高效咒波清理 - 咒波净化器",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "planarartifice:flux_scrubber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

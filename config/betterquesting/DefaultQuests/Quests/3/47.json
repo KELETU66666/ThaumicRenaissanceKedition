@@ -1,0 +1,102 @@
+{
+  "preRequisites:11": [
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "神秘6的抽卡机制令人反感，那么来点珍品？\n使用可以获取研究点。",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumcraft:jar_brain"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "来点珍品",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": 200,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:curio"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:curio"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:curio"
+        },
+        "3:10": {
+          "Count:3": 3,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:curio"
+        },
+        "4:10": {
+          "Count:3": 3,
+          "Damage:2": 4,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:curio"
+        },
+        "5:10": {
+          "Count:3": 3,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:curio"
+        },
+        "6:10": {
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "planarartifice:fundamental_curiosity"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 30,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:amber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

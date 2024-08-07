@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "抑制扭曲效果，是指维持你的扭曲，但是不让扭曲具现化，使扭曲不会发作。\n\n最常见的，是使用净化浴盐，这个东西的用法也很简单，你只需要将净化浴盐扔到一格非流动的水中即可，之后，这滩水就会变成净化之水。\n\n你接触到净化之水时，如果你没有扭曲守护效果，那么这滩净化之水将会被消耗，并给予你30min扭曲守护效果，在这段时间里，你不会触发扭曲效果，但是已经发生的扭曲效果不会被立刻清除。",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumcraft:bath_salts"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "抑制扭曲效果",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:bath_salts"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

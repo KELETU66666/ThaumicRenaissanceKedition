@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "使用驱邪肥皂去除普通扭曲是一件很麻烦的事情，而且驱邪肥皂和净化之水的造价十分高昂，使你批量制作它们很麻烦。\n\n这时，洁净之辉就派上用处了，洁净之辉可以稳定消除普通扭曲，但是对应的代价是，你需要将它充能，并等待一段时间，等待的时间中你的身体会不断产生咒波。\n\n充能结束后，会扣除你1~2点普通扭曲，相对而言，在后期这也是一件很值得的事情。\n\n想要制作这个物品，你需要解锁位于“奥术注魔”内的隐藏研究“洁净之辉”，它的前置研究为“元始珍珠”。",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumicwonders:cleansing_charm"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "更高效的清除扭曲 - 洁净之辉",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "",
+          "id:8": "thaumicwonders:cleansing_charm"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

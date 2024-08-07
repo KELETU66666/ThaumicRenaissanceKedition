@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    88
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "将笔与墨放在木桌上（不需要两个连着，只需要一个），来制作研究台，研究台是玩家获取理论（金色框的那些研究）的主要方式。\n\n使用方法：\n\n初次使用需要笔与墨将材料放在界面的左上角，还需要若干纸，放在界面右上角然后点界面中间的“创造理论”开始研究。\n\n开始后，点左侧的“？”开始抽卡（每抽一次会耗费一张纸），会随机产生两张卡片（有额外抽卡机会则会产生三张），点击卡片即可选择该卡片。\n\n在卡片上侧的灯是选择这张卡会减少的灵感，灯前面有加号的卡片会增加灵感。\n\n卡片下侧是需要的物品，需要放置在背包（§c§l或相邻容器§r¹）中才能选择，带有感叹号的物品会在你选择卡片时消耗，每次完成确认时会消耗笔与墨的耐久。\n\n当你消耗完全部灵感后点击完成理论即可获得理论研究进度，除了最高进度的学科，其他学科获得的理论研究进度会损失部分，可以通过某些卡片提升全额奖励的学科数量。\n\n初始灵感数量会随着你解锁“※”形研究解锁数量的提升而提升。\n\n（使用方法来自https://www.mcmod.cn/item/77166.html）\n\n§l1：使用了ThaumTweaks",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumcraft:research_table"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "抽抽卡",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:paper"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:scribing_tools"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:table_wood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
