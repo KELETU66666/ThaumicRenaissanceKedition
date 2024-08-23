@@ -790,51 +790,6 @@
         ]
 	},
 	{
-        "key": "TWOND_BONE_BOW",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-1"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-1"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ARTIFICE"
-			},
-			{
-				"op": "replace",
-				"path": "parents/0",
-				"value": "BASEARTIFICE"
-			}
-        ]
-	},
-	{
-        "key": "TWOND_PRIMAL_ARROWS",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-2"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-2"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ARTIFICE"
-			}
-        ]
-	},
-	{
         "key": "TWOND_ORE_DIVINER",
         "ops": [
 			{

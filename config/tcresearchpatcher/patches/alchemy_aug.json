@@ -50,7 +50,7 @@
 			{
 				"op": "replace",
 				"path": "parents/0",
-				"value": "ENTROPIC_PROCESSING"
+				"value": "CR_ENTROPIC_PROCESSING"
 			}
         ]
 	},
@@ -70,7 +70,7 @@
 			{
 				"op": "replace",
 				"path": "parents/0",
-				"value": "ORDERED_DECONSTRUCTION"
+				"value": "CR_ORDERED_DECONSTRUCTION"
 			}
         ]
 	},
@@ -170,7 +170,7 @@
 			{
 				"op": "replace",
 				"path": "parents/0",
-				"value": "ENTROPIC_PROCESSING"
+				"value": "CR_ENTROPIC_PROCESSING"
 			}
 		]
 	},

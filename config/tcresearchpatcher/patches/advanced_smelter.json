@@ -1,51 +1,47 @@
 [
 	{
-        "key": "SHADOW_METAL",
+        "key": "ADVANCED_SMELTER",
         "ops": [
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "6"
+				"value": "12"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "-4"
-			},
-			{
-				"op": "replace",
-				"path": "parents/0",
-				"value": "!VOIDSTONE"
+				"value": "2"
 			},
 			{
 				"op": "replace",
 				"path": "category",
-				"value": "ELDRITCH"
+				"value": "ALCHEMY"
 			}
         ]
 	},
 	{
-        "key": "SHADOW_FORTRESS_ARMOR",
+        "key": "ALCHEMY_GRATE",
         "ops": [
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "6"
+				"value": "4"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "-2"
+				"value": "-3"
 			},
 			{
 				"op": "replace",
 				"path": "category",
-				"value": "ELDRITCH"
+				"value": "ARTIFICE"
 			},
 			{
-				"op": "replace",
-				"path": "parents/1",
-				"value": "TWOND_VOID_FORTRESS_ARMOR"
+				"op": "add",
+				"path": "parents/2",
+				"value": "ITEM_GRATE"
+			
 			}
         ]
 	}
