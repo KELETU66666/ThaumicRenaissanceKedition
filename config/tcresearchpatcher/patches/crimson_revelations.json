@@ -16,15 +16,6 @@
         "op": "replace",
         "path": "category",
         "value": "BASICS"
-      },
-      {
-        "op": "replace",
-        "path": "parents",
-        "value": [
-          "CR_FOCUS_POISON",
-          "~!CR_OVERGROWN_TAINTACLE",
-          "~FOCUSCURSE"
-        ]
       }
     ]
   },
