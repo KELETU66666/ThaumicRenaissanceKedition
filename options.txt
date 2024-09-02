@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:1
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -113,7 +113,6 @@ key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
 key_invtweaks.key.sort:19
-key_key.planarartifice.openThaumonomicon:25
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_keybind.universaltweaks.clear_toasts:11:CONTROL
@@ -144,8 +143,8 @@ key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
 key_gui.xaero_toggle_dimension:0
 key_Change Goggles Lens:47
-key_key.tg.open_gui:19
-key_key.tg.armor_ability:46
+key_key.thaumicgadgets.open_gui:19
+key_key.thaumicgadgets.armor_ability:46
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

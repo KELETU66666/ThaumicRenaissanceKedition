@@ -2,13 +2,13 @@
 	"url":
 	[
         {
-            "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/renaissance_core-0.0.1.jar"
+            "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/renaissance_core-0.0.2.jar"
         },
         {
             "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/isorropia-1.12.2-kedition-0.0.1.jar"
         },
         {
-            "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/ThaumicGadgets-kedition-0.3.jar"
+            "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/ThaumicGadgets-0.4.0-kedition.jar"
         },
         {
             "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/voidgoggles-0.1.0.jar"
@@ -20,7 +20,7 @@
             "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/ThaumcraftJarChecker-1.12.2-1.0a.jar"
         },
         {
-            "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/blob/master/mods/PlanarArtificeKFixed.jar"
+            "url": "https://github.com/KELETU66666/ThaumicRenaissanceKedition/raw/master/mods/PlanarArtificeKedition-1.0.0.jar"
         }
 	]
 }
