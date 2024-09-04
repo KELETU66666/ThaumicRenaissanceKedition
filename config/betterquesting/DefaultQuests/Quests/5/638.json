@@ -1,0 +1,155 @@
+{
+  "preRequisites:11": [
+    637
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "元始精灵是一只很强大的精灵，但是再强大，它也就是一只血厚的精灵，使用远程武器可以轻松解决，它被击败后会掉落奖励袋和一颗元始尘埃，这真的很值得一打，仅消耗了一个奥术强化罐子就换来了1/8甚至1/4元始珍珠。",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumicaugmentation:rift_jar",
+        "tag:10": {
+          "seed:3": 1337,
+          "size:3": 100
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "击败元始精灵",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "damageType:8": "",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "required:3": 1,
+      "subtypes:1": 1,
+      "target:8": "thaumicaugmentation:primal_wisp",
+      "targetNBT:10": {
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 150.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "2:10": {
+            "Base:6": 0.699999988079071,
+            "Name:8": "generic.movementSpeed"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armor"
+          },
+          "4:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "6:10": {
+            "Base:6": 32.0,
+            "Name:8": "generic.followRange"
+          },
+          "7:10": {
+            "Base:6": 3.0,
+            "Name:8": "generic.attackDamage"
+          },
+          "8:10": {
+            "Base:6": -2.0,
+            "Name:8": "tc.mobmod"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "champions:championship:10": {},
+          "thaumicaugmentation:portal_state:10": {
+            "inPortal:1": 0
+          },
+          "twilightforest:cap_shield:10": {
+            "permshields:3": 0,
+            "tempshields:3": 0
+          },
+          "witchery:living:10": {}
+        },
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 150.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 0.46769983,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": -8278951092144487821,
+        "UUIDMost:4": -1053498914249358805,
+        "UpdateBlocked:1": 0,
+        "aspectTotals:10": {},
+        "id:8": "thaumicaugmentation:primal_wisp"
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

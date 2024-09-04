@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    628
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "汲取元动能量要在裂隙附近汲取，而控制不好，裂隙就会腐化，腐化可能会在你不经意间，不注意的时候，而一旦不注意，就会摧毁你附近的仪器，为了损失最小化，强烈推荐制作两面元动之镜，它们可以像魔镜和源质之镜一样远距离传输，不过它传输的是元动能量，你可以把它接到需要的设备上，使用方式和元动汲取仪一样！",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumicaugmentation:impetus_mirror"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "更好的运输 -- 元动之镜",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumicaugmentation:impetus_mirror"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

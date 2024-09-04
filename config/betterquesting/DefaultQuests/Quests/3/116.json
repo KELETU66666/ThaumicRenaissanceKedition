@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "扭曲值有三种类型，可以由不同的方式获得，这里进行简单的讲解...\n\n扭曲值分为三种：\n§5临时扭曲§r\n临时扭曲可以由食用僵尸之脑，在研究台进行邪术学研究，使用邪术珍品和血腥宝典，被邪术守卫和邪术典狱官的死亡凝视看到以及裂隙坍缩时未远离而获得。\n在扭曲发作时会必定减少的扭曲，也是在使用驱邪肥皂之后无论如何都会被清除的扭曲。\n\n§5扭曲/黏性扭曲§r\n普通扭曲为一般的，常规的扭曲，它可以由在研究台进行邪术学研究，使用邪术珍品，制作缸中之脑以及裂隙坍缩时未远离获得。\n在扭曲发作时，有概率减少，使用驱邪肥皂在苛刻的条件下才有几率减少不超过2点的扭曲。\n\n§5永久扭曲§r\n永久扭曲是不可磨灭的，直击灵魂的扭曲，它不可被消除。\n但是这个扭曲的来源也很简单，解锁禁忌知识（在魔导手册上有紫色烟雾环绕的研究）获得。\n无论如何，这个扭曲值都不会被减少，在这个整合包中，也只有一种方式能减少你的永久扭曲，不过这都是在大后期的事情了。\n\n§5装备扭曲§r\n理论上来说，装备扭曲属于可以人为增减的永久扭曲，它在你手持或装备护甲时得到，在你切换掉这个物品或脱掉护甲又会消失。",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": "",
+        "id:8": "thaumcraft:curio"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "扭曲的种类",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

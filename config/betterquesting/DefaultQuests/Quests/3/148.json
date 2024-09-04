@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "扭曲的效果无论如何抑制，终究有无法长久维持的一天，这里会讲解如何根除扭曲。\n\n你需要制作驱邪肥皂，它可以使你清除你的全部临时扭曲和一部分普通扭曲。\n\n想要它清除临时扭曲，很简单，你只需要不停的搓肥皂就可以。\n但是想让它清除普通扭曲，你就要配合净化浴盐和净化之水。\n\n在有扭曲守护Buff时，使用肥皂可以让你有概率洗去0~1点普通扭曲。\n当你泡在净化之水里面时，使用驱邪肥皂可以让你有更大概率洗去1~2点普通扭曲。\n对于永久扭曲，很抱歉，这块肥皂对它们无能为力。",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "thaumcraft:sanity_soap"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "清除扭曲",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "thaumcraft:sanity_soap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
