@@ -14,8 +14,8 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:true
-resourcePacks:["Inlay Fix 1.0.zip","Sonomagy TC6 v1.6.zip","Thaum_pack.zip","jappabp-1.2-mc1.12.zip","ThaumMenu1.1.zip"]
+renderClouds:false
+resourcePacks:["Inlay Fix 1.0.zip","Sonomagy TC6 v1.6.zip","Thaum_pack.zip","jappabp-1.2-mc1.12.zip","ThaumMenu1.2.zip"]
 incompatibleResourcePacks:["Thaum_pack.zip"]
 lastServer:
 lang:zh_cn

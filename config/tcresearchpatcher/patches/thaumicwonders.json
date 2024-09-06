@@ -1,6 +1,6 @@
 [
 	{
-        "key": "TWOND_NETHER_HEDGE",
+        "key": "TWOND_DIMENSIONAL_HEDGE",
         "ops": [
 			{
 				"op": "replace",
@@ -10,7 +10,7 @@
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "-1"
+				"value": "0"
 			},
 			{
 				"op": "replace",
@@ -23,33 +23,8 @@
 			},
 			{
 				"op": "replace",
-				"path": "parents/0",
-				"value": "HEDGEALCHEMY"
-			}
-        ]
-	},
-	{
-        "key": "TWOND_END_HEDGE",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-8"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "1"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ALCHEMY"
-			},
-			{
-				"op": "replace",
-				"path": "parents/0",
-				"value": "HEDGEALCHEMY"
+				"path": "parents",
+				"value": ["HEDGEALCHEMY"]
 			}
         ]
 	},
@@ -196,31 +171,6 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-9"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "2"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "ALCHEMY"
-			},
-			{
-				"op": "replace",
-				"path": "meta",
-				"value": ["REVERSE"]
-			}
-        ]
-	},
-	{
-        "key": "TWOND_DISJUNCTION_CLOTH",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
 				"value": "-6"
 			},
 			{
@@ -232,11 +182,6 @@
 				"op": "replace",
 				"path": "category",
 				"value": "ALCHEMY"
-			},
-			{
-				"op": "replace",
-				"path": "parents/0",
-				"value": "TWOND_END_HEDGE"
 			},
 			{
 				"op": "replace",
@@ -262,6 +207,16 @@
 				"op": "replace",
 				"path": "category",
 				"value": "ALCHEMY"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "TWOND_DIMENSIONAL_HEDGE"
 			}
         ]
 	},
