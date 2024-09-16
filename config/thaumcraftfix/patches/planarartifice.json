@@ -520,26 +520,6 @@
     ]
   },
   {
-    "key": "PA_FOCUS_COLOUR",
-    "ops": [
-      {
-        "op": "replace",
-        "path": "location/0",
-        "value": "-4"
-      },
-      {
-        "op": "replace",
-        "path": "location/1",
-        "value": "7"
-      },
-      {
-        "op": "replace",
-        "path": "category",
-        "value": "AUROMANCY"
-      }
-    ]
-  },
-  {
     "key": "PA_BISMUTH_CASTERS_GAUNTLET",
     "ops": [
       {

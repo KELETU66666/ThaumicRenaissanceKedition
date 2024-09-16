@@ -225,6 +225,56 @@
         ]
 	},
     {
+        "key": "FM_CRYSTAL_SCRIBING_TOOLS",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+            },
+			{
+				"op": "replace",
+				"path": "parents",
+				"value": ["THEORYRESEARCH", "~UNLOCKARTIFICE"]
+			}
+        ]
+	},
+	{
+        "key": "RINGNUTRITION",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "CLOUDRING"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			}
+        ]
+	},
+    {
         "key": "DIABOLIST_FORK",
         "ops": [
 			{
@@ -437,5 +487,14 @@
 				"value": "BASICS"
 			}
         ]
+	},
+	{
+        "key": "LOSTMAGIC",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
 	}
 ]

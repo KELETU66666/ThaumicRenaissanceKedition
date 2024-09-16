@@ -11,11 +11,11 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Inlay Fix 1.0.zip","Sonomagy TC6 v1.6.zip","Thaum_pack.zip","jappabp-1.2-mc1.12.zip","ThaumMenu1.2.zip"]
+resourcePacks:["Sonomagy TC6 v1.6.zip","Thaum_pack.zip","jappabp-1.2-mc1.12.zip","ThaumMenu1.2.zip","FakeThaummyPack.zip"]
 incompatibleResourcePacks:["Thaum_pack.zip"]
 lastServer:
 lang:zh_cn
@@ -93,6 +93,9 @@ key_key.betterquesting.quests:41
 key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
+key_key.inventorysorter.itemin:-200
+key_key.inventorysorter.itemout:-201
+key_key.inventorysorter.sort:-98
 key_显示/隐藏:47
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
@@ -112,7 +115,6 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
-key_invtweaks.key.sort:19
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_keybind.universaltweaks.clear_toasts:11:CONTROL

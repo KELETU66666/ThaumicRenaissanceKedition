@@ -13,7 +13,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "thaumicwonders:bone_bow"
+        "id:8": "crimsonrevelations:bone_bow"
       },
       "ignoresview:1": 0,
       "ismain:1": 0,
@@ -45,7 +45,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "thaumicwonders:bone_bow"
+          "id:8": "crimsonrevelations:bone_bow"
         }
       },
       "taskID:8": "bq_standard:retrieval"

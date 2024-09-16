@@ -43,5 +43,32 @@
 				"path": "key"
 			}
 		]
+	},
+	{
+		"key": "!CR_CRIMSON_CLERIC",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+		"key": "CR_CULT_BESTIARY",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+		"key": "!CR_CRIMSON_KNIGHT",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
 	}
 ]

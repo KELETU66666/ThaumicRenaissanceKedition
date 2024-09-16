@@ -53,12 +53,12 @@
       {
         "op": "replace",
         "path": "location/0",
-        "value": "3"
+        "value": "-4"
       },
       {
         "op": "replace",
         "path": "location/1",
-        "value": "9"
+        "value": "7"
       },
       {
         "op": "replace",
@@ -70,7 +70,7 @@
         "path": "parents",
         "value": [
           "CRIMSON_REVELATIONS_BASE",
-          "FOCUSHEAL"
+          "PA_FOCUS_LIGHT"
         ]
       }
     ]
