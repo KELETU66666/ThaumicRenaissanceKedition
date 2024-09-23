@@ -34,12 +34,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "2"
+				"value": "3"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "8"
+				"value": "7"
 			},
 			{
 				"op": "replace",
@@ -58,6 +58,13 @@
 				"op": "replace",
 				"path": "parents/0",
 				"value": "METALPURIFICATION"
+			},
+			{
+			  "op": "replace",
+			  "path": "meta",
+			  "value": [
+				"REVERSE", "SPIKY"
+			  ]
 			}
         ]
 	},
@@ -67,12 +74,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "1"
+				"value": "2"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "10"
+				"value": "9"
 			},
 			{
 				"op": "replace",
@@ -92,12 +99,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "3"
+				"value": "4"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "10"
+				"value": "9"
 			},
 			{
 				"op": "replace",
@@ -675,56 +682,6 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-5"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-1"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "INFUSION"
-			},
-			{
-				"op": "replace",
-				"path": "parents/0",
-				"value": "FORTRESSMASK"
-			}
-        ]
-	},
-	{
-        "key": "TWOND_CLEANSING_CHARM",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "7"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-3"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "INFUSION"
-			},
-			{
-				"op": "replace",
-				"path": "parents/0",
-				"value": "VERDANTCHARMS"
-			}
-        ]
-	},
-	{
-        "key": "TWOND_TIMEWINDER",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
 				"value": "-3"
 			},
 			{
@@ -741,6 +698,31 @@
 				"op": "replace",
 				"path": "parents/0",
 				"value": "ELEMENTALTOOLS"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_CLEANSING_CHARM",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "VERDANTCHARMS"
 			}
         ]
 	},

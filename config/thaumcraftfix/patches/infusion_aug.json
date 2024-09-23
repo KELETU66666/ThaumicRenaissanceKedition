@@ -69,7 +69,77 @@
 			{
 				"op": "replace",
 				"path": "location/0",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			}
+        ]
+	},
+	{
+        "key": "THAUMOSTATIC_GYROSCOPE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
 				"value": "7"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+			}
+        ]
+	},
+	{
+        "key": "THAUMOSTATIC_GIRDLE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "7"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "INFUSION"
+			},
+			{
+				"op": "replace",
+				"path": "meta",
+				"value": ["REVERSE"]
+			}
+        ]
+	},
+	{
+        "key": "ELYTRA_HARNESS",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "6"
 			},
 			{
 				"op": "replace",
@@ -84,67 +154,7 @@
 			{
 				"op": "replace",
 				"path": "parents/0",
-				"value": "ELYTRA_HARNESS"
-			}
-        ]
-	},
-	{
-        "key": "THAUMOSTATIC_GYROSCOPE",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "9"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "1"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "INFUSION"
-			}
-        ]
-	},
-	{
-        "key": "THAUMOSTATIC_GIRDLE",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "9"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "3"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "INFUSION"
-			}
-        ]
-	},
-	{
-        "key": "ELYTRA_HARNESS",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "5"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "5"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "INFUSION"
+				"value": "THAUMOSTATIC_HARNESS"
 			}
         ]
 	},
@@ -154,12 +164,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "5"
+				"value": "8"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "7"
+				"value": "2"
 			},
 			{
 				"op": "replace",
@@ -174,12 +184,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "6"
+				"value": "5"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "-1"
+				"value": "1"
 			},
 			{
 				"op": "add",
@@ -329,7 +339,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-10"
+				"value": "-8"
 			},
 			{
 				"op": "replace",

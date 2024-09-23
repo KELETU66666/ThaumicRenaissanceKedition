@@ -120,4 +120,4 @@ infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
-module;id=xaerominimap:minimap;active=true;x=-111;y=-75;centered=false;fromRight=false;fromBottom=false;flippedVer=false;flippedHor=false;
+module;id=xaerominimap:minimap;active=true;x=-59;y=-53;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;

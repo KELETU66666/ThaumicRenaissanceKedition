@@ -271,7 +271,7 @@
       {
         "op": "replace",
         "path": "location/0",
-        "value": "0"
+        "value": "1"
       },
       {
         "op": "replace",
@@ -362,22 +362,22 @@
       {
         "op": "replace",
         "path": "location/0",
-        "value": "-1"
+        "value": "-4"
       },
       {
         "op": "replace",
         "path": "location/1",
-        "value": "-1"
+        "value": "5"
       },
       {
         "op": "replace",
         "path": "category",
-        "value": "ARTIFICE"
+        "value": "INFUSION"
       },
       {
         "op": "replace",
         "path": "parents/0",
-        "value": "BASEARTIFICE"
+        "value": "ELEMENTALTOOLS"
       }
     ]
   },
@@ -387,18 +387,25 @@
       {
         "op": "replace",
         "path": "location/0",
-        "value": "-2"
+        "value": "-5"
       },
       {
         "op": "replace",
         "path": "location/1",
-        "value": "-2"
+        "value": "7"
       },
       {
         "op": "replace",
         "path": "category",
-        "value": "ARTIFICE"
-      }
+        "value": "INFUSION"
+      },
+			{
+			  "op": "add",
+			  "path": "meta",
+			  "value": [
+				"REVERSE"
+			  ]
+			}
     ]
   },
   {

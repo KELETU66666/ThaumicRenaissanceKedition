@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -93,9 +93,6 @@ key_key.betterquesting.quests:41
 key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
-key_key.inventorysorter.itemin:-200
-key_key.inventorysorter.itemout:-201
-key_key.inventorysorter.sort:-98
 key_显示/隐藏:47
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
@@ -115,9 +112,9 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
+key_invtweaks.key.sort:19
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
@@ -137,7 +134,7 @@ key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
 key_gui.xaero_toggle_tracked_players:0
-key_gui.xaero_minimap_settings:0
+key_gui.xaero_minimap_settings:51
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
