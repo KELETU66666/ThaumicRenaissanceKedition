@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "ThaumicRenaissance - Kedition",
-  "version": "9.2.0",
+  "version": "9.2.1",
   "author": "",
   "files": [
     {
@@ -240,6 +240,11 @@
       "required": true
     },
     {
+      "projectID": 1107386,
+      "fileID": 5970214,
+      "required": true
+    },
+    {
       "projectID": 237167,
       "fileID": 2985811,
       "required": true
@@ -335,23 +340,18 @@
       "required": true
     },
     {
-      "projectID": 1107386,
-      "fileID": 5970168,
-      "required": true
-    },
-    {
       "projectID": 961959,
       "fileID": 5031355,
       "required": true
     },
     {
-      "projectID": 290240,
-      "fileID": 2541816,
+      "projectID": 228027,
+      "fileID": 3647708,
       "required": true
     },
     {
-      "projectID": 228027,
-      "fileID": 3647708,
+      "projectID": 290240,
+      "fileID": 2541816,
       "required": true
     },
     {
