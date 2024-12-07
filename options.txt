@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:12
+renderDistance:10
 guiScale:3
 particles:0
 bobView:true
@@ -15,9 +15,9 @@ difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Sonomagy TC6 v1.6.zip","Thaum_pack.zip","jappabp-1.2-mc1.12.zip","ThaumMenu1.2.zip","FakeThaummyPack.zip"]
+resourcePacks:["Sonomagy TC6 v1.6.zip","Thaum_pack.zip","ThaumMenu1.2.zip","FakeThaummyPack1.05.zip"]
 incompatibleResourcePacks:["Thaum_pack.zip"]
-lastServer:smfx.jhcx.site
+lastServer:
 lang:zh_cn
 chatVisibility:0
 chatColors:true
