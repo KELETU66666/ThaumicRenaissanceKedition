@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    628
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "维度撕裂器是一个§5神秘奇境§r模组的小道具，可以用来定点产生裂隙，具体操作如下：\n\n两个维度撕裂器相向摆放，同时间距9格，摆放正确时会出现紫色粒子对流。\n\n之后可以向其通入污染源质，两个撕裂器同时消耗50点Vitium源质会进行一次撕裂活动，用以打开咒波裂隙或扩大咒波裂隙，输入红石信号可以暂停这一过程。\n\n接受红石信号时，撕裂器会停止工作但继续吸收源质，吸收更多源质后解除红石信号会产生更强的撕裂活动。\n\n§c注意：裂缝过大可能会把维度撕裂器吞掉！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicwonders:dimensional_ripper"
+      },
+      "name:8": "定点产生裂隙 -- 维度撕裂器"
+    }
+  },
+  "questID:3": 639,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "thaumicwonders:dimensional_ripper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

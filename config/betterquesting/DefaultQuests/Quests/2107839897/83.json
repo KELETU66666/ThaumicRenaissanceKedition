@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    81
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "咒波净化器可消耗世界盐以灵气咒波比1：1.5快速清除灵气场中的咒波，造价较为昂贵，但是可以高效清除咒波。但是其对灵气的消耗过于巨大，以至于如果灵气场中的灵气不够多，可能会造成灵气为0但咒波有剩余的情况！这种情况可能导致裂隙提前出现！\n\n想要制作这个物品，需要解锁位于镜像学的研究“咒波净化器”。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "planarartifice:flux_scrubber"
+      },
+      "name:8": "高效咒波清理 - 咒波净化器"
+    }
+  },
+  "questID:3": 83,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "planarartifice:flux_scrubber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

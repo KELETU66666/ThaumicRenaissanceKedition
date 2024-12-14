@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    628
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "这台设备可以侦测裂隙的稳定性，可以提醒你避免裂隙因过小被抽干以及避免裂隙过于不稳定而腐化（注意：是“提醒你”，这台仪器仅有侦测作用！），具体操作详见魔导手册。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:rift_monitor"
+      },
+      "name:8": "裂隙稳定值侦测"
+    }
+  },
+  "questID:3": 624,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:rift_monitor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

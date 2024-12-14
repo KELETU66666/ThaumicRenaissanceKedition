@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    632
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "一把12攻击伤害的斧子，永不损坏，拥有三种模式：\n\n在方块模式（绿色）下它按正常方式伐木。\n\n在正方模式（红色）下它能同时伐掉起始木材周围方块，最大最大4*4。\n\n在伐木模式（蓝色）下它可以伐掉起始木材所在整棵树。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:ichorium_axe_adv"
+      },
+      "name:8": "觉醒灵宝斧"
+    }
+  },
+  "questID:3": 615,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:ichorium_axe_adv"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

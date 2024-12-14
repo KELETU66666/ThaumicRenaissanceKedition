@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    238,
+    163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "奥术机动装置是一个很实用的探索地图的道具，右键抛出其抓钩部分，在范围内碰到任何方块都会被吸住，但是有最大射程抓钩会直接返回。勾住后可以更换物品栏其他物品，不会影响抓钩的吸附，按下shift松开抓钩。\n\n此物品需要充能后才能使用。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:grapple_gun"
+      },
+      "name:8": "飞檐走壁"
+    }
+  },
+  "questID:3": 273,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:grapple_gun"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

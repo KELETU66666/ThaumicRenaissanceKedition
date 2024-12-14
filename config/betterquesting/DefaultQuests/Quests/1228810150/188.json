@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "奥术护肩甲\n奥术护肩甲与护肩甲作用相同，都是放在饰品栏的背饰部分的防具，但是它不仅能增加防御，也可以在受到伤害后弹开周围的敌人，非常实用。\n\n想要制作这个物品需要解锁这个物品的对应研究。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicperiphery:pauldron_repulsion"
+      },
+      "name:8": "给爷爪巴"
+    }
+  },
+  "questID:3": 188,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicperiphery:pauldron_repulsion"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

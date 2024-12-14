@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "解锁注魔后，你就可以解锁这个篇章！",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thaumcraft:loot_bag"
+      },
+      "ismain:1": 1,
+      "name:8": "新的开始"
+    }
+  },
+  "questID:3": 238,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:loot_bag"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 4,
+          "id:8": "thaumcraft:curio"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:potion_sprayer"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:metal_thaumium"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

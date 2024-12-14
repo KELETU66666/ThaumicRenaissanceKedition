@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    530
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "避役工具是一套强大的工具，它可以同时拥有最多三个附魔面板。\n\n想要切换附魔，需要给第一个面板附魔，然后就可以shift+右键切换附魔面板了。\n这意味着你可以拥有一把兼具时运与精准采集的镐了！\n\n每次切换面板会消耗5点耐久。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forbiddenmagicre:morph_sword"
+      },
+      "name:8": "变幻莫测的工具 - 避役工具"
+    }
+  },
+  "questID:3": 539,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 1
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 10,
+          "id:8": "thaumcraft:nugget"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_shovel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_pick"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_axe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

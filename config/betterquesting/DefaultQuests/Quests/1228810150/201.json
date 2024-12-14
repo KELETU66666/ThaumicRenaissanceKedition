@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    99
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "无尽之瓮可以为周围的需水机械加水，例如坩埚和花药台（植物魔法模组的一个需水装置），做一个无尽之瓮放在坩埚旁边，防止坩埚水分不足影响制作！\n想要制作此物品，需要解锁无尽之瓮的研究。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:everfull_urn"
+      },
+      "name:8": "Never Gonna give you Up !"
+    }
+  },
+  "questID:3": 201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:everfull_urn"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "镜面玻璃是制作魔镜的重要原料，魔镜可以帮助你进行简单的自动化以及帮助你更方便的传输物品，做一些！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:mirrored_glass"
+      },
+      "name:8": "远程传输"
+    }
+  },
+  "questID:3": 239,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:golem",
+          "tag:10": {
+            "props:4": 72341268037894144
+          }
+        },
+        "1:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:mirrored_glass"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glass_pane"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "OreDict:8": "quicksilver",
+          "id:8": "thaumcraft:quicksilver"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mirrored_glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    304
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "击杀最终boss，你得到了残破卷轴，和一颗完整的元始珍珠。\n右键读一读卷轴里的话，再扫一扫它，解开新世界的内容！",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:research_notes"
+      },
+      "ismain:1": 1,
+      "name:8": "奇怪的卷轴"
+    }
+  },
+  "questID:3": 310,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:research_notes"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

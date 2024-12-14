@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    99
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "下界残片：击杀猪人，烈焰人，凋灵骷髅有0.65%几率掉落。\n末影裂痕：击杀末影人，末影螨，潜影贝有0.65%几率掉落。\n\n目前这些东西只能拿来烧要素，但是在未来，它们可以用来制作灵液！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:kamiresource"
+      },
+      "name:8": "特殊的碎片"
+    }
+  },
+  "questID:3": 641,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumictinkerer:kamiresource"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:kamiresource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    626
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "元动加农炮需要在§5元动基座§r上充能，不能直接从裂隙中抽取能量。\n\n在充满能量后，将会发射强力光束炮，每帧对敌人造成1点魔法伤害，十分的恐怖，它也可以安装两种升级。\n\n轨道炮组件：安装此升级后，炮的攻击方式变为立即发射一道伤害为 30 点的能量束，射程为64格，伴随着穿透效果，伤害一条线上的敌人。使用后进入长达 5 秒的冷却时间。\n\n迸射模式组件:安装此升级后,炮的攻击方式变为快速发射 3 束伤害为 8 点的能量束（但是由于微弱的后坐力，三束能量束实际上每束都会比前一束高一小段），射程为33格，并且在攻击后需经过 1.5 s的冷却时间才可再次发射。\n\n所有组件均在工作台与加农炮无序合成以升级。",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "augments:10": {
+              "slots:3": 1
+            },
+            "energy:10": {
+              "energy:4": 0
+            }
+          }
+        },
+        "id:8": "thaumicaugmentation:impulse_cannon"
+      },
+      "name:8": "致命武器 -- 元动加农炮"
+    }
+  },
+  "questID:3": 631,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "augments:10": {
+                "slots:3": 1
+              },
+              "energy:10": {
+                "energy:4": 0
+              }
+            }
+          },
+          "id:8": "thaumicaugmentation:impulse_cannon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

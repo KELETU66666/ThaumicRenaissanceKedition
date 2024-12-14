@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "食用神秘鸡锄学的果浆可以去除扭曲反应的Debuff，可以用作应急之需。\n\n想要制作这个物品，需要解锁“神秘鸡锄学”内的研究“魔法植物种植”。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicbases:rosehipsyrup"
+      },
+      "name:8": "清除扭曲效果"
+    }
+  },
+  "questID:3": 166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicbases:rosehipsyrup"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

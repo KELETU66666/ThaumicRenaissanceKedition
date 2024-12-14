@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "抑制扭曲效果，是指维持你的扭曲，但是不让扭曲具现化，使扭曲不会发作。\n\n最常见的，是使用净化浴盐，这个东西的用法也很简单，你只需要将净化浴盐扔到一格非流动的水中即可，之后，这滩水就会变成净化之水。\n\n你接触到净化之水时，如果你没有扭曲守护效果，那么这滩净化之水将会被消耗，并给予你30min扭曲守护效果，在这段时间里，你不会触发扭曲效果，但是已经发生的扭曲效果不会被立刻清除。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:bath_salts"
+      },
+      "name:8": "抑制扭曲效果"
+    }
+  },
+  "questID:3": 119,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:bath_salts"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

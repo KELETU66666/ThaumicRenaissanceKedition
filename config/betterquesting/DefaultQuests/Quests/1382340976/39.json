@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    37,
+    191
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "求知头带可以将经验球转换为知识，只不过效率十分感人，不建议使用...\n\n它还有一个升级版，不过造价昂贵，总之就是不建议使用...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "planarartifice:mirromirous_headband"
+      },
+      "name:8": "经验越多，研究越多"
+    }
+  },
+  "questID:3": 39,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "minecraft:experience_bottle"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:curiosity_band"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "planarartifice:mirromirous_headband"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

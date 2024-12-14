@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    601
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "基础印记是玩家操纵傀儡的基础，任何傀儡只要满足该印记要求的属性都可以被操控。\n\n聚集印记：该印记会请求符合条件的傀儡捡起范围内的掉落物品。玩家可以指定傀儡只捡起某种物品。\n\n储存印记：该印记会请求持有物品的傀儡把物品运送到这个印记的位置。如果该印记贴在物品容器上，傀儡会把物品放入容器；否则傀儡会把物品掉落在地上。\n\n空置印记：可以将该印记贴在容器的一个面上，作用范围内的傀儡会将该容器内的物品取出。\n\n守卫印记：如果有敌对生物处于该印记的范围内，该印记会请求附近拥有战斗能力的傀儡过来消灭该生物。如果击杀生物的傀儡拥有“灵巧”属性，则会掉落经验球。\n\n采掘印记：该印记会请求附近拥有“破坏”属性的傀儡来挖掉其范围内的方块。\n\n供给印记：功能类似于空置印记，但是它只会在周围其他印记有需求时提供物品。\n\n仓储印记：这种印记只能保证容器中会保留最少数量的物品。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:seal"
+      },
+      "name:8": "基础印记"
+    }
+  },
+  "questID:3": 603,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:seal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "thaumcraft:seal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

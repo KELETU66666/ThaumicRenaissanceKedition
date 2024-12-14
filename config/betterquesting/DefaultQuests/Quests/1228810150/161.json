@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    88
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在基础学当中，需要先研究发现：注魔章节，解锁后会提供一套可染色的神秘使套装。\n它会按百分比减免魔力消耗。配合揭示之护目镜可以提供总共 13% 的魔力减免，做一套出来！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:cloth_chest"
+      },
+      "name:8": "神秘使的基础套装"
+    }
+  },
+  "questID:3": 161,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 19,
+          "id:8": "thaumcraft:fabric"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:leather"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:ingot"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:thaumometer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:goggles"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

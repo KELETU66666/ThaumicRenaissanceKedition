@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    96
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "你制作出了坩埚，现在你需要了解咒波了！\n\n与TC4不同，TC6长时间存在于坩埚中的要素不会分解为次级要素，所有坩埚中的源质都会在你一定时间未处理时化作咒波挥发到灵气场中。\n\n而咒波也不是流体（咒波黏浆和咒波瓦斯），而是直接散播进灵气场中，减慢灵气的恢复速度，而且过多的咒波会导致§5裂隙§f§r和§5腐化§f§r的产生，这会在接下来的一章中讲解。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:rift_seed",
+        "tag:10": {
+          "grown:1": 1,
+          "riftSize:3": 100
+        }
+      },
+      "name:8": "咒波与腐化"
+    }
+  },
+  "questID:3": 68,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "thaumcraft:nugget"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

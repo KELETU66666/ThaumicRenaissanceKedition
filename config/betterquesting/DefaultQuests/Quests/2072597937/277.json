@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    175,
+    288,
+    309
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "制作元动能量电池，开启前往虚域的大门！\n此配方经过魔改，请注意...",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "thaumicaugmentation:material"
+      },
+      "ismain:1": 1,
+      "name:8": "门钥匙"
+    }
+  },
+  "questID:3": 277,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "thaumicaugmentation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

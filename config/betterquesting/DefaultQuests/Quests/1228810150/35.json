@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    20
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "神秘屈光仪会显示周围12x12区块内的灵气含量，曲线越高代表含量越高，更适宜居住。\n右键可以查看12x12区块内的咒波含量，曲线越高代表含量越高，需要及时防范。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:dioptra"
+      },
+      "name:8": "灵气阈值可视化"
+    }
+  },
+  "questID:3": 35,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:dioptra"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

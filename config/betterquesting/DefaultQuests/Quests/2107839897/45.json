@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "食用腐化梅可以增加你的临时，普通与永久扭曲。\n主要用于...其实没啥用，除非你希望凋灵在你的身后疯狂刷出...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "warptheory:item_something"
+      },
+      "name:8": "腐化梅"
+    }
+  },
+  "questID:3": 45,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "warptheory:item_something"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

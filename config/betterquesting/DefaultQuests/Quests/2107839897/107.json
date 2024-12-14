@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "净化之锹是失落魔法模组添加的物品，它不仅可以快速挖掘腐化的岩石和泥土，还能右键清理因腐化原木溶解而产生的腐化黏浆，避免大量神秘史莱姆的产生，是一个非常优秀的清理腐化的道具。\n\n但是虽然它拥有如此优秀的性能，仍然无法阻止其一次只能破坏一个方块的事实，所以说，它只能用于处理小范围腐化，也能用来挖掘前往被腐化的地下洞穴的通道。\n\n想要制作这个物品，需解锁位于“奥术注魔”的研究“净化之锹”。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forbiddenmagicre:purifying_shovel"
+      },
+      "name:8": "清理腐化方块 - 净化之锹"
+    }
+  },
+  "questID:3": 107,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:purifying_shovel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

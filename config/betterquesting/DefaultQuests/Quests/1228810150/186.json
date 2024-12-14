@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "云霄指环是奥术注魔的产物\n它能使持有者身轻如燕，大幅度减免其所受的摔落伤害，并赋予其二段跳能力。\n由于它的解锁和制作最简单，所以推荐解锁注魔后第一个制作此物品",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:cloud_ring"
+      },
+      "name:8": "飞身一跃"
+    }
+  },
+  "questID:3": 186,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloud_ring"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

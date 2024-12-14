@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    609
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "类似于一个无限耐久的钻石鞋子，但附带4%魔力减免，还有一些特殊的功能：\n\n给予常驻的急迫2效果。\n将你踩过的土壤变成草地。\n旅行者之靴的全部效果，且跳得更高，跑得更快，无视摔落伤害。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:kami_boots"
+      },
+      "name:8": "明目之盾"
+    }
+  },
+  "questID:3": 633,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:kami_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

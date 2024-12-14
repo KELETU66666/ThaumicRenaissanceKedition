@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    146,
+    145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "解锁奥术注魔学之后，你就能进行自动化炼金了。\n自动化炼金有两个机器，\n分别可以自动运出和汲取所需的要素在16格范围内。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:essentia_input"
+      },
+      "name:8": "自动化炼金"
+    }
+  },
+  "questID:3": 187,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:essentia_output"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:essentia_input"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

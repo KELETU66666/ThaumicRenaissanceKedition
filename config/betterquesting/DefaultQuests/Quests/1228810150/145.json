@@ -1,0 +1,242 @@
+{
+  "preRequisites:11": [
+    99
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "想要制作冶炼厂，你需要准备一大吨的水晶碎片。\n这个任务会指引你，什么东西过呢更适合拿来溶解成你所需要的要素。\n交易：投掷器\n虚空：也是投掷器（最好的是碗，但是投掷器里有这种要素）\n能量：还是投掷器（最好的是煤炭和红石，但是投掷器里有这个要素）\n光：火把\n移动：船\n冰：雪球\n水晶：玻璃或琥珀\n金属：朱砂（矿）\n生命：各种树苗\n死亡：朱砂（矿）\n这里只是举了一些最简单的例子，实际上，你可以根据你所在的环境调整你要溶解哪些物品，在JEI搜索对应的要素名称，再点击，即可查看到含有此种要素的所有物品，再根据你的需要来溶解。\n要注意的是，2点要素才可析出1个对应的水晶碎片，1点要素并不能用石英碎片做任何处理！\n关于冶炼厂：解锁冶炼厂章节，即可获得源质冶炼厂、源质罐子的配方。将源质冶炼厂放在地上，上方放置奥术蒸馏器。\n奥术蒸馏器可以“导出”源质冶炼厂中的源质，每个奥术蒸馏器最多存储一种源质，源质容量上限为128点。\n奥术蒸馏器可以叠放在其他的奥术蒸馏器上方，作为存储之用，但是不会加快蒸馏速率。\n警告：冶炼厂在工作时，会有一部分源质不可避免地成为咒波逸散出去，所以一定要把冶炼厂搬离你的基地！",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:alembic"
+      },
+      "ismain:1": 1,
+      "name:8": "做冶炼厂前的准备"
+    }
+  },
+  "questID:3": 145,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "aer"
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "terra"
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "ignis"
+              }
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "aqua"
+              }
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "ordo"
+              }
+            }
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "perditio"
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "vacuos"
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "vitreus"
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "lux"
+              }
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "potentia"
+              }
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "mortuus"
+              }
+            }
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "motus"
+              }
+            }
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "metallum"
+              }
+            }
+          }
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "gelum"
+              }
+            }
+          }
+        },
+        "8:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "permutatio"
+              }
+            }
+          }
+        },
+        "9:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "victus"
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:alembic"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:smelter_basic"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "id:8": "thaumcraft:jar_normal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

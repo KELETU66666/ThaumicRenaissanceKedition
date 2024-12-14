@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    104
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "想要开始神秘学，首先你需要解锁神秘学章节对应的研究。\n然后，使用一个Ordo魔力水晶碎片在含有 5 点 Auram ，10 点 Praecantatio ，15 点Vitreus的坩埚中炼金合成一个空白次级核心。（Auram可以由银树原木得到；Praecantatio可以由世界盐得到；Vitreus可以由玻璃获得）。记得用使用碎片处理过多的要素！\n\n然后，合成核心镶饰台，要放在你灵气最充盈的区块，最好是魔法森林。\n“近距离观察火焰”则要求你站在火中被火灼烧掉血。\n成功后，下方出现紫色小字：“你亲身感受到了火焰的威力”\n\n至此，神秘学的大门就彻底向你敞开了！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:wand_workbench"
+      },
+      "name:8": "神秘学研究"
+    }
+  },
+  "questID:3": 124,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:focus_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:wand_workbench"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "使用神秘基础学的两种烟斗抽抽睿智烟草，可以获得观测及研究。\n\n使用银树烟斗效果更加，会增加经验和研究效率，不会产生扭曲。\n\n§m§o这就是为什么丁真不读书也能§k23333",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicbases:silverwoodpipe"
+      },
+      "name:8": "来根锐克5"
+    }
+  },
+  "questID:3": 41,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "thaumicbases:tobacco_knowledge"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:curio"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 32767,
+          "id:8": "thaumicbases:tobacco_pile"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicbases:greatwoodpipe"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "id:8": "thaumicbases:tobacco_knowledge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

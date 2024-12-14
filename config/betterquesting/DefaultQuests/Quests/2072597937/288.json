@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    281,
+    279
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "解锁邪术学后，你可以得到使用虚空种子制作虚空金属锭，虚空金属锭可以用来制作虚空金属系列装备，它们有着自愈的能力，在玩家身上或快捷栏时每秒恢复1点耐久，虚空剑还能对目标施加虚弱效果，是不错的装备。\n虚空金属也可以用来制作元动能量电池！",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thaumcraft:ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "虚空金属加工"
+    }
+  },
+  "questID:3": 288,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

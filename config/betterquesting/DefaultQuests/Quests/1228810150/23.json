@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "按照MC开局的传统，你需要下矿收集资源，在这里，你需要收集红石，金，铁和铜，如果找到了钻石，也可以去暮色逛一逛，也许会更好寻找资源。",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:stone_pickaxe"
+      },
+      "ismain:1": 1,
+      "name:8": "首要任务"
+    }
+  },
+  "questID:3": 23,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:torch"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

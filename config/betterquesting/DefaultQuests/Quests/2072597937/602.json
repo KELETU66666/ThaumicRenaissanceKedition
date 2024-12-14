@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    601
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "印记拓印器是一种方便玩家设置印章属性的印记，使用该印记右键一个已经配置好的印记，可以将其的配置储存在其中。\n\n当玩家使用拓印器右键一个相同的印记时，会将该印记储存的信息填入其中，可以避免再次手动配置。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:seal_copier"
+      },
+      "name:8": "Ctrl C+V"
+    }
+  },
+  "questID:3": 602,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:seal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mind"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:seal_copier"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

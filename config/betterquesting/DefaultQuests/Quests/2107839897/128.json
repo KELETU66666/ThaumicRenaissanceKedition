@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "净化浴盐的另一种用法，如果你安装了植物魔法模组，那么你可以用净化浴盐制作一瓶装有“理智”的药水。\n饮用它可以给予你10min的扭曲守护，可以引用4或6次，具体次数根据你装药水的瓶子来决定。\n\n制作这个东西无需解锁任何研究。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:brewflask",
+        "tag:10": {
+          "brewKey:8": "warpWard"
+        }
+      },
+      "name:8": "更好的抑制扭曲发作 - 植物酿造台"
+    }
+  },
+  "questID:3": 128,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "botania:brewflask",
+          "tag:10": {
+            "brewKey:8": "warpWard"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

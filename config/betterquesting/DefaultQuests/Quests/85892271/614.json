@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    618
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "灵宝是神秘工匠系列的“终极装备”所需的原料，你可以使用它来做灵宝工具与觉醒灵宝装备。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "thaumictinkerer:kamiresource"
+      },
+      "name:8": "灵宝"
+    }
+  },
+  "questID:3": 614,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "thaumictinkerer:kamiresource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

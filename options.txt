@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -92,16 +92,7 @@ key_thaumicaugmentation.key.augment_radial:34
 key_key.betterquesting.quests:41
 key_key.betterquesting.back:14
 key_key.findme.search:21
-key_key.ftbutilities.nbt:49:ALT
-key_key.ftbutilities.trash:211
-key_key.mw_open_gui:50
-key_key.mw_new_marker:210
-key_key.mw_next_map_mode:49
-key_key.mw_next_marker_group:51
-key_key.mw_teleport:52
-key_key.mw_zoom_in:201
-key_key.mw_zoom_out:209
-key_key.mw_underground_mode:22
+key_key.zap:35
 key_显示/隐藏:47
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
@@ -121,13 +112,16 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
-key_key.dragon_fireAttack:19
-key_key.dragon_strike:34
-key_key.dragon_down:45
-key_key.dragon_change_view:65
 key_invtweaks.key.sort:19
 key_key.carpet_forward:17
 key_key.carpet_backward:31
+key_key.minimap.voxelmapmenu:50
+key_key.minimap.waypointmenu:0
+key_key.minimap.zoom:48
+key_key.minimap.togglefullscreen:45
+key_key.minimap.waypointhotkey:49
+key_key.minimap.togglemobs:0
+key_key.minimap.toggleingamewaypoints:0
 key_Change Goggles Lens:47
 key_key.thaumicgadgets.open_gui:19
 key_key.thaumicgadgets.armor_ability:46

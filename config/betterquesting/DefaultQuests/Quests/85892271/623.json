@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    628
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "汲取元动能量要在裂隙附近汲取，而控制不好，裂隙就会腐化，腐化可能会在你不经意间，不注意的时候，而一旦不注意，就会摧毁你附近的仪器，为了损失最小化，强烈推荐制作两面元动之镜，它们可以像魔镜和源质之镜一样远距离传输，不过它传输的是元动能量，你可以把它接到需要的设备上，使用方式和元动汲取仪一样！",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:impetus_mirror"
+      },
+      "name:8": "更好的运输 -- 元动之镜"
+    }
+  },
+  "questID:3": 623,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "thaumicaugmentation:impetus_mirror"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

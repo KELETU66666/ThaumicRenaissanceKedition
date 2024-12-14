@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    146,
+    192
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "通过注魔皮革鞋子而来的鞋子，它能让你比平常移动的更快速，跳的更高，略微提高在水中的移动速度，可以自动上一格方块，需要充能灵气来发挥功效，将物品放在充能基座上吸取周围灵气进行充能，灵气容量240点，也可以制作魔力护身符，佩戴之后随时随地进行充能。\n\n合成的旅行者之靴耐久度比例与合成材料的皮革靴子耐久度比例相同，合成时请尽量使用满耐久的皮革靴子。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:traveller_boots"
+      },
+      "name:8": "一场说走就走的旅行"
+    }
+  },
+  "questID:3": 611,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:traveller_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

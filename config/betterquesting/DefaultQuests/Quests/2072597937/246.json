@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "魔镜是一个可以跨纬度远程传输物品的设备。\n\n想要使用魔镜，需要先放下一个魔镜，然后拿另一面魔镜右键放在地面上的魔镜，这时手中的这面镜子会显示黑洞图案，表示链接成功。\n\n当手中的魔镜放置后，另一面魔镜中也会出现黑洞图案，往其中一面魔镜丢东西就会在链接的另一面魔镜吐出东西。\n\n魔镜只能成对链接，安装好后不能和第三个魔镜建立链接，当拆卸后的魔镜重新安装时，他能自动链接上已配过对的魔镜。\n\n§c警告：魔镜每传输128个物品就会制造1点咒波。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:mirror"
+      },
+      "name:8": "远程运输 - 物品"
+    }
+  },
+  "questID:3": 246,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mirror"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:goggles"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mirror"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "thaumcraft:mirrored_glass"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:mirror"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
