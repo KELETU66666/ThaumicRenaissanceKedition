@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "working in progress.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:augment_builder_power",
@@ -16,5 +16,10 @@
     }
   },
   "questID:3": 171,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }

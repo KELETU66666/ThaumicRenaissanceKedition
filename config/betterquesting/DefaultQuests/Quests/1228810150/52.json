@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "minecraft:rabbit_foot"
       },
-      "name:8": "快速开局?",
+      "name:8": "快速开局",
       "questlogic:8": "NAND",
       "visibility:8": "ALWAYS"
     }
