@@ -113,12 +113,17 @@
       {
         "op": "replace",
         "path": "location/0",
-        "value": "-6"
+        "value": "-1"
       },
       {
         "op": "replace",
         "path": "location/1",
-        "value": "-4"
+        "value": "-1"
+      },
+      {
+        "op": "add",
+        "path": "parents/1",
+        "value": "BASEARTIFICE"
       },
       {
         "op": "replace",
@@ -411,7 +416,7 @@
       {
         "op": "replace",
         "path": "location/0",
-        "value": "-1"
+        "value": "0"
       },
       {
         "op": "replace",

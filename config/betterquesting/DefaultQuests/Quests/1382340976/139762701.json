@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "佩戴T12后，玩家完全不需要使用理论与观测就可以解锁研究，但是这个东西似乎有一些副作用...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "renaissance_core:dice12"
+      },
+      "name:8": "机遇与挑战"
+    }
+  },
+  "questID:3": 139762701,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
