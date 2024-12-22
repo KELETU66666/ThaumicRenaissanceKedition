@@ -20,8 +20,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2,
-          "id:8": "kitchengadgets:magicfood"
+          "id:8": "thaumcraft:brain"
         }
       }
     }
