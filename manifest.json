@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "ThaumicRenaissance - Kedition",
-  "version": "9.4.5",
+  "version": "9.4.6",
   "author": "",
   "files": [
     {
@@ -40,13 +40,13 @@
       "required": true
     },
     {
-      "projectID": 238003,
-      "fileID": 2559089,
+      "projectID": 620262,
+      "fileID": 4724647,
       "required": true
     },
     {
-      "projectID": 620262,
-      "fileID": 4724647,
+      "projectID": 238003,
+      "fileID": 2559089,
       "required": true
     },
     {
@@ -95,13 +95,13 @@
       "required": true
     },
     {
-      "projectID": 285742,
-      "fileID": 3944565,
+      "projectID": 976239,
+      "fileID": 5385780,
       "required": true
     },
     {
-      "projectID": 976239,
-      "fileID": 5385780,
+      "projectID": 285742,
+      "fileID": 3944565,
       "required": true
     },
     {
@@ -135,13 +135,18 @@
       "required": true
     },
     {
+      "projectID": 419286,
+      "fileID": 6086823,
+      "required": true
+    },
+    {
       "projectID": 253449,
       "fileID": 2568751,
       "required": true
     },
     {
-      "projectID": 419286,
-      "fileID": 5906634,
+      "projectID": 1025633,
+      "fileID": 6085957,
       "required": true
     },
     {
@@ -175,8 +180,8 @@
       "required": true
     },
     {
-      "projectID": 293406,
-      "fileID": 5749188,
+      "projectID": 228027,
+      "fileID": 3647708,
       "required": true
     },
     {
@@ -185,8 +190,8 @@
       "required": true
     },
     {
-      "projectID": 228027,
-      "fileID": 3647708,
+      "projectID": 293406,
+      "fileID": 5749188,
       "required": true
     },
     {
@@ -250,11 +255,6 @@
       "required": true
     },
     {
-      "projectID": 1025633,
-      "fileID": 6076809,
-      "required": true
-    },
-    {
       "projectID": 650242,
       "fileID": 4733347,
       "required": true
@@ -271,7 +271,7 @@
     },
     {
       "projectID": 1069346,
-      "fileID": 6047703,
+      "fileID": 5889899,
       "required": true
     },
     {
