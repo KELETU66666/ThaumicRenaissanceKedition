@@ -23,8 +23,22 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "thaumcraft:loot_bag"
+          "Damage:2": 3,
+          "id:8": "minecraft:skull",
+          "tag:10": {
+            "SkullOwner:10": {
+              "Id:8": "0f95811a-b3b6-4dba-ba03-4adfec7cf5ab",
+              "Name:8": "Azanor",
+              "Properties:10": {
+                "textures:9": {
+                  "0:10": {
+                    "Signature:8": "PKJ8U/WwOn+AZv5ltYUXNH4f7NK5IPhlNPexuEQOKc1zbwQTNszg8Iqm+gNmFbt8v4IGEV1CsL2f/wx3sGATlpRpbyxfgP0/28AH/LArnOhv6Qqaz9ICxABOpRwL25Dnffp1z5Y/FLV8EkbVi1FNAg0AzLYYw6G2ASRa9dW6O4bFzoGF65C1kIM8VqZTRAHFA59XrS8zVk6DQfg+4yHUpprWB2IlEgeFEpCdTHuJeftsWnsWtSsB0um3o0Ao8gCMG84OaHSd6k2NpkGzz9KXwQWpdsk5OU3jZruPrtaEnXaomiap52cBipkPo8ssqzyQsJj8caJXBZLRQHQkDEyOhYP1E453pkjho45qBHRrWEWrXVcCvQySf/QrIkj/KBpTL+wrn1C0U8IJVByXO5Tq6MpC3aFtb0hZwlE0mutbKDUw4kOCBewJqp8y5UUXvhG0wJiXca3ht5mkRE6dfH9d7BsjOLnlWY86/x4wXIOuOgb9ZWx5HxH61aHFAWWroRdOPZclz6zoV7Hp1c4G+8QwpL6ha+pbp/8jmKFRyayu3pSNPiVG9nfS0NtNoXtsDzERHDMI9GiF/QW0se8Pvoth2YX7JuN/GQQajc6fYP52zGkAmvKvTDBac/GDqKUbtyjI6RC1kAFEJb3thQJlXQc5EM/acF9XW+lrjeomYs2AIn4\u003d",
+                    "Value:8": "ewogICJ0aW1lc3RhbXAiIDogMTczNzI1NzcxMjA0MCwKICAicHJvZmlsZUlkIiA6ICIwZjk1ODExYWIzYjY0ZGJhYmEwMzRhZGZlYzdjZjVhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBemFub3IiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBkODA0MzQ5ZTFhMjI4ZDUzNWEzZmU0ZWQ5NDVhMTRkZTZhYWU2ZDc5MWFhZWFhOTk2OWI0ZjBiOGQ2ZTY5NyIKICAgIH0KICB9Cn0\u003d"
+                  }
+                }
+              }
+            }
+          }
         }
       }
     },

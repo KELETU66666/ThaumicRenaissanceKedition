@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    27
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "击杀岩精有3%概率掉落他们背着的背包。\n如果你佩戴了T12，那么概率会提升到50%。\n这个背包只能在装备时打开，默认快捷键是K。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "renaissance_core:pech_backpack"
+      },
+      "name:8": "关于背包"
+    }
+  },
+  "questID:3": 1602630232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
