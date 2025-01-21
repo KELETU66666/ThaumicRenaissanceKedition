@@ -287,7 +287,7 @@
           "op": "replace",
           "path": "parents",
           "value": [
-            "~ORDERED_DECONSTRUCTION",
+            "~CR_ORDERED_DECONSTRUCTION",
             "METALPURIFICATION",
             "~INFERNALFURNACE"
           ]
