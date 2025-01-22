@@ -20,26 +20,6 @@
         ]
 	},
 	{
-        "key": "PRIMPEARL",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-10"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "4"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "BASICS"
-			}
-        ]
-	},
-	{
         "key": "FLUXCLEANUP",
         "ops": [
 			{

@@ -34,7 +34,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "3"
+				"value": "2"
 			},
 			{
 				"op": "replace",
@@ -58,13 +58,6 @@
 				"op": "replace",
 				"path": "parents/0",
 				"value": "METALPURIFICATION"
-			},
-			{
-			  "op": "replace",
-			  "path": "meta",
-			  "value": [
-				"REVERSE", "SPIKY"
-			  ]
 			}
         ]
 	},
@@ -74,7 +67,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "2"
+				"value": "1"
 			},
 			{
 				"op": "replace",
@@ -99,7 +92,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "4"
+				"value": "3"
 			},
 			{
 				"op": "replace",
@@ -129,7 +122,7 @@
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "6"
+				"value": "4"
 			},
 			{
 				"op": "replace",
@@ -149,12 +142,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-3"
+				"value": "-2"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "-6"
+				"value":  "4"
 			},
 			{
 				"op": "replace",

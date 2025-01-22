@@ -29,17 +29,17 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-3"
+				"value": "-4"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "7"
+				"value": "5"
 			},
 			{
 				"op": "replace",
 				"path": "parents/2",
-				"value": "CR_BONE_BOW"
+				"value": "ELEMENTALTOOLS"
 			},
 			{
 				"op": "remove",
