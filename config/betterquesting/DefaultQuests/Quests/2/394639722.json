@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After equipping T12, players no longer need to use theory and observation to unlock research, but this item seems to have some side effects...\n\nIt seems like T12 provides a shortcut or an advantage in the research process, potentially bypassing the normal requirements. However, the mention of \"side effects\" suggests that using it might come with some unintended consequences, likely affecting gameplay or the player’s progress in other ways. These side effects could manifest as debuffs, new challenges, or something else that balances out the advantage it provides.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "renaissance_core:dice12"
+      },
+      "name:8": "Opportunities and Challenges"
+    }
+  },
+  "questID:3": 394639722,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

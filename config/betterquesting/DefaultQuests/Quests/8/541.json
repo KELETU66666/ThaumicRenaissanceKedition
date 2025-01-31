@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    530
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "When using this shovel to dig corrupted blocks such as tainted soil, tainted grass, and tainted stone, the digging speed matches that of regular dirt. Additionally, breaking these blocks has a chance to yield a Tainted Shard.\n\nFurthermore, right-clicking with the Purifying Shovel clears a patch of Flux Goo in front of the player. Unfortunately, it has no effect on gaseous Flux...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forbiddenmagicre:purifying_shovel"
+      },
+      "name:8": "A Handy Tool for Cleanup - The Purifying Shovel"
+    }
+  },
+  "questID:3": 541,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 20,
+          "id:8": "thaumcraft:taint_log"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:bottle_taint"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:purifying_shovel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

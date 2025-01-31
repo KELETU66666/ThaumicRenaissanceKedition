@@ -74,6 +74,11 @@
 			},
 			{
 				"op": "replace",
+				"path": "parents/2",
+				"value": "ELDRITCH_EPIPHANY"
+			},
+			{
+				"op": "replace",
 				"path": "category",
 				"value": "BASICS"
 			}

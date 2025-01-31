@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Rosehip Syrup\n\nUsage\nRemoves active Warp Reaction Debuffs, providing relief during critical situations.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicbases:rosehipsyrup"
+      },
+      "name:8": "Clearing Warp Effects"
+    }
+  },
+  "questID:3": 166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicbases:rosehipsyrup"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

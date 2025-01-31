@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Essence Mirror is an advanced device designed for cross-dimensional transport of Essence. It functions similarly to the Magic Mirror, allowing you to transport Essence between dimensions and locations, enhancing the efficiency of your resource management and magical operations.\n\nHow it Works:\nThe Essence Mirror operates by channeling Essence from one point to another, similar to the way the Magic Mirror facilitates item transport. However, the key difference is that it allows for the transport of Essence across different planes or dimensions.\n\nUsage:\nThe Essence Mirror functions by placing one in the source location (such as your base) and another in the target location (e.g., a different dimension or area). Once activated, Essence will flow from the source mirror to the target, efficiently transporting magical energy over vast distances.\n\nControls:\nAs with the Magic Mirror, the process of using the Essence Mirror is simple and intuitive. You can shift Essence from one mirror to another by interacting with the device and following the instructions provided in the Magic Mirror chapter for more details.\n\nImportant Warning:\nEssence Transport Cost:\nEvery time you transport 64 Essence via the Essence Mirror, 1 point of Warp will be generated. This means you need to be cautious when frequently using this device, as transporting large amounts of Essence can lead to an increase in Warp, which can cause negative effects on your character, such as strange events or physical and mental distortions.\nTips for Safe Usage:\n\nTo minimize the Warp accumulation, consider only transporting small amounts of Essence at a time.\nUse the Essence Mirror strategically and avoid overloading the system with large amounts of Essence, especially in the early stages of using the device.\nIn summary, the Essence Mirror is a powerful tool for cross-dimensional Essence transport, but it comes with the risk of increasing Warp. Use it wisely to enhance your magical operations while keeping an eye on the potential consequences!。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:mirror_essentia"
+      },
+      "name:8": "Remote Transport - Essence"
+    }
+  },
+  "questID:3": 254,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mirror_essentia"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:resonator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mirror_essentia"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "thaumcraft:mirrored_glass"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:mirror_essentia"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Warp is categorized into three main types, each obtained through different means and with distinct characteristics. Here is a simplified explanation:\n\n§5Temporary Warp§r\nSources:\nEating Zombie Brains.\nConducting Eldritch research at the Research Table.\nUsing Eldritch Artifacts or Blood-related items.\nBeing observed by Eldritch Wardens or Eldritch Jailers through their Death Gaze.\nRemaining near a Rift during its collapse.\n\nBehavior:\nTemporary Warp is always reduced during Warp Events.\nIt can also be entirely removed using Purifying Soap.\n§5Standard (Sticky) Warp§r\nSources:\nConducting Eldritch research at the Research Table.\nUsing Eldritch Artifacts.\nCrafting items like the Brain in a Jar.\nStaying near a Rift during its collapse.\nBehavior:\nStandard Warp may occasionally decrease during Warp Events.\nUsing Purifying Soap under strict conditions can potentially reduce up to 2 points of Standard Warp.\n§5Permanent Warp§r\nSources:\nUnlocking Forbidden Knowledge (marked by a purple smoky aura in the Thaumonomicon).\nBehavior:\nPermanent Warp is irreversible and represents the deepest corruption of the soul.\nIt cannot be reduced by any normal means.\nIn this modpack, there is only one way to reduce Permanent Warp, but it is a late-game option.\n§5Equipment Warp§r\nDescription:\nEquipment Warp is technically a form of Permanent Warp that can be manually adjusted.\nIt is tied to the equipment or items you carry.\nBehavior:\nWarp from equipment is only active when the item is held or equipped.\nRemoving or unequipping the item will eliminate the associated Warp.\nWarp represents the consequences of delving too deeply into forbidden magic, with each type affecting gameplay differently.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "thaumcraft:curio"
+      },
+      "name:8": "Types of Warp"
+    }
+  },
+  "questID:3": 116,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

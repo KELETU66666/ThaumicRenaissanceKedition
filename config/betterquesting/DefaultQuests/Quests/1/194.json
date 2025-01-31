@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    192
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This little device not only retains all the functions of the Arcane Amulet but also provides an additional storage capacity of 300 Vis. It’s a lifesaver in areas where the Aura is scarce—truly amazing!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicperiphery:vis_phylactery"
+      },
+      "name:8": "A more convenient charging station"
+    }
+  },
+  "questID:3": 194,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicperiphery:vis_phylactery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

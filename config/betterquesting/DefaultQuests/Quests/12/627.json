@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    310
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\nTo begin harnessing Impetus Energy, you need to craft the following essential components:\n\nImpetus Gem\n\nThe Impetus Gem is the fundamental resource for channeling and storing Impetus Energy.\nCrafting Recipe: Combine Void Seeds, Primal Shards, and a touch of Alchemical Magic in an Infusion Altar to create the gem.\nImpetus Resonator\n\nThe Impetus Resonator is used to link devices and control energy flow.\nCrafting Recipe: Requires Impetus Core, Vis Filter, and Gold Plates.\nWith these tools in hand, you\u0027ll be ready to unlock the potential of Impetus Energy and explore its myriad applications. These early projects should be straightforward, even for a budding thaumaturge!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "thaumicaugmentation:material"
+      },
+      "name:8": "Your First Steps in Impetus Energy"
+    }
+  },
+  "questID:3": 627,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 5,
+          "id:8": "thaumicaugmentation:material"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:sanity_soap"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "thaumicaugmentation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:impetus_linker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

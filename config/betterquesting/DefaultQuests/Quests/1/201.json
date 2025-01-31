@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    99
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "EverFull Urn can provides §9Water§r if surrounding machine needed, such as crucible and botania\u0027s altar.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:everfull_urn"
+      },
+      "name:8": "Never Gonna give you Up !"
+    }
+  },
+  "questID:3": 201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:everfull_urn"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

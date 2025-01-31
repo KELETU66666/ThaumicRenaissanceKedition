@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    543
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Winding Heart:\nA core item for creating golems, the Winding Heart is essential for the production of golems. Its materials can be complex, so it\u0027s recommended to make it once you have a stable economy.\n\nBlank Sigil:\nThe most basic sigil material, used to create all sigils for controlling golems.\n\nGolem Master\u0027s Bell:\nThis is the \"wrench\" of golemancy. When held, it allows you to see surrounding control sigils. Right-clicking on a sigil lets you configure it, while sneaking and right-clicking on a sigil will dismantle it. Right-clicking on a golem will make it follow you. If the golem has combat attributes, it can attack hostile mobs around you.\nAfter unlocking the \"Golem Logistics\" research, sneaking and right-clicking on a block or air will show nearby containers that have been marked with control sigils. You can then click to take items from them, and nearby idle golems will move items to the block where you right-clicked. If you right-clicked a container, the items will be placed there; if you right-clicked a regular block, the items will drop nearby. If you right-clicked air, the golem will transfer items to your inventory, as long as there is space. Otherwise, the items will drop at your feet.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:mind"
+      },
+      "name:8": "Golem Core"
+    }
+  },
+  "questID:3": 601,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mind"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mind"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:golem_bell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

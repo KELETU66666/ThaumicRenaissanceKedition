@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    201,
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After unlocking Enchantment, you will be able to upgrade your Endless Jar to the Eternal Flame Jar.\n\nThe Everburning Urn provides an infinite supply of lava, which can be used to fulfill the lava needs of mods that require large amounts of lava.\n\nTo craft this item, you need to unlock the research Everburning Urn",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicwonders:everburning_urn"
+      },
+      "name:8": "Infinite Lava"
+    }
+  },
+  "questID:3": 197,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicwonders:everburning_urn"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

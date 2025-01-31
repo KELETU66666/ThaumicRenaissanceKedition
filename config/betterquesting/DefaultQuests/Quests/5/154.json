@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using Sanitizing Soap to remove regular distortion is a tedious task, especially since both the Purifacation  soap and Water are quite expensive, making it difficult to mass-produce them.\n\nThis is where the Radiance of Purity comes in. It offers a stable way to remove regular distortion, but the trade-off is that you must charge it and wait for a period of time. During this waiting period, your body will continuously generate Flux Waves.\n\nOnce the charging is complete, it will remove 1–2 points of regular distortion. In the later stages of the game, this is a worthwhile investment.\n\nTo craft this item, you must unlock the hidden research Radiance of Purity under the \"Arcane Enchantment\" section, with its prerequisite being Primordial Pearl.\n\n\n\n\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicwonders:cleansing_charm"
+      },
+      "name:8": "More Efficient Distortion Removal - Radiance of Purity"
+    }
+  },
+  "questID:3": 154,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "thaumicwonders:cleansing_charm"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

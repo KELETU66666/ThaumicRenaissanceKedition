@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Primary Use\nActually... they don’t serve much of a purpose—unless you’re actively hoping to summon an army of Wither skeletons to spawn relentlessly behind you.\n\nAdditional Notes\nWhile technically edible, the plums are more of a liability than a resource due to their extreme side effects.\nIf you\u0027re looking for chaos or a challenging experience, keeping Corrupted Plums in your inventory might just provide it.\nIn short, these fruits are best avoided unless you’re feeling particularly masochistic or experimenting with Warp effects.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "warptheory:item_something"
+      },
+      "name:8": "Corrupted Plums"
+    }
+  },
+  "questID:3": 45,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "warptheory:item_something"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    628
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now that you’ve learned how to transport Impetus` Energy, you can start using it in various ways. Apart from directly affecting your Mage\u0027s Gauntlet, Impetus Energy has three primary uses: Charging, Power Generation, and Biome Conversion.\n\nCharging\nVoid Recharge Pedestal: This is used to charge items that require Impetus Energy. These include items like Impetus Conductors, Mage\u0027s Gauntlets with Cells, and certain devices that cannot directly extract energy from rifts. You can place these items next to the Pedestal to charge them with the stored Impetus Energy.\n\nBiome Conversion\nArcane Terraformer: This uses a massive amount of Impetus Energy. It\u0027s highly recommended to store energy in the Runic Matrix to handle this conversion. The energy needed for this process is substantial, so be sure to have enough stored before beginning the conversion. More details will be provided later on how to best use the Runic Matrix for this task.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:impetus_generator"
+      },
+      "name:8": "Usage of Impetus Energy"
+    }
+  },
+  "questID:3": 626,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:void_recharge_pedestal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:arcane_terraformer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

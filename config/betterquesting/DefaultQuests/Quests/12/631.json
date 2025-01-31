@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    626
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Impulse Cannon must be charged on a Void Recharging Pedestal and cannot directly extract energy from rifts.\n\nOnce fully charged with energy, it will fire a powerful laser beam that deals 1 magical damage per frame to enemies, which is quite terrifying. Additionally, it can be upgraded with two different components:\n\nOrbital Cannon Module: When this upgrade is installed, the cannon\u0027s attack mode changes to firing an energy beam that instantly deals 30 damage. The beam has a range of 64 blocks and comes with a penetration effect, damaging enemies along a line. After firing, the cannon enters a 5-second cooldown period.\n\nBurst Mode Module: When this upgrade is installed, the cannon\u0027s attack mode changes to rapidly firing 3 energy beams, each dealing 8 damage. Due to slight recoil, each subsequent beam is fired slightly higher than the previous one. The beams have a range of 33 blocks, and after firing, there is a 1.5-second cooldown before it can fire again.\n\nAll components can be crafted on a workbench in combination with the cannon to upgrade it.\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "augments:10": {
+              "slots:3": 1
+            },
+            "energy:10": {
+              "energy:4": 0
+            }
+          }
+        },
+        "id:8": "thaumicaugmentation:impulse_cannon"
+      },
+      "name:8": "Deadly Weapon -- Impulse Cannon"
+    }
+  },
+  "questID:3": 631,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "augments:10": {
+                "slots:3": 1
+              },
+              "energy:10": {
+                "energy:4": 0
+              }
+            }
+          },
+          "id:8": "thaumicaugmentation:impulse_cannon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

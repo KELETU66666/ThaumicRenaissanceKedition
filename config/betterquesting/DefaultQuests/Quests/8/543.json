@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Create the Golem Workshop Multiblock Structure to allow you to craft golems that will assist you in completing various tasks, such as automatic farming, automatic animal husbandry, and even fighting monsters.\n\nYou need to unlock the corresponding research in Golemancy to unlock the ritual for constructing this multiblock structure.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:golem_builder"
+      },
+      "name:8": "Call for Aid"
+    }
+  },
+  "questID:3": 543,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:golem_bell"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "id:8": "thaumcraft:brain"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:table_stone"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:anvil"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_bars"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:piston"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cauldron"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

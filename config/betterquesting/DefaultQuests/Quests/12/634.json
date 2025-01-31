@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    632
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Awakened Ichorium Sword deals 10 attack damage and has three modes:\n\nSingle Kill Mode (Green): It attacks normally.\n\nArea Mode (Red): It deals damage to targets within a 3x3 area around the hit target (a total of 9 blocks, centered on the target).\n\nSoul Hunting Mode (Blue): The damage is reduced to 6 points, but every fully charged attack grants the attacker 1 damage-absorbing shield, up to a maximum of 20 shield points.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:ichorium_sword_adv"
+      },
+      "name:8": "A Living Blade"
+    }
+  },
+  "questID:3": 634,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:ichorium_sword_adv"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

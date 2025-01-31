@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    609
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A Robe akin to an indestructible diamond armor, with 4% magical damage reduction and exceptional abilities:\n\nFlight Enabled: Grants you the ability to soar freely through the air.\nFall Immunity: Completely negates fall damage, ensuring safe landings from any height.\nProjectile Warp: Redirects incoming projectiles, teleporting them harmlessly beside you. Hold Shift to disable this effect when needed.\nSoar above challenges and twist fate itself with the unparalleled power of the Cloudstrider Mantle!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:kami_chest"
+      },
+      "name:8": "Cloudstrider Mantle"
+    }
+  },
+  "questID:3": 612,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:kami_chest"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

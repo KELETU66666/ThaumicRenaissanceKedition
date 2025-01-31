@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    628
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Rift Jars: Storing and Handling Rifts\nRift Jars are specialized containers designed to store and manage rifts safely. To handle them effectively, you\u0027ll need the Rift Encapsulation Device and Rift Release Device.\n\nHow to Encapsulate a Rift:\nPlacement: Place a Rift Jar slightly below the rift—keep some distance to avoid damage from the rift itself.\nWarding Sigil: Place the Rift Warding Seal on top of the jar.\nActivation: Use a Mage’s Gauntlet to right-click the device. The rift will be sealed into the jar.\nCaution: When the rift disappears, it can cause Warp to nearby entities. Ensure you have a safe escape route and act quickly!\nHow to Release a Rift:\nPlacement: Place the jar containing the rift underground at the desired location.\nRelease Device: Place the Rift Release Device on top of the jar.\nActivation: Use a Mage’s Gauntlet to right-click the device. The rift will be released at the location.\nAdditional Uses for Rift Jars:\nAs a Trash Bin: Feed unwanted items into the jar\u0027s rift using hoppers. It will consume the items.\nWarning: Never throw a Rift Jar into another rift or another Rift Jar. Doing so will result in a violent explosion and summon a Primal Spirit—a highly dangerous entity!\nManage rifts wisely to avoid catastrophic outcomes while harnessing their power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:rift_jar"
+      },
+      "name:8": "Focused Rift Release: The Rift Jar"
+    }
+  },
+  "questID:3": 637,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:rift_jar",
+          "tag:10": {
+            "seed:3": 1337,
+            "size:3": 100
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

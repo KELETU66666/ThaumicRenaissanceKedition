@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    298
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "When you enter the Dimensional Rift, you\u0027ll arrive in the Outer Realm (虚域). This dimension is extremely dark, so make sure to prepare Night Vision Potions and Torches to help you navigate.\n\nImportant Preparations:\nNight Vision Potions:\nThe Outer Realm is very dim, and it\u0027s easy to get lost without proper lighting. Carry plenty of Night Vision Potions to make it easier to see in the dark.\n\nTorches:\nAs a backup, bring Torches to light your surroundings. While Night Vision is great, torches will help you mark your path and keep some areas well-lit.\n\nWatch for the Void:\nThe Outer Realm has dangerous voids scattered throughout. Be careful not to fall into these abysses as it can be deadly. Stay aware of where you\u0027re walking.\n\nWarning:\n§e§c§b§c§9§8§7§5§1§0§2§5§7§9§b§k Be cautious not to fall into the void of the Outer Realm. It can be lethal if you\u0027re not careful.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:stone"
+      },
+      "ismain:1": 1,
+      "name:8": "Enter the Outer Realm"
+    }
+  },
+  "questID:3": 301,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 14676,
+      "index:3": 0,
+      "name:8": "New Location",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

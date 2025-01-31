@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Sometimes, the Overworld won\u0027t meet your needs, and that\u0027s when you\u0027ll need to head to the Nether. The Nether contains many materials you\u0027ll need, such as magma blocks, lava, glowstone, quartz, and more...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:netherrack"
+      },
+      "name:8": "Journey to the Nether"
+    }
+  },
+  "questID:3": 200,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "id:8": "minecraft:obsidian"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -1,
+      "index:3": 0,
+      "name:8": "New Location",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

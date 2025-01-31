@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    626,
+    635
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Arcane Biome Terraformer\n\nThe Arcane Terraformer is an advanced device that requires three types of energy to operate: Impetus Energy, Vis, and Essentia. Here\u0027s how to use it:\n\nStep-by-Step Usage:\nConfiguring the Biome Focus:\n\nTo begin, the Arcane Terraformer needs to collect the basic information about the current biome. You can do this by using an Empty Biome Focus to gather data about the surrounding biome.\nTo clear the current biome information and make the focus reusable, sneak-right-click with the Biome Focus.\nIf you want to reset a biome to its original state, you can create an Original Biome Focus by placing an Empty Biome Focus and a Primordial Pearl in a crafting table. This will not consume the Primordial Pearl.\n\nPlacing and Configuring the Terraformer:\n\nAfter creating and configuring the Biome Focus, place the Arcane Teraformer in the world and right-click to open its GUI.\nPlace the configured Biome Terraformer into the central slot of the GUI.\nOn the right side of the interface, you can adjust the mechanical range of the biome conversion (size and shape of the biome to be altered).\nOn the left side of the GUI, the required amount of Essentia for the transformation will be displayed.\nEnergy Requirements:\n\nEnsure the Arcane Terraformer has enough Vis, Essentia, and Impetus Energy. Aura can be drawn from the surrounding area, so equip an Vis Regenerator to generate continuous Vis for the device.\nThe device has only an input slot for Impetus Energy and no output slot. It may also require five types of Essentia: Ignis, Aqua, Terra, Aer, and Permutatio. The first four are basic elements necessary for biomes. For instance, a hot biome requires Ignis, while a wet biome needs Aqua, and so on. Every biome will need Permutatio, which is essential for all biomes.\nAs the area to be transformed increases, so does the required amount of resources.\nStarting the Conversion:\n\nOnce the required resources are in place, right-click the Arcane Biome Converter with your Mage’s Hand to begin the conversion process.\nTo cancel the conversion, right-click again with the Mage’s Hand, but the converted area will not revert.\nFor further info look in the Thaumonomicon",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:arcane_terraformer"
+      },
+      "name:8": "Arcane Terraforming"
+    }
+  },
+  "questID:3": 640,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "biome:8": "thaumicaugmentation:biome_empty"
+            }
+          },
+          "id:8": "thaumicaugmentation:biome_selector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    20,
+    163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Once you have unlocked the Alchemy research, you can move on to the Alchemy chapter.\n\nAfter unlocking the \"Charging Pedestal\" research located in the Thaumaturgy section, you can craft a Bone Bow.\n\nThe Bone Bow consumes its internal charge to shoot arrows at twice the normal speed. It can easily defeat various monsters, and after enchanting, it can even take down an Outer Realm Occult Guard with three arrows. It’s extremely powerful, so it is highly recommended to craft one as soon as possible if you have the materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "crimsonrevelations:bone_bow"
+      },
+      "name:8": "A Bone with fire power"
+    }
+  },
+  "questID:3": 32,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "crimsonrevelations:bone_bow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

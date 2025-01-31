@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    293
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Prepare the Fracture Locator : This device will help pinpoint the location of rifts, though it might not always be fully accurate. Be ready for some trial and error—don\u0027t rely solely on it.\n\nHead to the Nether or explore the Overworld: Dimensional Rifts often spawn in the Nether, a realm already rife with instability. The device might not always give you precise readings, so explore and keep an eye out for signs.While it is more common in the Nether it is still possible to find Rifts in the Overworld although it is more stable here and less common\n\nLook for the Rift: The Dimensional Rift itself appears as a thin vertical line, surrounded by purple Void Stone and Corrupted Void Stone. The rift will stand out clearly in the Nether\u0027s environment, especially with the stark contrast of the surrounding materials.These also spwn in the overwrold and can be just as noticable.\n\nApproach with Caution: As you approach the rift, the closer you get, the more the Rift Detection Device should help guide you. But don\u0027t fully trust it—explore the area around it as well.\n\nOnce you\u0027ve found the Dimensional Rift, you can interact with it using your Mage\u0027s Gauntlet to absorb its Void Kinetic Energy and prepare for your next steps into the unknown realm",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:fracture_locator"
+      },
+      "ismain:1": 1,
+      "name:8": "Rift Hunting"
+    }
+  },
+  "questID:3": 298,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "thaumicaugmentation:fracture_locator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

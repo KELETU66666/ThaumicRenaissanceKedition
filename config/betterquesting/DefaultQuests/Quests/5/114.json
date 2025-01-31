@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Transformations After Corruption Fades\n\nCorrupted Wood \u0026 Fountains:\n\nThe Corrupted Wood and Corruption Fountains will turn into Curse Slime when the corruption fades.\nThis Curse Slime will eventually transform into Mysterious Slimes, which can be a dangerous threat. Ensure to handle them with caution.\n\nCorrupted Dirt:\n\nCorrupted Dirt will revert back to Regular Dirt once the Corruption is cleared.\nHowever, for a more thematic touch, Secondary Corruption Dust could also be an interesting option to use instead of regular dirt.\n\nCorrupted Stone:\n\nCorrupted Stone will transform into Permeable Stone, a type of mineral block.\nDigging through Permeable Stone will yield various items such as Crystal Fragments, Ore Clusters, Gems, and Sea Crystal Sand.\nThere\u0027s also a chance to find Corruption Fragments, which have 100 points of Essence and can be used to craft the Distorted Pickaxe.\n\nImportant Notes:\n\nCorruption Slime: Be ready for the slimes that emerge after the corruption fades, as they can be aggressive and need to be dealt with quickly.\n\nResources: The transformation into Permeable Stone opens up opportunities to gather valuable resources, so make sure to mine those areas for useful drops.\n\nEssence Fragments: The Corruption Fragments can be an essential resource for advanced crafting, especially for tools like the Distorted Pickaxe.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:stone_porous"
+      },
+      "name:8": "After the Corruption Fades"
+    }
+  },
+  "questID:3": 114,
+  "tasks:9": {
+    "0:10": {
+      "blocks:9": {
+        "0:10": {
+          "amount:3": 64,
+          "blockID:8": "thaumcraft:stone_porous"
+        }
+      },
+      "index:3": 0,
+      "taskID:8": "bq_standard:block_break"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    52
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No need Acquiring Basic Resources, through normal gameplay progress.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:barrier"
+      },
+      "name:8": "Normal Startup",
+      "questlogic:8": "NAND"
+    }
+  },
+  "questID:3": 892766032,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Effect of the Sacred Apple\nWarp Protection Buff: After consuming the Sacred Apple, you gain a Warp Protection Buff that shields you from Warp effects for a certain duration. This buff prevents the negative consequences of Warp Outbursts from affecting you while engaged in combat or other intense activities.\nCombat Immunity: While under the influence of this buff, you are immune to the usual debuffs caused by Warp (such as distorted vision, fatigue, or hallucinations). This is especially helpful when facing enemies or participating in activities that could otherwise push your Warp levels dangerously high.\nCrafting the Sacred Apple\nTo craft the Sacred Apple, you need to unlock the Sacred Fruit research, which can be found under the Alchemy research branch. The crafting process may involve the following ingredients:\n\nGolden Apple\nDivine Essence\nBlessed Herb\nSacred Crystal\nOnce crafted, the Sacred Apple becomes an essential item for anyone dealing with Warp on a regular basis, offering both offensive and defensive advantages during challenging encounters.\n\nUsage Tips\nUse During Combat: It\u0027s recommended to consume the Sacred Apple before engaging in combat or activities that might trigger Warp Outbursts, to avoid being affected by its debuffs.\nStack with Other Buffs: Combine this buff with other Warp Suppression tools for maximum protection, especially in high-risk areas or when researching dangerous Forbidden Magic.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicwonders:panacea"
+      },
+      "name:8": "Better Suppression of Warp Outbursts - Sacred Apple"
+    }
+  },
+  "questID:3": 143,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicwonders:panacea"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

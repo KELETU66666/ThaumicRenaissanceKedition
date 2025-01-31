@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    244
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Arcane Bathhouse is a convenient, compact machine designed for magical relaxation and purification.\n\nPrimary Function: It automatically mixes water with Purifying Bath Salts to create Purified Water and pumps the mixture to the area directly above the machine. The pumped liquid can fill a 5x5 area, offering a wide zone of purifying coverage.\n\nVersatility: In addition to Purified Water, the machine can pump and distribute any liquid. Liquids can be added either by connecting automated systems or by manually right-clicking the machine with an appropriate liquid container.\n\nRedstone Control: A redstone signal can be applied to the machine to stop its operation, giving you full control over its activity.\n\nThe Arcane Bathhouse is a valuable addition to any thaumaturge\u0027s arsenal, especially for mitigating the effects of Warp and maintaining mental clarity during intensive research!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:spa"
+      },
+      "name:8": "Take a soothing bath to cleanse yourself"
+    }
+  },
+  "questID:3": 261,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:bath_salts"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "thaumcraft:triple_meat_treat"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:spa"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

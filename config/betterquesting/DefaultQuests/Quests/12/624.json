@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    628
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Extradimwnsional Monitor\n\nThis device can detect the stability of a rift and remind you to avoid the rift being drained due to low energy or becoming too unstable and corrupting (Note: it is a reminder function; this device only has detection capabilities!). For detailed operation, refer to the Thaumaturge’s Manual.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:rift_monitor"
+      },
+      "name:8": "Rift Stability Detection"
+    }
+  },
+  "questID:3": 624,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:rift_monitor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

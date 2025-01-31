@@ -1,0 +1,78 @@
+{
+  "preRequisites:11": [
+    243
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Create a Crystallization Chamber to automatically transform raw ores into ore clusters! This requires Alchemical Stones to function, so prepare some Alchemical Stones, as they are not cheap. Be cautious before the transformation...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicwonders:catalyzation_chamber"
+      },
+      "name:8": "The Cluster Maker"
+    }
+  },
+  "questID:3": 270,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "minecraft:diamond"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumicwonders:alchemist_stone"
+        },
+        "2:10": {
+          "Count:3": 20,
+          "id:8": "minecraft:iron_ore"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 12,
+          "id:8": "minecraft:obsidian"
+        },
+        "1:10": {
+          "Count:3": 12,
+          "id:8": "thaumcraft:stone_arcane"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_bars"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "fluid_quicksilver"
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicwonders:alchemist_stone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

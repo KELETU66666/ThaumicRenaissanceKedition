@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    88,
+    96
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You have now understood the concept of \"Hex Waves,\" and it\u0027s time to use the Crucible!\n\nFirst, click the flashing research to unlock and view the recipe.\n\nNext, follow the recipe in the Thaumaturge\u0027s Handbook to create the Crucible by right-clicking a regular brewing stand with World Salt.\n\nUse a heat source (such as flames, lava blocks, or the Glowing Light) to heat the Crucible. Afterward, use a bucket to add water to the Crucible. Be aware that you cannot use a bucket to remove water from the Crucible. To empty the Crucible in advance, you can only do so by Shift+right-clicking.\n\nIn order to craft items, you need to unlock the corresponding research and have enough elements. Hold shift and move your mouse over an item to see which elements it contains. If no elements are shown, it means the item does not contain any.\n\nItems with elements thrown into the Crucible will dissolve and disperse their elements. When you have enough elements and the corresponding research unlocked, you can throw the item into the boiling water to craft the item.\n\nNote that the essence in the Crucible will decompose over time, producing purple smoke. This is the Hex Wave mentioned in the previous chapter. Each unit of element corresponds to a unit of Hex Wave. By Shift-right-clicking, you can empty the Crucible of all its elements at once, which has the same effect as directly breaking the Crucible or natural decomposition, both of which will generate Hex Waves. Therefore, it is essential to handle Crucibles with excess elements in a timely manner, using Quartz Shards to neutralize them",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:crucible"
+      },
+      "ismain:1": 1,
+      "name:8": "Alchemy 2"
+    }
+  },
+  "questID:3": 99,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:crucible"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

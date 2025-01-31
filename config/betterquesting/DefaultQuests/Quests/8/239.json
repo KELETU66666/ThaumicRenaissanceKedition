@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Mirrored Glass: The Foundation of Magic Mirrors\nMirrored Glass is an essential crafting material for creating Magic Mirrors, a tool that revolutionizes item transportation and automation.\n\nWhy Make Magic Mirrors?\nEffortless Item Transmission: Magic Mirrors allow you to send items instantly between paired mirrors, no matter the distance.\nSimplified Automation: Place a mirror near an inventory or machine output, and another near your crafting area or storage. Items will flow seamlessly between them.\nCross-Dimensional Utility: The mirrors can even work across dimensions, making them ideal for setups spanning the Overworld, Nether, or End.\nHow to Craft Magic Mirrors\nCraft Mirrored Glass:\n\nInfuse regular glass with Precantatio, Vitreus, and Auram in a Crucible.\nAlternatively, if you have access to an Arcane Workbench, the recipe may require additional Vis but eliminate Crucible crafting.\nCombine the Mirrored Glass:\n\nUse the Mirrored Glass to craft a pair of Magic Mirrors in your Arcane Workbench.\nMake a few Magic Mirrors to simplify your logistics and experience the convenience of magical item transfer in your mystical endeavors!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:mirrored_glass"
+      },
+      "name:8": "Remote Transmission"
+    }
+  },
+  "questID:3": 239,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thaumcraft:loot_crate_rare"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:golem",
+          "tag:10": {
+            "props:4": 72341268037894144
+          }
+        },
+        "1:10": {
+          "Count:3": 6,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glass_pane"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "OreDict:8": "quicksilver",
+          "id:8": "thaumcraft:quicksilver"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mirrored_glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

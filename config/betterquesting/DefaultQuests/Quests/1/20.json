@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    99
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To unlock \"Alchemy Research,\" you must first complete the second section of the \"Metal Refining\" research: crafting an Alchemical Brass Ingot. Then, go to the \"Basic Research\" interface (not the \"Mystical Basic Research\") and click on the research discovery: \"Alchemy.\" Scan an item with mechanical aspects (such as a button), and this will unlock the \"Alchemy\" chapter and an important item: the \"Revealing Goggles\" recipe.\n\nWhile some experienced Thaumaturges may find this item optional in the early stages, it is highly recommended for most, especially beginners. Gather the materials and craft one now. It can display the number of aspects in containers holding essentia, such as crucibles, jars, or distillers. It can also help observe the aspects needed for infusing and the risk level of infusion, making it very convenient.\n\nUnlike in TC4, you can wear it in your accessory slot without losing the 5% vis reduction effect.\n\n\n\n\n\n\n\n",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:goggles"
+      },
+      "ismain:1": 1,
+      "name:8": "Alchemy Research...hmmmmmmm"
+    }
+  },
+  "questID:3": 20,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:goggles"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    601
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Blank Seal serves as the core for controlling golems, and any golem meeting the requirements of the sigil can be commanded to perform specific tasks. Here\u0027s a breakdown of different types of sigils:\n\nGather Seal: This sigil directs golems to pick up items that fall within its range. Players can specify which items the golem should pick up.\n\nStorage Seal: This sigil commands golems to transport items to the location of the sigil. If placed on an item container, the golem will place the items inside; otherwise, it will drop them on the ground.\n\nEmpty Seal: This sigil, when attached to a container, causes golems in its range to remove items from the container.\n\nGuard Seal: When an enemy is within the range of this sigil, it requests nearby combat-capable golems to attack and eliminate the enemy. If the golem has the \"Dexterous\" trait, it will drop experience orbs upon killing the enemy.\n\nMining Seal: This sigil calls upon golems with the \"Destroy\" trait to mine blocks within its range.\n\nSupply Seal: Similar to the Empty Sigil, but it will only provide items when nearby other sigils are requesting them.\n\nStorage Seal: This sigil ensures that a container holds a minimum number of items, preventing it from running out of essential materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:seal"
+      },
+      "name:8": "Seals"
+    }
+  },
+  "questID:3": 603,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:seal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "thaumcraft:seal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thaumcraft:seal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

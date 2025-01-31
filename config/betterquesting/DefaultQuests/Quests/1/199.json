@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    161
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Once you unlock Enchanting, you can upgrade your Thaumaturge Armor to make it stronger.\nThe upgraded Thaumaturge Armor has higher defense, more magic power reduction, and greater durability!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:thaumium_robes_chestplate",
+        "tag:10": {
+          "color:3": 11360678
+        }
+      },
+      "name:8": "Better Thaumaturge Armor"
+    }
+  },
+  "questID:3": 199,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "thaumicaugmentation:thaumium_robes_hood",
+          "tag:10": {
+            "color:3": 11360678
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "thaumicaugmentation:thaumium_robes_chestplate",
+          "tag:10": {
+            "color:3": 11360678
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "thaumicaugmentation:thaumium_robes_leggings",
+          "tag:10": {
+            "color:3": 11360678
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

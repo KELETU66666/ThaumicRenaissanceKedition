@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    601
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Seal Copier is a machine convenience player to copy seal\u0027s settings, to use it, you need to right click to a configured seal then click another seal, you can copy settings from first seal to the second.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:seal_copier"
+      },
+      "name:8": "Ctrl C+V"
+    }
+  },
+  "questID:3": 602,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:seal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:mind"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:seal_copier"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

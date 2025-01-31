@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    530
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Aberrant Pickaxe: A Tool That Defies Convention\nThe Aberrant Pickaxe operates in a way that challenges traditional expectations:\n\nPerformance:\n\nThe harder the material (e.g., obsidian), the faster it mines.\nSofter materials (e.g., stone) are mined very slowly, while some easy-to-break blocks (like grass) cannot be mined at all.\nBedrock: As for breaking bedrock... better not get your hopes up!\nCrafting Requirement:\n\nRequires a 100-Essentia Crystal Shard, which is obtained by mining Permeable Stone.\nPermeable Stone is created when Corrupted Stone undergoes purification.\nThis pickaxe is a paradoxical marvel, tailored for unique circumstances and designed for thaumaturges ready to embrace its eccentricities.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forbiddenmagicre:distortion_pick"
+      },
+      "name:8": "Distortion Tools: The Ever-Changing Instruments"
+    }
+  },
+  "questID:3": 531,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "minecraft:obsidian"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:distortion_pick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

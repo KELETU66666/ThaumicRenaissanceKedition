@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    37,
+    191
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The \"Knowledge Headband\" can convert experience orbs into knowledge, though its efficiency is quite poor, so it’s not recommended for use...\n\nThere’s an upgraded version, but it’s expensive to craft, so again, it’s not recommended...\n\n\n\n\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "planarartifice:mirromirous_headband"
+      },
+      "name:8": "More experience, more research"
+    }
+  },
+  "questID:3": 39,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "minecraft:experience_bottle"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:curiosity_band"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "planarartifice:mirromirous_headband"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

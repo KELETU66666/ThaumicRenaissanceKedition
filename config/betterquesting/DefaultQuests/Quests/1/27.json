@@ -1,0 +1,80 @@
+{
+  "preRequisites:11": [
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After finding any crystal shard, throw it away and then pick it up again. You\u0027ll get a prompt saying you\u0027ve pricked your finger. After that, sleep and follow the guidance of the strange dream to craft the Thaumaturge\u0027s Handbook!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:thaumonomicon"
+      },
+      "ismain:1": 1,
+      "name:8": "Development Path"
+    }
+  },
+  "questID:3": 27,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 20,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "ordo"
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 20,
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "perditio"
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bookshelf"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:thaumonomicon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

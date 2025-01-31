@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Collect the resources you need... You only need to find 2-3 pieces of gold ore, some iron ore, and about 10 pieces of redstone to complete your basic mineral preparation for the vanilla game... Of course, you also need to collect the 6 colors of crystal fragments that naturally generate. This modpack adds the Abyssal Realm, so be careful of the monsters!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:iron_ore"
+      },
+      "name:8": "Basic resource collection"
+    }
+  },
+  "questID:3": 54,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 12,
+          "id:8": "minecraft:gold_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:loot_bag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "OreDict:8": "ingotIron",
+          "id:8": "minecraft:iron_ingot"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "OreDict:8": "ingotGold",
+          "id:8": "minecraft:gold_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

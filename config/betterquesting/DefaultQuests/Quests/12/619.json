@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    618
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Use Ichor to craft Ichor Cloth, an essential material for crafting Ichor gear.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "thaumictinkerer:kamiresource"
+      },
+      "name:8": "Ichor Cloth"
+    }
+  },
+  "questID:3": 619,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thaumictinkerer:kamiresource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "After unlocking Infusion, you can unlock this chapter!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thaumcraft:loot_bag"
+      },
+      "ismain:1": 1,
+      "name:8": "A New Beginning"
+    }
+  },
+  "questID:3": 238,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "minecraft:skull",
+          "tag:10": {
+            "SkullOwner:10": {
+              "Id:8": "0f95811a-b3b6-4dba-ba03-4adfec7cf5ab",
+              "Name:8": "Azanor",
+              "Properties:10": {
+                "textures:9": {
+                  "0:10": {
+                    "Signature:8": "d49KZV9ZyN5mgSpkipxwHv4wD4S+RxHj7p1sLt2sZ851eajTcMJWI42J7sdT2IavCcsNDZiX5CMag7Picsd+KmWWDcLSLTzvGvbygCiY7uOUzSoaX9OF6L9ZyXiTEfOKBrmeid2y1LV58Y6Cz36bace4Sy9hAeO6NA2/VZ1O8oPlMS4CBRSHZBDqW+V6vGOC+uk3UASGZJhPVtc+nRfpyN5yXp9rKZGR8ILkSOR6H2eTC6/5eITjlsNTmMcilnsNdXu8USxAZDXWWKF2HYqHmM9dIDOmOwrpq/A/IiFEGAFST4zMngKEPeWeMByWhgSbshSP/UoU0UKXMZx81aKFi1D6rnrKVpJWZNBj/vlvGjpC6nYdrnJhUqaK5CVNuggnY+ZyJiCHKDFtM2v0BIEkLQnQ/7/t8TGlUuontnCR4ungLNdDAyfvC0GdkAuQlVesXuor4puw6yGZXH1DWt0hgH7VFyH1GS9lbCYe8uGOLLZQUDrCtLVRnbKcRnWP2cSvfJ16A3rVjsTab0AOi9uBd5Ec4sX59ks1Qn5uKw+3cY4RcRKkbNCMB+rwjVpnQqbY8O8BMBsEIoNGxvdIM6tmiyDeeTqhK6V9MXUOCS4g75MwFeTL9Uf429PjYLL/fHz3SKPyruRROIDABSTk98kErUp4vJM8d6rIvmhKoExn5vg\u003d",
+                    "Value:8": "ewogICJ0aW1lc3RhbXAiIDogMTczNzc5ODIwMDAyMywKICAicHJvZmlsZUlkIiA6ICIwZjk1ODExYWIzYjY0ZGJhYmEwMzRhZGZlYzdjZjVhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBemFub3IiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBkODA0MzQ5ZTFhMjI4ZDUzNWEzZmU0ZWQ5NDVhMTRkZTZhYWU2ZDc5MWFhZWFhOTk2OWI0ZjBiOGQ2ZTY5NyIKICAgIH0KICB9Cn0\u003d"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 4,
+          "id:8": "thaumcraft:curio"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:potion_sprayer"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:metal_thaumium"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

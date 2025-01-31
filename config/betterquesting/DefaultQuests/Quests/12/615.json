@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    632
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "An axe with 12 attack damage that never breaks, featuring three modes:\n\nBlock Mode (Green): It chops wood normally, like a standard axe.\n\nSquare Mode (Red): It will chop a 4x4 area around the initial wood block.\n\nTree Felling Mode (Blue): It can fell the entire tree that the initial wood block is part of.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:ichorium_axe_adv"
+      },
+      "name:8": "A Lumberjack\u0027s Deram"
+    }
+  },
+  "questID:3": 615,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:ichorium_axe_adv"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

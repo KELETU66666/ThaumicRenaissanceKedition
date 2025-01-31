@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    609
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "These boots are similar to an indestructible pair of diamond shoes, but with an added 4% magic resistance and special abilities:\n\nProvides permanent Haste II effect.\nConverts the soil you walk on into grass.\nGrants all effects of the Traveler\u0027s Boots, along with higher jump height, faster running speed, and immunity to fall damage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:kami_boots"
+      },
+      "name:8": "Shield of Clarity"
+    }
+  },
+  "questID:3": 633,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:kami_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

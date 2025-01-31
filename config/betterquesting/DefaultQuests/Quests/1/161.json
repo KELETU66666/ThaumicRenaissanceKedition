@@ -1,0 +1,76 @@
+{
+  "preRequisites:11": [
+    88
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In basic research, you must first study and discover the \"Enchanting\" chapter. After unlocking it, a dyeable Thaumaturge set will be available.\nThis set will reduce magic power consumption by a percentage. When paired with the Revealing Goggles, it will provide a total of 13% magic reduction. Craft a full set!\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:cloth_chest"
+      },
+      "name:8": "Thaumaturge\u0027s Basic Set"
+    }
+  },
+  "questID:3": 161,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:loot_bag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 19,
+          "id:8": "thaumcraft:fabric"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:leather"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:ingot"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:thaumometer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:goggles"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloth_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

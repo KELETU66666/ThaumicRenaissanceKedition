@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    145,
+    104
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\nEnchanting, while being a task on par with Thaumaturgy, requires the Thaumaturge\u0027s Gauntlets as a support.\nThe ancestral device needed for enchanting is the Enchanting Altar.\nIt requires eight Arcane Stone, one Arcane Base, one Rune Matrix, and one Salis Mundis. The building schematic can be found in the Enchanting section of the Arcane Enchantment chapter, under the \"Bookmarks\" on the right side of the book page.\nOnce the structure is built, sprinkle a handful of Salis Mundis on it, then right-click the Rune Matrix with the Thaumaturge\u0027s Gauntlets to complete the Enchanting Altar!\nThe Enchanting Altar requires Bases to be placed around it. It is recommended to make two pairs of symmetrically placed Enchanting Bases in the early stages. Be sure to place them symmetrically, or the stability of the Enchanting Altar will be reduced.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:infusion_matrix"
+      },
+      "ismain:1": 1,
+      "name:8": "The Arcane Infusion Altar"
+    }
+  },
+  "questID:3": 146,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "thaumcraft:stone_arcane"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:infusion_matrix"
+        },
+        "2:10": {
+          "Count:3": 5,
+          "id:8": "thaumcraft:pedestal_arcane"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

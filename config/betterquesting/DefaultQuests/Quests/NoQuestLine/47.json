@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "神秘6的抽卡机制令人反感，那么来点珍品？\n使用可以获取研究点。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:jar_brain"
+      },
+      "name:8": "来点珍品",
+      "repeattime:3": 200
+    }
+  },
+  "questID:3": 47,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:curio"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:curio"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:curio"
+        },
+        "3:10": {
+          "Count:3": 3,
+          "Damage:2": 3,
+          "id:8": "thaumcraft:curio"
+        },
+        "4:10": {
+          "Count:3": 3,
+          "Damage:2": 4,
+          "id:8": "thaumcraft:curio"
+        },
+        "5:10": {
+          "Count:3": 3,
+          "Damage:2": 5,
+          "id:8": "thaumcraft:curio"
+        },
+        "6:10": {
+          "Count:3": 3,
+          "id:8": "planarartifice:fundamental_curiosity"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 30,
+          "id:8": "thaumcraft:amber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

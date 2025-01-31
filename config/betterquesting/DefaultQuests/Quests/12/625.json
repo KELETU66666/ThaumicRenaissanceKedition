@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    609
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Leggingss of the Burning Mantle\n\nThese indestructible leggings, resembling diamond pants, provide unique protective and utility features:\n\nGrants a permanent 4% magical damage reduction.\nAutomatically extinguishes flames when you\u0027re set on fire. If extinguishing isn\u0027t possible, you receive Regeneration instead.\nBestows constant Fire Protection, shielding you from heat-related damage.\nLeaves a trail of glowing light behind you, which disappears after a short duration.\nThese greaves ensure you are well-equipped to face fiery dangers and light up your path as you go!\n\n\n\n\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:kami_legs"
+      },
+      "name:8": "Hellfire Power"
+    }
+  },
+  "questID:3": 625,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:kami_legs"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

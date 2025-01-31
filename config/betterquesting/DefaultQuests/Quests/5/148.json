@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No matter how much you suppress the effects of the warp, there will always come a time when it cannot be maintained forever. Here, we will explain how to completely remove the warp.\n\nYou need to craft Exorcism Soap, which will allow you to clear all your temporary warp and part of your regular warp.\n\nTo remove temporary warp, it\u0027s simple: just keep rubbing the soap. However, to clear regular warp, you will need to combine it with Purification Bath Salt and Purification Water.\n\nWhen you have the Warp Protection Buff, using the soap gives you a chance to remove 0–1 point of regular warp. When you soak in Purification Water, using the Exorcism Soap will give you a higher chance of removing 1–2 points of regular warp. As for permanent warp, unfortunately, this soap is powerless against it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:sanity_soap"
+      },
+      "name:8": "Clear Warp"
+    }
+  },
+  "questID:3": 148,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:sanity_soap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

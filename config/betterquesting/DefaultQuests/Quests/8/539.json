@@ -1,0 +1,76 @@
+{
+  "preRequisites:11": [
+    530
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Chameleon Tool is an advanced and versatile implement, capable of housing up to three separate enchantment panels.\n\nFeatures:\nMulti-Enchantment Panels:\n\nEach panel can hold a unique set of enchantments.\nPerfect for combining typically conflicting enchantments, such as Fortune and Silk Touch.\nSeamless Switching:\n\nShift + Right-Click to toggle between enchantment panels.\nEnsures adaptability for different tasks without the need for multiple tools.\nDurability Cost:\n\nEach panel switch consumes 5 durability points.\nThis tool is ideal for thaumaturges seeking maximum efficiency and versatility in their endeavors!\n\n\n\n\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forbiddenmagicre:morph_sword"
+      },
+      "name:8": "Chameleon Tool: The Unpredictable Instrument"
+    }
+  },
+  "questID:3": 539,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:loot_bag"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 1
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 10,
+          "id:8": "thaumcraft:nugget"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_shovel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_pick"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_axe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    146,
+    238,
+    641
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ichor is an advanced material for the Thaumaturge. Once you have unlocked all the non-occult related base game research (the biological scanning part is not required), you will find its research under the ThaumicTinkerer page. You\u0027ll need to explore both the Nether and the End to obtain two special fragments in order to craft it. Keep at it!\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "thaumictinkerer:kamiresource"
+      },
+      "name:8": "Blood of the Deity"
+    }
+  },
+  "questID:3": 618,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thaumictinkerer:kamiresource"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

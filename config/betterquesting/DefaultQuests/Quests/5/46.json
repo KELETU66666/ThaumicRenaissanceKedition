@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Impure Tears can remove 5 points of any type of distortion. The order of removal is: temporary → regular → permanent. This means that only once your temporary distortion is completely cleared, you can start clearing regular distortion, and the same goes for permanent distortion.\n\nHowever... it will only be effective if your total distortion value is above 50 points.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "warptheory:item_cleanser_minor"
+      },
+      "name:8": "Filthy Tears"
+    }
+  },
+  "questID:3": 46,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "warptheory:item_cleanser_minor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using Curios to Accelerate Research\n\nUtilizing curios can significantly speed up your research process, with different curios enhancing specific research specialties:\n\nArcane Curio: Boosts Thaumaturgy. Obtainable by mining Sinister Crystals.\nBasics Curio: Enhances Alchemy. Found by mining Amber Ore.\nWarped Curio: Focuses on Infusion. Dropped by killing Corrupted Creatures.\nAncient Curio: Specializes in Golemancy. Occasionally spawns on loot pedestals in Eldritch Spires.\nLuminous Curio: Improves Arcane Infusion. Acquired through trades with Stoneborn.\nOccult Curio: Advances Occultism but adds Warp. Dropped by defeating Occult Guardians.\nPech Wand: Neutral, no specialization. Available through trades with Pech Mages.\nBloody Codex: Advances Occultism but adds Warp. Obtained from defeating Blood Cultists.\nAdditionally, using enchanted tools or weapons with the §6Curious§r enchantment grants a chance to acquire random curios when mining blocks or defeating mobs.\n\n\n\n\n\n\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "planarartifice:fundamental_curiosity"
+      },
+      "name:8": "Quick Research Acquisition: Using Curios"
+    }
+  },
+  "questID:3": 38,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "thaumcraft:ore_amber"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Sanity Checker roughly displays the amount of distortion (Warp) you currently possess. The colors indicate different levels of Warp:\n\nLight Pink: Represents temporary distortions.\nLight Purple: Indicates impending normal or sticky distortions.\nDark Purple: Denotes permanent distortions.\nThis tool helps track and manage Warp, allowing players to better understand and control the consequences of their magical practices.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:sanity_checker"
+      },
+      "name:8": "Distortion Detection"
+    }
+  },
+  "questID:3": 256,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "warptheory:item_warppaper"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "thaumcraft:triple_meat_treat"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:sanity_checker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    624
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Impetus Energy is difficult to collect, but in most cases, some devices only require a small amount of Impetus Energy to operate for a long time. However, the Arcane Cluster Conversion Device is an exception; it needs a massive amount of Impetus Energy and other types of energy. Therefore, using the rift to slowly extract energy is not always the best method. We need to store the Impetus Energy.\n\nBuilding the Impetus Runic Matrix is not difficult; simply follow the instructions in the manual. However, the next steps are more complex.\n\nFirst, you need to right-click the Impetous Cells and load them into the four faces of the matrix\u0027s upper and lower bases, meaning you can install up to eight cells. Even with just one cell, the matrix will activate. Adding more cells increases the matrix\u0027s capacity to store more Impetus Energy and speeds up the process of storing and extracting it. To remove an Impetus Cell, simply right-click with no items in hand. Be careful, as any excess energy will disappear when you remove the cells, so make sure not to waste it.\n\nThe matrix must maintain stability. As Impetus Energy is stored in the structure, it will begin to gradually lose stability. The more energy stored, the greater the loss of stability. You can stabilize the matrix by symmetrically placing Stablizers. The detection range of the matrix is smaller compared to the Runic Altar, requiring only a 5x5 area. The stability calculations are similar to the Runic Altar\u0027s. If the matrix becomes unstable, it may release faint purple lightning arcs, eject Immpetus Cells from their bases, or have other negative effects. You can wear the Revealing Goggles to observe the matrix blocks in the center and track the stability gain or loss of the matrix.\n\nThe Impetus Runic Matrix has one input and one output slot. When binding with a Impetus Resonator, aim it at the central matrix block to bind it. The color of the matrix rune also indicates the amount of energy within the matrix: red represents no energy, yellow represents half full, and green means it is full. Additionally, you can place a redstone comparator next to any part of the Impetus Runic Matrix to output a redstone signal representing the energy storage inside.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:impetus_matrix"
+      },
+      "name:8": "Storing Void Energy"
+    }
+  },
+  "questID:3": 635,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "thaumcraft:pedestal_eldritch"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:infusion_matrix"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "thaumicaugmentation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 12,
+          "id:8": "thaumcraft:candle_white"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thaumcraft:stabilizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

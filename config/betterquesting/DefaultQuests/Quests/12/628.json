@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    627
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Harnessing Impetus Energy\n\nOnce you\u0027ve obtained the Impetus Resonator, you can freely manipulate Impetus Energy for your devices and constructs.\n\nStep 1: Creating an Impetus Drainer\nThe Impetus Extractor is essential for drawing energy directly from rifts and channeling it into devices.\n\nUsage:\nPlace the Drainer near a rift.\nUse the Impetus Resonator to right-click the extractor and then right-click the target device that requires energy.\n\n\nStep 2: Building an Impetus Diffuser\nThe Impetus Diffuser simplifies energy distribution by dispersing energy to nearby devices that need it.\n\nBenefits:\nAvoids the need for multiple extractors.\nEfficiently manages energy flow within a localized area.\n\n\nStep 3: Using the Impetus Relay\nThe Impetus Relay functions similarly to the Mana Relay from Thaumcraft 4. It acts as a bridge when devices and extractors are too far apart.\n\nAdvantages:\nCost-effective solution for long-distance energy transfer.\nEasily integrated into complex setups.\n\nMaster these tools to unlock the full potential of your Thaumaturgical research!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:impetus_drainer"
+      },
+      "name:8": "Absorbing Impetus Energy"
+    }
+  },
+  "questID:3": 628,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:impetus_drainer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:impetus_diffuser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:impetus_relay"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

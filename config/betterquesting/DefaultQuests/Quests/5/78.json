@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    60
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Rift\nThe conditions for the generation of rifts have been mentioned earlier. Now, let\u0027s discuss the effects of rifts on the environment.\n\n1. Rift\u0027s Appearance Location\nRifts tend to appear at the highest block in the chunk. To prevent a rift from consuming important containers such as chests, furnaces, or ME drives, it is recommended to build a wall or barrier in the area where the rift might appear. This helps prevent the rift from directly interacting with these items, thus avoiding their destruction.\n\n2. Rift Stability\nRifts have a stability value. Typically, rifts maintain stability by absorbing the curse waves in the surrounding aura. When curse waves are minimal or completely absent, the rift becomes unstable. An unstable rift can apply a curse flow debuff to nearby players, creating a cloud of curse mist at the player\u0027s location and further increasing the instability of the rift. Once instability reaches a certain threshold, the rift will disappear.\n\nWhen a rift disappears, there are usually two outcomes:\n\nCollapse: This occurs naturally with a very low probability. Rifts that collapse will drop rewards such as Void Seeds and Primordial Pearls, which can be used to unlock Forbidden Magic. If the rift is destroyed by Paradox Matter, collapse is guaranteed.\n\nCorruption: This is the more common scenario. The rift will suddenly disappear, leaving behind a Corruption Spore Nest. This is a source of corruption and will slowly pollute the surrounding environment while applying a Corruption Poison debuff to nearby creatures. Corrupted creatures will lose their health and may transform into the corresponding corrupted variant, gaining increased health and becoming hostile to players.\n\n3. Threat of Corruption Spore Nests\nThe Corruption Spore Nest is a major threat that appears when a rift disappears. It slowly corrupts the surrounding area, poisoning nearby creatures with corruption. If not dealt with promptly, it can cause significant problems as corrupted creatures become hostile.\n\nDealing with Corruption Spore Nests:\nWhen a Corruption Spore Nest spawns near your base, it must be destroyed as soon as possible. In the early stages of the game, close-range combat is not recommended, as the nest spawns powerful corrupted creatures. Instead, use Mage Gauntlets or Bone Bows for ranged attacks. Once the Corruption Spore Nest is defeated, it will drop Corruption Fragments and, on rare occasions, Distorted Treasures, which can be used for further research and upgrades.\n\nSummary:\nRifts and their resulting Corruption Spore Nests are environmental hazards that pose a significant threat, especially near your base. Timely management and removal of rifts, as well as preventing the spread of corruption, are essential for protecting your world and resources.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:bottle_taint"
+      },
+      "name:8": "Flux Rifts"
+    }
+  },
+  "questID:3": 78,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

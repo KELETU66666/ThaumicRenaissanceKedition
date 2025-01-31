@@ -1,22 +1,595 @@
 [
-    {
-      "key": "!CR_OVERGROWN_TAINTACLE",
-      "ops": [
-        {
-          "op": "replace",
-          "path": "location/0",
-          "value": "-11"
-        },
-        {
-          "op": "replace",
-          "path": "location/1",
-          "value": "0"
-        },
-        {
-          "op": "replace",
-          "path": "category",
-          "value": "BASICS"
-        }
-      ]
-    }
-  ]
+  {
+    "key": "CR_VERDANT_BANDS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "5"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-1"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "INFUSION"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "VERDANTCHARMS"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "!CR_MANA_POD",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-1"
+      }
+    ]
+  },
+  {
+    "key": "!CR_OVERGROWN_TAINTACLE",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-11"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "0"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "CR_FOCUS_POISON",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "3"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "AUROMANCY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "FOCUSELEMENTAL"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CR_FOCUS_BLINDING_FLASH",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-4"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "AUROMANCY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "PA_FOCUS_LIGHT"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CR_ANCIENT_STONE",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_CRIMSON_BLADE",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_PRAETOR_ARMOR",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_BASIC_CRIMSON_ARMORY",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_BASIC_CRIMSON_WEAPONRY",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_FOCUS_TAINT_POISON",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "AUROMANCY"
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": [
+          "REVERSE"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CR_ORDERED_DECONSTRUCTION",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ALCHEMY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "HEDGEALCHEMY"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CR_ENTROPIC_PROCESSING",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ALCHEMY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "HEDGEALCHEMY"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CR_QUARTZ_PURIFICATION",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "1"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "ALCHEMY"
+      },
+      {
+        "op": "replace",
+        "path": "parents",
+        "value": [
+          "~CR_ORDERED_DECONSTRUCTION",
+          "METALPURIFICATION",
+          "~INFERNALFURNACE"
+        ]
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": [
+          "REVERSE"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CR_ERYTHURGY",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_DARK_AUROMANCY",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_DARK_GOLEMANCY",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CRIMSON_REVELATIONS_BASE",
+    "ops": [
+      {
+        "op": "remove",
+        "path": "key"
+      }
+    ]
+  },
+  {
+    "key": "CR_BONE_BOW",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-4"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "5"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "INFUSION"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "ELEMENTALTOOLS"
+      }
+    ]
+  },
+  {
+    "key": "CR_PRIMAL_ARROWS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-5"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "INFUSION"
+      },
+      {
+        "op": "add",
+        "path": "meta",
+        "value": [
+          "REVERSE"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "CR_GOLEM_MAT_CULT_PLATE",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-7"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-1"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "GOLEMANCY"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "MATSTUDBRASS"
+      }
+    ]
+  },
+  {
+    "key": "CR_GOLEM_MAT_FLESH",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-7"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-3"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "GOLEMANCY"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "MATSTUDBRASS"
+      }
+    ]
+  },
+  {
+    "key": "CR_GOLEM_MAT_TALLOW",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-8"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "GOLEMANCY"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "MATSTUDBRASS"
+      }
+    ]
+  },
+  {
+    "key": "CR_SANITATION_SCRIBING_TOOLS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "THEORYRESEARCH"
+      }
+    ]
+  },
+  {
+    "key": "CR_KNOWLEDGE_SCRIBING_TOOLS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "0"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "THEORYRESEARCH"
+      }
+    ]
+  },
+  {
+    "key": "CR_PRIMORDIAL_SCRIBING_TOOLS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "-1"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "CR_METEOR_BOOTS",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-10"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "2"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "INFUSION"
+      },
+      {
+        "op": "remove",
+        "path": "parents/0"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "BOOTSTRAVELLER"
+      }
+    ]
+  },
+  {
+    "key": "CR_RUNIC_BAUBLES",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-11"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "INFUSION"
+      },
+      {
+        "op": "remove",
+        "path": "parents/0"
+      },
+      {
+        "op": "replace",
+        "path": "parents/0",
+        "value": "RUNICSHIELDING"
+      },
+      {
+        "op": "remove",
+        "path": "meta"
+      }
+    ]
+  },
+  {
+    "key": "CR_SPECIAL_RUNIC_BAUBLES",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "-11"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "INFUSION"
+      }
+    ]
+  }
+]

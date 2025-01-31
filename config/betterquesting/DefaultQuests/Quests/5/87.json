@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    81
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Flux Container is an efficient late-game tool for cleaning up flux. It works in tandem with the Flux Distiller. The Flux Container absorbs flux from the aura, much like an Aura Battery. The Flux Distiller then extracts the flux from the container and converts it into Tainted Essentia, making this method highly stable, though slightly less efficient.\n\nTo craft this item, you need to unlock the research \"Flux Container\" under the Thaumaturgy tab. Prerequisite research includes \"Aura Battery\" and \"Primordial Pearl.\"",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicwonders:flux_capacitor"
+      },
+      "name:8": "Efficient Flux Cleanup - Flux Container"
+    }
+  },
+  "questID:3": 87,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicwonders:flux_capacitor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumicwonders:flux_distiller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    124
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You can summon a llama companion by performing a specific summoning ritual. This ritual requires certain items and preparations, typically including a mixture of common and magical components. Once summoned, the llama will serve as your faithful companion.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:spawn_egg",
+        "tag:10": {
+          "EntityTag:10": {
+            "id:8": "minecraft:llama"
+          }
+        }
+      },
+      "name:8": "Llama Summoning Ritual",
+      "repeattime:3": 6000
+    }
+  },
+  "questID:3": 55,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Summon a llama\nsay summoning llama\nsummon llama",
+      "description:8": "Run a command script",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "id:8": "thaumictinkerer:mob_aspect",
+          "tag:10": {
+            "aspectName:8": "aer"
+          }
+        },
+        "1:10": {
+          "Count:3": 10,
+          "id:8": "thaumictinkerer:mob_aspect",
+          "tag:10": {
+            "aspectName:8": "bestia"
+          }
+        },
+        "2:10": {
+          "Count:3": 10,
+          "id:8": "thaumictinkerer:mob_aspect",
+          "tag:10": {
+            "aspectName:8": "desiderium"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

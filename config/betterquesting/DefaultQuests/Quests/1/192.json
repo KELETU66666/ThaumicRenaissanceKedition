@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This little device automatically draws Vis from the surrounding aura field to charge items in the player\u0027s hotbar, accessory bar, and inventory.\n\nWhile the charging speed is slower than that of the Charged Base, it is much more convenient to carry around, making it ideal for charging items like the Verdant Heart Ring.\n\nCharging speed: 4 Vis/second.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thaumcraft:amulet_vis"
+      },
+      "name:8": "Portable Charging Station"
+    }
+  },
+  "questID:3": 192,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thaumcraft:amulet_vis"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

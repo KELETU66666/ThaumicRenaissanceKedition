@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This little item can convert half of the experience orbs the holder receives into knowledge (observation and theory), but it does so very slowly.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:curiosity_band"
+      },
+      "name:8": "You’re never too old to learn"
+    }
+  },
+  "questID:3": 191,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:curiosity_band"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

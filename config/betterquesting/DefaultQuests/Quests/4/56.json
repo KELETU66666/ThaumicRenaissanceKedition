@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    27
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In the Thaumcraft mod, items need to have their corresponding research unlocked before they can be crafted.\nIf you have gathered the materials but cannot craft a certain item, try unlocking its corresponding research.\n\nQ: Where can I find the research?\nA: In the Thaumonomicon. Open your Thaumonomicon to view the research, or use the search function in the bottom left corner of the Thaumonomicon to find the research you are looking for.\n\nQ: I can\u0027t find it.\nA: Like achievements in older versions of Minecraft, Thaumcraft research is unlocked gradually, and some research requires special conditions to be unlocked.\n\nQ: What are the special conditions?\nA: Scanning certain items, traveling to specific dimensions, and so on.\n\nQ: JEI shows that an item can be crafted, why does it still fail to craft?\nA: JEI has a display bug with alchemical crafting recipes. It may show that you can craft an item even if you haven\u0027t unlocked the corresponding research yet. To know if you can craft an item, refer to the Thaumonomicon",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:arcane_workbench"
+      },
+      "name:8": "Why can\u0027t I craft a certain item?"
+    }
+  },
+  "questID:3": 56,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:brain"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

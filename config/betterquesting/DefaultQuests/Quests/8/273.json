@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    238,
+    163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Arcane Grappler is a highly useful exploration tool in the Thaumic Renaissance modpack. By right-clicking, you throw its grappling hook portion, which will attach to any block within range. However, there is a maximum range, and the hook will automatically return if this limit is exceeded.\n\nOnce the grapple is attached, you can switch to other items in your hotbar without affecting the grapple\u0027s attachment. To release the hook, simply press Shift.\n\nThis item needs to be charged before it can be used.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:grapple_gun"
+      },
+      "name:8": "Fly on the Wall"
+    }
+  },
+  "questID:3": 273,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:grapple_gun"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

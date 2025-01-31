@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Primordial Crusher is a late-game mining tool that comes with the enchantments Blazing Heart and Destruction. It automatically restores durability over time, making it a convenient tool for prolonged use.\n\nIts most notable feature is its ability to quickly mine Corrupted Blocks and even destroy them in a wide area. This means that you can rapidly clear large numbers of Corrupted Blocks, significantly helping in combating the spread of corruption.\n\nHowever, it is important to note that although the Primordial Pestle automatically restores its durability, its durability cap is relatively low. Therefore, it\u0027s recommended to add a Durability enchantment to ensure it lasts longer during use.\n\nTo craft this item, you will need to unlock the research titled Primordial Pestle in the Forbidden Arts research branch",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:primal_crusher",
+        "tag:10": {
+          "infench:9": {
+            "0:10": {
+              "id:2": 1,
+              "lvl:2": 1
+            },
+            "1:10": {
+              "id:2": 4,
+              "lvl:2": 1
+            }
+          }
+        }
+      },
+      "name:8": "Clearing Corrupted Blocks - Primordial Crusher"
+    }
+  },
+  "questID:3": 113,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:primal_crusher",
+          "tag:10": {
+            "infench:9": {
+              "0:10": {
+                "id:2": 1,
+                "lvl:2": 1
+              },
+              "1:10": {
+                "id:2": 4,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

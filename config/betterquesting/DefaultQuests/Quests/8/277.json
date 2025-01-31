@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    175,
+    288,
+    309
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To craft the Impetus Cell, you\u0027ll need to follow a specialized recipe that’s been modified for this version. The Impetus Cell is a critical component for unlocking the gateway to the Void Realm. Ensure that you\u0027re prepared with the necessary resources, as the process has been tailored for advanced exploration. Stay alert, as crafting this item may come with some additional challenges due to the modifications in the recipe.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "thaumicaugmentation:material"
+      },
+      "ismain:1": 1,
+      "name:8": "Power of the Void"
+    }
+  },
+  "questID:3": 277,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "thaumicaugmentation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

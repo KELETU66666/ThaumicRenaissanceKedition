@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    88
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Creating the Research Table:\nTo craft the Research Table, place a Pen and Ink on a Wooden Table (only one is required, they do not need to be adjacent).\n\nUsage Instructions:\n\nUpon first use, place Pen and Ink and the necessary materials in the upper-left corner of the interface. Also, place several Paper in the upper-right corner. Then, click the \"Create Theory\" button in the center of the interface to start the research.\n\nOnce the research starts, click the “?” on the left side to begin Card Drawing (each draw consumes one piece of paper). This will randomly generate two cards (if there are extra draws, three cards will appear). You can click the cards to choose the ones you want.\n\nThe light above the card shows how much Inspiration will be reduced by selecting that card. Cards with a plus symbol in front will increase Inspiration.\n\nThe bottom of the card shows the required items. These items must be placed in your inventory (§c§lor adjacent containers§r¹) to be selectable. Items marked with an exclamation mark will be consumed when you confirm your choice. Every time you confirm, the Pen and Ink’s durability will decrease.\n\nWhen you run out of Inspiration, click \"Complete Theory\" to gain Theory Research Progress. For subjects that are not at the highest progress, some research progress will be lost, but certain cards can increase the number of subjects that reward the full progress.\n\nYour initial Inspiration amount will increase as you unlock more \"※\" shaped research topics.\n\n(Usage instructions are sourced from https://www.mcmod.cn/item/77166.html)",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:research_table"
+      },
+      "ismain:1": 1,
+      "name:8": "Card Drawing System"
+    }
+  },
+  "questID:3": 17,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:paper"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:scribing_tools"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:table_wood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

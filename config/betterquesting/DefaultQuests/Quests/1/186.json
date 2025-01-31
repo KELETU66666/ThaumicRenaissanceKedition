@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Cloud Stepper Ring is a product of Arcane Enchantment.\nIt allows the wearer to move with great agility, significantly reducing fall damage and granting the ability to double jump.\nSince its unlocking and crafting process are the simplest, it is recommended to craft this item as the first after unlocking Arcane Enchantment.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:cloud_ring"
+      },
+      "name:8": "Leap of Flight"
+    }
+  },
+  "questID:3": 186,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:cloud_ring"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
