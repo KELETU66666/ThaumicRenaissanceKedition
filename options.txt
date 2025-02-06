@@ -11,14 +11,14 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
-renderClouds:false
-resourcePacks:["Sonomagy TC6 v1.6.zip","Thaum_pack.zip","ThaumMenu1.2.zip","FakeThaummyPack1.05.zip"]
-incompatibleResourcePacks:["Thaum_pack.zip"]
+renderClouds:true
+resourcePacks:["Sonomagy TC6 v1.6.zip","ThaumMenu1.2.zip"]
+incompatibleResourcePacks:[]
 lastServer:
-lang:zh_cn
+lang:en_us
 chatVisibility:0
 chatColors:true
 chatLinks:true
@@ -88,12 +88,13 @@ key_key.hotbar.9:10
 key_Change Caster Focus:44
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:11
-key_thaumicaugmentation.key.augment_radial:34
 key_key.betterquesting.quests:41
 key_key.betterquesting.back:14
 key_key.findme.search:21
+key_key.kitchentools.open_cape:24
 key_key.zap:35
-key_显示/隐藏:47
+key_key.open_backpack:37
+key_Show/Hide:47
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:0
@@ -115,6 +116,7 @@ key_waila.keybind.usage:75
 key_invtweaks.key.sort:19
 key_key.carpet_forward:17
 key_key.carpet_backward:31
+key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0
