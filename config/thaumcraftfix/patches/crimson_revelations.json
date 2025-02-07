@@ -385,8 +385,8 @@
       },
       {
         "op": "replace",
-        "path": "parents/0",
-        "value": "MATSTUDBRASS"
+        "path": "parents",
+        "value": ["MATSTUDBRASS"]
       }
     ]
   },
