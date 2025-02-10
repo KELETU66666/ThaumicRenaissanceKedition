@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Traveler\u0027s Boots-\nCreated through the process of Arcane Infusion on leather boots. Here\u0027s how the item works:\n\nFunctionality:\nThese boots increase the player\u0027s movement speed and jump height.\nThey slightly enhance the movement speed in water.\nThe boots automatically step up one block when walking over it.\nThe boots require Vis (spiritual energy) to function, which can be charged by placing them on a Charging Pedestal to absorb surrounding Vis. The boots have a Vis capacity of 240 points.\nAlternatively, the player can wear a Mana Charm to continuously charge the boots, no matter where they are.\nDurability:\nThe durability of the Traveler\u0027s Boots is based on the durability of the leather boots used in the crafting recipe, so using full-durability leather boots will ensure the best result.\nThis item is useful for players who wish to increase mobility and explore the world faster, and the ability to charge them continuously provides convenience for longer journeys.",
+      "desc:8": "chapter.lang.desc.32",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:traveller_boots"
       },
-      "name:8": "An Unexpected Journey"
+      "name:8": "chapter.lang.title.32"
     }
   },
   "questID:3": 611,

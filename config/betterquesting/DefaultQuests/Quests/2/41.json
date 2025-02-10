@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Using the two types of pipes from Thaumic Bases, you can smoke Wise Tobacco to gain Observation and Research points.\n\nUsing the Silverwood Pipe is even better—it boosts experience and research efficiency while not causing any Warp",
+      "desc:8": "chapter.lang.desc.134",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicbases:silverwoodpipe"
       },
-      "name:8": "Give me a Rip"
+      "name:8": "chapter.lang.name.134"
     }
   },
   "questID:3": 41,

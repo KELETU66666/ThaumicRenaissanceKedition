@@ -5,14 +5,14 @@
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 1,
-      "desc:8": "It seems like every floor of this tower has its own door, and to unlock each layer, you’ll need to find the key for the next room in the one below it. This adds an extra layer of challenge as you progress through each floor. Here\u0027s how to tackle the next steps:\n\nSteps to Progress:\n\nExploring Each Floor:\n\nAs you ascend through the tower, look carefully for the key to the floor above you. The key to each new door will be hidden somewhere on the floor below, often guarded by powerful enemies or locked behind puzzles.\nTake note of hidden rooms or secret passages that might lead you to these keys.\n\nUnlocking the Final Door:\n\nOn the final floor, you’ll encounter the last door, which requires a special item: the Sinister Blade .\nThe Sinister Blade is a powerful weapon forged for a single purpose — to unlock the final challenge of the tower.\nOpening the Door:\n\nWith the Sinister Blade in hand, use it to activate the final door. This will trigger the Opening the Eye Ceremony , which will unlock the final challenge.\n\nPrepare for the Battle:\n\nOnce you open the last door, brace yourself for the epic battle that follows. The Opening the Eye Ceremony will likely summon powerful adversaries or unleash deadly traps. This will be your final test before unlocking the secrets hidden in the tower.\n\nKey Actions:\n\nSearch for keys in the lower floors to unlock the doors above.\nFind the bSinister Blade and use it to open the final door.\nPerform the Opening the Eye Ceremony and prepare for a tough fight.\n\nCaution:\n\nThe tower is filled with traps, puzzles, and guardians. Keep your wits sharp and stay alert for hidden dangers.\nThe final battle might test everything you\u0027ve learned throughout your journey, so make sure you’re fully prepared with potions, gear, and strategies.\n\nAre you ready to face the final challenge and unlock the mysteries of the tower? The Sinistester Blade is your key to the ultimate confrontation\n\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.78",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:eldritch_lock"
       },
       "ismain:1": 1,
-      "name:8": "Thou shalt not pass"
+      "name:8": "chapter.lang.title.78"
     }
   },
   "questID:3": 304,

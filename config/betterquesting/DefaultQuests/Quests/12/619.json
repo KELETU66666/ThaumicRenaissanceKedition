@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Use Ichor to craft Ichor Cloth, an essential material for crafting Ichor gear.",
+      "desc:8": "chapter.lang.desc.86",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
         "id:8": "thaumictinkerer:kamiresource"
       },
-      "name:8": "Ichor Cloth"
+      "name:8": "chapter.lang.title.86"
     }
   },
   "questID:3": 619,

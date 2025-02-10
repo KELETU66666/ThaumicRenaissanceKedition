@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Create a Crystallization Chamber to automatically transform raw ores into ore clusters! This requires Alchemical Stones to function, so prepare some Alchemical Stones, as they are not cheap. Be cautious before the transformation...",
+      "desc:8": "chapter.lang.desc.52",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicwonders:catalyzation_chamber"
       },
-      "name:8": "The Cluster Maker"
+      "name:8": "chapter.lang.title.52"
     }
   },
   "questID:3": 270,

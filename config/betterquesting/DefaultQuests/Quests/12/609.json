@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Ichor gear is just like regular diamond gear, but with an added 4% magic damage reduction. Ehhh, and you never have to worry about durability again!",
+      "desc:8": "chapter.lang.desc.84",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:ichor_helm"
       },
-      "name:8": "Armor that doesn\u0027t break"
+      "name:8": "chapter.lang.title.84"
     }
   },
   "questID:3": 609,

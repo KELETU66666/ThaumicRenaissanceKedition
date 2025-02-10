@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Harnessing Paradoxical Matter\nEvery time Paradoxical Matter is used to detonate a rift, there is a chance to obtain Primal Pearls with durability ranging from 1 to 4.\n\nPrimordial Pearls\nThese rare and powerful items are essential components in crafting many advanced thaumaturgical devices. Their versatility and unique properties make them invaluable in a thaumaturge\u0027s arsenal.\n\nApplications:\nUsed in the creation of potent and practical tools or constructs.\nIntegral to building the Transdimensional Gateway, also known as the Outer Lands Portal.\nDimensional Key - Primordial Energetic Cell\nOne of the most critical uses for a Primal Pearl is in crafting the Primal Energetic Cell, a device that serves as the key to the Outer Lands (Void Realm). This device allows thaumaturges to venture into dimensions beyond comprehension, unlocking unparalleled knowledge and resources.\n\nTip: Be cautious when managing rifts, as excessive instability can lead to catastrophic consequences.",
+      "desc:8": "chapter.lang.desc.69",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:primordial_pearl"
       },
       "ismain:1": 1,
-      "name:8": "Special Products"
+      "name:8": "chapter.lang.title.69"
     }
   },
   "questID:3": 309,

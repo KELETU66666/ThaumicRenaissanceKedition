@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Methods of Suppression\nAnti-Warp Soap\n\nUsage: Using Anti-Warp Soap on yourself can suppress a portion of your Warp value. It is most effective for reducing Temporary Warp and can provide a buffer against more severe Warp Outbursts.\nNote: It is only effective in certain conditions and does not eliminate Permanent Warp.\nWarp Suppression Gear\n\nUsage: Certain pieces of armor and equipment provide a suppression effect against Warp. For example, the Warp Suppression Helmet can reduce the Warp accumulation rate, slowing down the increase in Warp value over time.\nTip: Look for equipment with the Warp Resistance enchantment to help mitigate the effects.\nWarp Healing Potions\n\nUsage: These potions temporarily reduce Warp or remove specific negative effects associated with high Warp values. They are a quick, but temporary, solution for managing the effects of Warp.\nMagical Rituals or Potions\n\nUsage: Some rituals or potions from the Forbidden Knowledge or Dark Arts research branches can be used to actively suppress Warp. These are more advanced and may have additional side effects, including increasing your Permanent Warp value.\nMagical Items and Artifacts\n\nUsage: Some rare magical artifacts provide long-term suppression of Warp effects. These items can be worn or equipped to continually reduce the adverse effects of Warp in your world.\nWarning\nWhile suppression can reduce the harmful effects of Warp, it is important to manage your Warp value actively. Prolonged exposure without proper suppression can result in uncontrollable Warp Outbursts, leading to dangerous consequences like Distorted Creatures or Corruption in the environment.\n\nIf left unchecked, Warp will eventually take a toll on your character’s mental state and the surrounding world, so suppression is essential, especially during early and mid-game progression",
+      "desc:8": "chapter.lang.desc.117",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:bath_salts"
       },
-      "name:8": "Suppressing Warp Effects"
+      "name:8": "chapter.lang.name.117"
     }
   },
   "questID:3": 119,

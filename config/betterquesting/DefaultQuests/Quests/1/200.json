@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Sometimes, the Overworld won\u0027t meet your needs, and that\u0027s when you\u0027ll need to head to the Nether. The Nether contains many materials you\u0027ll need, such as magma blocks, lava, glowstone, quartz, and more...",
+      "desc:8": "chapter.lang.desc.7",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:netherrack"
       },
-      "name:8": "Journey to the Nether"
+      "name:8": "chapter.lang.title.7"
     }
   },
   "questID:3": 200,

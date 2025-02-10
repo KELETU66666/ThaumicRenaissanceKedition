@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You can use the Knowledge Sharing Manual to share your unlocked research with your teammates.\nSimply craft it in the workbench to overwrite it with your own discoveries.",
+      "desc:8": "chapter.lang.desc.129",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:share_book",
@@ -12,7 +12,7 @@
           "player:8": "[none]"
         }
       },
-      "name:8": "Sharing Knowledge"
+      "name:8": "chapter.lang.name.129"
     }
   },
   "questID:3": 50,

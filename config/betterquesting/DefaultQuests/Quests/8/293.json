@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Now that you can craft the Impetus Conductor, combine the Impetus Cell and Thaumic Plate in the Arcane Workbench to obtain the Impetus Conductor.\n\nNext, combine the Impetus Conductor with either a Mystic Mage\u0027s Gauntlet or a Void Mage\u0027s Gauntlet in any crafting interface to craft a Mage\u0027s Gauntlet with the Impetus Conductor. When you hold this gauntlet and approach a Void Rift, you will absorb the rift\u0027s energy (Impetus Energy)",
+      "desc:8": "chapter.lang.desc.74",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
         "id:8": "thaumicaugmentation:augment_caster_rift_energy_storage"
       },
       "ismain:1": 1,
-      "name:8": "The Impetus Conductor"
+      "name:8": "chapter.lang.title.74"
     }
   },
   "questID:3": 293,

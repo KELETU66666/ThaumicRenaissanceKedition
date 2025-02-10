@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Getting Started with Arcane Studies\n\nTo embark on your journey into Arcane Studies, follow these steps:\n\nStep 1: Unlocking the Research\nBegin by unlocking the research for the Arcane Studies chapter.\n\nStep 2: Crafting a Blank Lesser Core\nUse alchemy in a Crucible to craft a Blank Lesser Core.\n\nMaterials Required:\n\n1 Ordo Vis Crystal Shard\n5 Auram\n10 Permutatio\n15 Vitreus\nAspect Sources:\n\nAuram: Obtained from Silverwood Logs.\nPermutatio: Derived from Salis Mundis.\nVitreus: Found in Glass.\n💡 Tip: Use quartz shards to safely remove any excess aspects from the crucible to prevent flux buildup.\n\nStep 3: Crafting the Core Adorned Workbench\nWith the Blank Lesser Core, craft the Core Adorned Workbench.\n\nPlacement: Set up the workbench in the most aura-rich chunk available, preferably in a Magical Forest biome to maximize effectiveness.\nStep 4: \"Observing Fire Up Close\"\nThis step requires direct interaction with fire:\n\nStand in flames and allow them to deal damage to you.\nAfter taking some damage, a message will appear in purple text:\n\"You have personally experienced the power of fire.\"\nOnce completed, the path to Arcane Studies is fully open to you! Explore and experiment to uncover the secrets of magic.\n\n\n\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.30",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:wand_workbench"
       },
-      "name:8": "Arcane Studies"
+      "name:8": "chapter.lang.title.30"
     }
   },
   "questID:3": 124,

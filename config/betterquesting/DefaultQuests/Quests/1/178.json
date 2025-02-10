@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In addition to the basic Essence Smeltery, you can further enhance its capabilities with the following upgrades:\n\n1. Auxiliary Slurry Pump:\nThe Auxiliary Slurry Pump can be placed on any of the three sides of the Essence Smeltery.\nThis upgrade increases the output interface of the Smeltery to the Arcane Distiller, allowing for faster and more efficient Essence refining.\nWith this upgrade, the Essence Smeltery can process Essence at a higher rate, reducing the time needed to produce refined products.\n2. Auxiliary Discharge Ports:\nAuxiliary Discharge Ports can be placed on any of the three sides of the Essence Smeltery.\nThese ports neutralize the potential for Wisp Waves generated during the refining process.\nThe effectiveness of the Wisp Wave filtration increases with the number of Auxiliary Discharge Ports installed, but each additional port has a diminishing return on effectiveness:\nThe first port has a 33.3% chance of neutralizing Wisp Waves.\nThe second port has a 22.2% chance.\nThe third port has a 14.8% chance.\nIn total, with all three ports installed, the chance of filtering out Wisp Waves reaches 70.3%.\nThese ports ensure that the environment remains safe by preventing excessive Wisp Waves from dissipating into the surrounding area.\n3. Arcane Bellows:\nInstalling an Arcane Bellows on any side of the Essence Smeltery increases the speed at which Essence Slurry is processed.\nThe Arcane Bellows can greatly accelerate the decomposition speed of the Essence Slurry, ensuring that the Smeltery operates more efficiently, especially during large-scale Essence refining operations.\nSummary:\nThe Auxiliary Slurry Pump increases the efficiency of output.\nThe Auxiliary Discharge Ports help reduce the harmful effects of Wisp Waves.\nThe Arcane Bellows accelerate the Essence decomposition process, improving overall Smeltery performance.\nThese upgrades are essential for creating a high-output, efficient refining system capable of handling larger amounts of Essence with minimal side effects",
+      "desc:8": "chapter.lang.desc.19",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:smelter_aux"
       },
-      "name:8": "Smeltery Upgrade"
+      "name:8": "chapter.lang.title.19"
     }
   },
   "questID:3": 178,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A pickaxe that never breaks, featuring three modes:\n\nBlock Mode (Green): It mines normally, like a standard pickaxe.\n\nSquare Mode (Red): It will mine a 5x5 area around the initial block.\n\nLinear Mode (Blue): It will mine 10 blocks in the direction of destruction.\n\nWhen used in the Overworld bedrock layer, the Awakened Ichorium Pickaxe will directly mine bedrock and create a Bedrock Portal. Entering this portal will transport you to the Bedrock World.",
+      "desc:8": "chapter.lang.desc.80",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:ichorium_pick_adv"
       },
-      "name:8": "The Miner\u0027s Key"
+      "name:8": "chapter.lang.title.80"
     }
   },
   "questID:3": 617,

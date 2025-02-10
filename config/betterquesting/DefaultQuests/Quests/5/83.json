@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Flux Scrubber is an advanced device capable of consuming Salis Mundus to rapidly clean flux from the aura at an impressive Aura-to-Flux ratio of 1:1.5. While it is highly efficient, its cost is substantial, and it draws heavily from the local aura. If the aura in the area is insufficient, this can result in the aura dropping to zero while some flux remains. This imbalance could trigger the premature appearance of a rift!\n\nTo craft the Flux Scrubber, you must unlock the \"Flux Scrubber\" research located in the Reflexology tab.",
+      "desc:8": "chapter.lang.desc.112",
       "icon:10": {
         "Count:3": 1,
         "id:8": "planarartifice:flux_scrubber"
       },
-      "name:8": "Efficient Flux Cleaning - Flux Scrubber"
+      "name:8": "chapter.lang.name.112"
     }
   },
   "questID:3": 83,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Arcane Shoulder Armor\n\nThe Arcane Shoulder Armor functions similarly to the regular Shoulder Armor, being placed in the accessory slot of the armor inventory. However, it not only increases defense but also has the ability to knock back nearby enemies when damage is taken, making it highly practical.\n\nTo craft this item, you will need to unlock the corresponding research for it.",
+      "desc:8": "chapter.lang.desc.21",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicperiphery:pauldron_repulsion"
       },
-      "name:8": "Give me a hand, Grandpa!"
+      "name:8": "chapter.lang.title.21"
     }
   },
   "questID:3": 188,

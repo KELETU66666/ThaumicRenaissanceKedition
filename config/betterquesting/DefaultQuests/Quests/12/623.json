@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "To safely manage Impetus Energy extraction near a rift, avoid the risk of corruption. Corruption from unstable rifts can cause serious damage to your devices and surroundings if left unchecked.\n\nTo minimize these risks, it is highly recommended to craft two Impetus Mirrors. These mirrors function similarly to Magic Mirrors or Essentia Mirrors, but instead of transferring items or essentia, they transmit Impetus Energy over long distances.\n\nHow to Use:\nPlacement: Position one mirror near your rift extractor and the other at the energy receiver device.\nLinking: Right-click each mirror with an Impetus Resonator to establish the connection.\nEnergy Flow: Once linked, energy will seamlessly flow from the extractor to your chosen device without exposing your machinery to the dangerous vicinity of the rift.\nThis setup not only ensures efficient energy transfer but also reduces the risk of accidents.",
+      "desc:8": "chapter.lang.desc.94",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:impetus_mirror"
       },
-      "name:8": "Better Transportation — Impetus Mirror"
+      "name:8": "chapter.lang.title.94"
     }
   },
   "questID:3": 623,

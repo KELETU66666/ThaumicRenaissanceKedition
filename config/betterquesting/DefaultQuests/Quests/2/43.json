@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In the enchanting table, you can occasionally enchant with the \"Wisdom\" enchantment. Using it to kill monsters will grant you some knowledge.\n\n§o§mYour sword is smarter than you",
+      "desc:8": "chapter.lang.desc.131",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:enchanted_book",
@@ -17,7 +17,7 @@
           }
         }
       },
-      "name:8": "Big Smart"
+      "name:8": "chapter.lang.name.131"
     }
   },
   "questID:3": 43,

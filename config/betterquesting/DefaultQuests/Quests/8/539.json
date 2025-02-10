@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Chameleon Tool is an advanced and versatile implement, capable of housing up to three separate enchantment panels.\n\nFeatures:\nMulti-Enchantment Panels:\n\nEach panel can hold a unique set of enchantments.\nPerfect for combining typically conflicting enchantments, such as Fortune and Silk Touch.\nSeamless Switching:\n\nShift + Right-Click to toggle between enchantment panels.\nEnsures adaptability for different tasks without the need for multiple tools.\nDurability Cost:\n\nEach panel switch consumes 5 durability points.\nThis tool is ideal for thaumaturges seeking maximum efficiency and versatility in their endeavors!\n\n\n\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.60",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forbiddenmagicre:morph_sword"
       },
-      "name:8": "Chameleon Tool: The Unpredictable Instrument"
+      "name:8": "chapter.lang.title.60"
     }
   },
   "questID:3": 539,

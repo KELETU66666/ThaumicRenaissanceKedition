@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After unlocking Infusion, you can unlock this chapter!",
+      "desc:8": "chapter.lang.desc.58",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -12,7 +12,7 @@
         "id:8": "thaumcraft:loot_bag"
       },
       "ismain:1": 1,
-      "name:8": "A New Beginning"
+      "name:8": "chapter.lang.title.58"
     }
   },
   "questID:3": 238,

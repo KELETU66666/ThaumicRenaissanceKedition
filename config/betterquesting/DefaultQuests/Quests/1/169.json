@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Arcane Workbench Charger\nThe Arcane Workbench Charger can be placed above the Arcane Workbench or the Core Inlay Table. Once placed, it extends the range of Aura usage for the Arcane Workbench from the current chunk to a total of 9 surrounding chunks. The Aura consumption is also evenly drawn from these 9 chunks.\n\nThis device helps to improve the efficiency of magical crafting and other arcane tasks by expanding the area from which the Aura is drawn, ensuring that the Arcane Workbench or other related machines have a more consistent supply of Aura over a larger area.",
+      "desc:8": "chapter.lang.desc.31",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:arcane_workbench_charger"
       },
-      "name:8": "Capacity Increase"
+      "name:8": "chapter.lang.title.31"
     }
   },
   "questID:3": 169,

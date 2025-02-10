@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In this task, you may need to unlock some research related to distortion and craft items to counteract them! These items and research can help you manage the harmful effects of distortion, either by reducing Warp accumulation or mitigating the consequences of distortion events.\n\nTo proceed, focus on the following actions:\n\nUnlock Distortion-related Research: These may include technologies or magical studies that allow you to better understand and control the influence of Warp in your world. Certain research might even grant you access to new tools and strategies for dealing with distortion.\n\nCraft Protective Items: There are several items that can help you resist or reverse the effects of Warp. These may include:\n\nWarp-resistance gear: Armor or accessories designed to protect you from the ill effects of Warp.\nDistortion-detectors: Items like the Distortion Detection Device (if available) to monitor and track Warp levels.\nWarp-canceling tools: Magical or mechanical devices that can nullify the impact of accumulated Warp.\nUse Distortion Countermeasures: Certain items can be used actively to prevent or reverse Warp buildup, such as:\n\nWarp-absorbing crystals or anti-distortion potions.\nDistortion-blocking zones created by specific devices or rituals to contain the spread of Warp.\nPay attention to how Warp accumulates, and take proactive steps by researching and crafting these countermeasures. The more prepared you are, the less likely you are to suffer from permanent distortions!",
+      "desc:8": "chapter.lang.desc.50",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:bath_salts"
       },
-      "name:8": "Distortion Events"
+      "name:8": "chapter.lang.title.50"
     }
   },
   "questID:3": 244,

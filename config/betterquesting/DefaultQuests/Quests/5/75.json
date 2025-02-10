@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Compared to the Crucible, the Smeltery generates a significant and unavoidable amount of flux, which can be challenging to manage without tools designed to clean up flux. Therefore, it is highly recommended to relocate your Smeltery away from your base unless you wish to risk its corruption.\n\nAdding auxiliary vents to your Smeltery can help neutralize some of the generated flux, but this is not a permanent solution. Even the most advanced Void Essentia Smeltery from Thaumcraft 6, equipped with three auxiliary vents, cannot achieve zero flux emissions. However, in this modpack, you can upgrade your Smeltery to a \"Mithril\" version, which prevents flux generation entirely. This upgrade is only accessible in the late game, by which time you should have the tools to handle flux effectively.\n\nIn summary, ensure your Smeltery is placed far away from your base during the early stages of the game.",
+      "desc:8": "chapter.lang.desc.111",
       "frame:8": "STAR4_ON_HEXAGON90",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
         "id:8": "thaumcraft:smelter_basic"
       },
-      "name:8": "The Smeltery"
+      "name:8": "chapter.lang.name.111"
     }
   },
   "questID:3": 75,

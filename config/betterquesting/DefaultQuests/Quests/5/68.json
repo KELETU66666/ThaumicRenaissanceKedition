@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In Thaumcraft 6 (TC6), unlike in TC4, essentia in the Crucible does not break down into secondary elements over time. Instead, any unprocessed essentia in the Crucible will gradually vaporize into flux and release into the aura if left untreated for a period.\n\nFlux Characteristics\nFlux Spread\nFlux does not exist as a fluid (such as flux goo or flux gas). Instead, it directly disperses into the aura, slowing the regeneration of Vis in the surrounding environment.\n\nEffects on Aura\nExcessive flux in the aura significantly hampers the efficiency of magic by reducing the rate of Vis regeneration. The more flux present, the slower Vis will replenish.\n\nConsequences of Excess Flux\nA high concentration of flux will eventually lead to the formation of Flux Rifts and Corruption. These phenomena are detailed in the next section, where we will discuss how they can damage your world and thwart your progress.\n\nIn summary, leaving too much essentia in the Crucible unprocessed for long periods will cause flux to accumulate, negatively impacting the aura and potentially leading to dangerous consequences like rifts and corruption. Proper management of flux is essential to avoid these outcomes",
+      "desc:8": "chapter.lang.desc.105",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:rift_seed",
@@ -13,7 +13,7 @@
           "riftSize:3": 100
         }
       },
-      "name:8": "Flux and Corruption"
+      "name:8": "chapter.lang.title.105"
     }
   },
   "questID:3": 68,

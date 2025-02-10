@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "To craft Causality Collapser and destroy a Rift , you\u0027ll need to follow a series of steps:\n\nOver-pollute a chunk: First, you need to over-pollute a chunk, which can be done by unlocking the research for Pollution and Rifts. This is the first step in the process.(optional there are other wat in your research)\n\nScan Wild Crystals with the Thaumic Lens: Use the Thaumic Lens to scan wild crystals, which will unlock a hidden research topic called Crystal Farm. This will guide you to the next step.\n\nUnlock \"Crystal Farm\" Research: With the Crystal Farm research unlocked, you will be able to access the Spiritual Battery research.\n\nCraft the Causality Collapser : Once the Primordial Battery research is discovered, you can then access the Paradox Matter research in the Basic section.\n\nDestroy the Rift: To use Causality Collapser, right-click and throw it at a Rift. Be careful to aim correctly—throwing it off target won\u0027t destroy the Rift. Successfully destroying a Rift will yield Void Seeds, which are critical materials for progressing with Mystical research and crafting in the future.\n\nRemember, Void Seeds will play a significant role in your future advancements and are essential for creating powerful mystical devices.",
+      "desc:8": "chapter.lang.desc.68",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:causality_collapser"
       },
       "ismain:1": 1,
-      "name:8": "Breaking Rifts"
+      "name:8": "chapter.lang.title.68"
     }
   },
   "questID:3": 242,

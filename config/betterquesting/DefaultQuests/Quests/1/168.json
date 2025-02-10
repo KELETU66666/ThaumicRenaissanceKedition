@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Spellcasting Core Pouch\nThe Spellcasting Core Pouch is an accessory that, although categorized as a belt, functions effectively when placed in the inventory, providing a significant advantage in managing spellcasting cores. It is designed to store various pre-configured spellcasting cores, preventing them from taking up space in the inventory.\n\nTo use the pouch, simply hold it and right-click to open the GUI, where you can store up to 18 spellcasting cores. These cores can then be accessed and swapped quickly, just like if they were in the inventory, allowing for seamless spellcasting without the need to open the GUI repeatedly.\n\nThis pouch is particularly useful for players who frequently switch between different spellcasting configurations, as it provides a convenient and space-efficient way to manage multiple cores without cluttering the inventory.",
+      "desc:8": "chapter.lang.desc.36",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:focus_pouch"
       },
-      "name:8": "Storage Pouch"
+      "name:8": "chapter.lang.title.36"
     }
   },
   "questID:3": 168,

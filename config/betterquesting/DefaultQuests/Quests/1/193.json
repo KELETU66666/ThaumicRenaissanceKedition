@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Acquiring the Verdant Heart Amulet\nThe Verdant Heart Amulet can be upgraded into two distinct items: the Verdant Heart Ring of Sustenance and the Verdant Heart Ring of Regeneration.\n\nRing of Sustenance: Continuously replenishes your hunger bar (but not saturation), eliminating the need to carry food in your inventory.\nRing of Regeneration: Gradually heals you at a moderate speed, making it easier to handle encounters with tougher monsters.\nAll three types of Verdant Heart Rings can consume charge to remove negative effects, providing a handy defensive boost.",
+      "desc:8": "chapter.lang.desc.39",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:verdant_charm"
       },
-      "name:8": "Never Hungry Again"
+      "name:8": "chapter.lang.title.39"
     }
   },
   "questID:3": 193,

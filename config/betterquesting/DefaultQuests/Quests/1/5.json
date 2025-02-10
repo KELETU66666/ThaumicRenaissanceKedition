@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The New Crimson Revelations mod brings back the six mystical arrows from TC4!\n\nHere are their functions:\n\nAer Arrow: Deals damage that can pierce through any armor.\nIgnis Arrow: Ignites the target upon impact.\nAqua Arrow: Slows the movement speed of the target.\nTerra Arrow: Deals higher damage.\nOrdo Arrow: Provides a small amount of armor penetration and inflicts the Weakness debuff on the target.\nPerditio Arrow: Deals reduced damage but inflicts the Withering effect on the target.",
+      "desc:8": "chapter.lang.desc.33",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:arrow"
       },
-      "name:8": "Elemental Arrows"
+      "name:8": "chapter.lang.title.33"
     }
   },
   "questID:3": 5,

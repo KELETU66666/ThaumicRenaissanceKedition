@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Mystical Refractometer: This item displays the Vis content within a 12x12 block radius. The higher the curve, the higher the Vis content, indicating a more suitable area for magical activities and living.\n\nRight-clicking allows you to view the Warp (curse wave) content within the same 12x12 block area. The higher the curve, the higher the Warp content, signaling the need for caution and protection against potential negative effects.",
+      "desc:8": "chapter.lang.desc.29",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:dioptra"
       },
-      "name:8": "Aura Threshold Visualization"
+      "name:8": "chapter.lang.title.29"
     }
   },
   "questID:3": 35,

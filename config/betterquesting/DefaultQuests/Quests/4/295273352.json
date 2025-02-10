@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Killing a Pech has a 3% chance to drop the backpack they carry.\n\nIf you are wearing T12, the drop chance increases to 50%.\n\nBackpack Details:\nThe backpack can only be opened when equipped.\nThe default hotkey to access it is K",
+      "desc:8": "chapter.lang.desc.137",
       "icon:10": {
         "Count:3": 1,
         "id:8": "renaissance_core:pech_backpack"
       },
-      "name:8": "About Backpaks"
+      "name:8": "chapter.lang.name.137"
     }
   },
   "questID:3": 295273352,

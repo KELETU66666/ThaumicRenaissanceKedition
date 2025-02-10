@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Night Vision Goggles\n\nWhen fully charged, the Night Vision Goggles grant the wearer unlimited night vision, ensuring you’ll never be lost in the darkness again!\n\nHowever, there is one downside: they lose the Vis cost reduction and revealing effects of the Goggles of Revealing, making them a specialized tool for those prioritizing visibility over arcane utility.",
+      "desc:8": "chapter.lang.desc.41",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicwonders:night_vision_goggles"
       },
-      "name:8": "Piercing the Night"
+      "name:8": "chapter.lang.title.41"
     }
   },
   "questID:3": 196,

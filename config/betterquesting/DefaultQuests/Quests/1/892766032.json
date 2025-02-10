@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No need Acquiring Basic Resources, through normal gameplay progress.",
+      "desc:8": "chapter.lang.desc.42",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:barrier"
       },
-      "name:8": "Normal Startup",
+      "name:8": "chapter.lang.title.42",
       "questlogic:8": "NAND"
     }
   },

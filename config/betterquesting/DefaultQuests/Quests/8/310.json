@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Defeating the Final Boss\nYou have obtained a Fragmented Scroll and a Complete Primordial Pearl.\nRight-click to read the text on the scroll, then scan it to unlock the content of the new world!",
+      "desc:8": "chapter.lang.desc.79",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:research_notes"
       },
       "ismain:1": 1,
-      "name:8": "Whispering Tatters"
+      "name:8": "chapter.lang.title.79"
     }
   },
   "questID:3": 310,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Item Filter Grate is a convenient tool.\n\nWhen activated, it only allows items to pass through. If placed separately, right-click to toggle it open or closed, similar to controlling a trapdoor.\n\nWhen connected to an output container above, it continuously extracts items from it.",
+      "desc:8": "chapter.lang.desc.18",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:item_grate"
       },
-      "name:8": "Better than a Chest"
+      "name:8": "chapter.lang.title.18"
     }
   },
   "questID:3": 36,

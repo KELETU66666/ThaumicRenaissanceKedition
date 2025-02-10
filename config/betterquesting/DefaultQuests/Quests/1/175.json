@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Mystical Thaumaturge\u0027s Gloves\nThe Mystical Thaumaturge\u0027s Gloves provide significantly faster casting speeds, increased damage, and the ability to equip various powerful upgrades. These gloves enhance your magical prowess, making them a valuable asset for anyone practicing high-level thaumaturgy.\n\nIn addition to boosting your magical abilities, they also allow you to equip more advanced enhancements, which can further improve your magical efficiency and combat effectiveness.\n\nLater in your journey, these gloves will be essential for unlocking the gateway to another world... a crucial step for progressing in your magical studies.\n\nTo craft these gloves, you must first unlock the prerequisite research for the Mystical Thaumaturge\u0027s Gloves. Then, combine high-tier materials, such as Vis Crystals, Mystical Essences, and the Thaumaturge\u0027s Gloves as the base item to create this powerful item.",
+      "desc:8": "chapter.lang.desc.37",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -20,7 +20,7 @@
         }
       },
       "ismain:1": 1,
-      "name:8": "Better Thaumaturge\u0027s Gloves"
+      "name:8": "chapter.lang.title.37"
     }
   },
   "questID:3": 175,

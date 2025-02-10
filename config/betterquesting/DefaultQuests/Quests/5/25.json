@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Pure Tears can be used to remove up to 10 points of any type of distortion, following the removal order: temporary -\u003e regular -\u003e permanent.\n\nThis means that your temporary distortions must be completely removed before regular distortions can be cleared, and similarly, regular distortions must be cleared before permanent ones can be addressed.\n\nHowever, Pure Tears only become effective when your total distortion value exceeds 50 points.",
+      "desc:8": "chapter.lang.desc.119",
       "icon:10": {
         "Count:3": 1,
         "id:8": "warptheory:item_cleanser"
       },
-      "name:8": "Pure Tears"
+      "name:8": "chapter.lang.name.119"
     }
   },
   "questID:3": 25,

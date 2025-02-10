@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Dimensional Perferator is a small item from the Thaumcraft, designed for pinpoint rift generation. Here\u0027s how to operate it:\n\nPlacement: Place two Dimensional Perferator facing each other, with a distance of 9 blocks apart. When positioned correctly, purple particles will flow between them, indicating they are aligned.\n\nSource Infusion: After placement, you can channel contaminated Vitium Essence into the devices. Both Perferators will consume 50 points of Vitium Essence simultaneously to initiate a rift activity, either to open or expand a Rift.\n\nRedstone Control: You can pause the rift creation process by applying a redstone signal to the Rippers. When a redstone signal is received, the rippers stop working but continue absorbing the Essence. Once more Essence is absorbed and the redstone signal is deactivated, a more powerful rift will form.\n\nWarning: If the rift grows too large, it might swallow the Dimensional Rippers, so proceed with caution!",
+      "desc:8": "chapter.lang.desc.101",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicwonders:dimensional_ripper"
       },
-      "name:8": "Localized Rift Generation – Dimensional Perforator"
+      "name:8": "chapter.lang.title.101"
     }
   },
   "questID:3": 639,

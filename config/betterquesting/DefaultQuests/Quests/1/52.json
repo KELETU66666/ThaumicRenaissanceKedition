@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Acquiring Basic Resources\nKickstart your journey and streamline your progression to avoid the tedious early-game grind typical of older versions.",
+      "desc:8": "chapter.lang.desc.43",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:rabbit_foot"
       },
-      "name:8": "Quick Start Guide",
+      "name:8": "chapter.lang.title.43",
       "questlogic:8": "NAND"
     }
   },

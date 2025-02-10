@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The \"Knowledge Headband\" can convert experience orbs into knowledge, though its efficiency is quite poor, so it’s not recommended for use...\n\nThere’s an upgraded version, but it’s expensive to craft, so again, it’s not recommended...\n\n\n\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.132",
       "icon:10": {
         "Count:3": 1,
         "id:8": "planarartifice:mirromirous_headband"
       },
-      "name:8": "More experience, more research"
+      "name:8": "chapter.lang.name.132"
     }
   },
   "questID:3": 39,

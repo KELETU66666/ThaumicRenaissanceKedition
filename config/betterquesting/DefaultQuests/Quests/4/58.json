@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "1. Why isn\u0027t the Rune Matrix working after completing the infusion altar structure with World Salt?\n\nAfter constructing the infusion altar with Salis Mundus, you need to right-click it with a caster to activate the Runic Matrix. This action will enable it to function properly for infusing.\n\n2. Why does my caster hurt me or why can\u0027t I encrust it?\n\nThe core requires specific components known as Glyphs, which are essential for spell creation. There are three types of Glyphs:\nEffect: Determines the spell\u0027s outcome (damage, healing, destruction, etc.).\nMedium: Dictates how the spell manifests (e.g., projectile, area of effect).\nAdjustment: Modifies the previous two components. There are currently three available adjustments.\nBy combining these Glyphs in different ways, you can create either practical or fun spells. To use the core effectively, you need to properly combine these Glyphs, as they dictate the power and functionality of the core.\n\n3. How do I find which items contain aspects and how to craft aspects?\n\nUse JEI (Just Enough Items) to check the crafting recipes:\nR Key/Left-click: View the recipe for crafting an item.\nU Key/Right-click: See what items can be crafted from the selected item.\nAspects can only be extracted through a Source Essence Centrifuge. Cannot combine it.\n\n4. Why is there a long black thing appearing in my house, and how do I remove it?\n\nThe Curse Wave Rift appears when the Curse Wave in the nearby area is too high. It will gradually spread and damage the blocks and creatures it touches.\nThe Rift will eventually disappear over time but has a high chance of spawning a Corrupted Spore Nest, which must be destroyed to prevent the spread of corruption.\nTo artificially remove a Curse Wave Rift, unlock the Paradox Material research in the basic research tree, which has a prerequisite in Qi Battery and Crystal Farms (scan wild magic crystal clusters).\nBe cautious: When the Paradox Material detonates a Rift, make sure to distance yourself before it fully disappears, as staying too close will cause high distortion and debuffs.\n\n5. How do I solve the flux?\n\nThere are several ways to clear flux:\nFlux Condenser (a version of the original Mystic mod).\nFlux Purifier from Planar Artifice mod – Use Salis Mundus to burn through vis quickly to clear Flux at a ratio of 1.5:1. This method is fast but doesn\u0027t provide a permanent solution.\nFlux Container from Thaumic Wonders – A stable, late-game block for clearing Flux. It is less efficient per unit but extremely stable over time.",
+      "desc:8": "chapter.lang.desc.139",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:fish"
       },
-      "name:8": "Common Questions for New Players"
+      "name:8": "chapter.lang.name.139"
     }
   },
   "questID:3": 58,

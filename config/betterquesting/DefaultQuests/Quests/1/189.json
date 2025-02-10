@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This is an accessory that provides additional hunger restoration when the player consumes food.\n\nIt will only grant an extra 1 point of hunger and saturation after eating, and it is not affected by the nature or type of the food. However, there is a very small chance to receive a brief \"nausea\" debuff after each consumption.\n\nTo unlock the research, the required junk food to eat is a cookie.",
+      "desc:8": "chapter.lang.desc.22",
       "icon:10": {
         "Count:3": 1,
         "id:8": "forbiddenmagicre:ring_nutrition"
       },
-      "name:8": "Body Nourishment"
+      "name:8": "chapter.lang.title.22"
     }
   },
   "questID:3": 189,

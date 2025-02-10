@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Soap\n\nThese special items provide a quick and effective way to manage Warp buildup.\n\nUsage: Hold down the right mouse button to instantly remove all Temporary Warp and reduce Normal Warp by 1 point.\nEnhanced Effects:\nWhile immersed in Purified Water or under the protection of the Warp Ward effect, using the item will reduce Normal Warp by 2 points.\nIf both conditions are met, the reduction increases to 3 points.\nThese consumables are invaluable for thaumaturges delving into dangerous research or areas filled with corruptive influences.",
+      "desc:8": "chapter.lang.desc.56",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:sanity_soap"
       },
-      "name:8": "Arcane Bathing"
+      "name:8": "chapter.lang.title.56"
     }
   },
   "questID:3": 257,

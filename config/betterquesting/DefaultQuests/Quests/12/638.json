@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Defeating the Primal Wisp\n\nThe Primal Wisp is an incredibly powerful entity, but no matter how strong it is, it’s still just a tough spirit. Using ranged weapons, you can easily deal with it. Once defeated, it will drop a Loot Bag and a Primal Dust. This battle is definitely worth the effort. It only consumes a single Arcane Infusion Canister, but in return, you’ll receive 1/8th or even 1/4th of a Primal Pearl.\n\n",
+      "desc:8": "chapter.lang.desc.99",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:rift_jar",
@@ -13,7 +13,7 @@
           "size:3": 100
         }
       },
-      "name:8": "Defeating the Primal Wisp"
+      "name:8": "chapter.lang.title.99"
     }
   },
   "questID:3": 638,

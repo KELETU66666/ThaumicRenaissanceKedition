@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Here\u0027s the translation adjusted to use the correct Thaumcraft 6 Aspects:\n\nPreparing to Create the Smeltery\n\nTo craft the Smeltery, you\u0027ll need to gather a significant amount of Quartz Shards. This task will guide you on which items are best suited for dissolving into the required Aspects.\n\nEssential Items for Dissolving:\nVacuos: The Throwing Device (Bowls are best, but the Throwing Device contains this Aspect).\npotentia: The Throwing Device (Coal and Redstone are best, but the Throwing Device contains this Aspect).\nLux: Torches.\nMotus: Boats.\nGelum: Snowballs.\nPermutatio: Dispenser.\nVitreus: Glass or Amber.\nMetallum: Cinnabar (Ore).\nVictus: Various Saplings.\nMortuus: Cinnabar (Ore).\nThese are just simple examples. In practice, you can adjust the items you dissolve based on your environment. In JEI (Just Enough Items), search for the corresponding Aspect names to view all items that contain that Aspect. Then, dissolve the items that suit your needs.\n\nImportant Notes:\n2 points of an Aspect are required to create 1 Quartz Shard. 1 point of an Aspect cannot be processed using Quartz Shards.\nWhen unlocking the Smeltery section, you will also receive the recipe for the Essence Smeltery and Essence Tank.\nWorking with the Smeltery:\nEssence Smeltery: Place the Essence Smeltery on the ground and place an Arcane Distiller above it.\nArcane Distiller: The Arcane Distiller can \"export\" Essence from the Smeltery, storing up to 128 points of Essence of a single type.\nThe Arcane Distiller can be stacked on top of other Distillers for additional storage, but it will not increase the distillation speed.\n\nWarning:\nWhen the Smeltery is in operation, some of the Essence will inevitably dissipate as Wisp Waves, so be sure to place the Smeltery far away from your base!",
+      "desc:8": "chapter.lang.desc.10",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:alembic"
       },
       "ismain:1": 1,
-      "name:8": "Preparing for the Smeltery"
+      "name:8": "chapter.lang.title.10"
     }
   },
   "questID:3": 145,

@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In the Basic Studies section, you need to first research the discovery of the \"Auromancy\" chapter, which involves the following tasks:\n\nReach a height between Y\u003c10 and Y\u003e105 in the Overworld.\nCraft a Magic Resonator and Mage’s Hand according to the recipe.\nAfterward, move on to the \"Mystical Studies\" main chapter and research the \"Basic Spells\" section.\n\nThis process ties into the mod\u0027s progression system, where specific tasks must be completed to unlock new features related to magic and spellcasting",
+      "desc:8": "chapter.lang.desc.14",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:caster_basic"
       },
       "ismain:1": 1,
-      "name:8": "Caster Gauntlet"
+      "name:8": "chapter.lang.title.14"
     }
   },
   "questID:3": 104,

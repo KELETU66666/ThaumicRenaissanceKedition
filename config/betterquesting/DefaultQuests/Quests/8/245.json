@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Thaumatorium\nThe Mystic Alchemy Tower is a powerful multi-block structure designed to allow the use of Source Essentia in advanced alchemical processes. This tower can automate and accelerate alchemical crafting, greatly enhancing your ability to produce rare and powerful items. However, constructing it requires a solid understanding of both Thaumcraft and alchemy.\n\nBuilding the Tower\nResearch\nTo build the Thaumatorium, you must first unlock the \"Alchemy Automation\" research.\nRequired Components\n2 Alchemical Contructs: These blocks are the key structural components for the tower\u0027s functionality.\n1 Crucible: This is used in the base of the tower to provide a place for liquid essentia to be processed.\nAssembly Process\nAfter placing the construction blocks and the crucible, use World Salt to right-click on the completed structure. This will form the tower.\nImportant Note: The direction you right-click with the Salis Mundus determines where the products will be output. The products will spray out from the middle hole of the side you clicked. Placing a chest or other storage container near this hole will allow for easy collection of the resulting materials.\nImportant Considerations\nHeat Source\nEnsure that the crucible at the base of the tower has a heat source directly below it to power the alchemical processes.\nHowever, you do not need to add water to the crucible, which simplifies the setup compared to other alchemical devices.\nHow It Works\nOnce assembled, the Thaumatorium can begin processing Source Essentia. By feeding the tower with the appropriate ingredients, you can create various alchemical items and compounds more efficiently.\nMake sure the output side has a chest or another form of storage to catch the products.\nUtilizing this advanced tool will make your alchemical endeavors much more efficient, as the tower can process multiple tasks simultaneously, saving both time and resources. Just remember to carefully manage your essentia to avoid any inefficiencies or overflows.",
+      "desc:8": "chapter.lang.desc.62",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:thaumatorium"
       },
-      "name:8": "Advanced Alchemy"
+      "name:8": "chapter.lang.title.62"
     }
   },
   "questID:3": 245,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "\nThe Creation of Flux Rifts\n\nWhen operating devices like your Crucible, Smeltery, and other production setups, every point of naturally released essentia contributes to the flux level of the Vis (corrupted aspects being particularly severe).\n\nWarp within the aura slows the aura’s natural regeneration rate and reduces its efficiency.\n\nIf the flux level exceeds 75% of the aura’s Vis, a Flux Rift will form. These rifts will consume any blocks they come into contact with (e.g., chests, furnaces, ME drives) and destroy dropped items. Therefore, avoid their formation at all costs!\n\nWhen using the Crucible, make sure to use Quartz Shards to crystallize excess essentia. Each shard can crystallize two points of essentia, allowing you to control the release of flux more effectively.\n\nAdditionally, there are methods to reduce the flux level in the aura, which will be discussed later",
+      "desc:8": "chapter.lang.desc.109",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:crucible"
       },
-      "name:8": "Flux and it\u0027s creation"
+      "name:8": "chapter.lang.title.109"
     }
   },
   "questID:3": 60,

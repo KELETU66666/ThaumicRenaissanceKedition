@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Arcane Levitation Platform: This device consumes Vis to generate an air current that pushes entities in the direction it is facing. It can be toggled on and off using a redstone signal.\n\nUpon first placement, the default air current height is 8 blocks. You can adjust the levitation distance by clicking the trigger on the bottom of the platform (increasing the distance will increase the Vis consumption):\n\n4 blocks (8 Vis/minute)\n8 blocks (16 Vis/minute)\n16 blocks (32 Vis/minute)\n32 blocks (64 Vis/minute)\nWhile a living entity is levitating, 1 Vis is consumed per second.\n\nThis platform can be used to create mob farms or other automated systems.\n\n\n\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.23",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:levitator"
       },
-      "name:8": "Arcane Levitation Platform"
+      "name:8": "chapter.lang.title.23"
     }
   },
   "questID:3": 24,

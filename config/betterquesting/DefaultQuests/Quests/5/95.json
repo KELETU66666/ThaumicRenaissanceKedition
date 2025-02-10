@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In the previous chapter, we discussed the origins of corruption. Now, we will explain how corruption spreads.\n\nWhen curse waves cause corruption fissures to form, a Corruption Spore Nest is created. However, the spread capacity of a single Corruption Spore Nest is limited and cannot maintain corruption over long distances for extended periods. At this point, the corruption spores will begin to appear at the outer edges of the nest\u0027s influence, and these spores will also spread corruption. As the spores propagate, more Corruption Spores will emerge at the edges of their range, creating a vicious cycle!\n\nFurthermore, if corruption becomes too severe, even after you eliminate the Corruption Spore Nest and the Corruption Spores, new Corruption Spores may still regenerate! This means you must continuously monitor and clean the corruption, as it could reoccur if left unchecked.\n\nIf corruption spreads too deeply and the Corruption Spores reach underground caves, the situation becomes even more difficult. Corrupted blocks are extremely tough to mine, and early on, players don\u0027t have effective means to break them (corrupted blocks are highly resistant to explosions). This creates situations where the corruption cannot be completely cleared. In the early stages, if you cannot control the formation of corruption, make sure to keep it far from your base, as it can quickly escalate into an uncontrollable disaster!",
+      "desc:8": "chapter.lang.desc.108",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:taint_geyser"
       },
-      "name:8": "Spread of Corruption"
+      "name:8": "chapter.lang.title.108"
     }
   },
   "questID:3": 95,

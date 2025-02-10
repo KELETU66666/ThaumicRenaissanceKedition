@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "To begin your journey into Thaumcraft 6, you first need to collect the six different types of Mystical Crystal Shards. This is quite a task, but once you obtain just one of the crystal shards, the quest will reward you with all six types of shards, saving you from the tedious mining process of the original game and quickly immersing you in the mysteries of Thaumcraft!",
+      "desc:8": "chapter.lang.desc.4",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:crystal_aer"
       },
       "ismain:1": 1,
-      "name:8": "Obtaining Crystal Shards"
+      "name:8": "chapter.lang.title.4"
     }
   },
   "questID:3": 51,
@@ -103,15 +103,7 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "id:8": "thaumcraft:crystal_essence",
-          "tag:10": {
-            "Aspects:9": {
-              "0:10": {
-                "amount:3": 1,
-                "key:8": "aer"
-              }
-            }
-          }
+          "id:8": "thaumcraft:crystal_essence"
         }
       },
       "taskID:8": "bq_standard:retrieval"

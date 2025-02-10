@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After finding any crystal shard, throw it away and then pick it up again. You\u0027ll get a prompt saying you\u0027ve pricked your finger. After that, sleep and follow the guidance of the strange dream to craft the Thaumaturge\u0027s Handbook!",
+      "desc:8": "chapter.lang.desc.5",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:thaumonomicon"
       },
       "ismain:1": 1,
-      "name:8": "Development Path"
+      "name:8": "chapter.lang.title.5"
     }
   },
   "questID:3": 27,

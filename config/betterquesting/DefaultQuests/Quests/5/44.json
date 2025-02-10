@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Unlike the Sanity Checker, the Arcane Litmus Paper offers a precise measurement of your personal Warp values.\n\nKey Features\nPrecisely detects your Temporary Warp, Regular Warp, and Permanent Warp levels.\nSimple to use: Hold it in your hand and right-click to get an accurate reading of your current Warp state.\nImportant Note\nIf your Warp levels are too high, the litmus paper will be consumed after use, making it a single-use item in such cases.\nUtility\nThe Arcane Litmus Paper is an excellent tool for thaumaturges who want to monitor their mental state during dangerous research or experimentation with forbidden knowledge. Always have a few on hand to stay informed about your growing Warp levels!\n\n\n\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.126",
       "icon:10": {
         "Count:3": 1,
         "id:8": "warptheory:item_warppaper"
       },
-      "name:8": "Arcane Litmus Paper"
+      "name:8": "chapter.lang.name.126"
     }
   },
   "questID:3": 44,

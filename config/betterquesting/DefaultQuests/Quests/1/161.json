@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "In basic research, you must first study and discover the \"Enchanting\" chapter. After unlocking it, a dyeable Thaumaturge set will be available.\nThis set will reduce magic power consumption by a percentage. When paired with the Revealing Goggles, it will provide a total of 13% magic reduction. Craft a full set!\n\n",
+      "desc:8": "chapter.lang.desc.12",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:cloth_chest"
       },
-      "name:8": "Thaumaturge\u0027s Basic Set"
+      "name:8": "chapter.lang.title.12"
     }
   },
   "questID:3": 161,

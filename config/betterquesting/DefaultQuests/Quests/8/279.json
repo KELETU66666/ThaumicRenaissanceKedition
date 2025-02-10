@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Lesser Crimson Portal will spawn nearby players, you may meet them during your adventure.\nOnce it open, Crimson Knights and Crimson Clerics will swarm out, be curious to deal with then and scan them, then, you can try kill them, after defeat them, they have small chance drop their book, §cPLEASE DO NOT RIGHT CLICK !!!§r \nIt can use unlock Eldritch research page !\n\nTips: They will often appears in low-vis area like Desert or Extreme Hill.",
+      "desc:8": "chapter.lang.desc.71",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -12,7 +12,7 @@
         "id:8": "thaumcraft:curio"
       },
       "ismain:1": 1,
-      "name:8": "Crimson Ritalanties"
+      "name:8": "chapter.lang.title.71"
     }
   },
   "questID:3": 279,

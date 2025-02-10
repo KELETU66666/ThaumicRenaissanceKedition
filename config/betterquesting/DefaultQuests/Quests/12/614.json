@@ -4,13 +4,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Ichorium is the material required for the \u0027ultimate gear\u0027 in the Thaumaturge series. You can use it to craft Ichor tools and Awakened Ichor gear.",
+      "desc:8": "chapter.lang.desc.82",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 3,
         "id:8": "thaumictinkerer:kamiresource"
       },
-      "name:8": "Refining the Blood a Deity"
+      "name:8": "chapter.lang.title.82"
     }
   },
   "questID:3": 614,

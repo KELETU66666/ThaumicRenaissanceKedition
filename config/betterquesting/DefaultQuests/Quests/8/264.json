@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Arcane Bellows can be unlocked after researching the Infernal Furnace. It not only accelerates the production rate of the Infernal Furnace and the Catalytic Reaction Chamber but also speeds up regular furnaces and smelting factories, making it a perfect tool!",
+      "desc:8": "chapter.lang.desc.45",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:bellows"
       },
-      "name:8": "Acceleration and Increased Yield"
+      "name:8": "chapter.lang.title.45"
     }
   },
   "questID:3": 264,

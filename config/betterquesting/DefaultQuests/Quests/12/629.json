@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Indestructible Ichorium Shovel has three modes:\n\nBlock Mode (Green): It digs normally, like a standard shovel.\n\nSquare Mode (Red): It digs a 5x5 area around the starting block.\n\nColumn Mode (Blue): It digs in a vertical column, 8 blocks above and 8 blocks below the starting block, removing blocks of the same type as the starting block.",
+      "desc:8": "chapter.lang.desc.88",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:ichorium_shovel_adv"
       },
-      "name:8": "Godspeed digging"
+      "name:8": "chapter.lang.title.88"
     }
   },
   "questID:3": 629,

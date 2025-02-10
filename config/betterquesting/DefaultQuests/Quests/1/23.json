@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Following the traditional start of Minecraft, you’ll need to head underground to mine and gather resources. Here, you’ll need to collect redstone, gold, iron, and copper. If you happen to find diamonds, consider taking a trip to the Twilight Forest—it might make gathering resources even easier!",
+      "desc:8": "chapter.lang.desc.2",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:stone_pickaxe"
       },
       "ismain:1": 1,
-      "name:8": "Primary Tasks"
+      "name:8": "chapter.lang.title.2"
     }
   },
   "questID:3": 23,

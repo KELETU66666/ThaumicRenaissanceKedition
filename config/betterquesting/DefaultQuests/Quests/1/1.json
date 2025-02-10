@@ -1,12 +1,12 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This modpack includes most of the add-ons for Thaumcraft 6 (TC6) and aims to provide players with the most enjoyable TC6 experience possible. Here are some beginner tutorials to help you get started:\n\nExploring Thaumcraft Basics\n\nStart by crafting your first Thaumometer to scan the world and unlock the secrets of Vis.\nFollow the in-game Thaumonomicon to learn essential mechanics like research, crafting, and alchemy.\nNew Add-ons and Features\n\nDiscover a host of new blocks, tools, and mechanics introduced by the modpack, such as advanced Void energy systems, biome transformation devices, and Rift management tools.\nProgression and Quests\n\nThe questing system guides you step-by-step through the complexities of Thaumcraft and its add-ons, ensuring you never feel lost.\nTips for New Players\n\nAlways carry some Salis Mundus—it’s crucial for crafting advanced items and repairing key components.\nPay attention to Rift stability and manage your Vis consumption wisely to avoid instability or corruption.\nEnjoy delving into the mysteries of Thaumcraft and mastering the arcane arts!",
+      "desc:8": "chapter.lang.desc.1",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:book"
       },
-      "name:8": "Welcome to the Thaumic Renaissance Modpack!"
+      "name:8": "chapter.lang.title.1"
     }
   },
   "questID:3": 1,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Research Table Specialization\n\nBy placing certain specific blocks in a 9x9x3 area around the Research Table and selecting them before starting research, you can increase the probability of drawing specific research cards. However, this will consume a small amount of Inspiration. The blocks are as follows:\n\nBookshelf: Increases the probability of drawing the \"Annotations\" card.\nEnchanting Table: Increases the probability of drawing the \"Research Enchantment\" card.\nBeacon: Increases the probability of drawing the \"Aura Influence\" card.\nArcane Workbench: Increases the probability of drawing \"Refinement Science\" related cards.\nCrucible: Increases the probability of drawing \"Alchemy\" related cards.\nCore Infusion Table: Increases the probability of drawing \"Mysticism\" related cards.\nGolem Workshop: Increases the probability of drawing \"Golemancy\" related cards.\nRune Matrix: Increases the probability of drawing \"Arcane Enchantment\" related cards.\nBrain in a Jar: Increases the probability of drawing the \"Dark Whispers\" card.\nPortal: Increases the probability of drawing the \"Otherworldly Echoes\" card.\nRune Stone: Increases the probability of drawing the \"Runic Studies\" card.\nAstral Research: After completing the \"Astral Research\" study, increases the probability of drawing the \"Astral Research\" card.\nInspiration Engine (Source \u003e 5): Based on remaining source material (5-15), it increases the probability of drawing 1–3 \"Gaining Inspiration\" cards.\nMadness Engine (Source \u003e 5): Based on remaining source material (5-15), it increases the probability of drawing 1–3 \"Gaining Madness\" cards.\nBrain Jar Rift: Increases the probability of drawing the \"Brain Jar Rift\" card.\nRift Monitoring Device: Increases the probability of drawing the \"Rift Monitoring Device\" card.\nME Controller: Increases the probability of drawing \"Energy Studies\" cards.",
+      "desc:8": "chapter.lang.desc.133",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:bookshelf"
       },
-      "name:8": "Research Specialization"
+      "name:8": "chapter.lang.name.133"
     }
   },
   "questID:3": 37,

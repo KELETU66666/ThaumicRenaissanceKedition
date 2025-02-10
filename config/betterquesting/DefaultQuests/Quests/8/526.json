@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "\nThe Mnemonic Matrix is a useful component for the Thumatorium, allowing you to store additional recipes. Each Mnemonic Matrix provides two extra recipe slots, which means you don’t need to reset the recipes each time you craft an item, making your alchemical processes much more efficient.\n\nTo use the Mnemonic Matrix, place it on any face of the Arcane Alchemy Tower except the front (the one with the output slot for items).\n\nWhile this item can be crafted right now, its recipe requires a Clockwork Mind, which is tied to the Automaton research. Make sure to unlock the necessary Automaton research to craft the Clockwork Mind and complete the Mnemonic Matrix recipe.\n\n\n\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.61",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:brain_box"
       },
-      "name:8": "Extreme Memory"
+      "name:8": "chapter.lang.title.61"
     }
   },
   "questID:3": 526,

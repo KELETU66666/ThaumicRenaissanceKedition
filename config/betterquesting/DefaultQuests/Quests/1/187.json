@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After unlocking Arcane Infusion, you will be able to automate alchemy. There are two machines that allow you to automatically extract and draw the required aspects within a 16-block range",
+      "desc:8": "chapter.lang.desc.20",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:essentia_input"
       },
-      "name:8": "Automated Alchemy"
+      "name:8": "chapter.lang.title.20"
     }
   },
   "questID:3": 187,

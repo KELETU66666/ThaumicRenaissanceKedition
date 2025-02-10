@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "After unlocking Demonology, you will gain access to the crafting of Void Metal Ingots using Void Seeds. Void Metal Ingots are the key material for crafting the Void Metal Gear Set, which offers a self-healing ability. When worn by the player or placed in the hotbar, these items regenerate 1 durability point per second. Additionally, the Void Sword has the added benefit of applying a Weakness effect to its target, making it an excellent weapon.",
+      "desc:8": "chapter.lang.desc.72",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -13,7 +13,7 @@
         "id:8": "thaumcraft:ingot"
       },
       "ismain:1": 1,
-      "name:8": "Void Metal Processing"
+      "name:8": "chapter.lang.title.72"
     }
   },
   "questID:3": 288,

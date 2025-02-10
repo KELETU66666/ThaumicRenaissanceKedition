@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Once you reach the Outer Realm, your objective is to find a strange structure built from Ancient Stone, emitting a mysterious and eerie glow. This building, often resembling a tower, holds significant importance in your journey.\n\nKey Details about the Strange Building:\n\nAncient Stone Structure:\n\nThe building is primarily made of Ancient Stone, a material known for its deep connection to void magic. The eerie glow that emanates from it adds to the atmosphere of uncertainty and danger.\n\nVoid Guardians:\n\nAround the building, you will encounter Void Guardians—corrupted and powerful entities that serve to protect the structure. These guardians are hostile and will attack on sight. Make sure to prepare for battle.\n\nFirst Door:\n\nThe first challenge is to open the door to enter the structure. To do so, you will need to use the Mage\u0027s Gauntlet with an Impetus Cell (a Void Kinetic Energy Battery). The gauntlet will absorb the energy from the building’s power source, activating the first door.\nThe Second Layer:\n\nAfter passing through the first door, head to the second layer of the building. This area may contain additional traps or puzzles to overcome before proceeding.\n\nThe Mysterious Object:\n\nOn the second layer, you will find a mysterious object. Take this object and insert it into the corresponding door on the opposite side. This will activate the next phase of your exploration within the structure.\n\nKey Actions:\n\nEquip the Mage’s Gauntlet with Impetus Cell to activate the first door.\nBattle the Void Guardians in the vicinity.\nRetrieve the mysterious object and place it into the correct slot to progress.\n\nCaution:\n\nBe mindful of the Void Guardians and the potential traps inside the structure.\nThe building might also hold important secrets or artifacts related to the Void, so investigate thoroughly as you move forward.\n\nAre you ready to begin your exploration of this mysterious structure?\n\n\n\n\n",
+      "desc:8": "chapter.lang.desc.77",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:eldritch_lock_key"
       },
       "ismain:1": 1,
-      "name:8": "In the Outer Realm"
+      "name:8": "chapter.lang.title.77"
     }
   },
   "questID:3": 303,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Elemental Tools\nAfter unlocking Infusion, you can craft a series of powerful Elemental Tools. These tools require minimal Vis and a single piece of Rare Earth, making them highly cost-effective. Here\u0027s a breakdown of their features and abilities:\n\n Pickaxe of the Core\n\nRunes: Infused with Blazing I and Ore Detection II.\nCapabilities:\n25% chance to yield Ore Clusters when mining raw ores.\nShift + Right-Click consumes 10 durability to highlight nearby ore deposits.\nStruck entities are set ablaze.\n\nBlade of Zephyr\n\nRunes: Infused with Arcing II.\nCapabilities:\nStrikes trigger Chain Lightning, which damages secondary targets.\nRight-Click unleashes a whirlwind, pushing back nearby foes and causing the wielder to hover gently.\n\nAxe ofthe Stream\n\nRunes: Infused with Harvesting and Fell Sweep.\nCapabilities:\nFells entire trees, starting from the farthest block, and accelerates leaf decay for faster sapling drops.\nAutomatically attracts felled logs and items toward the wielder.\nRight-Click pulls nearby dropped items to the wielder.\n\nShovel of the Earthmover\n\nRunes: Infused with Earthbreaker.\nCapabilities:\nMines 3×3 areas of dirt, sand, or similar blocks.\nRight-Click duplicates a 3×3 block pattern if matching blocks are available.\nPress G to adjust placement orientation.\n\nHoe of Growth\n\nCapabilities:\nTills a 3×3 area in one swing.\nRight-Click accelerates crop or plant growth.\nAll Elemental Tools are extremely versatile and an essential addition for any Thaumaturge. Crafting them as soon as resources allow is highly recommended!\n",
+      "desc:8": "chapter.lang.desc.59",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
@@ -18,7 +18,7 @@
           }
         }
       },
-      "name:8": "Elemental Tools"
+      "name:8": "chapter.lang.title.59"
     }
   },
   "questID:3": 530,

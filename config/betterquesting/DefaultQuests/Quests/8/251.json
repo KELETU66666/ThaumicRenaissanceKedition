@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Magic Hand Mirror\n\nThe Magic Hand Mirror functions similarly to the Magic Mirror, but is much more portable. When used, right-clicking a hand mirror that is already linked to a target Magic Mirror will open an interface. Items placed into the interface will be transferred to the target Magic Mirror.\n\nThe Magic Hand Mirror is bound by right-clicking it on a Magic Mirror (once bound, the hand mirror will emit a subtle glowing effect, like an enchanted item). To bind it to a new Magic Mirror, right-click it again. One Magic Mirror can be bound to multiple Magic Hand Mirrors. If the Magic Mirror’s position changes, the Magic Hand Mirror will need to be re-bound.\n\nNote: The Magic Hand Mirror can only transmit items, not receive them.\n\n",
+      "desc:8": "chapter.lang.desc.67",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:hand_mirror"
       },
-      "name:8": "Convenient Storage"
+      "name:8": "chapter.lang.title.67"
     }
   },
   "questID:3": 251,

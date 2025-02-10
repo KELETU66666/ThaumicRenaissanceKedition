@@ -5,13 +5,13 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Biothaumic Mind is an advanced head component used in golem crafting. When equipped with this component, the golem gains the Intelligence attribute, allowing it to perform advanced tasks such as crop harvesting, animal slaughtering, and more. However, it also gains the Fragile attribute, which reduces its armor value. To negate this effect, you must unlock the War Machines research, allowing you to craft an Armored Intelligent Head in the Golem Workshop.\n\nThese Advanced Seals can only be used by golems that possess the Intelligence attribute, enabling them to complete more complex tasks. Here’s a list of the advanced seals and their functions:\n\nHarvest Seal: This seal searches for ripe crops within its range and instructs the golem to harvest them. If there is an active Gather seal nearby, the golem will replant the crops after harvesting them.\n\nSlaughter Seal: When the number of certain animals within the range exceeds two, this seal requests nearby golems with the appropriate attributes to kill the extra adult animals. This helps manage animal populations for resource collection.\n\nChopping Seal: This seal instructs nearby golems with both Mining and Intelligence attributes to chop down trees within its range. It includes an automatic Flowing effect, allowing the golem to chop an entire tree even if the roots are the only part within range.\n\nNote: Golems may get stuck in the tree logs and suffocate, so be careful when using this seal!\nThese advanced seals provide greater configurability and allow for more complex golem operations, but they require golems with the Intelligence attribute to function effectively",
+      "desc:8": "chapter.lang.desc.47",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
         "id:8": "thaumcraft:mind"
       },
-      "name:8": "Advanced Seals"
+      "name:8": "chapter.lang.title.47"
     }
   },
   "questID:3": 604,

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "EverFull Urn can provides §9Water§r if surrounding machine needed, such as crucible and botania\u0027s altar.",
+      "desc:8": "chapter.lang.desc.25",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:everfull_urn"
       },
-      "name:8": "Never Gonna give you Up !"
+      "name:8": "chapter.lang.title.25"
     }
   },
   "questID:3": 201,

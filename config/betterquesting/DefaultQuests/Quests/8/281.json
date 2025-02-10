@@ -4,14 +4,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Peering into the Void\nAfter completing the Blood Ritual research, you will need to uncover the secrets of Void Artifacts.\n\nThe Task\nLocate a Rift in your world.\nDetonate the rift using Paradoxical Matter or wait for the slim chance (1%) that it collapses naturally.\nWhen the rift collapses, there is a chance it will drop Void Seeds.\nThe Next Step\nUse your Thaumometer to scan the Void Seed.\nThis will unlock the path to Occult Revelations, allowing you to delve into Forbidden Arts.\nImportant Notes\nBe prepared for the effects of Warp and instability that may arise during this process.\nEnsure you have adequate defenses and tools for handling the potential dangers of rift collapses.\nThe knowledge you gain will open doors to power, but as always with such pursuits, tread carefully.",
+      "desc:8": "chapter.lang.desc.70",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:void_seed"
       },
       "ismain:1": 1,
-      "name:8": "Essence of the Void"
+      "name:8": "chapter.lang.title.70"
     }
   },
   "questID:3": 281,

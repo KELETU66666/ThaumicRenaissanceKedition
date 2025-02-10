@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Whisperweed can slowly increase your research progress but comes with the risk of occasionally giving you temporary Warp!\n\nIf you haven’t progressed in Botania, you can safely skip this section, as this flower consumes Mana to function.\n\nFor those using Botania, Whisperweed might be a valuable addition to your magical arsenal, but be mindful of its side effects. Ensure you have sufficient Warp management measures in place, such as Purity Talismans or Sanity Baths, to counteract the temporary Warp it may cause.",
+      "desc:8": "chapter.lang.desc.127",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:specialflower",
@@ -12,7 +12,7 @@
           "type:8": "whisperweed"
         }
       },
-      "name:8": "Demonic Whispers"
+      "name:8": "chapter.lang.name.127"
     }
   },
   "questID:3": 42,

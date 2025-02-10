@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Charged Base is a useful device in Thaumic Renaissance for automatically charging items that use Vis for energy. To use it, right-click on the base to place the item you want to charge, and it will automatically draw Vis from the surrounding Aura in the chunk where it is located. This allows the item to be replenished with energy without needing manual intervention.\n\nWhile charging, if you\u0027re wearing the Revealing Goggles, you can hover your mouse over the charged item to see the current energy levels of the item. This provides an easy way to monitor the charging process and ensure your items are properly powered.\n\nHowever, one limitation of the Charged Base is that it does not support the Arcane Workbench Charger. This means that certain items, particularly those requiring a more specific type of energy transfer or more complex charging methods, cannot be charged via the Charged Base and may require an alternative method or structure.\n",
+      "desc:8": "chapter.lang.desc.35",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:recharge_pedestal"
       },
-      "name:8": "Charging"
+      "name:8": "chapter.lang.title.35"
     }
   },
   "questID:3": 163,

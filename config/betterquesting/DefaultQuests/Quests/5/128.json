@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If you have the Botanical Magic mod installed, Purification Bath Salts can be used to craft a Potion of Sanity. This potion grants a protective Warp Guard buff, which helps to prevent or reduce the effects of Warp Outbursts.\n\nPotion of Sanity\nEffect: When consumed, the Potion of Sanity grants Warp Guard for 10 minutes, preventing Warp effects for the duration.\nUses: The potion can be consumed 4 or 6 times, depending on the type of bottle used to craft it. Larger bottles allow for more doses, which can be useful for prolonged exploration or research.\nDuration: The Warp Guard effect lasts for 10 minutes per dose.\nCrafting the Potion of Sanity\nTo craft the Potion of Sanity, you need the following:\n\nPurification Bath Salts (Main Ingredient)\nGlass Bottle (to hold the potion)\nBotanical Ingredients (to enhance the potion)\nSince Botanical Magic is required for this recipe, you do not need to unlock any additional research to craft the Potion of Sanity. Simply use Purification Bath Salts along with Botanical Magic components to create the potion.\n\nUsage Tips\nExploration: Ideal for long expeditions into areas with high Warp exposure, such as Forbidden Knowledge zones, Arcane Ruins, or Warp-infested biomes.\nResearch: Drink the Potion of Sanity before starting high-risk research into Warp-related topics, ensuring that your Warp levels don\u0027t spike unexpectedly.\nCombat: Use it to stay protected while fighting Warp-infused creatures or Arcane Guardians that might cause Warp debuffs during battle.\nThe Potion of Sanity offers a convenient way to manage Warp exposure while exploring the more dangerous parts of the world or delving deep into forbidden magical studies",
+      "desc:8": "chapter.lang.desc.116",
       "icon:10": {
         "Count:3": 1,
         "id:8": "botania:brewflask",
@@ -12,7 +12,7 @@
           "brewKey:8": "warpWard"
         }
       },
-      "name:8": "Better Suppression of Warp Outbursts - Plant Brewing Stand"
+      "name:8": "chapter.lang.name.116"
     }
   },
   "questID:3": 128,

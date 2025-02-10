@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Advanced Alchemical Smelter is a multiblock essentia smelter in late-game, it can smelt essentia with redculous speed and without any pollution, but you need to feed it impuse energy, the multiblock structure can found in thaumonomicon.\n\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003dAlchemical Grate\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nThe Alchemical Grate provides a clean way to add items into your Advanced Alchemical Furnace: A hopper-like Inventory instead of uncontrolled item spillage.\nPlace an Alchemical Grate in the center of your Advanced Alchemical Furnace and fill it with items you want to break down into aspects.",
+      "desc:8": "chapter.lang.desc.104",
       "icon:10": {
         "Count:3": 1,
         "id:8": "advanced_smelter:advanced_essentia_smelter"
       },
-      "name:8": "Advanced Alchemical Smelter"
+      "name:8": "chapter.lang.title.104"
     }
   },
   "questID:3": 649254516,

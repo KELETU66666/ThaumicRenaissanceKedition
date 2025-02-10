@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Prepare the materials for the Infernal Furnace and construct it.\nThe Infernal Furnace is a fuel-free device that is extremely easy to use. Simply throw items into it from above to start the process. It will eject the smelted products from its front, along with some byproducts!\nYou can insert Arcane Bellows into the center of the left, right, back, and bottom sides of the Infernal Furnace to increase both its output and processing speed.\n§c Warning: The Infernal Furnace generates a small amount of Warp while operating, so be cautious!",
+      "desc:8": "chapter.lang.desc.46",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:infernal_furnace"
       },
-      "name:8": "A better smeltery"
+      "name:8": "chapter.lang.title.46"
     }
   },
   "questID:3": 243,

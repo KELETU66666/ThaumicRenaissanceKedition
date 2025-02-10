@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "\nAn indestructible Cowl offering the durability of diamond gear, 4% magical damage reduction, and the following special abilities:\n\nWater Breathing: Automatically grants water-breathing when oxygen is required, ensuring extended underwater exploration.\nAdaptive Vision: While submerged, provides night vision for clarity; however, lava exposure induces blindness, enhancing environmental immersion.\nSustained Regeneration: Health regenerates regardless of hunger level, keeping you alive in dire situations.\nGoggles of Revealing Integration: Fully inherits the abilities of the Goggles of Revealing, making it an invaluable tool for uncovering hidden magic and auras.\nThis helm equips you for both survival and magical exploration in any environment!",
+      "desc:8": "chapter.lang.desc.91",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:kami_helm"
       },
-      "name:8": "Abyssal Shroud"
+      "name:8": "chapter.lang.title.91"
     }
   },
   "questID:3": 613,

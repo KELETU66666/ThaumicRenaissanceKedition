@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Nether Fragment: Has a 0.65% chance to drop from Pigmen, Blaze Men, and Wither Skeletons.\n\nEnder Rift: Has a 0.65% chance to drop from Endermen, Endermites, and Endermites.\n\nCurrently, these items can only be used to burn elements, but in the future, they can be used to craft Essence!",
+      "desc:8": "chapter.lang.desc.13",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumictinkerer:kamiresource"
       },
-      "name:8": "Special Fragments"
+      "name:8": "chapter.lang.title.13"
     }
   },
   "questID:3": 641,

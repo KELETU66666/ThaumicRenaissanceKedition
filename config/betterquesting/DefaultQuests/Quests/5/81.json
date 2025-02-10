@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Setting Up the Flux Condenser\nInstall Grids and Connect Non-Corrupt Source Elements:\n\nPlace Grids on the Flux Condenser to help it absorb the Flux more efficiently.\nSurround the condenser with Non-Corrupt Source Elements , such as Ignis, Aqua, Terra, etc., to ensure it works properly. These elements help the condenser process and condense the Flux.\n\nSet Up a Pollution Source Container:\n\nBeneath the condenser, place a container that will store the Polluted Source Elements. The polluted elements will be transferred here once absorbed by the condenser.\n\nEfficiency of the Condenser:\n\nThe more Condenser Grids you install, the more efficient the condenser becomes. This means less non-corrupt source energy will be needed to clean more Flux.\nAs you improve the condenser\u0027s setup, it will clean Flux in a larger area, making it more effective for larger regions.\nMaintenance of the Flux Condenser\n\nGrid Clogging:\n\nGrids have a chance of clogging as they absorb Flux. When this happens, you will need to repair them.\nTo repair the clogged grids, Right-Click them with a Source Element Filter. This operation will consume the Source Element Filter, so be sure to stock up on them.\n\nAvoid Using Polluted Source Elements:\n\nDo not input Polluted Source Elements into the Flux Condenser, as this will immediately clog the grids. Make sure only non-corrupt source energy is used in the process.\n\nWarning:\nBe cautious and avoid using polluted energy in the system as it can cause the Flux Condenser to malfunction. Ensure you use only clean, non-corrupt source elements for optimal performance.\n",
+      "desc:8": "chapter.lang.desc.113",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:condenser"
       },
-      "name:8": "Clearing Flux Waves"
+      "name:8": "chapter.lang.name.113"
     }
   },
   "questID:3": 81,

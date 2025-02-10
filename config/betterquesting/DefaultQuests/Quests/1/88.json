@@ -5,14 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Once you have obtained the Magic Handbook, the next step is to craft the Arcane Workbench and Magical Lens.\n\nFirst, open the Magic Handbook and click on the flashing \"Initial Exploration\" research to unlock the crafting recipe for the Arcane Workbench.\n\nNext, right-click the World Salt on the crafting table, and it will transform into the Arcane Workbench. This workbench is used to craft basic items for Thaumcraft.\n\nThe Arcane Workbench has a 3x3 crafting grid with six additional slots on the sides, where you can place the corresponding color mana crystal shards. The number of crystal shards used for crafting depends on the recipe shown in the crafting table.\n\nAbove the result slot, you’ll see small blue text showing the mana in the surrounding area, which indicates how much Aura is available.\n\nAfter placing items in the crafting grid, if the conditions are met, the product will appear in the result slot. If there is a rotating circle around the item, it indicates that the corresponding element’s mana crystal shards will be consumed.\n\nThe blue text showing the total amount of Aura in the area will display a light blue number above it, which represents the amount of Vis used in the recipe.\n\nOne significant advantage of the Arcane Workbench is that any placed items will not return to your inventory if you exit the crafting interface.\n\nAfterward, open the Magic Handbook again and click \"Complete Research\" to finish the research on the Arcane Workbench and unlock the next research (Magical Lens).\n\nThen, use the 6-color mana crystals, 4 gold ingots, and 1 glass pane to craft the Magical Lens at the Arcane Workbench.\n\nOnce you have crafted the Magical Lens, right-click or sneak-right-click to scan blocks. While holding the Magical Lens, all unscanned blocks will be marked with small flashing light blue dots.\n\nYou can also hover the Magical Lens over an item to automatically scan it.\n\nScanning blocks will unlock research and provide you with knowledge of \"Observation.\"\n\nThe more complex the scanned block, the more knowledge you will gain.\n\nSome research requires scanning specific items or acquiring the corresponding knowledge.",
+      "desc:8": "chapter.lang.desc.6",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:thaumometer"
       },
       "ismain:1": 1,
-      "name:8": "Basic Preparation"
+      "name:8": "chapter.lang.title.6"
     }
   },
   "questID:3": 88,
