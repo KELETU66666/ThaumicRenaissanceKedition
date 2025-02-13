@@ -20,10 +20,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "botania:brewvial",
-          "tag:10": {
-            "brewKey:8": "warpWard"
-          }
+          "id:8": "thaumcraft:bath_salts"
         }
       }
     },

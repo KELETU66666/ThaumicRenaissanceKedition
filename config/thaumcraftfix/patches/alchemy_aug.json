@@ -85,16 +85,6 @@
         ]
 	},
 	{
-        "key": "ESSENTIASMELTERTHAUMIUM",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "parents/1",
-				"value": "~METALLURGY@3"
-			}
-        ]
-	},
-	{
         "key": "ESSENTIASMELTERVOID",
         "ops": [
 			{

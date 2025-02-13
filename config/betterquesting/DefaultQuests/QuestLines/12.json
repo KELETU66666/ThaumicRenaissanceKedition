@@ -3,13 +3,15 @@
   "order:3": 2,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Dive further into darker and better ways to arm yourself and fight against the unknown",
+      "desc:8": "chapter.title.3.desc",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
-        "id:8": "thaumictinkerer:kamiresource"
+        "id:8": "thaumictinkerer:share_book",
+        "tag:10": {
+          "player:8": "[none]"
+        }
       },
-      "name:8": "Ichor and Impetus research"
+      "name:8": "chapter.title.3"
     }
   },
   "quests:9": {

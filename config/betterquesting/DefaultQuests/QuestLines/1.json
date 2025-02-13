@@ -3,12 +3,12 @@
   "order:3": 0,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Beginning of the Mystical Era",
+      "desc:8": "chapter.title.1.desc",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:thaumonomicon"
       },
-      "name:8": "Mysterious Beginning"
+      "name:8": "chapter.title.1"
     }
   },
   "quests:9": {

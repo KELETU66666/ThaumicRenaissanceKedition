@@ -18,15 +18,5 @@
 				"value": "BASICS"
 			}
         ]
-	},
-	{
-        "key": "FLUXCLEANUP",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "-5"
-			}
-        ]
 	}
 ]

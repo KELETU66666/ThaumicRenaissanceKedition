@@ -3,13 +3,13 @@
   "order:3": 1,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Enchanting and Dark Arts of the Mystical Age",
+      "desc:8": "chapter.title.2.desc",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 6,
         "id:8": "thaumcraft:curio"
       },
-      "name:8": "Enchanting and Dark Magic"
+      "name:8": "chapter.title.2"
     }
   },
   "quests:9": {

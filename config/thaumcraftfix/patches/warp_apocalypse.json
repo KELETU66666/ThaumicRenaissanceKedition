@@ -1,127 +1,127 @@
 [
-	{
-        "key": "WARP",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "9"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "4"
-			}
-        ]
-	},
-	{
-        "key": "WARP_PAPER",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "9"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "6"
-			},
-			{
-				"op": "replace",
-				"path": "parents/1",
-				"value": "~FIRSTSTEPS"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "BASICS"
-			}
-        ]
-	},
-	{
-        "key": "IMPURE_TEAR",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "8"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "7"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "BASICS"
-			}
-        ]
-	},
-	{
-        "key": "PURE_TEAR",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "7"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "6"
-			},
-			{
-				"op": "replace",
-				"path": "parents/2",
-				"value": "ELDRITCH_EPIPHANY"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "BASICS"
-			}
-        ]
-	},
-	{
-        "key": "CLEANSING_AMULET",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "7"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "4"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "BASICS"
-			}
-        ]
-	},
-	{
-        "key": "TAINT_MEAT",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "11"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "4"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "BASICS"
-			}
-        ]
-	}
+  {
+    "key": "WARP",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "9"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "key": "WARP_PAPER",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "9"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "parents/1",
+        "value": "~FIRSTSTEPS"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "IMPURE_TEAR",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "8"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "PURE_TEAR",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "6"
+      },
+      {
+        "op": "replace",
+        "path": "parents/2",
+        "value": "ELDRITCH_EPIPHANY"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "CLEANSING_AMULET",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "7"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  },
+  {
+    "key": "TAINT_MEAT",
+    "ops": [
+      {
+        "op": "replace",
+        "path": "location/0",
+        "value": "11"
+      },
+      {
+        "op": "replace",
+        "path": "location/1",
+        "value": "4"
+      },
+      {
+        "op": "replace",
+        "path": "category",
+        "value": "BASICS"
+      }
+    ]
+  }
 ]

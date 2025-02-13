@@ -3,7 +3,7 @@
   "order:3": 3,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You must pay attention to them, or they will force you to take notice!",
+      "desc:8": "chapter.title.4.desc",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumicaugmentation:rift_seed",
@@ -12,7 +12,7 @@
           "riftSize:3": 100
         }
       },
-      "name:8": "Corruption and Distortion"
+      "name:8": "chapter.title.4"
     }
   },
   "quests:9": {
@@ -136,34 +136,27 @@
       "y:3": -144
     },
     "17:10": {
-      "id:3": 128,
-      "sizeX:3": 24,
-      "sizeY:3": 24,
-      "x:3": 84,
-      "y:3": -180
-    },
-    "18:10": {
       "id:3": 143,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": 84,
-      "y:3": -108
+      "x:3": 96,
+      "y:3": -180
     },
-    "19:10": {
+    "18:10": {
       "id:3": 148,
       "sizeX:3": 24,
       "sizeY:3": 24,
       "x:3": 192,
       "y:3": -168
     },
-    "20:10": {
+    "19:10": {
       "id:3": 154,
       "sizeX:3": 24,
       "sizeY:3": 24,
       "x:3": 192,
       "y:3": -216
     },
-    "21:10": {
+    "20:10": {
       "id:3": 166,
       "sizeX:3": 24,
       "sizeY:3": 24,
