@@ -21,6 +21,10 @@
         "0:10": {
           "Count:3": 1,
           "id:8": "thaumcraft:mirror_essentia"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "renaissance_core:rc_coins"
         }
       }
     },

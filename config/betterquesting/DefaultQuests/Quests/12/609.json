@@ -13,6 +13,18 @@
     }
   },
   "questID:3": 609,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "renaissance_core:rc_coins"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 2,

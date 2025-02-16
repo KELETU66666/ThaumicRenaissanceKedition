@@ -24,8 +24,7 @@
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "thaumcraft:loot_bag"
+          "id:8": "renaissance_core:rc_coins"
         }
       }
     }

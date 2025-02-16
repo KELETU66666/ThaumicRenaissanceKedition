@@ -17,7 +17,7 @@ ao:2
 renderClouds:false
 resourcePacks:["Sonomagy TC6 v1.6.zip","ThaumMenu1.2.zip"]
 incompatibleResourcePacks:[]
-lastServer:101.73.55.67:25578
+lastServer:play.tpaccept.xyz:25578
 lang:zh_cn
 chatVisibility:0
 chatColors:true
@@ -107,6 +107,7 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_nei.options.keys.gui.botania_corporea_request:46
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80

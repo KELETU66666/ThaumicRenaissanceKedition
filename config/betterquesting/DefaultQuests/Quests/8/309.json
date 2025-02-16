@@ -8,6 +8,7 @@
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
+        "Damage:2": 7,
         "id:8": "thaumcraft:primordial_pearl"
       },
       "ismain:1": 1,
@@ -15,8 +16,21 @@
     }
   },
   "questID:3": 309,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "renaissance_core:rc_coins"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {

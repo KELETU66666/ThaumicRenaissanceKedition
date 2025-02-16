@@ -1,0 +1,51 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spawn a llama.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "minecraft:skull",
+        "tag:10": {
+          "SkullOwner:10": {
+            "Id:8": "5f02cefd-ffb8-4e32-a523-eaf8bac44f17",
+            "Properties:10": {
+              "textures:9": {
+                "0:10": {
+                  "Value:8": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y4MzI0NjZkY2M3ZDVlNzcwMmNkZWU0Y2Q1NTVkYmQzOTYzN2QyMGFkZjkzNjdmYjAzY2ZkNjg4OGJhYWFlNyJ9fX0\u003d"
+                }
+              }
+            }
+          },
+          "display:10": {
+            "Name:8": "Brown Llama"
+          }
+        }
+      },
+      "name:8": "Llama",
+      "repeattime:3": 500
+    }
+  },
+  "questID:3": 1136283850,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/summon minecraft:llama ~ ~1 ~",
+      "description:8": "Spawn a llama",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "renaissance_core:rc_coins"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

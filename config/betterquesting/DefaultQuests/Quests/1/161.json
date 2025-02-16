@@ -20,8 +20,7 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1,
-          "id:8": "thaumcraft:loot_bag"
+          "id:8": "renaissance_core:rc_coins"
         }
       }
     }
@@ -51,6 +50,7 @@
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
+      "ignoreNBT:1": 1,
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {

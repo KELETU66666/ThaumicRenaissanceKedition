@@ -45,9 +45,9 @@
     "1:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 6,
-          "Damage:2": 4,
-          "id:8": "thaumcraft:curio"
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "renaissance_core:rc_coins"
         },
         "1:10": {
           "Count:3": 1,
