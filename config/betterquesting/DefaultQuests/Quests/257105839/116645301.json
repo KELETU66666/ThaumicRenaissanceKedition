@@ -29,7 +29,7 @@
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 3,
           "Damage:2": 1,
           "id:8": "renaissance_core:rc_coins"
         }
