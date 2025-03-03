@@ -1,12 +1,12 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Balanced Salts.",
+      "desc:8": "Decorate your base.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thaumcraft:banner_crimson_cult"
       },
-      "name:8": "Salis Mundus",
+      "name:8": "Eldritch Banner",
       "repeattime:3": 500
     }
   },
