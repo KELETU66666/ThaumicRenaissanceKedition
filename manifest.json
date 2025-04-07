@@ -6,13 +6,12 @@
         "id": "forge-14.23.5.2860",
         "primary": true
       }
-    ],
-    "recommendedRam": 2048
+    ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "ThaumicRenaissance - Kedition",
-  "version": "10.5.0",
+  "version": "10.5.1",
   "author": "",
   "files": [
     {
@@ -191,6 +190,11 @@
       "required": true
     },
     {
+      "projectID": 225643,
+      "fileID": 3330934,
+      "required": true
+    },
+    {
       "projectID": 223628,
       "fileID": 2629023,
       "required": true
@@ -327,7 +331,7 @@
     },
     {
       "projectID": 1107386,
-      "fileID": 6311285,
+      "fileID": 6394860,
       "required": true
     },
     {
