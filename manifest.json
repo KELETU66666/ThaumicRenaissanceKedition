@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "ThaumicRenaissance - Kedition",
-  "version": "10.5.2",
+  "version": "10.5.3",
   "author": "",
   "files": [
     {
@@ -297,11 +297,6 @@
     {
       "projectID": 961959,
       "fileID": 5031355,
-      "required": true
-    },
-    {
-      "projectID": 225643,
-      "fileID": 3330934,
       "required": true
     },
     {
