@@ -125,42 +125,6 @@
     ]
   },
   {
-    "key": "CR_CRIMSON_BLADE",
-    "ops": [
-      {
-        "op": "remove",
-        "path": "key"
-      }
-    ]
-  },
-  {
-    "key": "CR_PRAETOR_ARMOR",
-    "ops": [
-      {
-        "op": "remove",
-        "path": "key"
-      }
-    ]
-  },
-  {
-    "key": "CR_BASIC_CRIMSON_ARMORY",
-    "ops": [
-      {
-        "op": "remove",
-        "path": "key"
-      }
-    ]
-  },
-  {
-    "key": "CR_BASIC_CRIMSON_WEAPONRY",
-    "ops": [
-      {
-        "op": "remove",
-        "path": "key"
-      }
-    ]
-  },
-  {
     "key": "CR_FOCUS_TAINT_POISON",
     "ops": [
       {
@@ -297,15 +261,6 @@
   },
   {
     "key": "CR_DARK_GOLEMANCY",
-    "ops": [
-      {
-        "op": "remove",
-        "path": "key"
-      }
-    ]
-  },
-  {
-    "key": "CRIMSON_REVELATIONS_BASE",
     "ops": [
       {
         "op": "remove",

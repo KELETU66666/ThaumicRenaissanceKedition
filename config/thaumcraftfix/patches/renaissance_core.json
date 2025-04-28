@@ -1,0 +1,172 @@
+[
+	{
+        "key": "CRIMSONANNALES",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "0"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "REVELATIONS"
+			},
+			{
+				"op": "add",
+				"path": "parents/3",
+				"value": "~CRIMSON_REVELATIONS_BASE"
+			}
+        ]
+	},
+	{
+        "key": "CRIMSONPONTIFEX",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-5"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "REVELATIONS"
+			}
+        ]
+	},
+	{
+        "key": "PONTIFEXHAMMER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "REVELATIONS"
+			},
+			{
+				"op": "add",
+				"path": "parents/1",
+				"value": "CR_CRIMSON_BLADE"
+			}
+        ]
+	},
+	{
+        "key": "CRIMSONINITIATION",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-6"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "REVELATIONS"
+			}
+        ]
+	},
+	{
+        "key": "CR_CULT_BESTIARY",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "REVELATIONS"
+			}
+        ]
+	},
+	{
+        "key": "!CR_CRIMSON_CLERIC",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-3"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-3"
+			}
+        ]
+	},
+	{
+        "key": "!CR_CRIMSON_KNIGHT",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "-3"
+			}
+        ]
+	},
+	{
+        "key": "CR_BASIC_CRIMSON_WEAPONRY",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-2"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "1"
+			}
+        ]
+	},
+	{
+        "key": "CR_CRIMSON_BLADE",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-1"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "3"
+			}
+        ]
+	}
+]
