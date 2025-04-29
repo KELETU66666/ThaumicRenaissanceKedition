@@ -11,13 +11,13 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:3
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
 resourcePacks:["Sonomagy TC6 v1.6.zip","ThaumMenu1.2.zip"]
 incompatibleResourcePacks:[]
-lastServer:play.tpaccept.xyz:25578
+lastServer:
 lang:zh_cn
 chatVisibility:0
 chatColors:true
@@ -93,7 +93,8 @@ key_key.betterquesting.back:14
 key_key.findme.search:21
 key_key.kitchentools.open_cape:37
 key_key.zap:35
-key_key.open_backpack:37
+key_key.open_backpack:24
+key_key.toggle_pontifex:46
 key_显示/隐藏:47
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
