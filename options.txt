@@ -18,7 +18,6 @@ renderClouds:false
 resourcePacks:["Sonomagy TC6 v1.6.zip","ThaumMenu1.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:zh_cn
 chatVisibility:0
 chatColors:true
 chatLinks:true
