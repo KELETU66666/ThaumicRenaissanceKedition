@@ -23,20 +23,6 @@
           "id:8": "renaissance_core:rc_coins"
         }
       }
-    },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:bath_salts"
-        },
-        "1:10": {
-          "Count:3": 8,
-          "id:8": "thaumcraft:triple_meat_treat"
-        }
-      },
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {

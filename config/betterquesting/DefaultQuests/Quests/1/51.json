@@ -21,76 +21,8 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 10,
-          "id:8": "thaumcraft:crystal_essence",
-          "tag:10": {
-            "Aspects:9": {
-              "0:10": {
-                "amount:3": 1,
-                "key:8": "aer"
-              }
-            }
-          }
-        },
-        "1:10": {
-          "Count:3": 10,
-          "id:8": "thaumcraft:crystal_essence",
-          "tag:10": {
-            "Aspects:9": {
-              "0:10": {
-                "amount:3": 1,
-                "key:8": "terra"
-              }
-            }
-          }
-        },
-        "2:10": {
-          "Count:3": 10,
-          "id:8": "thaumcraft:crystal_essence",
-          "tag:10": {
-            "Aspects:9": {
-              "0:10": {
-                "amount:3": 1,
-                "key:8": "ignis"
-              }
-            }
-          }
-        },
-        "3:10": {
-          "Count:3": 10,
-          "id:8": "thaumcraft:crystal_essence",
-          "tag:10": {
-            "Aspects:9": {
-              "0:10": {
-                "amount:3": 1,
-                "key:8": "perditio"
-              }
-            }
-          }
-        },
-        "4:10": {
-          "Count:3": 10,
-          "id:8": "thaumcraft:crystal_essence",
-          "tag:10": {
-            "Aspects:9": {
-              "0:10": {
-                "amount:3": 1,
-                "key:8": "ordo"
-              }
-            }
-          }
-        },
-        "5:10": {
-          "Count:3": 10,
-          "id:8": "thaumcraft:crystal_essence",
-          "tag:10": {
-            "Aspects:9": {
-              "0:10": {
-                "amount:3": 1,
-                "key:8": "aqua"
-              }
-            }
-          }
+          "Count:3": 1,
+          "id:8": "renaissance_core:rc_coins"
         }
       }
     }

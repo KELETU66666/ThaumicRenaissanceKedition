@@ -6,10 +6,7 @@
       "desc:8": "chapter.title.3.desc",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "thaumictinkerer:share_book",
-        "tag:10": {
-          "player:8": "[none]"
-        }
+        "id:8": "renaissance_core:crimson_annales"
       },
       "name:8": "chapter.title.3"
     }

@@ -19,32 +19,10 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:mirror_essentia"
-        },
-        "1:10": {
           "Count:3": 2,
           "id:8": "renaissance_core:rc_coins"
         }
       }
-    },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:resonator"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:mirror_essentia"
-        },
-        "2:10": {
-          "Count:3": 8,
-          "id:8": "thaumcraft:mirrored_glass"
-        }
-      },
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {

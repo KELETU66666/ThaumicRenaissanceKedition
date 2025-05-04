@@ -58,6 +58,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {}
+          },
           "id:8": "thaumicaugmentation:impetus_linker"
         }
       },

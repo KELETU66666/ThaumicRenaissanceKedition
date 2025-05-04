@@ -23,20 +23,6 @@
           "id:8": "renaissance_core:rc_coins"
         }
       }
-    },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 20,
-          "id:8": "thaumcraft:taint_log"
-        },
-        "1:10": {
-          "Count:3": 3,
-          "id:8": "thaumcraft:bottle_taint"
-        }
-      },
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {

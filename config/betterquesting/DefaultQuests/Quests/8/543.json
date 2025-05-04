@@ -23,20 +23,6 @@
           "id:8": "renaissance_core:rc_coins"
         }
       }
-    },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:golem_bell"
-        },
-        "1:10": {
-          "Count:3": 5,
-          "id:8": "thaumcraft:brain"
-        }
-      },
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {

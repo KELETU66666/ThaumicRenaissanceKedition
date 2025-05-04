@@ -23,24 +23,6 @@
           "id:8": "renaissance_core:rc_coins"
         }
       }
-    },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 3,
-          "id:8": "minecraft:diamond"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "thaumicwonders:alchemist_stone"
-        },
-        "2:10": {
-          "Count:3": 20,
-          "id:8": "minecraft:iron_ore"
-        }
-      },
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {

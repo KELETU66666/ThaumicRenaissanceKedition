@@ -23,27 +23,6 @@
           "id:8": "renaissance_core:rc_coins"
         }
       }
-    },
-    "1:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "id:8": "thaumcraft:seal"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 6,
-          "id:8": "thaumcraft:seal"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 4,
-          "id:8": "thaumcraft:seal"
-        }
-      },
-      "index:3": 1,
-      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {
