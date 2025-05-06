@@ -6,7 +6,10 @@
       "desc:8": "chapter.title.5.desc",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "thaumcraft:brain"
+        "id:8": "thaumictinkerer:share_book",
+        "tag:10": {
+          "player:8": "[none]"
+        }
       },
       "name:8": "chapter.title.5"
     }
