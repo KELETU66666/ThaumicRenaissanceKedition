@@ -3,12 +3,13 @@
   "order:3": 5,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Trade for some unusual items.",
+      "desc:8": "Shop",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "renaissance_core:icon"
+        "Damage:2": 1,
+        "id:8": "renaissance_core:rc_coins"
       },
-      "name:8": "Shop"
+      "name:8": "商店"
     }
   },
   "quests:9": {

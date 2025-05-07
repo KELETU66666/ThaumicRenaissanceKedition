@@ -30,7 +30,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 5,
-          "id:8": "renaissance_core:icon"
+          "id:8": "renaissance_core:rc_coins"
         }
       },
       "taskID:8": "bq_standard:retrieval"

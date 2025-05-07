@@ -37,8 +37,9 @@
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 18,
-          "id:8": "renaissance_core:icon"
+          "Count:3": 2,
+          "Damage:2": 1,
+          "id:8": "renaissance_core:rc_coins"
         }
       },
       "taskID:8": "bq_standard:retrieval"
