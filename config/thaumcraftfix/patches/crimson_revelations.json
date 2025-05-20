@@ -143,6 +143,10 @@
         "value": "AUROMANCY"
       },
       {
+        "op": "remove",
+        "path": "parents/0"
+      },
+      {
         "op": "add",
         "path": "meta",
         "value": [
