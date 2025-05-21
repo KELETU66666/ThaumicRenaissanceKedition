@@ -1,6 +1,6 @@
 [
 	{
-        "key": "VOIDSEER_GOGGLES",
+        "key": "TWOND_VOIDSEER_GOGGLES",
         "ops": [
 			{
 				"op": "replace",
@@ -16,6 +16,11 @@
 				"op": "add",
 				"path": "meta",
 				"value": ["REVERSE"]
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ELDRITCH"
 			}
         ]
 	}
