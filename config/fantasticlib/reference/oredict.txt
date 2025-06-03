@@ -228,9 +228,9 @@ oreRuby
 oreGreenSapphire
 oreSapphire
 sugarCane
-blockQuartzDark
 ingotIchorium
 nuggetIchorium
+blockQuartzDark
 ingotCopper
 ingotTin
 ingotSilver

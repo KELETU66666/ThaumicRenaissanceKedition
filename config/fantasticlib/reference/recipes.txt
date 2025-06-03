@@ -861,9 +861,9 @@ kitchentools:nether_swart
 kitchentools:nether_cake
 thaumcraftfix:sliver_to_quartz
 crimsonrevelations:ancient_stone_tile
-crimsonrevelations:block_to_magic_tallow
-crimsonrevelations:crimson_banner
 crimsonrevelations:magic_tallow_to_block
+crimsonrevelations:crimson_banner
+crimsonrevelations:block_to_magic_tallow
 planarartifice:bismuth_plate
 planarartifice:bismuth_nugget
 planarartifice:bismuth_ingot_from_nugget
@@ -1416,5 +1416,4 @@ minecraft:tb.greatpipe
 minecraft:tb.syrop
 minecraft:tb.relax
 minecraft:tb.hunger
-warptheory:warp_paper
 advanced_smelter:alchemical_grate

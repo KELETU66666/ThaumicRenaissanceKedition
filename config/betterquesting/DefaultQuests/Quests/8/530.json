@@ -36,32 +36,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:thaumium_sword"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:thaumium_pick"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:thaumium_hoe"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:thaumium_shovel"
-        },
-        "4:10": {
-          "Count:3": 1,
-          "id:8": "thaumcraft:thaumium_axe"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {

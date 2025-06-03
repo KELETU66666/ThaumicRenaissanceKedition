@@ -187,6 +187,3 @@ renaissance_core:ethereal_shackles
 renaissance_core:mad_thaumaturge
 renaissance_core:crimson_annales
 renaissance_core:golem_bydlo
-warptheory:passive_creeper
-warptheory:fake_creeper
-warptheory:doppelganger

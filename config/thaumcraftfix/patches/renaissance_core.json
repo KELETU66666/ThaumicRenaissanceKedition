@@ -1,6 +1,6 @@
 [
 	{
-        "key": "CRIMSONANNALES",
+        "key": "!CrimsonAnnales",
         "ops": [
 			{
 				"op": "replace",
@@ -16,11 +16,6 @@
 				"op": "replace",
 				"path": "category",
 				"value": "REVELATIONS"
-			},
-			{
-				"op": "add",
-				"path": "parents/3",
-				"value": "~CRIMSON_REVELATIONS_BASE"
 			}
         ]
 	},
