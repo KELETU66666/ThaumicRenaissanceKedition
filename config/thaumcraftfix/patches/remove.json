@@ -61,23 +61,5 @@
 				"path": "key"
 			}
 		]
-	},
-	{
-		"key": "TWOND_DISJUNCTION_CLOTH",
-		"ops": [
-			{
-				"op": "remove",
-				"path": "key"
-			}
-		]
-	},
-	{
-		"key": "TWOND_TIMEWINDER",
-		"ops": [
-			{
-				"op": "remove",
-				"path": "key"
-			}
-		]
 	}
 ]

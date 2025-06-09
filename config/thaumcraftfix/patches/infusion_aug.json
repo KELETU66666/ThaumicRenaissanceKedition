@@ -139,12 +139,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "6"
+				"value": "5"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "2"
+				"value": "3"
 			},
 			{
 				"op": "replace",
@@ -164,12 +164,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "8"
+				"value": "7"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "2"
+				"value": "3"
 			},
 			{
 				"op": "replace",
@@ -294,7 +294,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-8"
+				"value": "-9"
 			},
 			{
 				"op": "replace",
@@ -319,7 +319,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-8"
+				"value": "-9"
 			},
 			{
 				"op": "replace",
@@ -339,12 +339,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-9"
+				"value": "-7"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "4"
+				"value": "5"
 			}
         ]
 	}
