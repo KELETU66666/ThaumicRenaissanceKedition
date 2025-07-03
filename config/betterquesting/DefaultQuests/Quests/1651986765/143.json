@@ -1,0 +1,41 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "What can you digout?",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "thaumcraft:loot_bag"
+      },
+      "name:8": "Very Luck Block",
+      "repeattime:3": 500
+    }
+  },
+  "questID:3": 143,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "thaumcraft:loot_bag"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 25,
+          "id:8": "renaissance_core:icon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

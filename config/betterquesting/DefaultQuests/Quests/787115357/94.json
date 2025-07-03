@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    92
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.60",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forbiddenmagicre:morph_sword"
+      },
+      "name:8": "chapter.lang.title.60"
+    }
+  },
+  "questID:3": 94,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "renaissance_core:icon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_sword"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_shovel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_pick"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "forbiddenmagicre:morph_axe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

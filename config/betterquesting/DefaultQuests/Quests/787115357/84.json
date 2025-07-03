@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    80
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.74",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "augment:10": {},
+            "energy:10": {
+              "energy:4": 0
+            }
+          }
+        },
+        "id:8": "thaumicaugmentation:augment_caster_rift_energy_storage"
+      },
+      "ismain:1": 1,
+      "name:8": "chapter.lang.title.74"
+    }
+  },
+  "questID:3": 84,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "renaissance_core:icon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "augment:10": {},
+              "energy:10": {
+                "energy:4": 0
+              }
+            }
+          },
+          "id:8": "thaumicaugmentation:augment_caster_rift_energy_storage"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

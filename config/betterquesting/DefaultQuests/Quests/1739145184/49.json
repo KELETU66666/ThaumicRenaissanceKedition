@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Working in Progress...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicaugmentation:augment_builder_power",
+        "tag:10": {
+          "id:8": "thaumicaugmentation:strength_elemental"
+        }
+      },
+      "name:8": "A little hunting"
+    }
+  },
+  "questID:3": 49,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
