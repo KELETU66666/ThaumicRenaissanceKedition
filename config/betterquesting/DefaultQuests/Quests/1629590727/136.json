@@ -1,0 +1,39 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Some sapling of Greatwood.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:sapling_greatwood"
+      },
+      "name:8": "Greatwood Sapling",
+      "repeattime:3": 500
+    }
+  },
+  "questID:3": 136,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "thaumcraft:sapling_greatwood"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "renaissance_core:icon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "preRequisites:11": [
+    40
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.136",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumictinkerer:osmotic_enchanter"
+      },
+      "name:8": "chapter.lang.name.136"
+    }
+  },
+  "questID:3": 143,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "renaissance_core:icon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:osmotic_enchanter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 13,
+          "id:8": "thaumictinkerer:black_quartz_block"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "thaumcraft:stone_arcane"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "id:8": "thaumcraft:stone_arcane_brick"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 32767,
+          "id:8": "thaumcraft:nitor_yellow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:salis_mundus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

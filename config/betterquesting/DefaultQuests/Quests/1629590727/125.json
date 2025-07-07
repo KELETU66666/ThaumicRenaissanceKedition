@@ -1,0 +1,40 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Purifies your crucible.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:quartz"
+      },
+      "name:8": "Quartz",
+      "repeattime:3": 200
+    }
+  },
+  "questID:3": 125,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 9,
+          "id:8": "thaumcraft:nugget"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "renaissance_core:icon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

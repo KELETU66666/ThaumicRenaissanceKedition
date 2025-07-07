@@ -13,8 +13,8 @@ chapter.title.4.desc=You must pay attention to them, or they will force you to t
 chapter.title.5=Sources of obtaining Knowledge
 chapter.title.5.desc=Stop foolishly drawing cards
 
-chapter.title.6=Q&A
-chapter.title.6.desc=Some annoying issue for noob
+chapter.title.6=Enchantments
+chapter.title.6.desc=Enchantments you may discovered.
 
 chapter.lang.title.1=Welcome to the Thaumic Renaissance Modpack!
 chapter.lang.desc.1=This modpack includes most of the add-ons for Thaumcraft 6 (TC6) and aims to provide players with the most enjoyable TC6 experience possible. Here are some beginner tutorials to help you get started:%n%nExploring Thaumcraft Basics%n%nStart by crafting your first Thaumometer to scan the world and unlock the secrets of Vis.%nFollow the in-game Thaumonomicon to learn essential mechanics like research, crafting, and alchemy.%nNew Add-ons and Features%n%nDiscover a host of new blocks, tools, and mechanics introduced by the modpack, such as advanced Void energy systems, biome transformation devices, and Rift management tools.%nProgression and Quests%n%nThe questing system guides you step-by-step through the complexities of Thaumcraft and its add-ons, ensuring you never feel lost.%nTips for New Players%n%nAlways carry some Salis Mundus—it’s crucial for crafting advanced items and repairing key components.%nPay attention to Rift stability and manage your Vis consumption wisely to avoid instability or corruption.%nEnjoy delving into the mysteries of Thaumcraft and mastering the arcane arts!
@@ -420,3 +420,10 @@ chapter.lang.desc.134=Using the two types of pipes from Thaumic Bases, you can s
 
 chapter.lang.name.135=Opportunities and Challenges
 chapter.lang.desc.135=After equipping T12, players no longer need to use theory and observation to unlock research, but this item seems to have some side effects...%n%nIt seems like T12 provides a shortcut or an advantage in the research process, potentially bypassing the normal requirements. However, the mention of "side effects" suggests that using it might come with some unintended consequences, likely affecting gameplay or the player’s progress in other ways. These side effects could manifest as debuffs, new challenges, or something else that balances out the advantage it provides.
+
+chapter.lang.name.136=Enchantment Selection
+chapter.lang.desc.136=[WIP]
+
+chapter.lang.name.137=Output 3X
+chapter.lang.desc.137=[WIP]
+

@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    20
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.107",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:bottle_taint"
+      },
+      "name:8": "chapter.lang.title.107"
+    }
+  },
+  "questID:3": 23,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
