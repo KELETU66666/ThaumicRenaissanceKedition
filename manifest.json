@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "ThaumicRenaissance - Kedition",
-  "version": "10.9.8",
+  "version": "10.9.9",
   "author": "",
   "files": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "projectID": 1107386,
-      "fileID": 6610778,
+      "fileID": 6762876,
       "required": true
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "projectID": 1191926,
-      "fileID": 6633575,
+      "fileID": 6762792,
       "required": true
     },
     {
@@ -102,11 +102,6 @@
     {
       "projectID": 739808,
       "fileID": 4183001,
-      "required": true
-    },
-    {
-      "projectID": 223852,
-      "fileID": 5981297,
       "required": true
     },
     {
@@ -191,7 +186,7 @@
     },
     {
       "projectID": 1153744,
-      "fileID": 5964549,
+      "fileID": 6759511,
       "required": true
     },
     {
@@ -220,8 +215,8 @@
       "required": true
     },
     {
-      "projectID": 676133,
-      "fileID": 3987130,
+      "projectID": 280510,
+      "fileID": 4427962,
       "required": true
     },
     {
@@ -230,8 +225,8 @@
       "required": true
     },
     {
-      "projectID": 280510,
-      "fileID": 4427962,
+      "projectID": 676133,
+      "fileID": 3987130,
       "required": true
     },
     {
@@ -300,13 +295,13 @@
       "required": true
     },
     {
-      "projectID": 250290,
-      "fileID": 2916357,
+      "projectID": 709188,
+      "fileID": 4102778,
       "required": true
     },
     {
-      "projectID": 709188,
-      "fileID": 4102778,
+      "projectID": 250290,
+      "fileID": 2916357,
       "required": true
     },
     {
@@ -355,23 +350,18 @@
       "required": true
     },
     {
-      "projectID": 230497,
-      "fileID": 2450900,
-      "required": true
-    },
-    {
       "projectID": 961959,
       "fileID": 5031355,
       "required": true
     },
     {
-      "projectID": 228027,
-      "fileID": 3647708,
+      "projectID": 486778,
+      "fileID": 3372374,
       "required": true
     },
     {
-      "projectID": 486778,
-      "fileID": 3372374,
+      "projectID": 228027,
+      "fileID": 3647708,
       "required": true
     },
     {
