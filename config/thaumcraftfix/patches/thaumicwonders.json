@@ -208,7 +208,7 @@
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "8"
+				"value": "2"
 			},
 			{
 				"op": "replace",
