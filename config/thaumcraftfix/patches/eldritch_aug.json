@@ -529,7 +529,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	},
@@ -579,7 +579,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	},
@@ -594,7 +594,7 @@
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "4"
+				"value": "3"
 			},
 			{
 				"op": "replace",
@@ -609,7 +609,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	}

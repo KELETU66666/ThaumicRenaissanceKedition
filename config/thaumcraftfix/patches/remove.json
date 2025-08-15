@@ -25,41 +25,5 @@
 				"path": "key"
 			}
 		]
-	},
-	{
-		"key": "TBREW_BASE",
-		"ops": [
-			{
-				"op": "remove",
-				"path": "key"
-			}
-		]
-	},
-	{
-		"key": "THAUMICGADGETS",
-		"ops": [
-			{
-				"op": "remove",
-				"path": "key"
-			}
-		]
-	},
-	{
-		"key": "CR_ANCIENT_BAUBLES",
-		"ops": [
-			{
-				"op": "remove",
-				"path": "key"
-			}
-		]
-	},
-	{
-		"key": "CR_MORE_RESEARCH",
-		"ops": [
-			{
-				"op": "remove",
-				"path": "key"
-			}
-		]
 	}
 ]

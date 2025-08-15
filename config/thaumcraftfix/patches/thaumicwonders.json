@@ -1,5 +1,25 @@
 [
 	{
+        "key": "!TWOND_CORRUPTION_AVATAR",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "-11"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "2"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "BASICS"
+			}
+        ]
+	}/*,
+	{
         "key": "TWOND_DIMENSIONAL_HEDGE",
         "ops": [
 			{
@@ -339,26 +359,6 @@
 				"op": "replace",
 				"path": "meta",
 				"value": ["ROUND"]
-			}
-        ]
-	},
-	{
-        "key": "!TWOND_CORRUPTION_AVATAR",
-        "ops": [
-			{
-				"op": "replace",
-				"path": "location/0",
-				"value": "-11"
-			},
-			{
-				"op": "replace",
-				"path": "location/1",
-				"value": "2"
-			},
-			{
-				"op": "replace",
-				"path": "category",
-				"value": "BASICS"
 			}
         ]
 	},
@@ -879,5 +879,5 @@
 				"path": "key"
 			}
         ]
-	}
+	}*/
 ]
