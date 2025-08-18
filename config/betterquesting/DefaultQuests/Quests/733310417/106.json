@@ -21,7 +21,11 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 3,
-          "id:8": "renaissance_core:icon"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thaumicconcilium:icon",
+            "orig_meta:3": 0
+          }
         }
       }
     }

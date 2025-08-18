@@ -6,7 +6,7 @@
       "desc:8": "Trade for some unusual items.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "renaissance_core:icon"
+        "id:8": "minecraft:knowledge_book"
       },
       "name:8": "Shop"
     }

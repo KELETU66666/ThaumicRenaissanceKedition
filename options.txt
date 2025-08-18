@@ -11,13 +11,14 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:1
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
 resourcePacks:["Sonomagy TC6 v1.6.zip","ThaumMenu1.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
+lang:en_us
 chatVisibility:0
 chatColors:true
 chatLinks:true
@@ -94,7 +95,6 @@ key_key.kitchentools.open_cape:37
 key_key.zap:35
 key_key.open_backpack:24
 key_key.toggle_pontifex:46
-key_显示/隐藏:47
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:0
@@ -114,13 +114,13 @@ key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_keybind.universaltweaks.clear_toasts:11:CONTROL
+key_keybind.universaltweaks.clear_toasts:0
 key_gui.xaero_minimap_settings:21
 key_gui.xaero_zoom_in:0
 key_gui.xaero_zoom_out:0
 key_gui.xaero_new_waypoint:48
 key_gui.xaero_waypoints_key:22
-key_gui.xaero_enlarge_map:44
+key_gui.xaero_enlarge_map:0
 key_gui.xaero_toggle_map:0
 key_gui.xaero_toggle_waypoints:0
 key_gui.xaero_toggle_map_waypoints:0
