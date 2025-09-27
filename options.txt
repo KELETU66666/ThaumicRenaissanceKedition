@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -136,7 +136,7 @@ key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
 key_gui.xaero_toggle_tracked_players_on_map:0
 key_gui.xaero_toggle_tracked_players_in_world:0
-key_gui.xaero_open_map:50
+key_gui.xaero_open_map:51
 key_gui.xaero_open_settings:27
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
