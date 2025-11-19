@@ -723,12 +723,12 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "6"
+				"value": "7"
 			},
 			{
 				"op": "replace",
 				"path": "location/1",
-				"value": "0"
+				"value": "-2"
 			},
 			{
 				"op": "replace",
@@ -813,50 +813,50 @@
         ]
 	},
 	{
-		"key": "TWOND_ORE_DIVINER",
-		"ops": [
-		  {
-			"op": "replace",
-			"path": "location/0",
-			"value": "-2"
-		  },
-		  {
-			"op": "replace",
-			"path": "location/1",
-			"value": "-8"
-		  },
-		  {
-			"op": "replace",
-			"path": "category",
-			"value": "ARTIFICE"
-		  },
-		  {
-			"op": "replace",
-			"path": "parents/0",
-			"value": "DIOPTRA"
-		  }
-		]
-	  },
-	  {
-		"key": "TWOND_STRUCTURE_DIVINER",
-		"ops": [
-		  {
-			"op": "replace",
-			"path": "location/0",
-			"value": "-2"
-		  },
-		  {
-			"op": "replace",
-			"path": "location/1",
-			"value": "-10"
-		  },
-		  {
-			"op": "replace",
-			"path": "category",
-			"value": "ARTIFICE"
-		  }
-		]
-	  },
+        "key": "TWOND_ORE_DIVINER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "3"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ARTIFICE"
+			},
+			{
+				"op": "replace",
+				"path": "parents/0",
+				"value": "DIOPTRA"
+			}
+        ]
+	},
+	{
+        "key": "TWOND_STRUCTURE_DIVINER",
+        "ops": [
+			{
+				"op": "replace",
+				"path": "location/0",
+				"value": "4"
+			},
+			{
+				"op": "replace",
+				"path": "location/1",
+				"value": "5"
+			},
+			{
+				"op": "replace",
+				"path": "category",
+				"value": "ARTIFICE"
+			}
+        ]
+	},
 	{
         "key": "TWOND_METEORB",
         "ops": [
