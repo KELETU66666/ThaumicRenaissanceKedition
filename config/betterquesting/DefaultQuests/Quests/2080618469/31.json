@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    27
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.14",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:caster_basic"
+      },
+      "ismain:1": 1,
+      "name:8": "chapter.lang.title.14"
+    }
+  },
+  "questID:3": 31,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicconcilium:icon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:caster_basic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

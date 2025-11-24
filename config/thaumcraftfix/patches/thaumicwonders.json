@@ -59,7 +59,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "0"
+				"value": "5"
 			},
 			{
 				"op": "replace",
@@ -94,7 +94,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "1"
+				"value": "6"
 			},
 			{
 				"op": "replace",
@@ -114,7 +114,7 @@
 			{
 				"op": "replace",
 				"path": "location/0",
-				"value": "-1"
+				"value": "4"
 			},
 			{
 				"op": "replace",
@@ -203,7 +203,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	},
@@ -233,7 +233,7 @@
 			{
 				"op": "replace",
 				"path": "meta",
-				"value": [REVERSE]
+				"value": ["REVERSE"]
 			}
         ]
 	},

@@ -21,7 +21,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -42,7 +42,7 @@
           "desc:8": "chapter.lang.desc.33",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "crimsonrevelations:aer_arrow"
+            "id:8": "thaumicwonders:primal_arrow"
           },
           "name:8": "chapter.lang.title.33"
         }
@@ -55,7 +55,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -66,27 +66,32 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 9,
-              "id:8": "crimsonrevelations:aer_arrow"
+              "id:8": "thaumicwonders:primal_arrow"
             },
             "1:10": {
               "Count:3": 9,
-              "id:8": "crimsonrevelations:aqua_arrow"
+              "Damage:2": 1,
+              "id:8": "thaumicwonders:primal_arrow"
             },
             "2:10": {
               "Count:3": 9,
-              "id:8": "crimsonrevelations:ignis_arrow"
+              "Damage:2": 2,
+              "id:8": "thaumicwonders:primal_arrow"
             },
             "3:10": {
               "Count:3": 9,
-              "id:8": "crimsonrevelations:terra_arrow"
+              "Damage:2": 3,
+              "id:8": "thaumicwonders:primal_arrow"
             },
             "4:10": {
               "Count:3": 9,
-              "id:8": "crimsonrevelations:ordo_arrow"
+              "Damage:2": 4,
+              "id:8": "thaumicwonders:primal_arrow"
             },
             "5:10": {
               "Count:3": 9,
-              "id:8": "crimsonrevelations:perditio_arrow"
+              "Damage:2": 5,
+              "id:8": "thaumicwonders:primal_arrow"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -117,7 +122,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -163,7 +168,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -240,7 +245,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -282,7 +287,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -316,14 +321,15 @@
     },
     "7:10": {
       "preRequisites:11": [
-        40
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
           "desc:8": "chapter.lang.desc.34",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "crimsonrevelations:bone_bow"
+            "Damage:2": 32767,
+            "id:8": "thaumicwonders:bone_bow"
           },
           "name:8": "chapter.lang.title.34"
         }
@@ -336,7 +342,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -348,7 +354,8 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "crimsonrevelations:bone_bow"
+              "Damage:2": 32767,
+              "id:8": "thaumicwonders:bone_bow"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -377,7 +384,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -417,7 +424,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -457,7 +464,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -491,7 +498,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -526,7 +533,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -576,7 +583,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -610,7 +617,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -721,7 +728,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -906,7 +913,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1157,7 +1164,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1235,7 +1242,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1279,7 +1286,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1336,7 +1343,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1533,7 +1540,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1614,7 +1621,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1665,7 +1672,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1775,7 +1782,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1824,7 +1831,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1892,7 +1899,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1933,7 +1940,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -1983,7 +1990,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2032,7 +2039,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2092,7 +2099,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2133,7 +2140,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2177,7 +2184,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2218,7 +2225,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2259,7 +2266,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2300,7 +2307,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2341,7 +2348,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2382,7 +2389,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2423,7 +2430,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2465,7 +2472,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2513,7 +2520,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2574,7 +2581,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2610,7 +2617,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2650,7 +2657,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2707,7 +2714,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2774,7 +2781,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2830,7 +2837,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2874,7 +2881,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2922,7 +2929,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -2964,7 +2971,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3004,7 +3011,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3045,7 +3052,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3085,7 +3092,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3125,7 +3132,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3165,7 +3172,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3210,7 +3217,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3285,7 +3292,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3331,7 +3338,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3375,7 +3382,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3418,7 +3425,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3462,7 +3469,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3513,7 +3520,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3564,7 +3571,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3608,7 +3615,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3646,7 +3653,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3689,7 +3696,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3755,7 +3762,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3799,7 +3806,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3839,7 +3846,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -3909,7 +3916,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4006,7 +4013,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4047,7 +4054,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4100,7 +4107,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4141,7 +4148,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4201,7 +4208,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4261,7 +4268,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4301,7 +4308,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4366,7 +4373,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4418,7 +4425,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4470,7 +4477,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4511,7 +4518,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4551,7 +4558,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4592,7 +4599,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4633,7 +4640,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4673,7 +4680,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4715,7 +4722,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4757,7 +4764,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4798,7 +4805,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4838,7 +4845,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4878,7 +4885,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4918,7 +4925,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -4969,7 +4976,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         },
@@ -5038,7 +5045,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5098,7 +5105,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5148,7 +5155,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5198,7 +5205,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5250,7 +5257,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5290,7 +5297,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5330,7 +5337,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5409,7 +5416,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5457,7 +5464,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5599,7 +5606,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5640,7 +5647,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5686,7 +5693,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -5752,7 +5759,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 18,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5792,7 +5799,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5831,7 +5838,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5870,7 +5877,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 6,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5939,7 +5946,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 18,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5978,7 +5985,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 4,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6007,7 +6014,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -6079,7 +6086,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 9,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6118,7 +6125,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6157,7 +6164,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6219,7 +6226,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 4,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6270,7 +6277,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6280,20 +6287,12 @@
     "138:10": {
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "plant your mana pod",
+          "desc:8": "Cultist like",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "crimsonrevelations:mana_bean",
-            "tag:10": {
-              "Aspects:9": {
-                "0:10": {
-                  "amount:3": 5,
-                  "key:8": "victus"
-                }
-              }
-            }
+            "id:8": "thaumcraft:crimson_praetor_helm"
           },
-          "name:8": "Mana Beans",
+          "name:8": "Crimson Suit",
           "repeattime:3": 500
         }
       },
@@ -6304,76 +6303,16 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 3,
-              "id:8": "crimsonrevelations:mana_bean",
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 5,
-                    "key:8": "aer"
-                  }
-                }
-              }
+              "Count:3": 1,
+              "id:8": "thaumcraft:crimson_praetor_helm"
             },
             "1:10": {
-              "Count:3": 3,
-              "id:8": "crimsonrevelations:mana_bean",
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 5,
-                    "key:8": "terra"
-                  }
-                }
-              }
+              "Count:3": 1,
+              "id:8": "thaumcraft:crimson_praetor_chest"
             },
             "2:10": {
-              "Count:3": 3,
-              "id:8": "crimsonrevelations:mana_bean",
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 5,
-                    "key:8": "ignis"
-                  }
-                }
-              }
-            },
-            "3:10": {
-              "Count:3": 3,
-              "id:8": "crimsonrevelations:mana_bean",
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 5,
-                    "key:8": "aqua"
-                  }
-                }
-              }
-            },
-            "4:10": {
-              "Count:3": 3,
-              "id:8": "crimsonrevelations:mana_bean",
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 5,
-                    "key:8": "ordo"
-                  }
-                }
-              }
-            },
-            "5:10": {
-              "Count:3": 3,
-              "id:8": "crimsonrevelations:mana_bean",
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 5,
-                    "key:8": "perditio"
-                  }
-                }
-              }
+              "Count:3": 1,
+              "id:8": "thaumcraft:crimson_praetor_legs"
             }
           }
         }
@@ -6384,8 +6323,8 @@
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 18,
-              "id:8": "renaissance_core:icon"
+              "Count:3": 64,
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6424,7 +6363,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 3,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6465,7 +6404,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 25,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6506,7 +6445,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 18,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6545,7 +6484,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 5,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6574,7 +6513,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 2,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -6647,7 +6586,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "renaissance_core:icon"
+              "id:8": "thaumicconcilium:icon"
             }
           }
         }
@@ -6686,18 +6625,1168 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "145:10": {
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.144",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 5,
+            "id:8": "thaumcraft:celestial_notes"
+          },
+          "name:8": "chapter.lang.name.144"
+        }
+      },
+      "questID:3": 145,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "146:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.141",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumcraft:void_robe_helm"
+          },
+          "name:8": "chapter.lang.name.141"
+        }
+      },
+      "questID:3": 146,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:icon"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:dissolved",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.7999999523162842,
+              "5:6": 0.30000001192092896
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 60.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.5,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 60.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 5.8538866,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -7876486466585806532,
+            "UUIDMost:4": 9052948900183753233,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:dissolved"
+          },
+          "taskID:8": "bq_standard:hunt"
+        }
+      }
+    },
+    "147:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.140",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumcraft:quicksilver"
+          },
+          "name:8": "chapter.lang.name.140"
+        }
+      },
+      "questID:3": 147,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:icon"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:quicksilver_elemental",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.7999999523162842,
+              "5:6": 0.30000001192092896
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 30.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.6,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 5.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 30.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 2.7995145,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -6018640571817233047,
+            "UUIDMost:4": -6488834180196251444,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:quicksilver_elemental"
+          },
+          "taskID:8": "bq_standard:hunt"
+        }
+      }
+    },
+    "148:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.142",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "isorropia:flesh"
+          },
+          "name:8": "chapter.lang.name.142"
+        }
+      },
+      "questID:3": 148,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:icon"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:overanimated",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.7999999523162842,
+              "5:6": 0.30000001192092896
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.5,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 5.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 20.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 5.867875,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -8898937657599408393,
+            "UUIDMost:4": -7486847192536100871,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:overanimated"
+          },
+          "taskID:8": "bq_standard:hunt"
+        }
+      }
+    },
+    "149:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.139",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumcraft:fortress_helm"
+          },
+          "name:8": "chapter.lang.name.139"
+        }
+      },
+      "questID:3": 149,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:icon"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:samurai",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.5,
+              "1:6": 0.0,
+              "2:6": -0.5,
+              "3:6": 0.5,
+              "4:6": 2.0,
+              "5:6": 0.5
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "Anger:3": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 50.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.28,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 15.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 50.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 4.1628833,
+              "1:5": 0.0
+            },
+            "Type:1": 0,
+            "UUIDLeast:4": -6068239289107455000,
+            "UUIDMost:4": -5381062539081400087,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:samurai"
+          },
+          "taskID:8": "bq_standard:hunt"
+        }
+      }
+    },
+    "150:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.143",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumcraft:mirrored_glass"
+          },
+          "name:8": "chapter.lang.name.143"
+        }
+      },
+      "questID:3": 150,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:icon"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:strayed_mirror",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.7999999523162842,
+              "5:6": 0.30000001192092896
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.6,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 7.5,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 10.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 0.50085056,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -6748940633684716620,
+            "UUIDMost:4": -5884743548975167663,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:strayed_mirror"
+          },
+          "taskID:8": "bq_standard:hunt"
+        }
+      }
+    },
+    "151:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.138",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumcraft:golem_bell"
+          },
+          "name:8": "chapter.lang.name.138"
+        }
+      },
+      "questID:3": 151,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:icon"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:vengeful_golem",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.7999999523162842,
+              "5:6": 0.30000001192092896
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.5,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 32.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 5.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 20.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 2.20286,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -6762179164343510178,
+            "UUIDMost:4": 275466782414490826,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:vengeful_golem"
+          },
+          "taskID:8": "bq_standard:hunt"
+        }
+      }
     }
   },
   "questLines:9": {
     "0:10": {
-      "lineID:3": 733310417,
+      "lineID:3": 126087965,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.title.2.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 6,
+            "id:8": "thaumcraft:curio"
+          },
+          "name:8": "chapter.title.2"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 40,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -66,
+          "y:3": -54
+        },
+        "1:10": {
+          "id:3": 51,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -102
+        },
+        "2:10": {
+          "id:3": 63,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 0
+        },
+        "3:10": {
+          "id:3": 64,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -48
+        },
+        "4:10": {
+          "id:3": 68,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": 0
+        },
+        "5:10": {
+          "id:3": 69,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": 42
+        },
+        "6:10": {
+          "id:3": 70,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 42
+        },
+        "7:10": {
+          "id:3": 77,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": -108
+        },
+        "8:10": {
+          "id:3": 78,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": 12
+        },
+        "9:10": {
+          "id:3": 79,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": -48
+        },
+        "10:10": {
+          "id:3": 80,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": -48
+        },
+        "11:10": {
+          "id:3": 81,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": -72
+        },
+        "12:10": {
+          "id:3": 82,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 288,
+          "y:3": -24
+        },
+        "13:10": {
+          "id:3": 83,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": -24
+        },
+        "14:10": {
+          "id:3": 84,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 288,
+          "y:3": 24
+        },
+        "15:10": {
+          "id:3": 85,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": 24
+        },
+        "16:10": {
+          "id:3": 86,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -108
+        },
+        "17:10": {
+          "id:3": 87,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 288,
+          "y:3": 72
+        },
+        "18:10": {
+          "id:3": 89,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 42
+        },
+        "19:10": {
+          "id:3": 90,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": 84
+        },
+        "20:10": {
+          "id:3": 91,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 84
+        },
+        "21:10": {
+          "id:3": 92,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": 84
+        },
+        "22:10": {
+          "id:3": 93,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -126,
+          "y:3": 0
+        },
+        "23:10": {
+          "id:3": 94,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -126,
+          "y:3": 42
+        },
+        "24:10": {
+          "id:3": 95,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -162,
+          "y:3": 84
+        },
+        "25:10": {
+          "id:3": 96,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -162,
+          "y:3": 42
+        },
+        "26:10": {
+          "id:3": 97,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -162,
+          "y:3": 0
+        },
+        "27:10": {
+          "id:3": 143,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": -102
+        }
+      }
+    },
+    "1:10": {
+      "lineID:3": 583402176,
       "order:3": 2,
       "properties:10": {
         "betterquesting:10": {
           "desc:8": "chapter.title.3.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "renaissance_core:crimson_annales"
+            "id:8": "thaumicconcilium:crimson_annales"
           },
           "name:8": "chapter.title.3"
         }
@@ -6880,235 +7969,83 @@
         }
       }
     },
-    "1:10": {
-      "lineID:3": 948702241,
-      "order:3": 1,
+    "2:10": {
+      "lineID:3": 1186850104,
+      "order:3": 3,
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "chapter.title.2.desc",
+          "desc:8": "chapter.title.5.desc",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 6,
-            "id:8": "thaumcraft:curio"
+            "id:8": "thaumictinkerer:share_book",
+            "tag:10": {
+              "player:8": "[none]"
+            }
           },
-          "name:8": "chapter.title.2"
+          "name:8": "chapter.title.5"
         }
       },
       "quests:9": {
         "0:10": {
-          "id:3": 1,
+          "id:3": 10,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": -48
+          "x:3": -12,
+          "y:3": -12
         },
         "1:10": {
-          "id:3": 7,
+          "id:3": 11,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -114,
-          "y:3": -48
+          "x:3": -54,
+          "y:3": -12
         },
         "2:10": {
-          "id:3": 40,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -66,
-          "y:3": -54
+          "id:3": 12,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": -12
         },
         "3:10": {
-          "id:3": 51,
+          "id:3": 13,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -102
+          "x:3": -54,
+          "y:3": -54
         },
         "4:10": {
-          "id:3": 63,
+          "id:3": 14,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 0
+          "x:3": 30,
+          "y:3": 30
         },
         "5:10": {
-          "id:3": 64,
+          "id:3": 15,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -48
+          "x:3": 30,
+          "y:3": -54
         },
         "6:10": {
-          "id:3": 68,
+          "id:3": 16,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": 0
+          "x:3": -54,
+          "y:3": 30
         },
         "7:10": {
-          "id:3": 69,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": 42
-        },
-        "8:10": {
-          "id:3": 70,
+          "id:3": 128,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
-          "y:3": 42
-        },
-        "9:10": {
-          "id:3": 77,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -108
-        },
-        "10:10": {
-          "id:3": 78,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": 12
-        },
-        "11:10": {
-          "id:3": 79,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -48
-        },
-        "12:10": {
-          "id:3": 80,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -48
-        },
-        "13:10": {
-          "id:3": 81,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": -72
-        },
-        "14:10": {
-          "id:3": 82,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 288,
-          "y:3": -24
-        },
-        "15:10": {
-          "id:3": 83,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": -24
-        },
-        "16:10": {
-          "id:3": 84,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 288,
-          "y:3": 24
-        },
-        "17:10": {
-          "id:3": 85,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 24
-        },
-        "18:10": {
-          "id:3": 86,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -108
-        },
-        "19:10": {
-          "id:3": 87,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 288,
-          "y:3": 72
-        },
-        "20:10": {
-          "id:3": 89,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 42
-        },
-        "21:10": {
-          "id:3": 90,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": 84
-        },
-        "22:10": {
-          "id:3": 91,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 84
-        },
-        "23:10": {
-          "id:3": 92,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": 84
-        },
-        "24:10": {
-          "id:3": 93,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": 0
-        },
-        "25:10": {
-          "id:3": 94,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": 42
-        },
-        "26:10": {
-          "id:3": 95,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": 84
-        },
-        "27:10": {
-          "id:3": 96,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": 42
-        },
-        "28:10": {
-          "id:3": 97,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": 0
-        },
-        "29:10": {
-          "id:3": 143,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -102
+          "y:3": -54
         }
       }
     },
-    "2:10": {
-      "lineID:3": 1519758612,
+    "3:10": {
+      "lineID:3": 1374172337,
       "order:3": 4,
       "properties:10": {
         "betterquesting:10": {
@@ -7243,388 +8180,15 @@
         }
       }
     },
-    "3:10": {
-      "lineID:3": 1542683571,
-      "order:3": 0,
-      "properties:10": {
-        "betterquesting:10": {
-          "desc:8": "chapter.title.1.desc",
-          "icon:10": {
-            "Count:3": 1,
-            "id:8": "thaumcraft:thaumonomicon"
-          },
-          "name:8": "chapter.title.1"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": -48
-        },
-        "1:10": {
-          "id:3": 2,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -78,
-          "y:3": 0
-        },
-        "2:10": {
-          "id:3": 3,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 78,
-          "y:3": -120
-        },
-        "3:10": {
-          "id:3": 4,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": -48
-        },
-        "4:10": {
-          "id:3": 5,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -156
-        },
-        "5:10": {
-          "id:3": 6,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": -48
-        },
-        "6:10": {
-          "id:3": 8,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -156
-        },
-        "7:10": {
-          "id:3": 9,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": -114
-        },
-        "8:10": {
-          "id:3": 10,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 60
-        },
-        "9:10": {
-          "id:3": 17,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": -48
-        },
-        "10:10": {
-          "id:3": 18,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": -144
-        },
-        "11:10": {
-          "id:3": 19,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": -108
-        },
-        "12:10": {
-          "id:3": 27,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -18,
-          "y:3": -54
-        },
-        "13:10": {
-          "id:3": 29,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -108
-        },
-        "14:10": {
-          "id:3": 30,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -48
-        },
-        "15:10": {
-          "id:3": 31,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 210,
-          "y:3": -48
-        },
-        "16:10": {
-          "id:3": 37,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 270,
-          "y:3": -48
-        },
-        "17:10": {
-          "id:3": 39,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 24
-        },
-        "18:10": {
-          "id:3": 40,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 138,
-          "y:3": 18
-        },
-        "19:10": {
-          "id:3": 43,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 6
-        },
-        "20:10": {
-          "id:3": 44,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": -6
-        },
-        "21:10": {
-          "id:3": 46,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 312,
-          "y:3": -6
-        },
-        "22:10": {
-          "id:3": 47,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 270,
-          "y:3": -6
-        },
-        "23:10": {
-          "id:3": 48,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 336,
-          "y:3": -54
-        },
-        "24:10": {
-          "id:3": 49,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 24
-        },
-        "25:10": {
-          "id:3": 50,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": 84
-        },
-        "26:10": {
-          "id:3": 52,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": 84
-        },
-        "27:10": {
-          "id:3": 53,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": 132
-        },
-        "28:10": {
-          "id:3": 54,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": 132
-        },
-        "29:10": {
-          "id:3": 55,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": 84
-        },
-        "30:10": {
-          "id:3": 56,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": 132
-        },
-        "31:10": {
-          "id:3": 57,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": 84
-        },
-        "32:10": {
-          "id:3": 58,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": 36
-        },
-        "33:10": {
-          "id:3": 59,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -18
-        },
-        "34:10": {
-          "id:3": 60,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 60
-        },
-        "35:10": {
-          "id:3": 61,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": -108
-        },
-        "36:10": {
-          "id:3": 62,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 114,
-          "y:3": -18
-        },
-        "37:10": {
-          "id:3": 65,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -114
-        },
-        "38:10": {
-          "id:3": 66,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 174,
-          "y:3": -114
-        },
-        "39:10": {
-          "id:3": 67,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 78
-        },
-        "40:10": {
-          "id:3": 71,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": -72
-        },
-        "41:10": {
-          "id:3": 72,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 174,
-          "y:3": -156
-        },
-        "42:10": {
-          "id:3": 73,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 174,
-          "y:3": -72
-        },
-        "43:10": {
-          "id:3": 74,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -156
-        },
-        "44:10": {
-          "id:3": 75,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -18
-        },
-        "45:10": {
-          "id:3": 76,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": -156
-        },
-        "46:10": {
-          "id:3": 88,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 126
-        },
-        "47:10": {
-          "id:3": 99,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": 132
-        },
-        "48:10": {
-          "id:3": 123,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": -156
-        },
-        "49:10": {
-          "id:3": 135,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -216,
-          "y:3": -144
-        },
-        "50:10": {
-          "id:3": 144,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -156
-        }
-      }
-    },
     "4:10": {
-      "lineID:3": 1629590727,
+      "lineID:3": 1571691886,
       "order:3": 5,
       "properties:10": {
         "betterquesting:10": {
           "desc:8": "Trade for some unusual items.",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "renaissance_core:icon"
+            "id:8": "minecraft:knowledge_book"
           },
           "name:8": "Shop"
         }
@@ -7745,77 +8309,438 @@
       }
     },
     "5:10": {
-      "lineID:3": 1991448389,
-      "order:3": 3,
+      "lineID:3": 2080618469,
+      "order:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "chapter.title.5.desc",
+          "desc:8": "chapter.title.1.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "thaumictinkerer:share_book",
-            "tag:10": {
-              "player:8": "[none]"
-            }
+            "id:8": "thaumcraft:thaumonomicon"
           },
-          "name:8": "chapter.title.5"
+          "name:8": "chapter.title.1"
         }
       },
       "quests:9": {
         "0:10": {
-          "id:3": 10,
+          "id:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -12
+          "x:3": -228,
+          "y:3": -48
         },
         "1:10": {
-          "id:3": 11,
+          "id:3": 1,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -222
+        },
+        "2:10": {
+          "id:3": 2,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -78,
+          "y:3": 0
+        },
+        "3:10": {
+          "id:3": 3,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 78,
+          "y:3": -120
+        },
+        "4:10": {
+          "id:3": 4,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -48
+        },
+        "5:10": {
+          "id:3": 5,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": -156
+        },
+        "6:10": {
+          "id:3": 6,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": -12
-        },
-        "2:10": {
-          "id:3": 12,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -12
-        },
-        "3:10": {
-          "id:3": 13,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": -72
-        },
-        "4:10": {
-          "id:3": 14,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": 48
-        },
-        "5:10": {
-          "id:3": 15,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -72
-        },
-        "6:10": {
-          "id:3": 16,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": 48
+          "y:3": -48
         },
         "7:10": {
-          "id:3": 128,
+          "id:3": 7,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -186
+        },
+        "8:10": {
+          "id:3": 8,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": -156
+        },
+        "9:10": {
+          "id:3": 9,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 132,
+          "y:3": -114
+        },
+        "10:10": {
+          "id:3": 10,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 60
+        },
+        "11:10": {
+          "id:3": 17,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -126,
+          "y:3": -48
+        },
+        "12:10": {
+          "id:3": 18,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -162,
+          "y:3": -144
+        },
+        "13:10": {
+          "id:3": 19,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -108
+        },
+        "14:10": {
+          "id:3": 27,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -18,
+          "y:3": -54
+        },
+        "15:10": {
+          "id:3": 29,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -108
+        },
+        "16:10": {
+          "id:3": 30,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -48
+        },
+        "17:10": {
+          "id:3": 31,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 210,
+          "y:3": -48
+        },
+        "18:10": {
+          "id:3": 37,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 270,
+          "y:3": -48
+        },
+        "19:10": {
+          "id:3": 39,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 24
+        },
+        "20:10": {
+          "id:3": 40,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 138,
+          "y:3": 18
+        },
+        "21:10": {
+          "id:3": 43,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 6
+        },
+        "22:10": {
+          "id:3": 44,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": -6
+        },
+        "23:10": {
+          "id:3": 46,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 312,
+          "y:3": -6
+        },
+        "24:10": {
+          "id:3": 47,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 270,
+          "y:3": -6
+        },
+        "25:10": {
+          "id:3": 48,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 336,
+          "y:3": -54
+        },
+        "26:10": {
+          "id:3": 49,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 24
+        },
+        "27:10": {
+          "id:3": 50,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": 84
+        },
+        "28:10": {
+          "id:3": 52,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": 84
+        },
+        "29:10": {
+          "id:3": 53,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": 132
+        },
+        "30:10": {
+          "id:3": 54,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": 132
+        },
+        "31:10": {
+          "id:3": 55,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 84
+        },
+        "32:10": {
+          "id:3": 56,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 240,
+          "y:3": 132
+        },
+        "33:10": {
+          "id:3": 57,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 240,
+          "y:3": 84
+        },
+        "34:10": {
+          "id:3": 58,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 240,
+          "y:3": 36
+        },
+        "35:10": {
+          "id:3": 59,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": -18
+        },
+        "36:10": {
+          "id:3": 60,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 60
+        },
+        "37:10": {
+          "id:3": 61,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -108
+        },
+        "38:10": {
+          "id:3": 62,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 114,
+          "y:3": -18
+        },
+        "39:10": {
+          "id:3": 65,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -114
+        },
+        "40:10": {
+          "id:3": 66,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 174,
+          "y:3": -114
+        },
+        "41:10": {
+          "id:3": 67,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 78
+        },
+        "42:10": {
+          "id:3": 71,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 132,
+          "y:3": -72
+        },
+        "43:10": {
+          "id:3": 72,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 174,
+          "y:3": -156
+        },
+        "44:10": {
+          "id:3": 73,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 174,
+          "y:3": -72
+        },
+        "45:10": {
+          "id:3": 74,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -156
+        },
+        "46:10": {
+          "id:3": 75,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -18
+        },
+        "47:10": {
+          "id:3": 76,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -156
+        },
+        "48:10": {
+          "id:3": 88,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 126
+        },
+        "49:10": {
+          "id:3": 99,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 132
+        },
+        "50:10": {
+          "id:3": 123,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -156
+        },
+        "51:10": {
+          "id:3": 135,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -144
+        },
+        "52:10": {
+          "id:3": 144,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -156
+        },
+        "53:10": {
+          "id:3": 145,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -144,
+          "y:3": 18
+        },
+        "54:10": {
+          "id:3": 146,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -168,
+          "y:3": 84
+        },
+        "55:10": {
+          "id:3": 147,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 54
+        },
+        "56:10": {
+          "id:3": 148,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -138,
+          "y:3": 84
+        },
+        "57:10": {
+          "id:3": 149,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": 24
+        },
+        "58:10": {
+          "id:3": 150,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 84
+        },
+        "59:10": {
+          "id:3": 151,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": -6
         }
       }
     }
@@ -7825,7 +8750,7 @@
       "editmode:1": 0,
       "home_image:8": "thaumicrenaissance_kedition:textures/gui/title_card.png",
       "pack_name:8": "thaumicrenaissance_kedition",
-      "pack_version:3": 1096
+      "pack_version:3": 1140
     }
   }
 }

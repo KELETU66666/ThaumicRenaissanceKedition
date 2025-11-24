@@ -1,0 +1,152 @@
+{
+  "preRequisites:11": [
+    145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.140",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumcraft:quicksilver"
+      },
+      "name:8": "chapter.lang.name.140"
+    }
+  },
+  "questID:3": 147,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicconcilium:icon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "target:8": "thaumicconcilium:quicksilver_elemental",
+      "targetNBT:10": {
+        "AABB:9": {
+          "0:6": -0.30000001192092896,
+          "1:6": 0.0,
+          "2:6": -0.30000001192092896,
+          "3:6": 0.30000001192092896,
+          "4:6": 1.7999999523162842,
+          "5:6": 0.30000001192092896
+        },
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": -2.0,
+            "Name:8": "tc.mobmod"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "tc.mobmodtaint"
+          },
+          "2:10": {
+            "Base:6": 30.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "4:10": {
+            "Base:6": 0.6,
+            "Name:8": "generic.movementSpeed"
+          },
+          "5:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armor"
+          },
+          "6:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "7:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "8:10": {
+            "Base:6": 32.0,
+            "Name:8": "generic.followRange"
+          },
+          "9:10": {
+            "Base:6": 5.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "isorropia:living_capability:10": {
+            "infusions:10": {},
+            "infusions_count:3": 0,
+            "petrification:3": 0
+          },
+          "thaumicaugmentation:portal_state:10": {
+            "inPortal:1": 0
+          }
+        },
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 30.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 2.7995145,
+          "1:5": 0.0
+        },
+        "UUIDLeast:4": -6018640571817233047,
+        "UUIDMost:4": -6488834180196251444,
+        "UpdateBlocked:1": 0,
+        "id:8": "thaumicconcilium:quicksilver_elemental"
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}
