@@ -27,7 +27,7 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
+      "index:3": 1,
       "target:8": "thaumicconcilium:samurai",
       "targetNBT:10": {
         "AABB:9": {
@@ -139,16 +139,16 @@
           "2:6": 0.0
         },
         "Rotation:9": {
-          "0:5": 4.1628833,
+          "0:5": 0.3854,
           "1:5": 0.0
         },
         "Type:1": 0,
-        "UUIDLeast:4": -6068239289107455000,
-        "UUIDMost:4": -5381062539081400087,
+        "UUIDLeast:4": -8149997624843524973,
+        "UUIDMost:4": 8455415422544265712,
         "UpdateBlocked:1": 0,
         "id:8": "thaumicconcilium:samurai"
       },
-      "taskID:8": "bq_standard:hunt"
+      "taskID:8": "bq_standard:meeting"
     }
   }
 }

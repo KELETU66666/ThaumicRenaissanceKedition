@@ -27,7 +27,7 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
+      "index:3": 1,
       "target:8": "thaumicconcilium:overanimated",
       "targetNBT:10": {
         "AABB:9": {
@@ -138,15 +138,15 @@
           "2:6": 0.0
         },
         "Rotation:9": {
-          "0:5": 5.867875,
+          "0:5": 1.4590378,
           "1:5": 0.0
         },
-        "UUIDLeast:4": -8898937657599408393,
-        "UUIDMost:4": -7486847192536100871,
+        "UUIDLeast:4": -6897478645045094463,
+        "UUIDMost:4": 7708005083570717450,
         "UpdateBlocked:1": 0,
         "id:8": "thaumicconcilium:overanimated"
       },
-      "taskID:8": "bq_standard:hunt"
+      "taskID:8": "bq_standard:meeting"
     }
   }
 }

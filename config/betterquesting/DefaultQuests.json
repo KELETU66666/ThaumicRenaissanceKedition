@@ -6678,7 +6678,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
+          "index:3": 1,
           "target:8": "thaumicconcilium:dissolved",
           "targetNBT:10": {
             "AABB:9": {
@@ -6789,15 +6789,15 @@
               "2:6": 0.0
             },
             "Rotation:9": {
-              "0:5": 5.8538866,
+              "0:5": 3.9857383,
               "1:5": 0.0
             },
-            "UUIDLeast:4": -7876486466585806532,
-            "UUIDMost:4": 9052948900183753233,
+            "UUIDLeast:4": -5965711824996937385,
+            "UUIDMost:4": 6685117572145367970,
             "UpdateBlocked:1": 0,
             "id:8": "thaumicconcilium:dissolved"
           },
-          "taskID:8": "bq_standard:hunt"
+          "taskID:8": "bq_standard:meeting"
         }
       }
     },
@@ -6830,7 +6830,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
+          "index:3": 1,
           "target:8": "thaumicconcilium:quicksilver_elemental",
           "targetNBT:10": {
             "AABB:9": {
@@ -6941,15 +6941,15 @@
               "2:6": 0.0
             },
             "Rotation:9": {
-              "0:5": 2.7995145,
+              "0:5": 3.5266333,
               "1:5": 0.0
             },
-            "UUIDLeast:4": -6018640571817233047,
-            "UUIDMost:4": -6488834180196251444,
+            "UUIDLeast:4": -5712875332792288042,
+            "UUIDMost:4": 4799862364216246467,
             "UpdateBlocked:1": 0,
             "id:8": "thaumicconcilium:quicksilver_elemental"
           },
-          "taskID:8": "bq_standard:hunt"
+          "taskID:8": "bq_standard:meeting"
         }
       }
     },
@@ -6982,7 +6982,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
+          "index:3": 1,
           "target:8": "thaumicconcilium:overanimated",
           "targetNBT:10": {
             "AABB:9": {
@@ -7093,15 +7093,15 @@
               "2:6": 0.0
             },
             "Rotation:9": {
-              "0:5": 5.867875,
+              "0:5": 1.4590378,
               "1:5": 0.0
             },
-            "UUIDLeast:4": -8898937657599408393,
-            "UUIDMost:4": -7486847192536100871,
+            "UUIDLeast:4": -6897478645045094463,
+            "UUIDMost:4": 7708005083570717450,
             "UpdateBlocked:1": 0,
             "id:8": "thaumicconcilium:overanimated"
           },
-          "taskID:8": "bq_standard:hunt"
+          "taskID:8": "bq_standard:meeting"
         }
       }
     },
@@ -7134,7 +7134,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
+          "index:3": 1,
           "target:8": "thaumicconcilium:samurai",
           "targetNBT:10": {
             "AABB:9": {
@@ -7246,16 +7246,16 @@
               "2:6": 0.0
             },
             "Rotation:9": {
-              "0:5": 4.1628833,
+              "0:5": 0.3854,
               "1:5": 0.0
             },
             "Type:1": 0,
-            "UUIDLeast:4": -6068239289107455000,
-            "UUIDMost:4": -5381062539081400087,
+            "UUIDLeast:4": -8149997624843524973,
+            "UUIDMost:4": 8455415422544265712,
             "UpdateBlocked:1": 0,
             "id:8": "thaumicconcilium:samurai"
           },
-          "taskID:8": "bq_standard:hunt"
+          "taskID:8": "bq_standard:meeting"
         }
       }
     },
@@ -7399,15 +7399,15 @@
               "2:6": 0.0
             },
             "Rotation:9": {
-              "0:5": 0.50085056,
+              "0:5": 1.0523373,
               "1:5": 0.0
             },
-            "UUIDLeast:4": -6748940633684716620,
-            "UUIDMost:4": -5884743548975167663,
+            "UUIDLeast:4": -6606095585254941118,
+            "UUIDMost:4": -704638027447842374,
             "UpdateBlocked:1": 0,
             "id:8": "thaumicconcilium:strayed_mirror"
           },
-          "taskID:8": "bq_standard:hunt"
+          "taskID:8": "bq_standard:meeting"
         }
       }
     },
@@ -7440,7 +7440,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
+          "index:3": 1,
           "target:8": "thaumicconcilium:vengeful_golem",
           "targetNBT:10": {
             "AABB:9": {
@@ -7551,15 +7551,15 @@
               "2:6": 0.0
             },
             "Rotation:9": {
-              "0:5": 2.20286,
+              "0:5": 0.9253763,
               "1:5": 0.0
             },
-            "UUIDLeast:4": -6762179164343510178,
-            "UUIDMost:4": 275466782414490826,
+            "UUIDLeast:4": -5861068032686830676,
+            "UUIDMost:4": -6773237144805947927,
             "UpdateBlocked:1": 0,
             "id:8": "thaumicconcilium:vengeful_golem"
           },
-          "taskID:8": "bq_standard:hunt"
+          "taskID:8": "bq_standard:meeting"
         }
       }
     }
