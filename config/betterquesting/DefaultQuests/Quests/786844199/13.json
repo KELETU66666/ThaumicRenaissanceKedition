@@ -1,25 +1,25 @@
 {
   "preRequisites:11": [
-    2
+    10
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "chapter.lang.desc.133",
+      "desc:8": "chapter.lang.desc.130",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "minecraft:bookshelf"
+        "id:8": "thaumcraft:scribing_tools"
       },
-      "name:8": "chapter.lang.title.133"
+      "name:8": "chapter.lang.title.130"
     }
   },
-  "questID:3": 10,
+  "questID:3": 13,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "id:8": "thaumicconcilium:icon"
         }
       }

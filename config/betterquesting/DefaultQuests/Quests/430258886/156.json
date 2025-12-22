@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    119,
+    154
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.150",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicconcilium:hex_of_predictability"
+      },
+      "name:8": "chapter.lang.title.150"
+    }
+  },
+  "questID:3": 156,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "thaumcraft:stone_ancient"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumictinkerer:magnet"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

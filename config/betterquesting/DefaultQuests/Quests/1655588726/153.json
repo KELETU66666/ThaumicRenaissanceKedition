@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    40,
+    159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "chapter.lang.desc.147",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thaumicconcilium:vis_conductor"
+      },
+      "name:8": "chapter.lang.title.147"
+    }
+  },
+  "questID:3": 153,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicconcilium:vis_conductor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumicconcilium:destabilized_crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

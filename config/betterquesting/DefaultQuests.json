@@ -453,7 +453,7 @@
             "Count:3": 1,
             "id:8": "minecraft:bookshelf"
           },
-          "name:8": "chapter.lang.name.133"
+          "name:8": "chapter.lang.title.133"
         }
       },
       "questID:3": 10,
@@ -487,7 +487,7 @@
             "Count:3": 1,
             "id:8": "planarartifice:fundamental_curiosity"
           },
-          "name:8": "chapter.lang.name.128"
+          "name:8": "chapter.lang.title.128"
         }
       },
       "questID:3": 11,
@@ -522,7 +522,7 @@
             "Count:3": 1,
             "id:8": "planarartifice:mirromirous_headband"
           },
-          "name:8": "chapter.lang.name.132"
+          "name:8": "chapter.lang.title.132"
         }
       },
       "questID:3": 12,
@@ -572,7 +572,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:scribing_tools"
           },
-          "name:8": "chapter.lang.name.130"
+          "name:8": "chapter.lang.title.130"
         }
       },
       "questID:3": 13,
@@ -606,7 +606,7 @@
             "Count:3": 1,
             "id:8": "thaumicbases:silverwoodpipe"
           },
-          "name:8": "chapter.lang.name.134"
+          "name:8": "chapter.lang.title.134"
         }
       },
       "questID:3": 14,
@@ -658,7 +658,7 @@
               }
             }
           },
-          "name:8": "chapter.lang.name.131"
+          "name:8": "chapter.lang.title.131"
         }
       },
       "questID:3": 15,
@@ -683,7 +683,7 @@
               "player:8": "[none]"
             }
           },
-          "name:8": "chapter.lang.name.129"
+          "name:8": "chapter.lang.title.129"
         }
       },
       "questID:3": 16,
@@ -1024,7 +1024,7 @@
             "Damage:2": 32767,
             "id:8": "thaumcraft:smelter_basic"
           },
-          "name:8": "chapter.lang.name.111"
+          "name:8": "chapter.lang.title.111"
         }
       },
       "questID:3": 22,
@@ -1068,7 +1068,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:condenser"
           },
-          "name:8": "chapter.lang.name.113"
+          "name:8": "chapter.lang.title.113"
         }
       },
       "questID:3": 24,
@@ -1090,7 +1090,7 @@
             "Count:3": 1,
             "id:8": "planarartifice:flux_scrubber"
           },
-          "name:8": "chapter.lang.name.112"
+          "name:8": "chapter.lang.title.112"
         }
       },
       "questID:3": 25,
@@ -1118,7 +1118,7 @@
             "Count:3": 1,
             "id:8": "thaumicwonders:flux_capacitor"
           },
-          "name:8": "chapter.lang.name.114"
+          "name:8": "chapter.lang.title.114"
         }
       },
       "questID:3": 26,
@@ -1455,7 +1455,7 @@
             "Damage:2": 5,
             "id:8": "thaumcraft:curio"
           },
-          "name:8": "chapter.lang.name.122"
+          "name:8": "chapter.lang.title.122"
         }
       },
       "questID:3": 34,
@@ -1478,7 +1478,7 @@
             "Damage:2": 5,
             "id:8": "thaumcraft:curio"
           },
-          "name:8": "chapter.lang.name.123"
+          "name:8": "chapter.lang.title.123"
         }
       },
       "questID:3": 35,
@@ -1500,7 +1500,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:bath_salts"
           },
-          "name:8": "chapter.lang.name.117"
+          "name:8": "chapter.lang.title.117"
         }
       },
       "questID:3": 36,
@@ -1580,7 +1580,7 @@
             "Count:3": 1,
             "id:8": "thaumicwonders:panacea"
           },
-          "name:8": "chapter.lang.name.115"
+          "name:8": "chapter.lang.title.115"
         }
       },
       "questID:3": 38,
@@ -1713,7 +1713,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:sanity_soap"
           },
-          "name:8": "chapter.lang.name.121"
+          "name:8": "chapter.lang.title.121"
         }
       },
       "questID:3": 41,
@@ -1741,7 +1741,7 @@
             "Count:3": 1,
             "id:8": "thaumicwonders:cleansing_charm"
           },
-          "name:8": "chapter.lang.name.120"
+          "name:8": "chapter.lang.title.120"
         }
       },
       "questID:3": 42,
@@ -1860,7 +1860,7 @@
             "Count:3": 1,
             "id:8": "thaumicbases:rosehipsyrup"
           },
-          "name:8": "chapter.lang.name.118"
+          "name:8": "chapter.lang.title.118"
         }
       },
       "questID:3": 45,
@@ -5895,7 +5895,7 @@
             "Count:3": 1,
             "id:8": "renaissance_core:dice12"
           },
-          "name:8": "chapter.lang.name.135"
+          "name:8": "chapter.lang.title.135"
         }
       },
       "questID:3": 128,
@@ -6502,7 +6502,7 @@
             "Count:3": 1,
             "id:8": "thaumictinkerer:osmotic_enchanter"
           },
-          "name:8": "chapter.lang.name.136"
+          "name:8": "chapter.lang.title.136"
         }
       },
       "questID:3": 143,
@@ -6575,7 +6575,7 @@
             "Count:3": 1,
             "id:8": "kitchentools:magma_smeltery"
           },
-          "name:8": "chapter.lang.name.137"
+          "name:8": "chapter.lang.title.137"
         }
       },
       "questID:3": 144,
@@ -6638,7 +6638,7 @@
             "Damage:2": 5,
             "id:8": "thaumcraft:celestial_notes"
           },
-          "name:8": "chapter.lang.name.144"
+          "name:8": "chapter.lang.title.144"
         }
       },
       "questID:3": 145,
@@ -6660,7 +6660,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:void_robe_helm"
           },
-          "name:8": "chapter.lang.name.141"
+          "name:8": "chapter.lang.title.141"
         }
       },
       "questID:3": 146,
@@ -6812,7 +6812,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:quicksilver"
           },
-          "name:8": "chapter.lang.name.140"
+          "name:8": "chapter.lang.title.140"
         }
       },
       "questID:3": 147,
@@ -6964,7 +6964,7 @@
             "Count:3": 1,
             "id:8": "isorropia:flesh"
           },
-          "name:8": "chapter.lang.name.142"
+          "name:8": "chapter.lang.title.142"
         }
       },
       "questID:3": 148,
@@ -7116,7 +7116,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:fortress_helm"
           },
-          "name:8": "chapter.lang.name.139"
+          "name:8": "chapter.lang.title.139"
         }
       },
       "questID:3": 149,
@@ -7270,7 +7270,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:mirrored_glass"
           },
-          "name:8": "chapter.lang.name.143"
+          "name:8": "chapter.lang.title.143"
         }
       },
       "questID:3": 150,
@@ -7422,7 +7422,7 @@
             "Count:3": 1,
             "id:8": "thaumcraft:golem_bell"
           },
-          "name:8": "chapter.lang.name.138"
+          "name:8": "chapter.lang.title.138"
         }
       },
       "questID:3": 151,
@@ -7562,11 +7562,1152 @@
           "taskID:8": "bq_standard:meeting"
         }
       }
+    },
+    "152:10": {
+      "preRequisites:11": [
+        156
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.151",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:primordial_life"
+          },
+          "name:8": "chapter.lang.title.151"
+        }
+      },
+      "questID:3": 152,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:brightest_one",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -1.5,
+              "1:6": 0.0,
+              "2:6": -1.5,
+              "3:6": 1.5,
+              "4:6": 3.0,
+              "5:6": 1.5
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 15.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.699999988079071,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 25.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 15.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 3.6096332,
+              "1:5": 0.0
+            },
+            "Type:8": "",
+            "UUIDLeast:4": -6022655783234052507,
+            "UUIDMost:4": 5016478562467794395,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:brightest_one"
+          },
+          "taskID:8": "bq_standard:meeting"
+        }
+      }
+    },
+    "153:10": {
+      "preRequisites:11": [
+        40,
+        159
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.147",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:vis_conductor"
+          },
+          "name:8": "chapter.lang.title.147"
+        }
+      },
+      "questID:3": 153,
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:vis_conductor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:destabilized_crystal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "154:10": {
+      "preRequisites:11": [
+        153,
+        64
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.148",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:vis_condenser"
+          },
+          "name:8": "chapter.lang.title.148"
+        }
+      },
+      "questID:3": 154,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:vis_condenser"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "155:10": {
+      "preRequisites:11": [
+        152,
+        157
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.152",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:pontifex_hood",
+            "tag:10": {
+              "TC.RUNIC:1": 5
+            }
+          },
+          "name:8": "chapter.lang.title.152"
+        }
+      },
+      "questID:3": 155,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:crimson_pontifex",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.375,
+              "1:6": 0.0,
+              "2:6": -0.375,
+              "3:6": 0.375,
+              "4:6": 2.25,
+              "5:6": 0.375
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 150.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.95,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.32,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 40.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 25.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 150.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 2.4983487,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -7967098913932198879,
+            "UUIDMost:4": -5420552105374302125,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:crimson_pontifex",
+            "title:1": 0
+          },
+          "taskID:8": "bq_standard:meeting"
+        }
+      }
+    },
+    "156:10": {
+      "preRequisites:11": [
+        119,
+        154
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.150",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:hex_of_predictability"
+          },
+          "name:8": "chapter.lang.title.150"
+        }
+      },
+      "questID:3": 156,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "id:8": "thaumcraft:stone_ancient"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumictinkerer:magnet"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "157:10": {
+      "preRequisites:11": [
+        84
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.149",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:crimson_annales"
+          },
+          "name:8": "chapter.lang.title.149"
+        }
+      },
+      "questID:3": 157,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "thaumicconcilium:crimson_annales"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "158:10": {
+      "preRequisites:11": [
+        27
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.145",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:icon"
+          },
+          "name:8": "chapter.lang.title.145"
+        }
+      },
+      "questID:3": 158,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:thaumaturge",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.7999999523162842,
+              "5:6": 0.30000001192092896
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.4,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 6.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 20.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 4.9032416,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -7333708523590742343,
+            "UUIDMost:4": 5826571163552072612,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:thaumaturge"
+          },
+          "taskID:8": "bq_standard:meeting"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 5,
+              "id:8": "thaumicconcilium:research_page"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "159:10": {
+      "preRequisites:11": [
+        158
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.lang.desc.146",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "id:8": "thaumicconcilium:icon"
+          },
+          "name:8": "chapter.lang.title.146"
+        }
+      },
+      "questID:3": 159,
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "target:8": "thaumicconcilium:mad_thaumaturge",
+          "targetNBT:10": {
+            "AABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 0.30000001192092896,
+              "4:6": 1.7999999523162842,
+              "5:6": 0.30000001192092896
+            },
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "4:10": {
+                "Base:6": 0.4,
+                "Name:8": "generic.movementSpeed"
+              },
+              "5:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "8:10": {
+                "Base:6": 40.0,
+                "Name:8": "generic.followRange"
+              },
+              "9:10": {
+                "Base:6": 5.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "isorropia:living_capability:10": {
+                "infusions:10": {},
+                "infusions_count:3": 0,
+                "petrification:3": 0
+              },
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 20.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 0.15412167,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -4720697019287568148,
+            "UUIDMost:4": 889389875775359117,
+            "UpdateBlocked:1": 0,
+            "id:8": "thaumicconcilium:mad_thaumaturge"
+          },
+          "taskID:8": "bq_standard:hunt"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 6,
+              "id:8": "thaumicconcilium:research_page"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
     "0:10": {
-      "lineID:3": 126087965,
+      "lineID:3": 430258886,
+      "order:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.title.3.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumicconcilium:crimson_annales"
+          },
+          "name:8": "chapter.title.3"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 98,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -132
+        },
+        "1:10": {
+          "id:3": 100,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -132
+        },
+        "2:10": {
+          "id:3": 101,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -168
+        },
+        "3:10": {
+          "id:3": 102,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -84
+        },
+        "4:10": {
+          "id:3": 103,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -120
+        },
+        "5:10": {
+          "id:3": 104,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": -120
+        },
+        "6:10": {
+          "id:3": 105,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": -84
+        },
+        "7:10": {
+          "id:3": 106,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -84
+        },
+        "8:10": {
+          "id:3": 107,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 0
+        },
+        "9:10": {
+          "id:3": 108,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -36
+        },
+        "10:10": {
+          "id:3": 109,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": -168
+        },
+        "11:10": {
+          "id:3": 110,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -72
+        },
+        "12:10": {
+          "id:3": 111,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -36
+        },
+        "13:10": {
+          "id:3": 112,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -36
+        },
+        "14:10": {
+          "id:3": 113,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": -48
+        },
+        "15:10": {
+          "id:3": 114,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -120
+        },
+        "16:10": {
+          "id:3": 115,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": -84
+        },
+        "17:10": {
+          "id:3": 116,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": -132
+        },
+        "18:10": {
+          "id:3": 117,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -48
+        },
+        "19:10": {
+          "id:3": 118,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -36
+        },
+        "20:10": {
+          "id:3": 119,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 0
+        },
+        "21:10": {
+          "id:3": 120,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36
+        },
+        "22:10": {
+          "id:3": 121,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -72
+        },
+        "23:10": {
+          "id:3": 122,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -120
+        },
+        "24:10": {
+          "id:3": 131,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": -96
+        },
+        "25:10": {
+          "id:3": 152,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 36
+        },
+        "26:10": {
+          "id:3": 155,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -132,
+          "y:3": 24
+        },
+        "27:10": {
+          "id:3": 156,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 36
+        }
+      }
+    },
+    "1:10": {
+      "lineID:3": 618116633,
+      "order:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.title.4.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "id:8": "thaumicaugmentation:eldritch_lock_key"
+          },
+          "name:8": "chapter.title.4"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 20,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -60
+        },
+        "1:10": {
+          "id:3": 21,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": -12
+        },
+        "2:10": {
+          "id:3": 22,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 23,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -96
+        },
+        "4:10": {
+          "id:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -48
+        },
+        "5:10": {
+          "id:3": 25,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -96
+        },
+        "6:10": {
+          "id:3": 26,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": -24
+        },
+        "7:10": {
+          "id:3": 28,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -132
+        },
+        "8:10": {
+          "id:3": 32,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -180
+        },
+        "9:10": {
+          "id:3": 33,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -204
+        },
+        "10:10": {
+          "id:3": 34,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -132
+        },
+        "11:10": {
+          "id:3": 35,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 240,
+          "y:3": -60
+        },
+        "12:10": {
+          "id:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -144
+        },
+        "13:10": {
+          "id:3": 38,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -180
+        },
+        "14:10": {
+          "id:3": 41,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -168
+        },
+        "15:10": {
+          "id:3": 42,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -216
+        },
+        "16:10": {
+          "id:3": 45,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -96
+        }
+      }
+    },
+    "2:10": {
+      "lineID:3": 786844199,
+      "order:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "chapter.title.5.desc",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "thaumictinkerer:share_book",
+            "tag:10": {
+              "player:8": "[none]"
+            }
+          },
+          "name:8": "chapter.title.5"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 10,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -12
+        },
+        "1:10": {
+          "id:3": 11,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -54,
+          "y:3": -12
+        },
+        "2:10": {
+          "id:3": 12,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 13,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -54,
+          "y:3": -54
+        },
+        "4:10": {
+          "id:3": 14,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": 30
+        },
+        "5:10": {
+          "id:3": 15,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": -54
+        },
+        "6:10": {
+          "id:3": 16,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -54,
+          "y:3": 30
+        },
+        "7:10": {
+          "id:3": 128,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -54
+        }
+      }
+    },
+    "3:10": {
+      "lineID:3": 1655588726,
       "order:3": 1,
       "properties:10": {
         "betterquesting:10": {
@@ -7591,8 +8732,8 @@
           "id:3": 51,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -102
+          "x:3": -128,
+          "y:3": -88
         },
         "2:10": {
           "id:3": 63,
@@ -7773,543 +8914,34 @@
           "id:3": 143,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -102
-        }
-      }
-    },
-    "1:10": {
-      "lineID:3": 583402176,
-      "order:3": 2,
-      "properties:10": {
-        "betterquesting:10": {
-          "desc:8": "chapter.title.3.desc",
-          "icon:10": {
-            "Count:3": 1,
-            "id:8": "thaumicconcilium:crimson_annales"
-          },
-          "name:8": "chapter.title.3"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 98,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -120
-        },
-        "1:10": {
-          "id:3": 100,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -156
-        },
-        "2:10": {
-          "id:3": 101,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": -120
-        },
-        "3:10": {
-          "id:3": 102,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -72
-        },
-        "4:10": {
-          "id:3": 103,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 0
-        },
-        "5:10": {
-          "id:3": 104,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": -36
-        },
-        "6:10": {
-          "id:3": 105,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -84
-        },
-        "7:10": {
-          "id:3": 106,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -72
-        },
-        "8:10": {
-          "id:3": 107,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": -36
-        },
-        "9:10": {
-          "id:3": 108,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -36
-        },
-        "10:10": {
-          "id:3": 109,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -156
-        },
-        "11:10": {
-          "id:3": 110,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -72
-        },
-        "12:10": {
-          "id:3": 111,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": 0
-        },
-        "13:10": {
-          "id:3": 112,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -36
-        },
-        "14:10": {
-          "id:3": 113,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -132,
-          "y:3": 0
-        },
-        "15:10": {
-          "id:3": 114,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -120
-        },
-        "16:10": {
-          "id:3": 115,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -36
-        },
-        "17:10": {
-          "id:3": 116,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -120
-        },
-        "18:10": {
-          "id:3": 117,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -36
-        },
-        "19:10": {
-          "id:3": 118,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -36
-        },
-        "20:10": {
-          "id:3": 119,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 0
-        },
-        "21:10": {
-          "id:3": 120,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": 0
-        },
-        "22:10": {
-          "id:3": 121,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -72
-        },
-        "23:10": {
-          "id:3": 122,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -120
-        },
-        "24:10": {
-          "id:3": 131,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -96
-        }
-      }
-    },
-    "2:10": {
-      "lineID:3": 1186850104,
-      "order:3": 3,
-      "properties:10": {
-        "betterquesting:10": {
-          "desc:8": "chapter.title.5.desc",
-          "icon:10": {
-            "Count:3": 1,
-            "id:8": "thaumictinkerer:share_book",
-            "tag:10": {
-              "player:8": "[none]"
-            }
-          },
-          "name:8": "chapter.title.5"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 10,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -12
-        },
-        "1:10": {
-          "id:3": 11,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -54,
-          "y:3": -12
-        },
-        "2:10": {
-          "id:3": 12,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": -12
-        },
-        "3:10": {
-          "id:3": 13,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -54,
-          "y:3": -54
-        },
-        "4:10": {
-          "id:3": 14,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": 30
-        },
-        "5:10": {
-          "id:3": 15,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": -54
-        },
-        "6:10": {
-          "id:3": 16,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -54,
-          "y:3": 30
-        },
-        "7:10": {
-          "id:3": 128,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -54
-        }
-      }
-    },
-    "3:10": {
-      "lineID:3": 1374172337,
-      "order:3": 4,
-      "properties:10": {
-        "betterquesting:10": {
-          "desc:8": "chapter.title.4.desc",
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 2,
-            "id:8": "thaumicaugmentation:eldritch_lock_key"
-          },
-          "name:8": "chapter.title.4"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 20,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": -60
-        },
-        "1:10": {
-          "id:3": 21,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -12
-        },
-        "2:10": {
-          "id:3": 22,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -12
-        },
-        "3:10": {
-          "id:3": 23,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -96
-        },
-        "4:10": {
-          "id:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
+          "x:3": -128,
           "y:3": -48
         },
-        "5:10": {
-          "id:3": 25,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -96
-        },
-        "6:10": {
-          "id:3": 26,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -24
-        },
-        "7:10": {
-          "id:3": 28,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -132
-        },
-        "8:10": {
-          "id:3": 32,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": -180
-        },
-        "9:10": {
-          "id:3": 33,
+        "28:10": {
+          "id:3": 153,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
-          "y:3": -204
+          "y:3": -80
         },
-        "10:10": {
-          "id:3": 34,
+        "29:10": {
+          "id:3": 154,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": -132
+          "x:3": 0,
+          "y:3": -112
         },
-        "11:10": {
-          "id:3": 35,
+        "30:10": {
+          "id:3": 157,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": -60
-        },
-        "12:10": {
-          "id:3": 36,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -144
-        },
-        "13:10": {
-          "id:3": 38,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -180
-        },
-        "14:10": {
-          "id:3": 41,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": -168
-        },
-        "15:10": {
-          "id:3": 42,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": -216
-        },
-        "16:10": {
-          "id:3": 45,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -96
+          "x:3": 336,
+          "y:3": 24
         }
       }
     },
     "4:10": {
-      "lineID:3": 1571691886,
-      "order:3": 5,
-      "properties:10": {
-        "betterquesting:10": {
-          "desc:8": "Trade for some unusual items.",
-          "icon:10": {
-            "Count:3": 1,
-            "id:8": "minecraft:knowledge_book"
-          },
-          "name:8": "Shop"
-        }
-      },
-      "quests:9": {
-        "0:10": {
-          "id:3": 124,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": -12
-        },
-        "1:10": {
-          "id:3": 125,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": 24
-        },
-        "2:10": {
-          "id:3": 126,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -12
-        },
-        "3:10": {
-          "id:3": 127,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 24
-        },
-        "4:10": {
-          "id:3": 129,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": 24
-        },
-        "5:10": {
-          "id:3": 130,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -48
-        },
-        "6:10": {
-          "id:3": 132,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": 60
-        },
-        "7:10": {
-          "id:3": 133,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -12
-        },
-        "8:10": {
-          "id:3": 134,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": -48
-        },
-        "9:10": {
-          "id:3": 136,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -12
-        },
-        "10:10": {
-          "id:3": 137,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -48
-        },
-        "11:10": {
-          "id:3": 138,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 24
-        },
-        "12:10": {
-          "id:3": 139,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -12
-        },
-        "13:10": {
-          "id:3": 140,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": 60
-        },
-        "14:10": {
-          "id:3": 141,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": 60
-        },
-        "15:10": {
-          "id:3": 142,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": 24
-        }
-      }
-    },
-    "5:10": {
-      "lineID:3": 2080618469,
+      "lineID:3": 1799943019,
       "order:3": 0,
       "properties:10": {
         "betterquesting:10": {
@@ -8473,7 +9105,7 @@
           "id:3": 43,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
+          "x:3": 6,
           "y:3": 6
         },
         "22:10": {
@@ -8578,8 +9210,8 @@
           "id:3": 60,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 60
+          "x:3": 6,
+          "y:3": 54
         },
         "37:10": {
           "id:3": 61,
@@ -8741,6 +9373,148 @@
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -6
+        },
+        "60:10": {
+          "id:3": 158,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": 6
+        },
+        "61:10": {
+          "id:3": 159,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": 54
+        }
+      }
+    },
+    "5:10": {
+      "lineID:3": 1934966819,
+      "order:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "desc:8": "Trade for some unusual items.",
+          "icon:10": {
+            "Count:3": 1,
+            "id:8": "minecraft:knowledge_book"
+          },
+          "name:8": "Shop"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 124,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -12
+        },
+        "1:10": {
+          "id:3": 125,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": 24
+        },
+        "2:10": {
+          "id:3": 126,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 127,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 24
+        },
+        "4:10": {
+          "id:3": 129,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": 24
+        },
+        "5:10": {
+          "id:3": 130,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -48
+        },
+        "6:10": {
+          "id:3": 132,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": 60
+        },
+        "7:10": {
+          "id:3": 133,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -12
+        },
+        "8:10": {
+          "id:3": 134,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -48
+        },
+        "9:10": {
+          "id:3": 136,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -12
+        },
+        "10:10": {
+          "id:3": 137,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -48
+        },
+        "11:10": {
+          "id:3": 138,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 24
+        },
+        "12:10": {
+          "id:3": 139,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -12
+        },
+        "13:10": {
+          "id:3": 140,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 60
+        },
+        "14:10": {
+          "id:3": 141,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": 60
+        },
+        "15:10": {
+          "id:3": 142,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 24
         }
       }
     }
