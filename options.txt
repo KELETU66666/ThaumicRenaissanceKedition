@@ -11,14 +11,14 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:false
 resourcePacks:["Sonomagy TC6 v1.6.zip","ThaumMenu1.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:zh_cn
 chatVisibility:0
 chatColors:true
 chatLinks:true

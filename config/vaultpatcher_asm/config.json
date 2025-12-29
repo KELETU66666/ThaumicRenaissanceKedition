@@ -1,0 +1,15 @@
+{
+  "mods": [],
+  "classes": [],
+  "apply_mods": [],
+  "default_language": "en_us",
+  "class_patch": true,
+  "debug_mode": {
+    "is_enable": false,
+    "output_mode": 0,
+    "output_node_debug": false,
+    "export_class": false,
+    "use_cache": true,
+    "missing_warn": true
+  }
+}
