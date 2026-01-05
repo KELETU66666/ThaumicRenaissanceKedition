@@ -115,7 +115,15 @@ key_waila.keybind.usage:75
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_keybind.universaltweaks.clear_toasts:0
+key_gui.xaero_open_map:51
+key_gui.xaero_open_settings:27
+key_gui.xaero_world_map_server_settings:0
+key_gui.xaero_map_zoom_in:0
+key_gui.xaero_map_zoom_out:0
+key_gui.xaero_quick_confirm:54
+key_gui.xaero_toggle_dimension:0
 key_gui.xaero_minimap_settings:21
+key_gui.xaero_minimap_server_profiles:0
 key_gui.xaero_zoom_in:0
 key_gui.xaero_zoom_out:0
 key_gui.xaero_new_waypoint:48
@@ -136,12 +144,6 @@ key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
 key_gui.xaero_toggle_tracked_players_on_map:0
 key_gui.xaero_toggle_tracked_players_in_world:0
-key_gui.xaero_open_map:51
-key_gui.xaero_open_settings:27
-key_gui.xaero_map_zoom_in:0
-key_gui.xaero_map_zoom_out:0
-key_gui.xaero_quick_confirm:54
-key_gui.xaero_toggle_dimension:0
 key_Change Goggles Lens:36
 key_Activate Morphic Fingers:50
 key_Toggle Spider Climb:0
